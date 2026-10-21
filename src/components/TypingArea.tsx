@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { Drill } from "@/types";
 import { VirtualKeyboard } from "./VirtualKeyboard";
+import { UserProfile } from "./AuthModal";
 import confetti from "canvas-confetti";
 import { Volume2, VolumeX, RotateCcw, Trophy, CheckCircle2, ArrowRight } from "lucide-react";
 
@@ -10,14 +11,18 @@ interface TypingAreaProps {
   drill: Drill;
   onNextDrill?: () => void;
   onOpenLeaderboard?: () => void;
+  user?: UserProfile | null;
+  onAwardXp?: (xp: number) => void;
 }
 
 export const TypingArea: React.FC<TypingAreaProps> = ({
   drill,
   onNextDrill,
   onOpenLeaderboard,
+  user,
+  onAwardXp,
 }) => {
-  // Flatten drill lines into a target string or array of lines
+  // Flatten drill lines into a target string
   const lines = drill.lines.map((l) => l.groups.join(" "));
   const fullText = lines.join("\n");
 
@@ -30,8 +35,8 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
   const [isCompleted, setIsCompleted] = useState(false);
   const [soundEnabled, setSoundEnabled] = useState(true);
 
-  // Score submission state
-  const [username, setUsername] = useState("");
+  // Score submission state (auto-fill with logged-in user)
+  const [username, setUsername] = useState(user?.username || "");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -39,6 +44,13 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const clickAudioRef = useRef<HTMLAudioElement | null>(null);
   const buzzAudioRef = useRef<HTMLAudioElement | null>(null);
+
+  // Keep username updated if user logs in
+  useEffect(() => {
+    if (user?.username) {
+      setUsername(user.username);
+    }
+  }, [user]);
 
   // Initialize sounds
   useEffect(() => {
@@ -109,12 +121,10 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
     (e: React.KeyboardEvent<HTMLDivElement>) => {
       if (isCompleted) return;
 
-      // Ignore modifier keys
       if (e.key === "Shift" || e.key === "Control" || e.key === "Alt" || e.key === "Meta" || e.key === "CapsLock") {
         return;
       }
 
-      // Handle Backspace
       if (e.key === "Backspace") {
         e.preventDefault();
         if (inputIndex > 0) {
@@ -124,7 +134,6 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
         return;
       }
 
-      // Allow single character input or Enter
       let inputChar = e.key;
       if (e.key === "Enter") {
         inputChar = "\n";
@@ -136,7 +145,6 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
 
       e.preventDefault();
 
-      // Start timer on first keypress
       if (!startTime) {
         setStartTime(Date.now());
       }
@@ -159,15 +167,22 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
           spread: 70,
           origin: { y: 0.6 },
         });
+
+        // Award XP
+        if (onAwardXp) {
+          const earned = Math.max(10, Math.round(fullText.length * 0.8));
+          onAwardXp(earned);
+        }
       }
     },
-    [isCompleted, inputIndex, fullText, typedChars, startTime, playSound]
+    [isCompleted, inputIndex, fullText, typedChars, startTime, playSound, onAwardXp]
   );
 
   // Submit score to Google Sheets
   const handleSubmitScore = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!username.trim() || isSubmitting) return;
+    const finalName = username.trim() || user?.username || "Ẩn danh";
+    if (isSubmitting) return;
 
     setIsSubmitting(true);
     try {
@@ -175,7 +190,7 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          username: username.trim(),
+          username: finalName,
           lessonId: drill.lessonId,
           drillId: drill.id,
           wpm,

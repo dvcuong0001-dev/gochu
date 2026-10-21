@@ -3,25 +3,64 @@
 import React, { useState, useEffect } from "react";
 import lessonsData from "@/data/lessons.json";
 import { Lesson, Drill } from "@/types";
-import { Navbar } from "@/components/Navbar";
+import { Navbar, NavTab } from "@/components/Navbar";
+import { HomeView } from "@/components/HomeView";
 import { TypingArea } from "@/components/TypingArea";
 import { LessonSelector } from "@/components/LessonSelector";
 import { ArcadeView } from "@/components/ArcadeView";
 import { LeaderboardView } from "@/components/LeaderboardView";
 import { SheetsGuideView } from "@/components/SheetsGuideView";
-import { BookOpen, Sparkles, Trophy, Gamepad2, ArrowRight } from "lucide-react";
+import { AuthModal, UserProfile } from "@/components/AuthModal";
+import { BookOpen, Trophy, Gamepad2 } from "lucide-react";
 
 export default function Home() {
   const lessons = lessonsData as unknown as Lesson[];
+
+  // User state
+  const [user, setUser] = useState<UserProfile | null>(null);
+  const [isAuthOpen, setIsAuthOpen] = useState(false);
+
+  // Navigation tab - Default to "home" as requested by user
+  const [currentTab, setCurrentTab] = useState<NavTab>("home");
+
+  // Lesson & Drill state
   const [currentLessonId, setCurrentLessonId] = useState("lesson1");
   const [currentDrillId, setCurrentDrillId] = useState("1.1");
   const [currentDrill, setCurrentDrill] = useState<Drill | null>(null);
   const [loadingDrill, setLoadingDrill] = useState(true);
-
-  const [currentTab, setCurrentTab] = useState<
-    "practice" | "arcade" | "leaderboard" | "sheets-guide"
-  >("practice");
   const [isLessonSelectorOpen, setIsLessonSelectorOpen] = useState(false);
+
+  // Load user from localStorage on mount
+  useEffect(() => {
+    try {
+      const savedUser = localStorage.getItem("tuhoc_user");
+      if (savedUser) {
+        setUser(JSON.parse(savedUser));
+      }
+    } catch (_) {}
+  }, []);
+
+  // Award XP and handle level up
+  const handleAwardXp = (gainedXp: number) => {
+    if (!user) return;
+    const newXp = (user.xp || 0) + gainedXp;
+    // Level formula: level = 1 + floor(xp / 100)
+    const newLevel = 1 + Math.floor(newXp / 100);
+
+    const updatedUser: UserProfile = {
+      ...user,
+      xp: newXp,
+      level: newLevel,
+    };
+
+    setUser(updatedUser);
+    localStorage.setItem("tuhoc_user", JSON.stringify(updatedUser));
+  };
+
+  const handleLogout = () => {
+    setUser(null);
+    localStorage.removeItem("tuhoc_user");
+  };
 
   // Load drill
   useEffect(() => {
@@ -59,7 +98,6 @@ export default function Home() {
     if (currentIndex !== -1 && currentIndex < metas.length - 1) {
       setCurrentDrillId(metas[currentIndex + 1].drill_id);
     } else {
-      // Next lesson
       const lessonIndex = lessons.findIndex((l) => l.id === currentLessonId);
       if (lessonIndex !== -1 && lessonIndex < lessons.length - 1) {
         const nextLesson = lessons[lessonIndex + 1];
@@ -85,13 +123,28 @@ export default function Home() {
         currentLessonTitle={currentLesson?.title}
         currentDrillId={currentDrillId}
         onOpenLessonSelector={() => setIsLessonSelectorOpen(true)}
+        user={user}
+        onOpenAuth={() => setIsAuthOpen(true)}
+        onLogout={handleLogout}
       />
 
       {/* Main Content Area */}
       <main className="flex-1 flex flex-col items-center justify-start py-6">
+        {/* Tab 1: Trang Chủ (Home) */}
+        {currentTab === "home" && (
+          <HomeView
+            onStartPractice={() => setCurrentTab("practice")}
+            onOpenArcade={() => setCurrentTab("arcade")}
+            onOpenLeaderboard={() => setCurrentTab("leaderboard")}
+            onOpenAuth={() => setIsAuthOpen(true)}
+            user={user}
+          />
+        )}
+
+        {/* Tab 2: Luyện Gõ (Practice) */}
         {currentTab === "practice" && (
           <div className="w-full flex flex-col items-center">
-            {/* Top Info Banner */}
+            {/* Top Lesson Header Pill */}
             <div className="w-full max-w-5xl mx-auto px-4 mb-3 flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-2">
                 <button
@@ -146,24 +199,29 @@ export default function Home() {
                 drill={currentDrill}
                 onNextDrill={handleNextDrill}
                 onOpenLeaderboard={() => setCurrentTab("leaderboard")}
+                user={user}
+                onAwardXp={handleAwardXp}
               />
             )}
           </div>
         )}
 
+        {/* Tab 3: Khu Trò Chơi 3D Arcade */}
         {currentTab === "arcade" && (
-          <ArcadeView onBack={() => setCurrentTab("practice")} />
+          <ArcadeView onBack={() => setCurrentTab("home")} />
         )}
 
+        {/* Tab 4: Bảng Xếp Hạng */}
         {currentTab === "leaderboard" && (
           <LeaderboardView
-            onBack={() => setCurrentTab("practice")}
+            onBack={() => setCurrentTab("home")}
             currentDrillId={currentDrillId}
           />
         )}
 
+        {/* Tab 5: Hướng Dẫn Google Sheets */}
         {currentTab === "sheets-guide" && (
-          <SheetsGuideView onBack={() => setCurrentTab("practice")} />
+          <SheetsGuideView onBack={() => setCurrentTab("home")} />
         )}
       </main>
 
@@ -175,14 +233,40 @@ export default function Home() {
         onSelectDrill={(lid, did) => {
           setCurrentLessonId(lid);
           setCurrentDrillId(did);
+          setCurrentTab("practice");
         }}
         isOpen={isLessonSelectorOpen}
         onClose={() => setIsLessonSelectorOpen(false)}
       />
 
+      {/* Auth / Profile Modal */}
+      <AuthModal
+        isOpen={isAuthOpen}
+        onClose={() => setIsAuthOpen(false)}
+        onLoginSuccess={(newProfile) => setUser(newProfile)}
+        currentUser={user}
+      />
+
       {/* Footer */}
-      <footer className="w-full border-t border-white/5 py-4 text-center text-[11px] text-gray-500 font-mono">
-        Tự Học Typing Web · 81 Bài Học · 414 Bài Tập · Hỗ Trợ Game 3D & Google Sheets Leaderboard
+      <footer className="w-full border-t border-white/5 py-6 text-center text-xs text-gray-500 font-mono">
+        <div className="flex items-center justify-center gap-4 mb-2">
+          <button onClick={() => setCurrentTab("home")} className="hover:text-gray-300">
+            Trang Chủ
+          </button>
+          <span>·</span>
+          <button onClick={() => setCurrentTab("practice")} className="hover:text-gray-300">
+            Luyện Gõ
+          </button>
+          <span>·</span>
+          <button onClick={() => setCurrentTab("arcade")} className="hover:text-gray-300">
+            Game 3D
+          </button>
+          <span>·</span>
+          <button onClick={() => setCurrentTab("leaderboard")} className="hover:text-gray-300">
+            Bảng Xếp Hạng
+          </button>
+        </div>
+        <p>Tự Học Typing Web · Chuyển thể từ Tự Học Typing Desktop 3.1.0 · Sẵn sàng Vercel & Google Sheets</p>
       </footer>
     </div>
   );
