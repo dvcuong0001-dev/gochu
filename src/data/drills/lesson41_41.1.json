@@ -1,0 +1,13 @@
+{
+  "id": "41.1",
+  "title": "Bài 41.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "console.log(Math.sqrt(16));\nconsole.log(Math.ceil(4.1), Math.floor(4.9));\nconsole.log(Math.max(3, 7, 2), Math.min(3, 7, 2));\nconsole.log(Math.round(3.14159 * 100) / 100);",
+  "lang": "javascript",
+  "desc": "Đối tượng Math",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson41"
+}

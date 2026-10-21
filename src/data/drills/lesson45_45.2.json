@@ -1,0 +1,13 @@
+{
+  "id": "45.2",
+  "title": "Bài 45.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\nusing namespace std;\n\nint main() {\n    double diem = 7.5;\n    if (diem >= 8) cout << \"Gioi\" << endl;\n    else if (diem >= 6.5) cout << \"Kha\" << endl;\n    else if (diem >= 5) cout << \"Trung binh\" << endl;\n    else cout << \"Yeu\" << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "if - else if - else: xếp loại",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson45"
+}

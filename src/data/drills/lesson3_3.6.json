@@ -1,0 +1,259 @@
+{
+  "id": "3.6",
+  "title": "Bài 3.6",
+  "orderIndex": 6,
+  "lines": [
+    {
+      "groups": [
+        "dark",
+        "fall",
+        "sudds",
+        "lull",
+        "lakes",
+        "as",
+        "dark",
+        "alaska",
+        "fall",
+        "dusk",
+        "falls"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "fluff",
+        "falls",
+        "as",
+        "a",
+        "ruff",
+        "falls",
+        "ie",
+        "as",
+        "a",
+        "ruff",
+        "falls",
+        "all",
+        "fluff",
+        "falls"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "fair",
+        "deal",
+        "said",
+        "fair",
+        "luke",
+        "as",
+        "lad",
+        "assessed",
+        "added",
+        "deeds"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lass",
+        "did",
+        "dare",
+        "laddie",
+        "as",
+        "deirdre",
+        "said",
+        "fred",
+        "is",
+        "real",
+        "afraid"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alas",
+        "ideal",
+        "lasses",
+        "laddies",
+        "are",
+        "useful",
+        "skillful",
+        "rake",
+        "users"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lads",
+        "use",
+        "red",
+        "rakes",
+        "as",
+        "lasses",
+        "use",
+        "auld",
+        "rakes",
+        "as",
+        "usual"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "allie",
+        "elsie",
+        "sal",
+        "see",
+        "all",
+        "full",
+        "fields",
+        "are",
+        "usual",
+        "rural",
+        "dill",
+        "fields"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "laura",
+        "dear",
+        "is",
+        "a",
+        "fair",
+        "lass",
+        "said",
+        "ed",
+        "as",
+        "laura",
+        "did",
+        "fair",
+        "deeds"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "failure",
+        "is",
+        "a",
+        "real",
+        "risk",
+        "feels",
+        "jade",
+        "as",
+        "lass",
+        "sees",
+        "airfields"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "laurel",
+        "feels",
+        "fairs",
+        "are",
+        "real",
+        "life",
+        "as",
+        "all",
+        "fairs",
+        "are",
+        "real",
+        "lifelike"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "freddie",
+        "flees",
+        "freddie",
+        "sees",
+        "red",
+        "if",
+        "life",
+        "is",
+        "dark",
+        "lifeless",
+        "dull"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "real",
+        "lusaka",
+        "safari",
+        "referrals",
+        "are",
+        "rare",
+        "said",
+        "daedalus"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fake",
+        "fakirs",
+        "fled",
+        "as",
+        "usual",
+        "as",
+        "real",
+        "fakirs",
+        "did",
+        "surreal",
+        "jujus"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "riffraff",
+        "rifles",
+        "are",
+        "a",
+        "risk",
+        "said",
+        "auld",
+        "real",
+        "rifle",
+        "seller",
+        "fred"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "dark",
+        "jujus",
+        "are",
+        "as",
+        "dull",
+        "as",
+        "all",
+        "dark",
+        "frauds",
+        "said",
+        "freddie"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "darkflsueij",
+  "totalChars": 885,
+  "lessonId": "lesson3"
+}

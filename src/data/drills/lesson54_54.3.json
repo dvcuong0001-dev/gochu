@@ -1,0 +1,13 @@
+{
+  "id": "54.3",
+  "title": "Bài 54.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "import java.util.HashMap;\n\npublic class Main {\n    public static void main(String[] args) {\n        HashMap<String, Integer> gia = new HashMap<>();\n        gia.put(\"tao\", 30);\n        gia.put(\"cam\", 25);\n        for (var e : gia.entrySet())\n            System.out.println(e.getKey() + \" = \" + e.getValue());\n    }\n}",
+  "lang": "java",
+  "desc": "HashMap: lưu cặp key-value",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson54"
+}

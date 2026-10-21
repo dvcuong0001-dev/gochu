@@ -1,0 +1,13 @@
+{
+  "id": "64.1",
+  "title": "Bài 64.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static int Cong(int a, int b) {\n        return a + b;\n    }\n    static void Main() {\n        Console.WriteLine(Cong(3, 5));\n        Console.WriteLine(Cong(10, 20));\n    }\n}",
+  "lang": "csharp",
+  "desc": "Method: static và return",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson64"
+}

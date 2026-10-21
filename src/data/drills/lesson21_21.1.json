@@ -1,0 +1,203 @@
+{
+  "id": "21.1",
+  "title": "Bài 21.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "l(",
+        "l(",
+        "l(",
+        "l("
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lo(l",
+        "lo(l",
+        "lo(l",
+        "lo(l"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";)",
+        ";)",
+        ";)",
+        ";)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";p);",
+        ";p);",
+        ";p);",
+        ";p);"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";[",
+        ";[",
+        ";[",
+        ";["
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";]",
+        ";]",
+        ";]",
+        ";]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[p;]",
+        "[p;]",
+        "[p;]",
+        "[p;]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "l(",
+        "l(",
+        ";)",
+        ";)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";[",
+        ";[",
+        ";]",
+        ";]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(l;)",
+        "(l;)",
+        "(l;)",
+        "(l;)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[;p]",
+        "[;p]",
+        "[;p]",
+        "[;p]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "9(0)",
+        "9(0)",
+        "9(0)",
+        "9(0)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(48)",
+        "(48)",
+        "(48)",
+        "(48)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[a;]",
+        "[a;]",
+        "[a;]",
+        "[a;]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";'[]",
+        ";'[]",
+        ";'[]",
+        ";'[]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(io)",
+        "(io)",
+        "(io)",
+        "(io)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(af)",
+        "(af)",
+        "(af)",
+        "(af)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[dj]",
+        "[dj]",
+        "[dj]",
+        "[dj]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[p/]",
+        "[p/]",
+        "[p/]",
+        "[p/]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(25)",
+        "(25)",
+        "(25)",
+        "(25)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[17]",
+        "[17]",
+        "[17]",
+        "[17]"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "l(o;)p[]9048a'ifdj/2517",
+  "totalChars": 372,
+  "lessonId": "lesson21"
+}

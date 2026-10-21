@@ -1,0 +1,13 @@
+{
+  "id": "37.5",
+  "title": "Bài 37.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "let i = 1, gt = 1;\nwhile (i <= 5) {\n  gt *= i;\n  i++;\n}\nconsole.log(\"5! =\", gt);",
+  "lang": "javascript",
+  "desc": "Vòng lặp while: tính giai thừa",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson37"
+}

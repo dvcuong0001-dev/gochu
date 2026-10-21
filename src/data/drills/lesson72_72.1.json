@@ -1,0 +1,13 @@
+{
+  "id": "72.1",
+  "title": "Bài 72.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun cong(a: Int, b: Int): Int {\n    return a + b\n}\n\nfun main() {\n    println(cong(3, 5))\n    println(cong(10, 20))\n}",
+  "lang": "kotlin",
+  "desc": "Hàm fun với return",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson72"
+}

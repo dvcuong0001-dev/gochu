@@ -1,0 +1,13 @@
+{
+  "id": "68.5",
+  "title": "Bài 68.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    println(Math.pow(2.0, 10.0))\n    println(maxOf(3, 7))\n    println(minOf(3, 7))\n    println(kotlin.math.abs(-5))\n}",
+  "lang": "kotlin",
+  "desc": "Lũy thừa và các hàm số học",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson68"
+}

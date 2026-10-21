@@ -1,0 +1,13 @@
+{
+  "id": "78.1",
+  "title": "Bài 78.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "function NutBam() {\n  const xuLy = () => {\n    console.log(\"Da bam nut\");\n  };\n  return <button onClick={xuLy}>Bam vao day</button>;\n}\n\nexport default NutBam;",
+  "lang": "react",
+  "desc": "Sự kiện onClick",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson78"
+}

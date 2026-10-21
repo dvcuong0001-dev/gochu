@@ -1,0 +1,13 @@
+{
+  "id": "37.6",
+  "title": "Bài 37.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "let nums = [3, 8, 1, 6, 7];\nfor (const x of nums) {\n  if (x === 6) break;\n  if (x % 2 === 0) continue;\n  console.log(x);\n}",
+  "lang": "javascript",
+  "desc": "for...of với break và continue",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson37"
+}

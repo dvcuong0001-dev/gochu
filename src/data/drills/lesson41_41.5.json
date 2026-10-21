@@ -1,0 +1,13 @@
+{
+  "id": "41.5",
+  "title": "Bài 41.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "const [a, b, ...con] = [1, 2, 3, 4, 5];\nconsole.log(a, b, con);\nconst sv = { ten: \"An\", tuoi: 20 };\nconst { ten, tuoi } = sv;\nconsole.log(ten, tuoi);\nconst gop = { ...sv, lop: \"12A\" };\nconsole.log(gop);",
+  "lang": "javascript",
+  "desc": "Destructuring và spread operator",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson41"
+}

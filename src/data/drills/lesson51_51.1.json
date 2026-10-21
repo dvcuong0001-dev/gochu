@@ -1,0 +1,13 @@
+{
+  "id": "51.1",
+  "title": "Bài 51.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n        System.out.println(\"Chao mung den voi Java\");\n    }\n}",
+  "lang": "java",
+  "desc": "Chương trình đầu tiên — println",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson51"
+}

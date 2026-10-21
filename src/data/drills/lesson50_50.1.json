@@ -1,0 +1,13 @@
+{
+  "id": "50.1",
+  "title": "Bài 50.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\nusing namespace std;\n\nclass Diem {\npublic:\n    int x, y;\n    int tong() { return x + y; }\n};\n\nint main() {\n    Diem d;\n    d.x = 3;\n    d.y = 4;\n    cout << d.tong() << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Class: thuộc tính và phương thức",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson50"
+}

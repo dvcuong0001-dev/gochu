@@ -1,0 +1,13 @@
+{
+  "id": "77.1",
+  "title": "Bài 77.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction BoDem() {\n  const [dem, setDem] = useState(0);\n  return (\n    <div>\n      <p>Dem: {dem}</p>\n      <button onClick={() => setDem(dem + 1)}>Tang</button>\n    </div>\n  );\n}\n\nexport default BoDem;",
+  "lang": "react",
+  "desc": "useState — bộ đếm cơ bản",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson77"
+}

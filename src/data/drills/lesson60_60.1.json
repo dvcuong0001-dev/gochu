@@ -1,0 +1,13 @@
+{
+  "id": "60.1",
+  "title": "Bài 60.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        int a = 17, b = 5;\n        Console.WriteLine(a / b);\n        Console.WriteLine(a % b);\n        Console.WriteLine((double)a / b);\n    }\n}",
+  "lang": "csharp",
+  "desc": "Phép chia nguyên và chia thực",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson60"
+}

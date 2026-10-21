@@ -1,0 +1,472 @@
+{
+  "id": "4.2",
+  "title": "Bài 4.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "to",
+        "to",
+        "to"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "of",
+        "of",
+        "of"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tie",
+        "tie",
+        "tie"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "out",
+        "out",
+        "out"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "for",
+        "for",
+        "for"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "foot",
+        "foot",
+        "foot"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "soul",
+        "soul",
+        "soul"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "trout",
+        "trout",
+        "trout"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ratio",
+        "ratio",
+        "ratio"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "allot",
+        "allot",
+        "allot"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "toodle",
+        "toodle",
+        "toodle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "forest",
+        "forest",
+        "forest"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jostle",
+        "jostle",
+        "jostle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fast",
+        "door"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "fast",
+        "door"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "roast",
+        "resort"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "roast",
+        "resort"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tailor",
+        "aloud"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tailor",
+        "aloud"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kite",
+        "fort"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kite",
+        "fort"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "loaf",
+        "kettle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "loaf",
+        "kettle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "karate",
+        "toolkit"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "karate",
+        "toolkit"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "later",
+        "aorta"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "later",
+        "aorta"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "audio",
+        "rustle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "audio",
+        "rustle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "skate",
+        "fork"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "skate",
+        "fork"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "foot",
+        "loose"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "foot",
+        "loose"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "stroke",
+        "teeter"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "stroke",
+        "teeter"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lost",
+        "loretta"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lost",
+        "loretta"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dutiful",
+        "defrost"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dutiful",
+        "defrost"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "little",
+        "foster"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "little",
+        "foster"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "easter",
+        "judo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "easter",
+        "judo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "root",
+        "lookout"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "root",
+        "lookout"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "state",
+        "kiosk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "state",
+        "kiosk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "adult",
+        "koala"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "adult",
+        "koala"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alert",
+        "jealous"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alert",
+        "jealous"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "austria",
+        "alto"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "austria",
+        "alto"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dessert",
+        "joel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dessert",
+        "joel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "odorous",
+        "toll"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "odorous",
+        "toll"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ulterior",
+        "offset"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ulterior",
+        "offset"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lookout",
+        "rooster",
+        "lookout",
+        "rooster"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "isolate",
+        "tortoise"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "isolate",
+        "tortoise"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "stafford",
+        "roadster",
+        "stafford",
+        "roadster"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "tofieursladjk",
+  "totalChars": 893,
+  "lessonId": "lesson4"
+}

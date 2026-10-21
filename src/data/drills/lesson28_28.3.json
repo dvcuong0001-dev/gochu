@@ -1,0 +1,13 @@
+{
+  "id": "28.3",
+  "title": "Bài 28.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "a = 17\nb = 5\nprint(a + b, a - b, a * b)\nprint(a / b)\nprint(a // b, a % b)\nprint(2 ** 10)",
+  "lang": "python",
+  "desc": "Toán tử số học: + - * / // % **",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson28"
+}

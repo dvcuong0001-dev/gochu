@@ -1,0 +1,13 @@
+{
+  "id": "71.4",
+  "title": "Bài 71.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val s = \"programming\"\n    val dem = s.count { it == 'm' }\n    println(\"So ky tu m: $dem\")\n}",
+  "lang": "kotlin",
+  "desc": "Đếm ký tự với count",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson71"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "37.4",
+  "title": "Bài 37.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "let tong = 0;\nfor (let i = 1; i <= 10; i++) {\n  tong += i;\n}\nconsole.log(\"Tong 1..10 =\", tong);",
+  "lang": "javascript",
+  "desc": "Vòng lặp for: tổng 1..n",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson37"
+}

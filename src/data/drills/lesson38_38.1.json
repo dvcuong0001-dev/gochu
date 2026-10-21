@@ -1,0 +1,13 @@
+{
+  "id": "38.1",
+  "title": "Bài 38.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "let arr = [10, 20, 30];\narr.push(40);\narr.pop();\nconsole.log(arr);\nconsole.log(arr[0], arr[arr.length - 1]);",
+  "lang": "javascript",
+  "desc": "Mảng: tạo, push, pop, truy cập",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson38"
+}

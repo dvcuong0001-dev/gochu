@@ -1,0 +1,428 @@
+{
+  "id": "7.4",
+  "title": "Bài 7.4",
+  "orderIndex": 4,
+  "lines": [
+    {
+      "groups": [
+        "dog",
+        "dog",
+        "dog"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "the",
+        "the",
+        "the"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "it's",
+        "it's",
+        "it's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "gut",
+        "gut",
+        "gut"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "his",
+        "his",
+        "his"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "let's",
+        "let's",
+        "let's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "goes",
+        "goes",
+        "goes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Greg",
+        "Greg",
+        "Greg"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "that's",
+        "that's",
+        "that's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "hard",
+        "hard",
+        "hard"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Hero",
+        "Hero",
+        "Hero"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Joe's",
+        "Joe's",
+        "Joe's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "light",
+        "light",
+        "light"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "height",
+        "height",
+        "height"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "there's",
+        "there's",
+        "there's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Garth",
+        "Garth",
+        "Garth"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Helga",
+        "Helga",
+        "Helga"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Joel's",
+        "Joel's",
+        "Joel's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "garage",
+        "garage",
+        "garage"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "health",
+        "health",
+        "health"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "she'll",
+        "she'll",
+        "she'll"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Gloria",
+        "Gloria",
+        "Gloria"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Harold's",
+        "Kate's"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "Harold's",
+        "Kate's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "glacier",
+        "haggard"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "glacier",
+        "haggard"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "courage",
+        "hedgehog"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "courage",
+        "hedgehog"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "that's",
+        "it's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "that's",
+        "it's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "girlish",
+        "radish"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "girlish",
+        "radish"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "doghouse",
+        "hourglass"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "doghouse",
+        "hourglass"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "there's",
+        "here's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "there's",
+        "here's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eggshell",
+        "ghost"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eggshell",
+        "ghost"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "gecko",
+        "hedge"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "gecko",
+        "hedge"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "I'll",
+        "laugh"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "I'll",
+        "laugh"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "giggle",
+        "Gareth"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "giggle",
+        "Gareth"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Harriet's",
+        "hello"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Harriet's",
+        "hello"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tiger",
+        "hackle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tiger",
+        "hackle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "frog's",
+        "legs"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "frog's",
+        "legs"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "guests'",
+        "these"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "guests'",
+        "these"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "garlic",
+        "rather"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "garlic",
+        "rather"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "college",
+        "health"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "college",
+        "health"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "dogthei'sulGraHJKckIf",
+  "totalChars": 876,
+  "lessonId": "lesson7"
+}

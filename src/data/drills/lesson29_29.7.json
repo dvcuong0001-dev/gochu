@@ -1,0 +1,13 @@
+{
+  "id": "29.7",
+  "title": "Bài 29.7",
+  "orderIndex": 7,
+  "lines": [],
+  "type": 3,
+  "rawText": "n = 5\ngiai_thua = 1\nfor i in range(1, n + 1):\n    giai_thua *= i\nprint(n, \"! =\", giai_thua)",
+  "lang": "python",
+  "desc": "Tính giai thừa bằng vòng lặp for",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson29"
+}

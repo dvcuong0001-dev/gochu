@@ -1,0 +1,13 @@
+{
+  "id": "75.3",
+  "title": "Bài 75.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "function DanhSach() {\n  return (\n    <>\n      <h2>Mon hoc</h2>\n      <p>Toan</p>\n      <p>Ly</p>\n      <p>Hoa</p>\n    </>\n  );\n}\n\nexport default DanhSach;",
+  "lang": "react",
+  "desc": "Nhiều phần tử với Fragment",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson75"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "81.2",
+  "title": "Bài 81.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState, useEffect } from \"react\";\n\nfunction Theo() {\n  const [so, setSo] = useState(0);\n  useEffect(() => {\n    console.log(\"So thay doi:\", so);\n  }, [so]);\n  return <button onClick={() => setSo(so + 1)}>+1</button>;\n}\n\nexport default Theo;",
+  "lang": "react",
+  "desc": "useEffect với dependency array",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson81"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "60.3",
+  "title": "Bài 60.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        int diem = 8, tuoi = 20;\n        Console.WriteLine(diem >= 5 && tuoi >= 18);\n        Console.WriteLine(diem > 9 || tuoi == 20);\n        Console.WriteLine(!(diem < 5));\n    }\n}",
+  "lang": "csharp",
+  "desc": "Toán tử logic && || !",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson60"
+}

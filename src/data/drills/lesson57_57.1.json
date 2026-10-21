@@ -1,0 +1,13 @@
+{
+  "id": "57.1",
+  "title": "Bài 57.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(Math.sqrt(16));\n        System.out.println(Math.pow(2, 10));\n        System.out.println(Math.max(3, 7));\n        System.out.println(Math.abs(-5));\n    }\n}",
+  "lang": "java",
+  "desc": "Math: sqrt, pow, max, abs",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson57"
+}

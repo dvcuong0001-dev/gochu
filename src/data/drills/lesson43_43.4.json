@@ -1,0 +1,13 @@
+{
+  "id": "43.4",
+  "title": "Bài 43.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\nusing namespace std;\n\nint main() {\n    const double PI = 3.14159;\n    int r = 4;\n    cout << \"Chu vi: \" << 2 * PI * r << endl;\n    cout << \"Dien tich: \" << PI * r * r << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Hằng số const và phép toán",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson43"
+}

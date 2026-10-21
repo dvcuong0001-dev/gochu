@@ -1,0 +1,13 @@
+{
+  "id": "54.5",
+  "title": "Bài 54.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int[][] m = {{1, 2}, {3, 4}};\n        for (int i = 0; i < 2; i++) {\n            for (int j = 0; j < 2; j++)\n                System.out.print(m[i][j] + \" \");\n            System.out.println();\n        }\n    }\n}",
+  "lang": "java",
+  "desc": "Mảng hai chiều",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson54"
+}

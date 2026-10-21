@@ -1,0 +1,13 @@
+{
+  "id": "43.1",
+  "title": "Bài 43.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello, World!\" << endl;\n    cout << \"Chao mung den voi C++\" << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Chương trình đầu tiên với cout",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson43"
+}

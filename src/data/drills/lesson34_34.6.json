@@ -1,0 +1,13 @@
+{
+  "id": "34.6",
+  "title": "Bài 34.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "import calendar\nprint(calendar.isleap(2024))\nprint(calendar.isleap(2026))\nprint(calendar.weekday(2026, 5, 31))",
+  "lang": "python",
+  "desc": "Module calendar: năm nhuận và thứ trong tuần",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson34"
+}

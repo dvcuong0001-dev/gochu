@@ -1,0 +1,13 @@
+{
+  "id": "27.1",
+  "title": "Bài 27.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "print(\"Hello, World!\")\nprint(\"Chao mung den voi Python\")\nprint(\"Bai 1:\", \"Nhap mon\")",
+  "lang": "python",
+  "desc": "In ra màn hình — Hello World",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson27"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "79.3",
+  "title": "Bài 79.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "function SoChan() {\n  const nums = [1, 2, 3, 4, 5, 6];\n  return (\n    <ul>\n      {nums\n        .filter((n) => n % 2 === 0)\n        .map((n) => (\n          <li key={n}>{n}</li>\n        ))}\n    </ul>\n  );\n}\n\nexport default SoChan;",
+  "lang": "react",
+  "desc": "Lọc danh sách trước khi render",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson79"
+}

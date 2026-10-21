@@ -1,0 +1,13 @@
+{
+  "id": "35.5",
+  "title": "Bài 35.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "function chao(ten) {\n  return \"Xin chao, \" + ten;\n}\nconsole.log(chao(\"Lan\"));\nconsole.log(chao(\"Hung\"));",
+  "lang": "javascript",
+  "desc": "Hàm cơ bản với function",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson35"
+}

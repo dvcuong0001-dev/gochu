@@ -1,0 +1,13 @@
+{
+  "id": "31.5",
+  "title": "Bài 31.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "print(\"12345\".isdigit())\nprint(\"Python\".isalpha())\nprint(\"python3\".isalnum())\nprint(\"hello.py\".endswith(\".py\"))",
+  "lang": "python",
+  "desc": "Kiểm tra nội dung: isdigit, isalpha, endswith",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson31"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "72.3",
+  "title": "Bài 72.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun chao(ten: String, loi: String = \"Xin chao\") = \"$loi, $ten\"\nfun tong(vararg nums: Int) = nums.sum()\n\nfun main() {\n    println(chao(\"An\"))\n    println(tong(1, 2, 3, 4))\n}",
+  "lang": "kotlin",
+  "desc": "Tham số mặc định và vararg",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson72"
+}

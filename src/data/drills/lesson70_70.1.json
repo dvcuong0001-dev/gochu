@@ -1,0 +1,13 @@
+{
+  "id": "70.1",
+  "title": "Bài 70.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val nums = listOf(10, 20, 30, 40, 50)\n    println(nums[0])\n    println(nums.last())\n    println(nums.sum())\n}",
+  "lang": "kotlin",
+  "desc": "List và duyệt phần tử",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson70"
+}

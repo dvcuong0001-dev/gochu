@@ -1,0 +1,13 @@
+{
+  "id": "82.2",
+  "title": "Bài 82.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction useBoDem(start = 0) {\n  const [dem, setDem] = useState(start);\n  const tang = () => setDem((d) => d + 1);\n  return { dem, tang };\n}\n\nfunction App() {\n  const { dem, tang } = useBoDem();\n  return <button onClick={tang}>Dem: {dem}</button>;\n}\n\nexport default App;",
+  "lang": "react",
+  "desc": "Custom hook — useBoDem",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson82"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "53.2",
+  "title": "Bài 53.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        double diem = 7.5;\n        if (diem >= 8) System.out.println(\"Gioi\");\n        else if (diem >= 6.5) System.out.println(\"Kha\");\n        else if (diem >= 5) System.out.println(\"Trung binh\");\n        else System.out.println(\"Yeu\");\n    }\n}",
+  "lang": "java",
+  "desc": "if - else if - else: xếp loại",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson53"
+}

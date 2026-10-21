@@ -1,0 +1,197 @@
+{
+  "id": "14.2",
+  "title": "Bài 14.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "I",
+        "got",
+        "up",
+        "at",
+        "6",
+        "a.m.",
+        "today."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Is",
+        "it",
+        "37",
+        "or",
+        "38",
+        "Dunst",
+        "Street?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "June",
+        "5",
+        "is",
+        "Mia's",
+        "birthday."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "We",
+        "saw",
+        "44",
+        "monkeys",
+        "in",
+        "a",
+        "tree."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Typing",
+        "numbers",
+        "3,",
+        "4,",
+        "7,",
+        "and",
+        "8,",
+        "is",
+        "easy."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Reaching",
+        "5",
+        "and",
+        "6",
+        "is",
+        "not",
+        "too",
+        "difficult",
+        "either."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Did",
+        "you",
+        "call",
+        "555",
+        "3548?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Could",
+        "I",
+        "have",
+        "4.5",
+        "lbs",
+        "of",
+        "potatoes,",
+        "please?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "And",
+        "6",
+        "nice",
+        "steaks",
+        "topped",
+        "with",
+        "8",
+        "slices",
+        "of",
+        "bacon."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "I",
+        "see",
+        "4",
+        "cats",
+        "and",
+        "5",
+        "dogs,",
+        "maybe",
+        "a",
+        "6th",
+        "too."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Please",
+        "add",
+        "4",
+        "eggs",
+        "and",
+        "3",
+        "cups",
+        "of",
+        "milk."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "It'll",
+        "take",
+        "45",
+        "minutes",
+        "to",
+        "get",
+        "there."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "I",
+        "did",
+        "3",
+        "laps,",
+        "Fred",
+        "6,",
+        "and",
+        "Leslie",
+        "8",
+        "laps."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "movie",
+        "starts",
+        "in",
+        "7",
+        "minutes",
+        "at",
+        "6:45",
+        "p.m."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "Igotupa6.mdysi37r8DnSe?J5M'bhWw4kT,RcflCvAPFL:",
+  "totalChars": 510,
+  "lessonId": "lesson14"
+}

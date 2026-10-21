@@ -1,0 +1,13 @@
+{
+  "id": "68.4",
+  "title": "Bài 68.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    var x = 10\n    x += 5\n    x *= 2\n    println(x)\n    val n = 7\n    val loai = if (n % 2 == 0) \"chan\" else \"le\"\n    println(\"$n la so $loai\")\n}",
+  "lang": "kotlin",
+  "desc": "Gán phức hợp và if biểu thức",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson68"
+}

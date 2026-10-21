@@ -1,0 +1,13 @@
+{
+  "id": "69.4",
+  "title": "Bài 69.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    var tong = 0\n    for (i in 1..10)\n        tong += i\n    println(\"Tong = $tong\")\n}",
+  "lang": "kotlin",
+  "desc": "Vòng lặp for với range 1..n",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson69"
+}

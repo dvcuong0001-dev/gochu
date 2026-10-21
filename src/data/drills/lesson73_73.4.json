@@ -1,0 +1,13 @@
+{
+  "id": "73.4",
+  "title": "Bài 73.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val ten: String? = null\n    println(ten?.length)\n    val doDai = ten?.length ?: 0\n    println(doDai)\n}",
+  "lang": "kotlin",
+  "desc": "Null safety: ?. và Elvis ?:",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson73"
+}

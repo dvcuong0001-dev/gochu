@@ -1,0 +1,13 @@
+{
+  "id": "77.4",
+  "title": "Bài 77.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction BoDem() {\n  const [dem, setDem] = useState(0);\n  const tang = () => setDem((truoc) => truoc + 1);\n  return (\n    <div>\n      <p>{dem}</p>\n      <button onClick={tang}>+1</button>\n    </div>\n  );\n}\n\nexport default BoDem;",
+  "lang": "react",
+  "desc": "Cập nhật state dựa trên state trước",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson77"
+}

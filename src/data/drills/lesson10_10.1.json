@@ -1,0 +1,212 @@
+{
+  "id": "10.1",
+  "title": "Bài 10.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "aq",
+        "aq",
+        ";p",
+        ";p"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aq",
+        "aq",
+        ";p",
+        ";p"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "qa",
+        "qa",
+        "p;",
+        "p;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "qQ",
+        "qQ",
+        "pP",
+        "pP"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aq;p",
+        "aq;p",
+        "p;qa",
+        "p;qa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aaqq",
+        "aaqq",
+        ";;pp",
+        ";;pp"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aaqa",
+        "aaqa",
+        ";;p;",
+        ";;p;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aQaQ",
+        "aQaQ",
+        ";P;P",
+        ";P;P"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "qqQq",
+        "qqQq",
+        "ppPp",
+        "ppPp"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aqaq",
+        "aqaq",
+        ";p;p",
+        ";p;p"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "QaaQ",
+        "QaaQ",
+        "P;;P",
+        "P;;P"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aq;p",
+        "aq;p",
+        "aP;Q",
+        "aP;Q"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Pike",
+        "Pike",
+        "Qant",
+        "Qant"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "kpia",
+        "kpia",
+        "aqea",
+        "aqea"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "epen",
+        "epen",
+        "oqel",
+        "oqel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Pane",
+        "Pane",
+        "Qine",
+        "Qine"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "apqi",
+        "apqi",
+        "uqvo",
+        "uqvo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nape",
+        "nape",
+        "loqe",
+        "loqe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deqc",
+        "deqc",
+        "olvi",
+        "olvi"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Pore",
+        "Pore",
+        "Qink",
+        "Qink"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quqo",
+        "quqo",
+        "peps",
+        "peps"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "qiiq",
+        "qiiq",
+        "paap",
+        "paap"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "aq;pQPikentoluvdcrs",
+  "totalChars": 408,
+  "lessonId": "lesson10"
+}

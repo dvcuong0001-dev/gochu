@@ -1,0 +1,185 @@
+{
+  "id": "5.3",
+  "title": "Bài 5.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "l.",
+        "l.",
+        "l.",
+        "l."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ".l",
+        ".l",
+        ".l",
+        ".l"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "l.ll",
+        "l.ll",
+        "l.ll",
+        "l.ll"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "..l.",
+        "..l.",
+        "..l.",
+        "..l."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j.l.",
+        "j.l.",
+        "j.l.",
+        "j.l."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a.f.",
+        "a.f.",
+        "a.f.",
+        "a.f."
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "lol.",
+        "lol.",
+        "lol.",
+        "lol."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "i.e.",
+        "i.e.",
+        "i.e.",
+        "i.e."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kio.",
+        "kio.",
+        "kio.",
+        "kio."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "k.l.",
+        "k.l.",
+        "k.l.",
+        "k.l."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "der.",
+        "der.",
+        "der.",
+        "der."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jie.",
+        "jie.",
+        "jie.",
+        "jie."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lot.",
+        "lot.",
+        "lot.",
+        "lot."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sio.",
+        "sio.",
+        "sio.",
+        "sio."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jua.",
+        "j.u.",
+        "j.u.",
+        "j.u."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ail.",
+        "ail.",
+        "ail.",
+        "ail."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "duo.",
+        "duo.",
+        "duo.",
+        "duo."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j.r.",
+        "j.r.",
+        "j.r.",
+        "j.r."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ".id.",
+        ".id.",
+        ".id.",
+        ".id."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "l.jafoiekdrtsu",
+  "totalChars": 364,
+  "lessonId": "lesson5"
+}

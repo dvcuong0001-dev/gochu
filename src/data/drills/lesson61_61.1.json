@@ -1,0 +1,13 @@
+{
+  "id": "61.1",
+  "title": "Bài 61.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        int n = 14;\n        if (n % 2 == 0)\n            Console.WriteLine($\"{n} la so chan\");\n        else\n            Console.WriteLine($\"{n} la so le\");\n    }\n}",
+  "lang": "csharp",
+  "desc": "Câu lệnh if - else",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson61"
+}

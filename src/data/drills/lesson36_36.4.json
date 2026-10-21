@@ -1,0 +1,13 @@
+{
+  "id": "36.4",
+  "title": "Bài 36.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "let diem = 8, tuoi = 20;\nconsole.log(diem >= 5 && tuoi >= 18);\nconsole.log(diem > 9 || tuoi === 20);\nconsole.log(!(diem < 5));",
+  "lang": "javascript",
+  "desc": "Toán tử logic && || !",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson36"
+}

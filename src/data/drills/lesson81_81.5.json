@@ -1,0 +1,13 @@
+{
+  "id": "81.5",
+  "title": "Bài 81.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState, useEffect } from \"react\";\n\nfunction Tong() {\n  const [a, setA] = useState(2);\n  const [tong, setTong] = useState(0);\n  useEffect(() => {\n    setTong(a * 10);\n  }, [a]);\n  return (\n    <div>\n      <p>Tong: {tong}</p>\n      <button onClick={() => setA(a + 1)}>Tang a</button>\n    </div>\n  );\n}\n\nexport default Tong;",
+  "lang": "react",
+  "desc": "useEffect tính giá trị phụ thuộc",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson81"
+}

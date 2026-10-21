@@ -1,0 +1,13 @@
+{
+  "id": "30.1",
+  "title": "Bài 30.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "nums = [10, 20, 30, 40, 50]\nprint(nums[0], nums[-1])\nprint(nums[1:4])\nprint(nums[::-1])",
+  "lang": "python",
+  "desc": "List: tạo, truy cập index và cắt lát",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson30"
+}

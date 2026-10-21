@@ -1,0 +1,13 @@
+{
+  "id": "49.2",
+  "title": "Bài 49.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <vector>\n#include <numeric>\nusing namespace std;\n\nint main() {\n    vector<int> v = {1, 2, 3, 4, 5};\n    int tong = accumulate(v.begin(), v.end(), 0);\n    cout << \"Tong: \" << tong << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "accumulate: tính tổng vector",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson49"
+}

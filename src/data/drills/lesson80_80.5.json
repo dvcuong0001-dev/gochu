@@ -1,0 +1,13 @@
+{
+  "id": "80.5",
+  "title": "Bài 80.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction ChonMon() {\n  const [mon, setMon] = useState(\"Toan\");\n  return (\n    <div>\n      <select value={mon} onChange={(e) => setMon(e.target.value)}>\n        <option>Toan</option>\n        <option>Ly</option>\n        <option>Hoa</option>\n      </select>\n      <p>Da chon: {mon}</p>\n    </div>\n  );\n}\n\nexport default ChonMon;",
+  "lang": "react",
+  "desc": "Select dropdown controlled",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson80"
+}

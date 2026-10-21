@@ -1,0 +1,13 @@
+{
+  "id": "60.2",
+  "title": "Bài 60.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        int x = 7;\n        Console.WriteLine(x > 5);\n        Console.WriteLine(x == 7);\n        Console.WriteLine(x != 10);\n    }\n}",
+  "lang": "csharp",
+  "desc": "Kiểu bool và so sánh",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson60"
+}

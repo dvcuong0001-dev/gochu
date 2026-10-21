@@ -1,0 +1,13 @@
+{
+  "id": "31.7",
+  "title": "Bài 31.7",
+  "orderIndex": 7,
+  "lines": [],
+  "type": 3,
+  "rawText": "import re\ntext = \"SDT 0912345678, mail an@gmail.com\"\nprint(re.findall(r\"\\d+\", text))\nprint(re.findall(r\"\\w+@\\w+\\.\\w+\", text))",
+  "lang": "python",
+  "desc": "Regex: tìm tất cả số và email trong chuỗi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson31"
+}

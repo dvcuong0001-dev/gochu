@@ -1,0 +1,13 @@
+{
+  "id": "65.5",
+  "title": "Bài 65.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        double gia = 1234.5;\n        Console.WriteLine($\"{gia:F2}\");\n        Console.WriteLine($\"{42:D5}\");\n        Console.WriteLine($\"{\"Ten\",-10}{\"Diem\",5}\");\n    }\n}",
+  "lang": "csharp",
+  "desc": "Định dạng số với chuỗi nội suy",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson65"
+}

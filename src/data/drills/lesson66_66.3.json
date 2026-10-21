@@ -1,0 +1,13 @@
+{
+  "id": "66.3",
+  "title": "Bài 66.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass DongVat {\n    public string Ten;\n    public DongVat(string t) { Ten = t; }\n    public virtual string Keu() => Ten + \" keu\";\n}\nclass Cho : DongVat {\n    public Cho(string t) : base(t) {}\n    public override string Keu() => Ten + \" sua gau gau\";\n}\nclass Program {\n    static void Main() {\n        Console.WriteLine(new Cho(\"Mun\").Keu());\n    }\n}",
+  "lang": "csharp",
+  "desc": "Kế thừa với base và virtual",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson66"
+}

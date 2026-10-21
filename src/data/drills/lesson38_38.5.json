@@ -1,0 +1,13 @@
+{
+  "id": "38.5",
+  "title": "Bài 38.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "let gia = { tao: 30, cam: 25, le: 40 };\nconsole.log(Object.keys(gia));\nconsole.log(Object.values(gia));\nfor (const [k, v] of Object.entries(gia)) {\n  console.log(k, v);\n}",
+  "lang": "javascript",
+  "desc": "Object: keys, values, entries",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson38"
+}

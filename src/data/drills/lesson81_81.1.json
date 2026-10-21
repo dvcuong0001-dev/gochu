@@ -1,0 +1,13 @@
+{
+  "id": "81.1",
+  "title": "Bài 81.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState, useEffect } from \"react\";\n\nfunction TieuDe() {\n  const [dem, setDem] = useState(0);\n  useEffect(() => {\n    document.title = \"Dem: \" + dem;\n  });\n  return <button onClick={() => setDem(dem + 1)}>{dem}</button>;\n}\n\nexport default TieuDe;",
+  "lang": "react",
+  "desc": "useEffect chạy sau mỗi render",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson81"
+}

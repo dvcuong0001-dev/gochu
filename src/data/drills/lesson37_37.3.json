@@ -1,0 +1,13 @@
+{
+  "id": "37.3",
+  "title": "Bài 37.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "let thu = 3;\nswitch (thu) {\n  case 1: console.log(\"Chu nhat\"); break;\n  case 2: console.log(\"Thu hai\"); break;\n  case 3: console.log(\"Thu ba\"); break;\n  default: console.log(\"Khac\");\n}",
+  "lang": "javascript",
+  "desc": "Câu lệnh switch - case",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson37"
+}

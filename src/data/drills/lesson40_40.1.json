@@ -1,0 +1,13 @@
+{
+  "id": "40.1",
+  "title": "Bài 40.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "function cong(a, b) {\n  return a + b;\n}\nconsole.log(cong(3, 5));\nconsole.log(cong(10, 20));",
+  "lang": "javascript",
+  "desc": "Hàm: function declaration và return",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson40"
+}

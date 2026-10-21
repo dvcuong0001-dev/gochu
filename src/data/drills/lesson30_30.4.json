@@ -1,0 +1,13 @@
+{
+  "id": "30.4",
+  "title": "Bài 30.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "sv = {\"ten\": \"An\", \"tuoi\": 20, \"lop\": \"12A\"}\nprint(sv[\"ten\"])\nfor k, v in sv.items():\n    print(k, \"=\", v)",
+  "lang": "python",
+  "desc": "Dictionary: tạo và duyệt cặp key-value",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson30"
+}

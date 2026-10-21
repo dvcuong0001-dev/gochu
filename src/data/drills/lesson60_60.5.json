@@ -1,0 +1,13 @@
+{
+  "id": "60.5",
+  "title": "Bài 60.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        double d = 9.7;\n        int i = (int)d;\n        Console.WriteLine(i);\n        int n = int.Parse(\"25\");\n        Console.WriteLine(n + 5);\n    }\n}",
+  "lang": "csharp",
+  "desc": "Ép kiểu và int.Parse",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson60"
+}

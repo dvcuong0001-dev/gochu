@@ -1,0 +1,400 @@
+{
+  "id": "10.2",
+  "title": "Bài 10.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "pea",
+        "pea",
+        "pea"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quit",
+        "quit",
+        "quit"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "picks",
+        "picks",
+        "picks"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quill",
+        "quill",
+        "quill"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Power",
+        "Power",
+        "Power"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Quick",
+        "Quick",
+        "Quick"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "equip",
+        "equip",
+        "equip"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "plaque",
+        "plaque",
+        "plaque"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "opaque",
+        "opaque",
+        "opaque"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "pulp",
+        "pulp",
+        "pulp"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quest",
+        "quest",
+        "quest"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "prepare",
+        "prepare",
+        "prepare"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quick",
+        "quick",
+        "quick"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Panama",
+        "Panama",
+        "Panama"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Quito",
+        "Quito",
+        "Quito"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "question",
+        "request"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "question",
+        "request"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "pompous",
+        "octopus"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "pompous",
+        "octopus"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quite",
+        "unique"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quite",
+        "unique"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "peppers",
+        "grapes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "peppers",
+        "grapes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "queen",
+        "etiquette"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "queen",
+        "etiquette"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Phillip",
+        "Quinn"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Phillip",
+        "Quinn"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "paprika",
+        "soap"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "paprika",
+        "soap"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quilt",
+        "masque"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quilt",
+        "masque"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "pineapple",
+        "peach"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "pineapple",
+        "peach"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aquarium",
+        "liquid"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aquarium",
+        "liquid"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "proof",
+        "ripple"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "proof",
+        "ripple"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "squid",
+        "technique"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "squid",
+        "technique"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "PVC",
+        "Qatar"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "PVC",
+        "Qatar"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "frequent",
+        "mosquito"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "frequent",
+        "mosquito"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "progress",
+        "report"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "progress",
+        "report"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quick",
+        "croquet"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "quick",
+        "croquet"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "plump",
+        "sapphire"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "plump",
+        "sapphire"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "parquet",
+        "picture"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "parquet",
+        "picture"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "applique",
+        "piquant"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "applique",
+        "piquant"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "peaquitckslPowrQnmghdfVC",
+  "totalChars": 841,
+  "lessonId": "lesson10"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "79.5",
+  "title": "Bài 79.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction DanhSach() {\n  const [items, setItems] = useState([\"A\", \"B\"]);\n  const them = () => setItems([...items, \"Moi\"]);\n  return (\n    <div>\n      <button onClick={them}>Them</button>\n      <ul>\n        {items.map((it, i) => (\n          <li key={i}>{it}</li>\n        ))}\n      </ul>\n    </div>\n  );\n}\n\nexport default DanhSach;",
+  "lang": "react",
+  "desc": "Danh sách động với useState",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson79"
+}

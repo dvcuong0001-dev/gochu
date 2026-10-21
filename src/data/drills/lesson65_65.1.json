@@ -1,0 +1,13 @@
+{
+  "id": "65.1",
+  "title": "Bài 65.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        Console.WriteLine(Math.Sqrt(16));\n        Console.WriteLine(Math.Pow(2, 10));\n        Console.WriteLine(Math.Max(3, 7));\n        Console.WriteLine(Math.Abs(-5));\n    }\n}",
+  "lang": "csharp",
+  "desc": "Math: Sqrt, Pow, Max, Abs",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson65"
+}

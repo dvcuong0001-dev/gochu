@@ -1,0 +1,13 @@
+{
+  "id": "47.3",
+  "title": "Bài 47.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string s = \"programming\";\n    int dem = 0;\n    for (char c : s)\n        if (c == 'm') dem++;\n    cout << \"So ky tu m: \" << dem << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Duyệt và đếm ký tự trong chuỗi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson47"
+}

@@ -1,0 +1,189 @@
+{
+  "id": "12.1",
+  "title": "Bài 12.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "az",
+        "az",
+        "sx",
+        "sx"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "za",
+        "za",
+        "xs",
+        "xs"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aazz",
+        "aazz",
+        "ssxx",
+        "ssxx"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "azaz",
+        "azaz",
+        "sxsx",
+        "sxsx"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aZZa",
+        "aZZa",
+        "sXXs",
+        "sXXx"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "zaaz",
+        "zaaz",
+        "xssx",
+        "xssx"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jajz",
+        "jajz",
+        "jsjx",
+        "jsjx"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ZjZa",
+        "ZjZa",
+        "XjXs",
+        "XjXs"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "zzaz",
+        "zzaz",
+        "xxsx",
+        "xxsx"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "zaza",
+        "zaza",
+        "xsxs",
+        "xsxs",
+        "Xsar",
+        "Xsar",
+        "Zeus",
+        "Zeus"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fuxi",
+        "fuxi",
+        "lutz",
+        "lutz"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Xeon",
+        "Xeon",
+        "Zioz",
+        "Zioz"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "xuvj",
+        "xuvj",
+        "zybi",
+        "zybi"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "buzz",
+        "buzz",
+        "vixx",
+        "vixx"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ixis",
+        "ixis",
+        "pezz",
+        "pezz"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mzek",
+        "mzek",
+        "luxs",
+        "luxs"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "boxe",
+        "boxe",
+        "fizy",
+        "fizy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "xixo",
+        "xixo",
+        "zuzy",
+        "zuzy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "zoxu",
+        "zoxu",
+        "oxiz",
+        "oxiz"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "azsxZXjreufiltonvybpmk",
+  "totalChars": 384,
+  "lessonId": "lesson12"
+}

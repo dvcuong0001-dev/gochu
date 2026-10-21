@@ -1,0 +1,13 @@
+{
+  "id": "68.2",
+  "title": "Bài 68.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val x = 7\n    println(x > 5)\n    println(x == 7)\n    println(x != 10)\n}",
+  "lang": "kotlin",
+  "desc": "Kiểu Boolean và so sánh",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson68"
+}

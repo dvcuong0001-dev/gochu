@@ -1,0 +1,13 @@
+{
+  "id": "52.4",
+  "title": "Bài 52.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int x = 10;\n        x += 5;\n        x *= 2;\n        System.out.println(x);\n        int n = 7;\n        String loai = (n % 2 == 0) ? \"chan\" : \"le\";\n        System.out.println(n + \" la so \" + loai);\n    }\n}",
+  "lang": "java",
+  "desc": "Gán phức hợp và toán tử ba ngôi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson52"
+}

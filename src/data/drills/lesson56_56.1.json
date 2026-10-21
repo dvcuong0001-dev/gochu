@@ -1,0 +1,13 @@
+{
+  "id": "56.1",
+  "title": "Bài 56.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    static int cong(int a, int b) {\n        return a + b;\n    }\n\n    public static void main(String[] args) {\n        System.out.println(cong(3, 5));\n        System.out.println(cong(10, 20));\n    }\n}",
+  "lang": "java",
+  "desc": "Method: khai báo static và return",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson56"
+}

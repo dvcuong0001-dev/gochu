@@ -1,0 +1,13 @@
+{
+  "id": "35.4",
+  "title": "Bài 35.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "let s = \"25\";\nconsole.log(Number(s) + 5);\nconsole.log(parseInt(\"100px\"));\nconsole.log(String(18) + \" tuoi\");\nconsole.log(parseFloat(\"19.5\"));",
+  "lang": "javascript",
+  "desc": "Ép kiểu: Number, parseInt, String",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson35"
+}

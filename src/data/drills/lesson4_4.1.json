@@ -1,0 +1,275 @@
+{
+  "id": "4.1",
+  "title": "Bài 4.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "ft",
+        "ft",
+        "lo",
+        "lo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tf",
+        "tf",
+        "ol",
+        "ol"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fftt",
+        "fftt",
+        "lloo",
+        "lloo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ftft",
+        "ftft",
+        "lolo",
+        "lolo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tfft",
+        "tfft",
+        "ollo",
+        "ollo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ttft",
+        "ttft",
+        "oolo",
+        "oolo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tftf",
+        "tftf",
+        "olol",
+        "olol"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ftds",
+        "ftds",
+        "lokl",
+        "lokl"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ftlo",
+        "ftlo",
+        "loft",
+        "loft"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fofo",
+        "fofo",
+        "ltlt",
+        "ltlt"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "loso",
+        "loso",
+        "atkt",
+        "atkt"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "toot",
+        "toot",
+        "folt",
+        "folt"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ftes",
+        "ftes",
+        "loki",
+        "loki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dtko",
+        "dtko",
+        "sotf",
+        "sotf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fite",
+        "fite",
+        "dtio",
+        "dtio"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "soat",
+        "soat",
+        "lito",
+        "lito"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "does",
+        "does",
+        "tole",
+        "tole"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ftel",
+        "ftel",
+        "sods",
+        "sods"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sito",
+        "sito",
+        "fole",
+        "fole"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dtol",
+        "dtol",
+        "lote",
+        "lote"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deto",
+        "deto",
+        "ftik",
+        "ftik"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "toit",
+        "toit",
+        "ekot",
+        "ekot"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ftos",
+        "ftos",
+        "diot",
+        "diot"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "soto",
+        "soto",
+        "kite",
+        "kite"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lots",
+        "lots",
+        "lilo",
+        "lilo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deat",
+        "deat",
+        "otis",
+        "otis"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lota",
+        "lota",
+        "kiod",
+        "kiod"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "stil",
+        "stil",
+        "sott",
+        "sott"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tito",
+        "tito",
+        "foot",
+        "foot"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "ftlodskaei",
+  "totalChars": 564,
+  "lessonId": "lesson4"
+}

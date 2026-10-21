@@ -1,0 +1,13 @@
+{
+  "id": "57.4",
+  "title": "Bài 57.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "import java.util.List;\nimport java.util.stream.Collectors;\n\npublic class Main {\n    public static void main(String[] args) {\n        List<Integer> nums = List.of(1, 2, 3, 4);\n        List<Integer> bp = nums.stream()\n            .map(x -> x * x)\n            .collect(Collectors.toList());\n        System.out.println(bp);\n    }\n}",
+  "lang": "java",
+  "desc": "Stream: map và collect",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson57"
+}

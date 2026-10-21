@@ -1,0 +1,13 @@
+{
+  "id": "64.2",
+  "title": "Bài 64.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static int Cong(int a, int b) => a + b;\n    static double Cong(double a, double b) => a + b;\n    static void Main() {\n        Console.WriteLine(Cong(3, 5));\n        Console.WriteLine(Cong(2.5, 1.5));\n    }\n}",
+  "lang": "csharp",
+  "desc": "Nạp chồng method (overloading)",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson64"
+}

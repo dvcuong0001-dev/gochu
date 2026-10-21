@@ -1,0 +1,13 @@
+{
+  "id": "53.3",
+  "title": "Bài 53.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int thu = 3;\n        switch (thu) {\n            case 1: System.out.println(\"Chu nhat\"); break;\n            case 2: System.out.println(\"Thu hai\"); break;\n            case 3: System.out.println(\"Thu ba\"); break;\n            default: System.out.println(\"Khac\");\n        }\n    }\n}",
+  "lang": "java",
+  "desc": "Câu lệnh switch - case",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson53"
+}

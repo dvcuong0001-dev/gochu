@@ -1,0 +1,174 @@
+{
+  "id": "19.1",
+  "title": "Bài 19.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        ";;''",
+        ";;''"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "::\"\"",
+        "::\"\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j'",
+        "j'",
+        "j'",
+        "j'"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a\"",
+        "a\"",
+        "a\"",
+        "a\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f'f\"",
+        "f'f\"",
+        "f'f\"",
+        "f'f\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "g'",
+        "h'",
+        "g'",
+        "h'",
+        "G\"h'",
+        "G\"h'"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";;';",
+        ";;';",
+        "';''",
+        "';''"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "''\"'",
+        "''\"'",
+        ";\"\";",
+        ";\"\";"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f''f",
+        "f''f",
+        ";'';",
+        ";'';"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "he's",
+        "he's",
+        "tes'",
+        "tes'"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "er's",
+        "er's",
+        "\"it\"",
+        "\"it\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "h'g'",
+        "h'g'",
+        "a\"j\"",
+        "a\"j\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ere'",
+        "ere'",
+        "ais'",
+        "ais'"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"ag\"",
+        "\"ag\"",
+        "\"th\"",
+        "\"th\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ks's",
+        "ks's",
+        "er's",
+        "er's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "it's",
+        "it's",
+        "it's",
+        "it's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"dk\"",
+        "\"dk\"",
+        "\"sl\"",
+        "\"sl\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "gi'h",
+        "gi'h",
+        "cf's",
+        "cf's"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": ";':\"jafghGestrikdlc",
+  "totalChars": 326,
+  "lessonId": "lesson19"
+}

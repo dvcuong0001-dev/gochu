@@ -1,0 +1,13 @@
+{
+  "id": "49.1",
+  "title": "Bài 49.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    vector<int> v = {5, 2, 8, 1, 9};\n    sort(v.begin(), v.end(), [](int a, int b) { return a > b; });\n    for (int x : v) cout << x << \" \";\n    cout << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "sort với comparator lambda",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson49"
+}

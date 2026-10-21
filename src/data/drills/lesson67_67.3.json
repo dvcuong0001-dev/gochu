@@ -1,0 +1,13 @@
+{
+  "id": "67.3",
+  "title": "Bài 67.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val ten = \"An\"\n    val tuoi = 20\n    println(\"Xin chao $ten, $tuoi tuoi\")\n    println(\"Nam sau: ${tuoi + 1} tuoi\")\n}",
+  "lang": "kotlin",
+  "desc": "String template — chèn biến vào chuỗi với dấu $",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson67"
+}

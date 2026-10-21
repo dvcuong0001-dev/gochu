@@ -1,0 +1,13 @@
+{
+  "id": "27.2",
+  "title": "Bài 27.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "ten = \"Tuhoc\"\nloi_chao = \"Xin chao, \" + ten + \"!\"\nprint(loi_chao)",
+  "lang": "python",
+  "desc": "Biến và nối chuỗi với toán tử +",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson27"
+}

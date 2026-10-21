@@ -1,0 +1,526 @@
+{
+  "id": "22.3",
+  "title": "Bài 22.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "2(x",
+        "+",
+        "4)",
+        "=",
+        "2x",
+        "+",
+        "8"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"free@enterprise.com\"",
+        "reads",
+        "\"free",
+        "at",
+        "enterprise",
+        "dot",
+        "com\"."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nesting:",
+        "(12[5x",
+        "+",
+        "y][x",
+        "+",
+        "3])"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Summer",
+        "special:",
+        "200",
+        "shower",
+        "units",
+        "@",
+        "$42.50"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "They",
+        "paid",
+        "me",
+        "three",
+        "hundred",
+        "dollars",
+        "($300.00)."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Typing",
+        "symbols",
+        "such",
+        "as",
+        "$,",
+        "&",
+        "and",
+        "@,",
+        "is",
+        "tiresome."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "@",
+        "symbol",
+        "is",
+        "sometimes",
+        "called",
+        "the",
+        "ape-tail,",
+        "but",
+        "really",
+        "it",
+        "is",
+        "short",
+        "hand",
+        "for",
+        "the",
+        "word",
+        "\"at\"."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Use",
+        "[",
+        "]--not",
+        "brackets--when",
+        "you",
+        "insert",
+        "a",
+        "word",
+        "or",
+        "phrase",
+        "into",
+        "a",
+        "quotation."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "ampersand",
+        "(&)",
+        "is",
+        "not",
+        "correctly",
+        "used",
+        "in",
+        "place",
+        "of",
+        "the",
+        "word",
+        "\"and\"",
+        "in",
+        "a",
+        "sentence."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ellipsis",
+        "(",
+        "...",
+        ")",
+        "or",
+        "(",
+        ".",
+        ".",
+        ".",
+        ")",
+        "is",
+        "used",
+        "to",
+        "show",
+        "that",
+        "something",
+        "has",
+        "been",
+        "omitted."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Brackets",
+        "can",
+        "also",
+        "indicate",
+        "multiplication:",
+        "2(5)",
+        "=",
+        "10"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "company",
+        "is",
+        "called",
+        "\"Brown",
+        "&",
+        "Jones,",
+        "Solicitors\"."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "In",
+        "HTML",
+        "coding,",
+        "&amp;",
+        "is",
+        "used",
+        "for",
+        "&."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "keys",
+        "[Enter]",
+        "and",
+        "[Shift]",
+        "are",
+        "used",
+        "frequently."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "50%",
+        "of",
+        "100",
+        "is",
+        "50.",
+        "25%",
+        "of",
+        "200",
+        "is",
+        "also",
+        "50.",
+        "How",
+        "much",
+        "is",
+        "10%",
+        "of",
+        "500?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"Great",
+        "Expectations\"",
+        "was",
+        "written",
+        "by",
+        "Charles",
+        "Dickens",
+        "[1812-1870]."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "If",
+        "(inp(1)",
+        "and",
+        "inp(2))",
+        "or",
+        "(inp",
+        "(3)),",
+        "then",
+        "(pin(4'5'6))."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "If",
+        "[shift]",
+        "=",
+        "(true)",
+        "then",
+        "call",
+        "=",
+        "tip.exe",
+        "or",
+        "call",
+        "=",
+        "tap.exe",
+        "end",
+        "sub."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Sales",
+        "tax",
+        "is",
+        "17.5%.",
+        "Does",
+        "this",
+        "mean",
+        "that",
+        "for",
+        "every",
+        "$100",
+        "you",
+        "spend,",
+        "$17.50",
+        "is",
+        "taken",
+        "for",
+        "no",
+        "value",
+        "added."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "I",
+        "shall",
+        "never",
+        "learn",
+        "&",
+        "or",
+        "@",
+        "or",
+        "as",
+        "fluently",
+        "as",
+        "the",
+        "letter",
+        "keys,",
+        "as",
+        "hard",
+        "as",
+        "I",
+        "may",
+        "try."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Chording",
+        "is",
+        "pressing",
+        "keys",
+        "simultaneously,",
+        "such",
+        "as",
+        "[Ctrl]",
+        "+",
+        "[Alt]",
+        "+",
+        "[Del]",
+        "keys",
+        "needed",
+        "to",
+        "log",
+        "on",
+        "to",
+        "some",
+        "operating",
+        "systems."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Information",
+        "in",
+        "parentheses",
+        "(like",
+        "this,",
+        "for",
+        "example)",
+        "are",
+        "often",
+        "examples."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Ctrl]",
+        "key",
+        "is",
+        "the",
+        "Control",
+        "key,",
+        "which",
+        "was",
+        "used",
+        "in",
+        "the",
+        "days",
+        "of",
+        "teletype",
+        "systems",
+        "with",
+        "the",
+        "[C]",
+        "key",
+        "as",
+        "a",
+        "system",
+        "IRQ."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(09)",
+        "55",
+        "555",
+        "could",
+        "be",
+        "a",
+        "Finnish",
+        "telephone",
+        "number."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Square",
+        "brackets",
+        "are",
+        "often",
+        "used",
+        "to",
+        "indicate",
+        "a",
+        "key;",
+        "such",
+        "as",
+        "[enter],",
+        "for",
+        "example."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Some",
+        "people",
+        "claim",
+        "that",
+        "Pascal",
+        "(1623-1662)",
+        "discovered",
+        "the",
+        "triangle",
+        "of",
+        "binomial",
+        "coefficients."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Chemists",
+        "use",
+        "square",
+        "brackets",
+        "to",
+        "indicate",
+        "concentration,",
+        "so",
+        "[acid]",
+        "means",
+        "concentration",
+        "of",
+        "acid."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Isaac",
+        "Newton",
+        "(1642-1727)",
+        "is",
+        "arguably",
+        "the",
+        "most",
+        "important",
+        "physicist",
+        "and",
+        "mathematician",
+        "in",
+        "modern",
+        "history."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Surds",
+        "are",
+        "expressions",
+        "(such",
+        "as",
+        "the",
+        "square",
+        "root",
+        "of",
+        "7,",
+        "or",
+        "the",
+        "cube",
+        "root",
+        "of",
+        "42)",
+        "which",
+        "cannot",
+        "be",
+        "evaluated",
+        "exactly."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "2(x+4)=8\"fre@ntpis.comadNg:1[5y]3Sul0hw$Tb,&-UkqEBJIHML;%?GCD7'6vARQ9FP",
+  "totalChars": 2037,
+  "lessonId": "lesson22"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "32.1",
+  "title": "Bài 32.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "def cong(a, b):\n    return a + b\n\nprint(cong(3, 5))\nprint(cong(10, 20))",
+  "lang": "python",
+  "desc": "Định nghĩa hàm với def và return",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson32"
+}

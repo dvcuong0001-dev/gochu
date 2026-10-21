@@ -1,0 +1,13 @@
+{
+  "id": "46.2",
+  "title": "Bài 46.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint main() {\n    vector<int> v = {1, 2, 3};\n    v.push_back(4);\n    for (int x : v)\n        cout << x << \" \";\n    cout << endl;\n    cout << \"Size: \" << v.size() << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Vector: thêm và duyệt phần tử",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson46"
+}

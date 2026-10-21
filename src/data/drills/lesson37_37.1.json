@@ -1,0 +1,13 @@
+{
+  "id": "37.1",
+  "title": "Bài 37.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "let n = 14;\nif (n % 2 === 0) {\n  console.log(n, \"la so chan\");\n} else {\n  console.log(n, \"la so le\");\n}",
+  "lang": "javascript",
+  "desc": "Câu lệnh if - else",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson37"
+}

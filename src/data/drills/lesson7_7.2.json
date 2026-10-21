@@ -1,0 +1,169 @@
+{
+  "id": "7.2",
+  "title": "Bài 7.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        ";'",
+        ";'",
+        ";'",
+        ";'"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j'",
+        "j'",
+        "j'",
+        "j'"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a\"",
+        "a\"",
+        "f'",
+        "f'"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f'f\"",
+        "f'f\"",
+        "F\"F\"",
+        "F\"F\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "g'",
+        "h'",
+        "g'",
+        "h'",
+        "G\"h'",
+        "G\"h'"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";;';",
+        ";;';",
+        "';''",
+        "';''"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "''\"'",
+        "''\"'",
+        ";\"\";",
+        ";\"\";"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f''f",
+        "f''f",
+        ";'';",
+        ";'';"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "he's",
+        "he's",
+        "tes'",
+        "tes'"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "er's",
+        "er's",
+        "\"it\"",
+        "\"it\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "h'g'",
+        "h'g'",
+        "a\"j\"",
+        "a\"j\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ere'",
+        "ere'",
+        "ais'",
+        "ais'"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"ag\"",
+        "\"ag\"",
+        "\"th\"",
+        "\"th\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ks's",
+        "ks's",
+        "er's",
+        "er's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "it's",
+        "it's",
+        "it's",
+        "it's"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"dk\"",
+        "\"dk\"",
+        "\"sl\"",
+        "\"sl\""
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "gi'h",
+        "gi'h",
+        "cf's",
+        "cf's"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": ";'ja\"fFghGestrikdlc",
+  "totalChars": 318,
+  "lessonId": "lesson7"
+}

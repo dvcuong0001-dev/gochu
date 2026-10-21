@@ -1,0 +1,190 @@
+{
+  "id": "17.1",
+  "title": "Bài 17.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "jkl;",
+        "jkl;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";lkj",
+        ";lkj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a;",
+        "a;",
+        "a;",
+        "a;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";:",
+        ";:",
+        ";:",
+        ";:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "L:L:",
+        "L:L:",
+        "L:L:",
+        "L:L:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";pp;",
+        ";pp;",
+        ";pp;",
+        ";pp;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f;j;",
+        "f;j;",
+        "f;j;",
+        "f;j;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s:l:",
+        "s:l:",
+        "s:l:",
+        "s:l:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "k;d:",
+        "k;d:",
+        "k;d:",
+        "k;d:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "U;Y;",
+        "U;Y;",
+        "U;Y;",
+        "U;Y;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "V:W:",
+        "V:W:",
+        "V:W:",
+        "V:W:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "o:c;",
+        "o:c;",
+        "o:c;",
+        "o:c;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";me:",
+        ";me:",
+        ";me:",
+        ";me:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "6:00",
+        "6:00",
+        "6:00",
+        "6:00"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ref:",
+        "Ref:",
+        "Ref:",
+        "Ref:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Way;",
+        "Way;",
+        "Way;",
+        "Way;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Zip:",
+        "Zip:",
+        "Zip:",
+        "Zip:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Key;",
+        "Key;",
+        "Key;",
+        "Key;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Pin:",
+        "Pin:",
+        "Pin:",
+        "Pin:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Not;",
+        "Not;",
+        "Not;",
+        "Not;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "jkl;a:LpfsdUYVWocme60RyZiKPnNt",
+  "totalChars": 364,
+  "lessonId": "lesson17"
+}

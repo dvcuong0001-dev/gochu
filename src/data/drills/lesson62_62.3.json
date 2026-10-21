@@ -1,0 +1,13 @@
+{
+  "id": "62.3",
+  "title": "Bài 62.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nusing System.Collections.Generic;\nclass Program {\n    static void Main() {\n        var gia = new Dictionary<string, int> {\n            [\"tao\"] = 30,\n            [\"cam\"] = 25\n        };\n        foreach (var kv in gia)\n            Console.WriteLine($\"{kv.Key} = {kv.Value}\");\n    }\n}",
+  "lang": "csharp",
+  "desc": "Dictionary: cặp key-value",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson62"
+}

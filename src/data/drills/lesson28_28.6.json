@@ -1,0 +1,13 @@
+{
+  "id": "28.6",
+  "title": "Bài 28.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "PI = 3.14159\nr = 4\nchu_vi = 2 * PI * r\ndien_tich = PI * r ** 2\nprint(\"Chu vi:\", round(chu_vi, 2))\nprint(\"Dien tich:\", round(dien_tich, 2))",
+  "lang": "python",
+  "desc": "Hằng số và biểu thức — tính chu vi, diện tích",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson28"
+}

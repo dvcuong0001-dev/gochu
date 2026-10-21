@@ -1,0 +1,13 @@
+{
+  "id": "64.4",
+  "title": "Bài 64.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static long GiaiThua(int n) {\n        if (n <= 1) return 1;\n        return n * GiaiThua(n - 1);\n    }\n    static void Main() {\n        Console.WriteLine(GiaiThua(5));\n        Console.WriteLine(GiaiThua(6));\n    }\n}",
+  "lang": "csharp",
+  "desc": "Đệ quy: tính giai thừa",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson64"
+}

@@ -1,0 +1,265 @@
+{
+  "id": "14.3",
+  "title": "Bài 14.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "Ann",
+        "Smith"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "76",
+        "Rail",
+        "Road"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "New",
+        "Plymouth,",
+        "OH",
+        "45654"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Jack",
+        "Holman"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "466",
+        "Left",
+        "Drive"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ilfield,",
+        "NM",
+        "87538"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Mrs",
+        "Claudia",
+        "Chester"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "557",
+        "Chestnut",
+        "St."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Spring",
+        "Green,",
+        "WI",
+        "53588"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Mr",
+        "Paul",
+        "Mahoney"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "68",
+        "Right",
+        "Rd."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Kinney,",
+        "MN",
+        "55758"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Dr",
+        "Leslie",
+        "Lettuce"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "75",
+        "Health",
+        "Avenue"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Santa",
+        "Clara,",
+        "UT",
+        "84765"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Phil",
+        "Harmonic"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "43",
+        "Instrument",
+        "Lane"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Zahl,",
+        "ND",
+        "58856"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Bruno",
+        "Brown"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "36",
+        "Cat's",
+        "Alley"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Alpine,",
+        "TN",
+        "38543"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "May",
+        "Flower"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "7",
+        "King's",
+        "Blvd,",
+        "Apt.",
+        "3"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Armstrong,",
+        "TX",
+        "78338"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Tel.",
+        "555",
+        "6758"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Fax.",
+        "555",
+        "4345"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Justin",
+        "Tiger"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "54",
+        "Primrose",
+        "Court,",
+        "3rd",
+        "fl."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Wheeling,",
+        "MO",
+        "64688"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Tel.",
+        "555",
+        "3388",
+        "ext.",
+        "567"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Fax.",
+        "555",
+        "4677"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "AnSmith76RalodNewPyu,OH45JckLfDrvIM83sC.pgGWKUTZB'FXx",
+  "totalChars": 523,
+  "lessonId": "lesson14"
+}

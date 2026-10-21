@@ -1,0 +1,13 @@
+{
+  "id": "34.1",
+  "title": "Bài 34.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "with open(\"data.txt\", \"w\", encoding=\"utf-8\") as f:\n    f.write(\"Dong 1\\n\")\n    f.write(\"Dong 2\\n\")\nprint(\"Da ghi xong data.txt\")",
+  "lang": "python",
+  "desc": "Ghi file với open() chế độ w",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson34"
+}

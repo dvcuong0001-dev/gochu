@@ -1,0 +1,13 @@
+{
+  "id": "31.2",
+  "title": "Bài 31.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "ten = \"An\"\ndiem = 8.5\nprint(f\"{ten} dat {diem} diem\")\nprint(f\"{'Ten':<10}{'Diem':>6}\")\nprint(f\"{ten:<10}{diem:>6}\")",
+  "lang": "python",
+  "desc": "Định dạng chuỗi: f-string và căn lề",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson31"
+}

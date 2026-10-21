@@ -1,0 +1,13 @@
+{
+  "id": "56.2",
+  "title": "Bài 56.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    static int cong(int a, int b) { return a + b; }\n    static double cong(double a, double b) { return a + b; }\n\n    public static void main(String[] args) {\n        System.out.println(cong(3, 5));\n        System.out.println(cong(2.5, 1.5));\n    }\n}",
+  "lang": "java",
+  "desc": "Nạp chồng method (overloading)",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson56"
+}

@@ -1,0 +1,462 @@
+{
+  "id": "3.5",
+  "title": "Bài 3.5",
+  "orderIndex": 5,
+  "lines": [
+    {
+      "groups": [
+        "alaska",
+        "fall",
+        "dusk",
+        "falls"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dark",
+        "fall",
+        "suds",
+        "lull",
+        "lakes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alaska",
+        "fall",
+        "air",
+        "is",
+        "real",
+        "fair"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "drue",
+        "reads",
+        "safari",
+        "referrals"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lusaka",
+        "safaris",
+        "are",
+        "rare",
+        "sees",
+        "drue"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lusaka",
+        "airfares",
+        "are",
+        "dear",
+        "assesses",
+        "dale"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lads",
+        "see",
+        "leafs",
+        "use",
+        "red",
+        "rakes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lasses",
+        "use",
+        "auld",
+        "rakes",
+        "as",
+        "usual"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alas",
+        "all",
+        "are",
+        "skillful",
+        "rake",
+        "users"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ladies",
+        "dare",
+        "fred"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fred",
+        "fears",
+        "a",
+        "fraud",
+        "flees",
+        "far"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deirdre",
+        "sees",
+        "fred",
+        "is",
+        "real",
+        "afraid"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dreadful",
+        "deal",
+        "feels",
+        "freddie"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "elsie",
+        "uses",
+        "a",
+        "radar"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "allie",
+        "elsie",
+        "sal",
+        "see",
+        "full",
+        "fields"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "see",
+        "fields",
+        "are",
+        "usual",
+        "rural",
+        "dill",
+        "fields"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "fluff",
+        "falls",
+        "as",
+        "a",
+        "ruff",
+        "falls"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "as",
+        "a",
+        "ruff",
+        "falls",
+        "all",
+        "fluff",
+        "falls"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "fluff",
+        "falls",
+        "is",
+        "ruff",
+        "all",
+        "ralf",
+        "sees"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fairs",
+        "are",
+        "real",
+        "lifelike",
+        "said",
+        "laura"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "laura",
+        "feels",
+        "fairs",
+        "are",
+        "like",
+        "real",
+        "life"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "fairs",
+        "are",
+        "lifeless",
+        "dull",
+        "laura",
+        "sees",
+        "red"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "real",
+        "fakirs",
+        "did",
+        "surreal",
+        "jujus"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fake",
+        "fakirs",
+        "fled",
+        "as",
+        "usual"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dark",
+        "jujus",
+        "are",
+        "dull",
+        "frauds",
+        "said",
+        "luke"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ladies",
+        "dare",
+        "fred"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fred",
+        "fears",
+        "a",
+        "fraud",
+        "flees",
+        "far"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deirdre",
+        "sees",
+        "fred",
+        "is",
+        "real",
+        "afraid"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dreadful",
+        "deal",
+        "feels",
+        "freddie"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "elsie",
+        "uses",
+        "a",
+        "radar"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "allie",
+        "elsie",
+        "sal",
+        "see",
+        "full",
+        "fields"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "see",
+        "fields",
+        "are",
+        "usual",
+        "rural",
+        "dill",
+        "fields"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "fluff",
+        "falls",
+        "as",
+        "a",
+        "ruff",
+        "falls"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "as",
+        "a",
+        "ruff",
+        "falls",
+        "all",
+        "fluff",
+        "falls"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "fluff",
+        "falls",
+        "is",
+        "ruff",
+        "all",
+        "ralf",
+        "sees"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fairs",
+        "are",
+        "real",
+        "lifelike",
+        "said",
+        "laura"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "laura",
+        "feels",
+        "fairs",
+        "are",
+        "like",
+        "real",
+        "life"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "fairs",
+        "are",
+        "lifeless",
+        "dull",
+        "laura",
+        "sees",
+        "red"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "real",
+        "fakirs",
+        "did",
+        "surreal",
+        "jujus"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fake",
+        "fakirs",
+        "fled",
+        "as",
+        "usual"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dark",
+        "jujus",
+        "are",
+        "dull",
+        "frauds",
+        "said",
+        "luke"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "alskfdureij",
+  "totalChars": 1290,
+  "lessonId": "lesson3"
+}

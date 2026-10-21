@@ -1,0 +1,13 @@
+{
+  "id": "65.2",
+  "title": "Bài 65.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nusing System.Linq;\nclass Program {\n    static void Main() {\n        int[] nums = {1, 2, 3, 4, 5, 6};\n        int tong = nums.Where(x => x % 2 == 0).Sum();\n        Console.WriteLine(\"Tong chan: \" + tong);\n    }\n}",
+  "lang": "csharp",
+  "desc": "LINQ: Where và Sum",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson65"
+}

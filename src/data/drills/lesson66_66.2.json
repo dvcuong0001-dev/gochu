@@ -1,0 +1,13 @@
+{
+  "id": "66.2",
+  "title": "Bài 66.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass HinhChuNhat {\n    int dai, rong;\n    public HinhChuNhat(int d, int r) {\n        dai = d;\n        rong = r;\n    }\n    public int DienTich() => dai * rong;\n}\nclass Program {\n    static void Main() {\n        var h = new HinhChuNhat(5, 3);\n        Console.WriteLine(h.DienTich());\n    }\n}",
+  "lang": "csharp",
+  "desc": "Constructor khởi tạo đối tượng",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson66"
+}

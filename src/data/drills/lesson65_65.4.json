@@ -1,0 +1,13 @@
+{
+  "id": "65.4",
+  "title": "Bài 65.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nusing System.Linq;\nclass Program {\n    static void Main() {\n        int[] nums = {5, 2, 8, 1, 9};\n        var sx = nums.OrderBy(x => x).ToArray();\n        Console.WriteLine(string.Join(\" \", sx));\n        Console.WriteLine(\"Max: \" + nums.Max());\n    }\n}",
+  "lang": "csharp",
+  "desc": "LINQ: OrderBy và Max",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson65"
+}

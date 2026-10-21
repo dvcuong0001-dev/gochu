@@ -1,0 +1,13 @@
+{
+  "id": "32.5",
+  "title": "Bài 32.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "dem = 0\n\ndef tang():\n    global dem\n    dem += 1\n\ntang()\ntang()\nprint(\"dem =\", dem)",
+  "lang": "python",
+  "desc": "Biến cục bộ và biến toàn cục (global)",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson32"
+}

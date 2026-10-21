@@ -1,0 +1,13 @@
+{
+  "id": "46.5",
+  "title": "Bài 46.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <set>\nusing namespace std;\n\nint main() {\n    set<int> s = {3, 1, 2, 3, 1};\n    for (int x : s)\n        cout << x << \" \";\n    cout << endl;\n    cout << \"Size: \" << s.size() << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Set: loại trùng và tự sắp xếp",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson46"
+}

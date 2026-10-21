@@ -1,0 +1,393 @@
+{
+  "id": "6.3",
+  "title": "Bài 6.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "Cat,",
+        "cat,",
+        "cat."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cute,",
+        "cute,",
+        "cute."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Could,",
+        "could,",
+        "could."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Circus,",
+        "circus,",
+        "circus."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cactus,",
+        "cactus,",
+        "cactus."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Curious,",
+        "curious,",
+        "curious."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Crackle,",
+        "crackle,",
+        "crackle."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Colorado,",
+        "Colorado,",
+        "Colorado."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Clerical,",
+        "clerical,",
+        "clerical."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Coffee,",
+        "coffee,",
+        "cocoa,",
+        "cocoa."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Collector,",
+        "collector,",
+        "crisscross,",
+        "crisscross."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Crocodile,",
+        "crocodile,",
+        "cascade,",
+        "cascade."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Click,",
+        "tickle,"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "click,",
+        "tickle."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cracker,",
+        "effect,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cracker,",
+        "effect."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Class,",
+        "scarce,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "class,",
+        "scarce."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Circle,",
+        "decode,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "circle,",
+        "decode."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cataract,",
+        "deck,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cataract,",
+        "deck."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Casual,",
+        "access,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "casual,",
+        "access."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Career,",
+        "force,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "career,",
+        "force."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Correct,",
+        "ocelot,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "correct,",
+        "ocelot."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Critic,",
+        "jacket,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "critic,",
+        "jacket."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cake,",
+        "fresco,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cake,",
+        "fresco."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cat,",
+        "arctic,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cat,",
+        "arctic."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Clock,",
+        "actress,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "clock,",
+        "actress."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cause,",
+        "succeed,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cause,",
+        "succeed."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Couscous,",
+        "face,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "couscous,",
+        "face."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Croak,",
+        "rascal,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "croak,",
+        "rascal."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Calf,",
+        "juice,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "calf,",
+        "juice."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Code,",
+        "icicle,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "code,",
+        "icicle."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cereal,",
+        "rustic,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cereal,",
+        "rustic."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cluster,",
+        "lucid,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cluster,",
+        "lucid."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cold,",
+        "doctor,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cold,",
+        "doctor."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "Cat,c.ueoldirskfj",
+  "totalChars": 944,
+  "lessonId": "lesson6"
+}

@@ -1,0 +1,347 @@
+{
+  "id": "13.2",
+  "title": "Bài 13.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "f4",
+        "f4",
+        "f4",
+        "f4"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fr4f",
+        "fr4f",
+        "fr4f",
+        "fr4f"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j7",
+        "j7",
+        "j7",
+        "j7"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ju7j",
+        "ju7j",
+        "ju7j",
+        "ju7j"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f5",
+        "f5",
+        "f5",
+        "f5"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ft5f",
+        "ft5f",
+        "ft5f",
+        "ft5f"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j6",
+        "j6",
+        "j6",
+        "j6"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jz6j",
+        "jz6j",
+        "jz6j",
+        "jz6j"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f4j7",
+        "f4j7",
+        "f4j7",
+        "f4j7"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "f5j6",
+        "f5j6",
+        "f5j6",
+        "f5j6"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f4f5",
+        "f4f5",
+        "f4f5",
+        "f4f5"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j6j7",
+        "j6j7",
+        "j6j7",
+        "j6j7"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "4567",
+        "4567",
+        "4567",
+        "4567"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "76j5",
+        "76j5",
+        "76j5",
+        "76j5"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "45f6",
+        "45f6",
+        "45f6",
+        "45f6"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "t5z6",
+        "t5z6",
+        "t5z6",
+        "t5z6"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ki7u",
+        "ki7u",
+        "ki7u",
+        "ki7u"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "de5f",
+        "de5f",
+        "de5f",
+        "de5f"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Re:6",
+        "Re:6",
+        "Re:6",
+        "Re:6"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "no.5",
+        "no.5",
+        "no.5",
+        "no.5"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "al.6",
+        "al.6",
+        "al.6",
+        "al.6"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "me.4",
+        "me.4",
+        "me.4",
+        "me.4"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "di.7",
+        "di.7",
+        "di.7",
+        "di.7"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a7j4",
+        "a7j4",
+        "a7j4",
+        "a7j4"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f4f5",
+        "f4f5",
+        "f4f5",
+        "f4f5"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "g5h6",
+        "g5h6",
+        "g5h6",
+        "g5h6"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "6,75",
+        "6,75",
+        "6,75",
+        "6,75"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "4.75",
+        "4.75",
+        "4.75",
+        "4.75"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "6:57",
+        "6:57",
+        "6:57",
+        "6:57"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "se45",
+        "se45",
+        "se45",
+        "se45"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "li76",
+        "li76",
+        "li76",
+        "li76"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jh6z",
+        "jh6z",
+        "jh6z",
+        "jh6z"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fg5t",
+        "fg5t",
+        "fg5t",
+        "fg5t"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "7uj7",
+        "7uj7",
+        "7uj7",
+        "7uj7"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "4rf4",
+        "4rf4",
+        "4rf4",
+        "4rf4"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "d4f5",
+        "d4f5",
+        "d4f5",
+        "d4f5"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "k7j6",
+        "k7j6",
+        "k7j6",
+        "k7j6"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "f4rj7u5t6zkideR:no.almgh,s",
+  "totalChars": 708,
+  "lessonId": "lesson13"
+}

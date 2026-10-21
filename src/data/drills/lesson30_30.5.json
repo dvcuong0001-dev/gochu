@@ -1,0 +1,13 @@
+{
+  "id": "30.5",
+  "title": "Bài 30.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "gia = {\"tao\": 30, \"cam\": 25}\nprint(gia.get(\"le\", 0))\ngia.update({\"le\": 40})\nprint(list(gia.keys()))\nprint(list(gia.values()))",
+  "lang": "python",
+  "desc": "Dictionary: get, keys, values, update",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson30"
+}

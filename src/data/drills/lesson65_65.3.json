@@ -1,0 +1,13 @@
+{
+  "id": "65.3",
+  "title": "Bài 65.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nusing System.Linq;\nclass Program {\n    static void Main() {\n        int[] nums = {1, 2, 3, 4};\n        var bp = nums.Select(x => x * x).ToArray();\n        Console.WriteLine(string.Join(\" \", bp));\n    }\n}",
+  "lang": "csharp",
+  "desc": "LINQ: Select bình phương",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson65"
+}

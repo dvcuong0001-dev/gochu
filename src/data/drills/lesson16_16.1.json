@@ -1,0 +1,212 @@
+{
+  "id": "16.1",
+  "title": "Bài 16.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "a1",
+        "a1",
+        "a1",
+        "a1"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aq1a",
+        "aq1a",
+        "aq1a",
+        "aq1a"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";0",
+        ";0",
+        ";0",
+        ";0"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";p0;",
+        ";p0;",
+        ";p0;",
+        ";p0;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a1",
+        ";0",
+        "a1",
+        ";0"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a11a",
+        "a11a",
+        "a11a",
+        "a11a"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";00;",
+        ";00;",
+        ";00;",
+        ";00;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a1;0",
+        "a1;0",
+        "a1;0",
+        "a1;0"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "0;1a",
+        "0;1a",
+        "0;1a",
+        "0;1a"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s2a1",
+        "s2a1",
+        "s2a1",
+        "s2a1"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "l9;0",
+        "l9;0",
+        "l9;0",
+        "l9;0"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";1a0",
+        ";1a0",
+        ";1a0",
+        ";1a0"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2001",
+        "2001",
+        "1990",
+        "1990"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "7050",
+        "7050",
+        "8161",
+        "8161"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "0.13",
+        "0.13",
+        "0.13",
+        "0.13"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "10.4",
+        "10.4",
+        "10.4",
+        "10.4"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "1.50",
+        "1.50",
+        "1.50",
+        "1.50"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "1958",
+        "1958",
+        "1958",
+        "1958"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2006",
+        "2006",
+        "2006",
+        "2006"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "1'00",
+        "1'00",
+        "1'00",
+        "1'00"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "3081",
+        "3081",
+        "3081",
+        "3081"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "a1q;0ps2l97586.34'",
+  "totalChars": 416,
+  "lessonId": "lesson16"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "63.1",
+  "title": "Bài 63.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        string s = \"Csharp\";\n        Console.WriteLine(s.Length);\n        Console.WriteLine(s[0]);\n        Console.WriteLine(s.Substring(0, 4));\n        Console.WriteLine(s.ToUpper());\n    }\n}",
+  "lang": "csharp",
+  "desc": "string: Length, Substring, ToUpper",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson63"
+}

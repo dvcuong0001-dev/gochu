@@ -1,0 +1,432 @@
+{
+  "id": "9.2",
+  "title": "Bài 9.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "win",
+        "win",
+        "win"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "man",
+        "man",
+        "man"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "what",
+        "what",
+        "what"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "meet",
+        "meet",
+        "meet"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "worm",
+        "worm",
+        "worm"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mime",
+        "mime",
+        "mime"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Wilma",
+        "Wilma",
+        "Wilma"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Marie",
+        "Marie",
+        "Marie"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "where",
+        "where",
+        "where"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "miles",
+        "miles",
+        "miles"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mammal",
+        "mammal",
+        "mammal"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "window",
+        "window",
+        "window"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "meadow",
+        "marrow"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "meadow",
+        "marrow"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wigwam",
+        "wonder"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wigwam",
+        "wonder"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Moscow",
+        "Wales"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Moscow",
+        "Wales"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "magnet",
+        "grammar"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "magnet",
+        "grammar"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "west",
+        "throw"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "west",
+        "throw"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Wallace",
+        "Maggie"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Wallace",
+        "Maggie"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "welcome",
+        "onward"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "welcome",
+        "onward"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "minimum",
+        "utmost"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "minimum",
+        "utmost"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "winter",
+        "jewel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "winter",
+        "jewel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Manila",
+        "Waldorf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Manila",
+        "Waldorf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "maestro",
+        "snowman"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "maestro",
+        "snowman"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wallet",
+        "lowland"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wallet",
+        "lowland"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "muddle",
+        "flamingo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "muddle",
+        "flamingo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "walnut",
+        "flower"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "walnut",
+        "flower"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "maritime",
+        "rummage"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "maritime",
+        "rummage"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wonderful",
+        "news"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wonderful",
+        "news"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Monica",
+        "William"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Monica",
+        "William"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "windmill",
+        "fowl"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "windmill",
+        "fowl"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "murmur",
+        "oatmeal"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "murmur",
+        "oatmeal"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wharf",
+        "jigsaw"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wharf",
+        "jigsaw"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "million",
+        "gimmick"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "million",
+        "gimmick"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Matthew",
+        "midweek"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Matthew",
+        "midweek"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "melted",
+        "Watermelon"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "melted",
+        "Watermelon"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "winmahteorWlMsdgcujfk",
+  "totalChars": 878,
+  "lessonId": "lesson9"
+}

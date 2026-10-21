@@ -1,0 +1,13 @@
+{
+  "id": "29.2",
+  "title": "Bài 29.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "diem = 7.5\nif diem >= 8:\n    print(\"Gioi\")\nelif diem >= 6.5:\n    print(\"Kha\")\nelif diem >= 5:\n    print(\"Trung binh\")\nelse:\n    print(\"Yeu\")",
+  "lang": "python",
+  "desc": "if - elif - else: xếp loại học lực",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson29"
+}

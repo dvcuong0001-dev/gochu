@@ -1,0 +1,13 @@
+{
+  "id": "42.2",
+  "title": "Bài 42.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "class DongVat {\n  constructor(ten) { this.ten = ten; }\n  keu() { return this.ten + \" keu\"; }\n}\nclass Cho extends DongVat {\n  keu() { return this.ten + \" sua gau gau\"; }\n}\nconsole.log(new Cho(\"Mun\").keu());",
+  "lang": "javascript",
+  "desc": "Class: kế thừa với extends",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson42"
+}

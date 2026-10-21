@@ -1,0 +1,13 @@
+{
+  "id": "62.5",
+  "title": "Bài 62.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nusing System.Collections.Generic;\nclass Program {\n    static void Main() {\n        int[] nums = {3, 8, 1, 6, 7, 4};\n        var chan = new List<int>();\n        var le = new List<int>();\n        foreach (int x in nums)\n            (x % 2 == 0 ? chan : le).Add(x);\n        Console.WriteLine(\"Chan: \" + string.Join(\" \", chan));\n        Console.WriteLine(\"Le: \" + string.Join(\" \", le));\n    }\n}",
+  "lang": "csharp",
+  "desc": "Tách số chẵn lẻ với List",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson62"
+}

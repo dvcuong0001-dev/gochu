@@ -1,0 +1,13 @@
+{
+  "id": "33.2",
+  "title": "Bài 33.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "import random\nrandom.seed(1)\nprint(random.randint(1, 100))\nmon = [\"Toan\", \"Ly\", \"Hoa\"]\nprint(random.choice(mon))\nprint(random.sample(range(100), 3))",
+  "lang": "python",
+  "desc": "Module random: randint, choice, sample",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson33"
+}

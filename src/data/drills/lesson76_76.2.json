@@ -1,0 +1,13 @@
+{
+  "id": "76.2",
+  "title": "Bài 76.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "function TheSinhVien({ ten, tuoi }) {\n  return (\n    <div>\n      <h3>{ten}</h3>\n      <p>Tuoi: {tuoi}</p>\n    </div>\n  );\n}\n\nexport default TheSinhVien;",
+  "lang": "react",
+  "desc": "Destructuring props",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson76"
+}

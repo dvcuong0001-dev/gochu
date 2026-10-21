@@ -1,0 +1,380 @@
+{
+  "id": "12.2",
+  "title": "Bài 12.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "jazz",
+        "jazz",
+        "jazz"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fox",
+        "fox",
+        "fox"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wax",
+        "wax",
+        "wax"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dozen",
+        "dozen",
+        "dozen"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mixup",
+        "mixup",
+        "mixup"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "buzzer",
+        "buzzer",
+        "buzzer"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "annex",
+        "annex",
+        "annex"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Zaire",
+        "Zaire",
+        "Zaire"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Xerxes",
+        "Xerxes",
+        "Xerxes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sixty",
+        "sixty",
+        "sixty"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jazzy",
+        "jazzy",
+        "jazzy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tuxedo",
+        "tuxedo",
+        "tuxedo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "zircon",
+        "zircon",
+        "zircon"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "pixel",
+        "pixel",
+        "pixel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "extreme",
+        "extreme",
+        "extreme"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "amazing",
+        "blizzard"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "amazing",
+        "blizzard"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Zanzibar",
+        "Xavier"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Zanzibar",
+        "Xavier"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "flexible",
+        "fixture"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "flexible",
+        "fixture"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "azure",
+        "bazaar"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "azure",
+        "bazaar"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "exact",
+        "lexicon"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "exact",
+        "lexicon"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "citizen",
+        "lizard"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "citizen",
+        "lizard"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Zurich",
+        "Xylophone"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Zurich",
+        "Xylophone"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "luxury",
+        "mixture"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "luxury",
+        "mixture"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sixteen",
+        "pizzas"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sixteen",
+        "pizzas"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "syntax",
+        "complex"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "syntax",
+        "complex"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ozone",
+        "puzzle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ozone",
+        "puzzle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "excuse",
+        "deluxe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "excuse",
+        "deluxe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mezzo",
+        "nozzle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mezzo",
+        "nozzle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "explain",
+        "hexagon"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "explain",
+        "hexagon"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Belize",
+        "Xavier"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Belize",
+        "Xavier"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "drizzle",
+        "affix"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "drizzle",
+        "affix"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "influenza",
+        "luxury"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "influenza",
+        "luxury"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "jazfoxerwdnmiupbZXstyclgvhB",
+  "totalChars": 798,
+  "lessonId": "lesson12"
+}

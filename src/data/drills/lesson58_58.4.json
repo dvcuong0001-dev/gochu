@@ -1,0 +1,13 @@
+{
+  "id": "58.4",
+  "title": "Bài 58.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        Hinh h = new Vuong(4);\n        System.out.println(h.dienTich());\n    }\n}\n\ninterface Hinh {\n    double dienTich();\n}\n\nclass Vuong implements Hinh {\n    double canh;\n    Vuong(double c) { canh = c; }\n    public double dienTich() { return canh * canh; }\n}",
+  "lang": "java",
+  "desc": "Interface và đa hình",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson58"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "70.5",
+  "title": "Bài 70.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val nums = listOf(3, 8, 1, 6, 7, 4)\n    val (chan, le) = nums.partition { it % 2 == 0 }\n    println(\"Chan: $chan\")\n    println(\"Le: $le\")\n}",
+  "lang": "kotlin",
+  "desc": "Tách chẵn lẻ với partition",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson70"
+}

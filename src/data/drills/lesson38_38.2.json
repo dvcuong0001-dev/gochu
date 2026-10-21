@@ -1,0 +1,13 @@
+{
+  "id": "38.2",
+  "title": "Bài 38.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "let nums = [1, 2, 3, 4, 5];\nconsole.log(nums.map(x => x * x));\nconsole.log(nums.filter(x => x % 2 === 0));\nconsole.log(nums.reduce((a, b) => a + b, 0));",
+  "lang": "javascript",
+  "desc": "Mảng: map, filter, reduce",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson38"
+}

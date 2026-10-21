@@ -1,0 +1,13 @@
+{
+  "id": "33.4",
+  "title": "Bài 33.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "import statistics\ndata = [4, 8, 6, 5, 3, 8, 8]\nprint(statistics.mean(data))\nprint(statistics.median(data))\nprint(statistics.mode(data))",
+  "lang": "python",
+  "desc": "Module statistics: mean, median, mode",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson33"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "66.4",
+  "title": "Bài 66.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\ninterface IHinh {\n    double DienTich();\n}\nclass Vuong : IHinh {\n    double canh;\n    public Vuong(double c) { canh = c; }\n    public double DienTich() => canh * canh;\n}\nclass Program {\n    static void Main() {\n        IHinh h = new Vuong(4);\n        Console.WriteLine(h.DienTich());\n    }\n}",
+  "lang": "csharp",
+  "desc": "Interface và đa hình",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson66"
+}

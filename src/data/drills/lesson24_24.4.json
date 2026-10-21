@@ -1,0 +1,263 @@
+{
+  "id": "24.4",
+  "title": "Bài 24.4",
+  "orderIndex": 4,
+  "lines": [
+    {
+      "groups": [
+        "Types",
+        "of",
+        "brackets",
+        "include",
+        "parentheses",
+        "()",
+        "(the",
+        "singular",
+        "is",
+        "parenthesis),",
+        "square",
+        "brackets",
+        "or",
+        "box",
+        "brackets",
+        "[],",
+        "braces",
+        "or",
+        "curly",
+        "brackets",
+        "{},",
+        "and",
+        "angle",
+        "brackets",
+        "or",
+        "chevrons",
+        "(which",
+        "we've",
+        "not",
+        "yet",
+        "learned)."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "path",
+        "is:",
+        "C:\\root\\documents\\secrets\\diary.txt.",
+        "That's",
+        "complicated!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "It's",
+        "challenging",
+        "to",
+        "type",
+        "sentences",
+        "with",
+        "*",
+        "and",
+        "#",
+        "and",
+        "^",
+        "(numbers",
+        "are",
+        "much",
+        "easier)."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Let's",
+        "type",
+        "emoticons!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ":-)",
+        "smile"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ":-(",
+        "frown"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";-)",
+        "wink"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "*\\o/*",
+        "cheerleader"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "An",
+        "emoticon",
+        "(sometimes",
+        "called",
+        "a",
+        "smiley",
+        "or",
+        "a",
+        "graemlin),",
+        "is",
+        "a",
+        "sequence",
+        "of",
+        "printable",
+        "characters",
+        "such",
+        "as",
+        ":),",
+        "^-^,",
+        "or",
+        ":-)",
+        "or",
+        "a",
+        "small",
+        "image",
+        "that",
+        "is",
+        "intended",
+        "to",
+        "represent",
+        "a",
+        "human",
+        "facial",
+        "expression",
+        "and",
+        "convey",
+        "an",
+        "emotion."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "^",
+        "symbol",
+        "means",
+        "exponent",
+        "(to",
+        "the",
+        "power",
+        "of).",
+        "So,",
+        "for",
+        "example,",
+        "5^2",
+        "means",
+        "5",
+        "*",
+        "5",
+        "(=",
+        "25)",
+        "and",
+        "3.2^2",
+        "means",
+        "3.2",
+        "*",
+        "3.2",
+        "(=",
+        "10.24)."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "+",
+        "means",
+        "addition,",
+        "-",
+        "means",
+        "subtraction,",
+        "/",
+        "means",
+        "division,",
+        "*",
+        "means",
+        "multiplication.",
+        "In",
+        "many",
+        "cases,",
+        "you",
+        "don't",
+        "need",
+        "to",
+        "type",
+        "the",
+        "*."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "In",
+        "mathematics",
+        "braces",
+        "are",
+        "used",
+        "to",
+        "delimit",
+        "sets.",
+        "For",
+        "example:",
+        "E",
+        "=",
+        "{1,",
+        "2,",
+        "3,",
+        "...,",
+        "1000}",
+        "or",
+        "D",
+        "=",
+        "{red,",
+        "white,",
+        "blue}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Problem",
+        "#3:",
+        "8^2",
+        "-",
+        "1",
+        "+",
+        "(56",
+        "-",
+        "3)",
+        "/",
+        "241"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "Typesofbracktinludh()g,qx[]{}vw'.:C\\m!I*#^L-;/AS52=3104+FEDP86",
+  "totalChars": 1031,
+  "lessonId": "lesson24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "36.1",
+  "title": "Bài 36.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "console.log(typeof 42);\nconsole.log(typeof \"text\");\nconsole.log(typeof true);\nconsole.log(typeof undefined);",
+  "lang": "javascript",
+  "desc": "Kiểu dữ liệu và typeof",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson36"
+}

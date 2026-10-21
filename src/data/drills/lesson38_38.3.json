@@ -1,0 +1,13 @@
+{
+  "id": "38.3",
+  "title": "Bài 38.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "let arr = [5, 2, 8, 1, 9];\nconsole.log(arr.slice(1, 3));\narr.sort((a, b) => a - b);\nconsole.log(arr);\nconsole.log(arr.includes(8));",
+  "lang": "javascript",
+  "desc": "Mảng: slice, sort, includes",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson38"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "56.4",
+  "title": "Bài 56.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    static long giaiThua(int n) {\n        if (n <= 1) return 1;\n        return n * giaiThua(n - 1);\n    }\n\n    public static void main(String[] args) {\n        System.out.println(giaiThua(5));\n        System.out.println(giaiThua(6));\n    }\n}",
+  "lang": "java",
+  "desc": "Đệ quy: tính giai thừa",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson56"
+}

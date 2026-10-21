@@ -1,0 +1,13 @@
+{
+  "id": "41.2",
+  "title": "Bài 41.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "let r = Math.floor(Math.random() * 100) + 1;\nconsole.log(r >= 1 && r <= 100);\nconsole.log(Math.abs(-5), Math.pow(2, 8));",
+  "lang": "javascript",
+  "desc": "Math.random, abs, pow",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson41"
+}

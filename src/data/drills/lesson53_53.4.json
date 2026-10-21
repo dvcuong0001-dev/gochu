@@ -1,0 +1,13 @@
+{
+  "id": "53.4",
+  "title": "Bài 53.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int tong = 0;\n        for (int i = 1; i <= 10; i++)\n            tong += i;\n        System.out.println(\"Tong = \" + tong);\n    }\n}",
+  "lang": "java",
+  "desc": "Vòng lặp for: tổng 1..n",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson53"
+}

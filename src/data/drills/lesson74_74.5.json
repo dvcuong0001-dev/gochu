@@ -1,0 +1,13 @@
+{
+  "id": "74.5",
+  "title": "Bài 74.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "class HinhTron(val r: Double) {\n    val dienTich: Double\n        get() = Math.PI * r * r\n}\n\nfun main() {\n    val h = HinhTron(2.0)\n    println(\"%.2f\".format(h.dienTich))\n}",
+  "lang": "kotlin",
+  "desc": "Property với custom getter",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson74"
+}

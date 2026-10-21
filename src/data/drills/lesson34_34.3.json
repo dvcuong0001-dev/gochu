@@ -1,0 +1,13 @@
+{
+  "id": "34.3",
+  "title": "Bài 34.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "with open(\"log.txt\", \"w\", encoding=\"utf-8\") as f:\n    f.write(\"Khoi tao\\n\")\nwith open(\"log.txt\", \"a\", encoding=\"utf-8\") as f:\n    f.write(\"Them dong\\n\")\nwith open(\"log.txt\", \"r\", encoding=\"utf-8\") as f:\n    print(f.read())",
+  "lang": "python",
+  "desc": "Ghi nối vào cuối file với chế độ a",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson34"
+}

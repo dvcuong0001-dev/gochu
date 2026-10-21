@@ -1,0 +1,13 @@
+{
+  "id": "70.2",
+  "title": "Bài 70.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val ds = mutableListOf(\"tao\", \"cam\", \"le\")\n    ds.add(\"nho\")\n    ds.remove(\"cam\")\n    println(ds)\n    println(\"Size: ${ds.size}\")\n}",
+  "lang": "kotlin",
+  "desc": "MutableList: thêm, xóa",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson70"
+}

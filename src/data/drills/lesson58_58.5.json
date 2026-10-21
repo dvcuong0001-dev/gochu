@@ -1,0 +1,13 @@
+{
+  "id": "58.5",
+  "title": "Bài 58.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        TaiKhoan tk = new TaiKhoan();\n        tk.napTien(500);\n        tk.napTien(300);\n        System.out.println(tk.getSoDu());\n    }\n}\n\nclass TaiKhoan {\n    private double soDu = 0;\n    void napTien(double t) {\n        if (t > 0) soDu += t;\n    }\n    double getSoDu() { return soDu; }\n}",
+  "lang": "java",
+  "desc": "Đóng gói với private và getter",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson58"
+}

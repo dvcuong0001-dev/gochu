@@ -1,0 +1,13 @@
+{
+  "id": "72.4",
+  "title": "Bài 72.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val nhan = { a: Int, b: Int -> a * b }\n    println(nhan(3, 4))\n    val nums = listOf(1, 2, 3, 4)\n    println(nums.map { it * it })\n}",
+  "lang": "kotlin",
+  "desc": "Lambda và hàm bậc cao",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson72"
+}

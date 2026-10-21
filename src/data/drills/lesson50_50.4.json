@@ -1,0 +1,13 @@
+{
+  "id": "50.4",
+  "title": "Bài 50.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\nusing namespace std;\n\nclass Hinh {\npublic:\n    virtual double dienTich() { return 0; }\n};\n\nclass Vuong : public Hinh {\n    double canh;\npublic:\n    Vuong(double c) : canh(c) {}\n    double dienTich() override { return canh * canh; }\n};\n\nint main() {\n    Hinh* h = new Vuong(4);\n    cout << h->dienTich() << endl;\n    delete h;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Hàm ảo (virtual) và đa hình",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson50"
+}

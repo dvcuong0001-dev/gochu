@@ -1,0 +1,13 @@
+{
+  "id": "36.3",
+  "title": "Bài 36.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "console.log(5 == \"5\");\nconsole.log(5 === \"5\");\nconsole.log(0 == false);\nconsole.log(0 === false);",
+  "lang": "javascript",
+  "desc": "So sánh == và === (strict)",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson36"
+}

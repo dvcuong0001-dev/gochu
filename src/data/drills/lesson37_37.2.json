@@ -1,0 +1,13 @@
+{
+  "id": "37.2",
+  "title": "Bài 37.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "let diem = 7.5;\nif (diem >= 8) console.log(\"Gioi\");\nelse if (diem >= 6.5) console.log(\"Kha\");\nelse if (diem >= 5) console.log(\"Trung binh\");\nelse console.log(\"Yeu\");",
+  "lang": "javascript",
+  "desc": "if - else if - else: xếp loại",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson37"
+}

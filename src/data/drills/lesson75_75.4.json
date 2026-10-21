@@ -1,0 +1,13 @@
+{
+  "id": "75.4",
+  "title": "Bài 75.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "function The() {\n  const style = { color: \"blue\", padding: 8 };\n  return (\n    <div className=\"card\" style={style}>\n      <p>Noi dung the</p>\n    </div>\n  );\n}\n\nexport default The;",
+  "lang": "react",
+  "desc": "className và style inline",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson75"
+}

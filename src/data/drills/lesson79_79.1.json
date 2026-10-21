@@ -1,0 +1,13 @@
+{
+  "id": "79.1",
+  "title": "Bài 79.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "function DanhSach() {\n  const mon = [\"Toan\", \"Ly\", \"Hoa\"];\n  return (\n    <ul>\n      {mon.map((m, i) => (\n        <li key={i}>{m}</li>\n      ))}\n    </ul>\n  );\n}\n\nexport default DanhSach;",
+  "lang": "react",
+  "desc": "Render danh sách với map và key",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson79"
+}

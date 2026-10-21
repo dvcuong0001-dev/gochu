@@ -1,0 +1,13 @@
+{
+  "id": "76.1",
+  "title": "Bài 76.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "function LoiChao(props) {\n  return <h2>Xin chao, {props.ten}!</h2>;\n}\n\nfunction App() {\n  return <LoiChao ten=\"An\" />;\n}\n\nexport default App;",
+  "lang": "react",
+  "desc": "Truyền và nhận props",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson76"
+}

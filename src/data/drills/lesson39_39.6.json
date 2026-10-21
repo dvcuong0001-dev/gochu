@@ -1,0 +1,13 @@
+{
+  "id": "39.6",
+  "title": "Bài 39.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "let text = \"tuhoc\";\nlet freq = {};\nfor (const ch of text) {\n  freq[ch] = (freq[ch] || 0) + 1;\n}\nconsole.log(freq);",
+  "lang": "javascript",
+  "desc": "Đếm tần suất ký tự bằng object",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson39"
+}

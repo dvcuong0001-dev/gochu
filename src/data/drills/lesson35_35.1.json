@@ -1,0 +1,13 @@
+{
+  "id": "35.1",
+  "title": "Bài 35.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "console.log(\"Hello, World!\");\nlet ten = \"Tuhoc\";\nconst namSinh = 2020;\nconsole.log(\"Ten:\", ten);\nconsole.log(\"Nam:\", namSinh);",
+  "lang": "javascript",
+  "desc": "In ra console và biến let, const",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson35"
+}

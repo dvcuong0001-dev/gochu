@@ -1,0 +1,13 @@
+{
+  "id": "39.2",
+  "title": "Bài 39.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "let s = \"  a, b, c  \";\nlet parts = s.trim().split(\", \");\nconsole.log(parts);\nconsole.log(parts.join(\" - \"));\nconsole.log(\"hello\".replace(\"l\", \"L\"));",
+  "lang": "javascript",
+  "desc": "Chuỗi: trim, split, join, replace",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson39"
+}

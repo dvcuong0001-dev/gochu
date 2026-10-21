@@ -1,0 +1,239 @@
+{
+  "id": "15.2",
+  "title": "Bài 15.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "s2",
+        "s2",
+        "s2",
+        "s2"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sz2s",
+        "sz2s",
+        "sz2s",
+        "sz2s"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "l9",
+        "l9",
+        "l9",
+        "l9"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lo9l",
+        "lo9l",
+        "lo9l",
+        "lo9l"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s2",
+        "l9",
+        "s2",
+        "l9"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s22s",
+        "s22s",
+        "s22s",
+        "s22s"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "l99l",
+        "l99l",
+        "l99l",
+        "l99l"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s2l9",
+        "s2l9",
+        "s2l9",
+        "s2l9"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "9l2s",
+        "9l2s",
+        "9l2s",
+        "9l2s"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "d3s2",
+        "d3s2",
+        "d3s2",
+        "d3s2"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "k8l9",
+        "k8l9",
+        "k8l9",
+        "k8l9"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "l2s9",
+        "l2s9",
+        "l2s9",
+        "l2s9"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j592",
+        "j592",
+        "j592",
+        "j592"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f729",
+        "f729",
+        "f729",
+        "f729"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "25f9",
+        "25f9",
+        "25f9",
+        "25f9"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a7a9",
+        "a7a9",
+        "a7a9",
+        "a7a9"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j5j2",
+        "j5j2",
+        "j5j2",
+        "j5j2"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s26f",
+        "s26f",
+        "s26f",
+        "s26f"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "l79j",
+        "l97j",
+        "l97j",
+        "l97j"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s2s5",
+        "s2s5",
+        "s2s5",
+        "s2s5"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "l9l7",
+        "l9l7",
+        "l9l7",
+        "l9l7"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "l249",
+        "l249",
+        "l249",
+        "l249"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a2s3",
+        "a2s3",
+        "a2s3",
+        "a2s3"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";9l8",
+        ";9l8",
+        ";9l8",
+        ";9l8"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "k249",
+        "k249",
+        "k249",
+        "k249"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "s2zl9od3k8j5f7a64;",
+  "totalChars": 476,
+  "lessonId": "lesson15"
+}

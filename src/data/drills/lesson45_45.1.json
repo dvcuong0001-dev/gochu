@@ -1,0 +1,13 @@
+{
+  "id": "45.1",
+  "title": "Bài 45.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n = 14;\n    if (n % 2 == 0)\n        cout << n << \" la so chan\" << endl;\n    else\n        cout << n << \" la so le\" << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Câu lệnh if - else",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson45"
+}

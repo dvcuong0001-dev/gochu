@@ -1,0 +1,13 @@
+{
+  "id": "59.5",
+  "title": "Bài 59.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\n\nclass Program {\n    static void Main() {\n        string ten = \"Tuhoc\";\n        string loi = $\"Xin chao, {ten}!\";\n        Console.WriteLine(loi);\n        Console.WriteLine($\"Do dai: {loi.Length}\");\n    }\n}",
+  "lang": "csharp",
+  "desc": "Chuỗi và nội suy chuỗi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson59"
+}

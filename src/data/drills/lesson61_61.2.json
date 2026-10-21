@@ -1,0 +1,13 @@
+{
+  "id": "61.2",
+  "title": "Bài 61.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        double diem = 7.5;\n        if (diem >= 8) Console.WriteLine(\"Gioi\");\n        else if (diem >= 6.5) Console.WriteLine(\"Kha\");\n        else if (diem >= 5) Console.WriteLine(\"Trung binh\");\n        else Console.WriteLine(\"Yeu\");\n    }\n}",
+  "lang": "csharp",
+  "desc": "if - else if - else: xếp loại",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson61"
+}

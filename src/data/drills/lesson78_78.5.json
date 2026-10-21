@@ -1,0 +1,13 @@
+{
+  "id": "78.5",
+  "title": "Bài 78.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "function Form() {\n  const guiForm = (e) => {\n    e.preventDefault();\n    console.log(\"Da gui form\");\n  };\n  return (\n    <form onSubmit={guiForm}>\n      <button type=\"submit\">Gui</button>\n    </form>\n  );\n}\n\nexport default Form;",
+  "lang": "react",
+  "desc": "Ngăn hành vi mặc định preventDefault",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson78"
+}

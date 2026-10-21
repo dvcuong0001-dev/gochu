@@ -1,0 +1,13 @@
+{
+  "id": "80.4",
+  "title": "Bài 80.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction DongY() {\n  const [check, setCheck] = useState(false);\n  return (\n    <label>\n      <input\n        type=\"checkbox\"\n        checked={check}\n        onChange={(e) => setCheck(e.target.checked)}\n      />\n      {check ? \"Da dong y\" : \"Chua dong y\"}\n    </label>\n  );\n}\n\nexport default DongY;",
+  "lang": "react",
+  "desc": "Checkbox controlled",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson80"
+}

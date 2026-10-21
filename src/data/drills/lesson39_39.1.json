@@ -1,0 +1,13 @@
+{
+  "id": "39.1",
+  "title": "Bài 39.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "let s = \"Javascript\";\nconsole.log(s.length);\nconsole.log(s[0], s[s.length - 1]);\nconsole.log(s.slice(0, 4));\nconsole.log(s.toUpperCase());",
+  "lang": "javascript",
+  "desc": "Chuỗi: length, truy cập, slice, hoa thường",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson39"
+}

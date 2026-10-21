@@ -1,0 +1,13 @@
+{
+  "id": "55.2",
+  "title": "Bài 55.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        String s = \"tuhoc typing\";\n        System.out.println(s.indexOf(\"typing\"));\n        System.out.println(s.replace(\"typing\", \"code\"));\n        System.out.println(s.contains(\"hoc\"));\n    }\n}",
+  "lang": "java",
+  "desc": "String: indexOf, replace, contains",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson55"
+}

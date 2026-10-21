@@ -1,0 +1,13 @@
+{
+  "id": "76.5",
+  "title": "Bài 76.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "function TongHai({ a, b }) {\n  return <p>{a} + {b} = {a + b}</p>;\n}\n\nfunction App() {\n  return <TongHai a={3} b={5} />;\n}\n\nexport default App;",
+  "lang": "react",
+  "desc": "Truyền props là số và biểu thức",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson76"
+}

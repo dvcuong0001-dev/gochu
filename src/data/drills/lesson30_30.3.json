@@ -1,0 +1,13 @@
+{
+  "id": "30.3",
+  "title": "Bài 30.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "diem = (10, 20)\nx, y = diem\nprint(\"x =\", x, \"y =\", y)\nmau = (\"do\", \"xanh\", \"vang\")\nprint(mau[1], len(mau))",
+  "lang": "python",
+  "desc": "Tuple: bộ giá trị bất biến và unpacking",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson30"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "69.6",
+  "title": "Bài 69.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    for (i in 10 downTo 1 step 2)\n        print(\"$i \")\n    println()\n}",
+  "lang": "kotlin",
+  "desc": "for với step và downTo",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson69"
+}

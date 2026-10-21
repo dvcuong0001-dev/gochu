@@ -1,0 +1,227 @@
+{
+  "id": "6.4",
+  "title": "Bài 6.4",
+  "orderIndex": 4,
+  "lines": [
+    {
+      "groups": [
+        "Carla",
+        "cuddles",
+        "carloads",
+        "of",
+        "cute",
+        "cats",
+        "at",
+        "roadside",
+        "circuses."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ducks",
+        "crossed",
+        "a",
+        "seaside",
+        "street",
+        "after",
+        "a",
+        "streetcar",
+        "derailed."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Caretakers",
+        "take",
+        "derelict",
+        "koalas",
+        "to",
+        "a",
+        "discarded",
+        "castle."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Caterers",
+        "cook",
+        "lots",
+        "of",
+        "delicious",
+        "soft",
+        "carrot",
+        "cakes."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Seafood",
+        "couscous",
+        "attracts",
+        "delicate",
+        "docile",
+        "cockatoos."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Fierce",
+        "locusts",
+        "tortured",
+        "Clarke",
+        "after",
+        "firecrackers",
+        "let",
+        "off",
+        "dust."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cecilia",
+        "scaled",
+        "a",
+        "cliff",
+        "after",
+        "a",
+        "tree",
+        "fell",
+        "due",
+        "to",
+        "a",
+        "flock",
+        "of",
+        "ducks."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Local",
+        "lecturer",
+        "lost",
+        "to",
+        "loud",
+        "riotous",
+        "soccer",
+        "addicts."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Lucille",
+        "is",
+        "a",
+        "couturier,",
+        "a",
+        "tailor.",
+        "Lucille",
+        "likes",
+        "red",
+        "creased",
+        "skirts."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Carol",
+        "is",
+        "a",
+        "curator.",
+        "Carol",
+        "likes",
+        "artistic",
+        "cases,",
+        "frescoes,",
+        "etc."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Truckers",
+        "crisscross",
+        "across",
+        "decorated",
+        "floodlit",
+        "roads."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "A",
+        "fleece",
+        "jacket",
+        "is",
+        "soft,",
+        "as",
+        "is",
+        "a",
+        "fleece",
+        "scarf",
+        "or",
+        "trousers."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Sarcastic",
+        "Oscar",
+        "fills",
+        "suitcase",
+        "after",
+        "a",
+        "secret",
+        "card",
+        "is",
+        "lost."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Radical",
+        "Radcliffe",
+        "lost",
+        "red",
+        "socks",
+        "at",
+        "a",
+        "soccer",
+        "field."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Freckled",
+        "Frederick",
+        "feels",
+        "Cairo",
+        "cacti",
+        "are",
+        "difficult",
+        "to",
+        "rescue."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "Carlcudesofti.DkSFL,TAjOR",
+  "totalChars": 875,
+  "lessonId": "lesson6"
+}

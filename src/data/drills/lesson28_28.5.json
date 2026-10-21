@@ -1,0 +1,13 @@
+{
+  "id": "28.5",
+  "title": "Bài 28.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "diem = 10\ndiem += 5\ndiem -= 2\ndiem *= 2\nprint(diem)\nn = 100\nn //= 7\nprint(n)",
+  "lang": "python",
+  "desc": "Phép gán phức hợp += -= *= //=",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson28"
+}

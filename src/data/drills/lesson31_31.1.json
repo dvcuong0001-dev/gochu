@@ -1,0 +1,13 @@
+{
+  "id": "31.1",
+  "title": "Bài 31.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "s = \"Python\"\nprint(s[0], s[-1])\nprint(s[0:3])\nprint(s[::-1])",
+  "lang": "python",
+  "desc": "Chuỗi: cắt lát và đảo ngược chuỗi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson31"
+}

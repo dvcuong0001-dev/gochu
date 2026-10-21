@@ -1,0 +1,203 @@
+{
+  "id": "3.2",
+  "title": "Bài 3.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "fr",
+        "fr",
+        "ju",
+        "ju"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rf",
+        "rf",
+        "uj",
+        "uj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ffrr",
+        "ffrr",
+        "jjuu",
+        "jjuu"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "frfr",
+        "frfr",
+        "juju",
+        "juju"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rffr",
+        "rffr",
+        "ujju",
+        "ujju"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rrfr",
+        "rrfr",
+        "uuju",
+        "uuju"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rfrf",
+        "rfrf",
+        "ujuj",
+        "ujuj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "frds",
+        "frds",
+        "jukl",
+        "jukl"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "frju",
+        "frju",
+        "jufr",
+        "jufr"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fufu",
+        "fufu",
+        "jrjr",
+        "jrjr"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "lusu",
+        "lusu",
+        "qrkr",
+        "qrkr"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ruur",
+        "ruur",
+        "fujr",
+        "fujr"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fres",
+        "fres",
+        "juki",
+        "juki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "drku",
+        "drku",
+        "surf",
+        "surf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fire",
+        "fire",
+        "driu",
+        "driu"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "suqr",
+        "suqr",
+        "liru",
+        "liru"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deqr",
+        "deqr",
+        "rule",
+        "rule"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "frel",
+        "frel",
+        "suds",
+        "suds"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "siru",
+        "siru",
+        "fuje",
+        "fuje"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "druj",
+        "druj",
+        "lure",
+        "lure"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deru",
+        "deru",
+        "frik",
+        "frik"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "frjudsklqei",
+  "totalChars": 404,
+  "lessonId": "lesson3"
+}

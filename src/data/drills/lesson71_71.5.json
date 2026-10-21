@@ -1,0 +1,13 @@
+{
+  "id": "71.5",
+  "title": "Bài 71.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val s = \"  hello  \"\n    println(s.trim())\n    println(\"hello.kt\".endsWith(\".kt\"))\n    println(\"7\".padStart(3, '0'))\n}",
+  "lang": "kotlin",
+  "desc": "trim, endsWith, padStart",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson71"
+}

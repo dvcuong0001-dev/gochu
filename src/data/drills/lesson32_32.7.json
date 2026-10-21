@@ -1,0 +1,13 @@
+{
+  "id": "32.7",
+  "title": "Bài 32.7",
+  "orderIndex": 7,
+  "lines": [],
+  "type": 3,
+  "rawText": "def tong(n):\n    if n == 0:\n        return 0\n    return n + tong(n - 1)\n\nprint(tong(10))\nprint(tong(100))",
+  "lang": "python",
+  "desc": "Đệ quy: tổng 1 + 2 + ... + n",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson32"
+}

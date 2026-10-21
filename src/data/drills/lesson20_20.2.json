@@ -1,0 +1,230 @@
+{
+  "id": "20.2",
+  "title": "Bài 20.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "2",
+        "+",
+        "2",
+        "=",
+        "4"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2",
+        "+",
+        "2",
+        "=",
+        "4"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "so-and-so"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "so-and-so"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "10",
+        "+",
+        "10",
+        "=",
+        "20"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "10",
+        "+",
+        "10",
+        "=",
+        "20"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "3",
+        "+",
+        "3",
+        "=",
+        "6"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "3",
+        "+",
+        "3",
+        "=",
+        "6"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "co-owner"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "co-owner"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "4",
+        "+",
+        "3",
+        "+",
+        "2",
+        "+",
+        "1",
+        "=",
+        "10"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "4",
+        "+",
+        "3",
+        "+",
+        "2",
+        "+",
+        "1",
+        "=",
+        "10"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "old-timer"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "old-timer"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "5",
+        "-",
+        "6",
+        "=",
+        "-1"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "5",
+        "-",
+        "6",
+        "=",
+        "-1"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cross-reference"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cross-reference"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "by-product"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "by-product"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "5x",
+        "-",
+        "6y",
+        "=",
+        "x",
+        "+",
+        "7"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "5x",
+        "-",
+        "6y",
+        "=",
+        "x",
+        "+",
+        "7"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "non-European"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "non-European"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Aix-en-Provence"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Aix-en-Provence"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "2+=4so-and1036cwerltim5fbypux7EAPv",
+  "totalChars": 328,
+  "lessonId": "lesson20"
+}

@@ -1,0 +1,184 @@
+{
+  "id": "24.2",
+  "title": "Bài 24.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "***#***"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "***#***"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(#)",
+        "+",
+        "(#)",
+        "=",
+        "(##)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(#)",
+        "+",
+        "(#)",
+        "=",
+        "(##)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "6.02",
+        "*",
+        "10^23"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "6.02",
+        "*",
+        "10^23"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "0800#0801*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "0800#0801*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "C:\\letters\\*.*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "C:\\letters\\*.*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "*.*wild"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "*.*wild"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2.4",
+        "*",
+        "10^14"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2.4",
+        "*",
+        "10^14"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "footnote*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "footnote*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "^footnote3"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "^footnote3"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2.99",
+        "*",
+        "10^8",
+        "m/s"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2.99",
+        "*",
+        "10^8",
+        "m/s"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "**here**"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "**here**"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "5.292",
+        "*",
+        "10^-11"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "5.292",
+        "*",
+        "10^-11"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "*#()+=6.021^38C:\\letrswid4fon9m/h5-",
+  "totalChars": 290,
+  "lessonId": "lesson24"
+}

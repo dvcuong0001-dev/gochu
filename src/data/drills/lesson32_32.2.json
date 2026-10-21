@@ -1,0 +1,13 @@
+{
+  "id": "32.2",
+  "title": "Bài 32.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "def chao(ten, loi=\"Xin chao\"):\n    return loi + \", \" + ten\n\nprint(chao(\"An\"))\nprint(chao(\"Binh\", \"Hello\"))",
+  "lang": "python",
+  "desc": "Tham số mặc định trong hàm",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson32"
+}

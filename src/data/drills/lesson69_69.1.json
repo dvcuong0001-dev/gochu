@@ -1,0 +1,13 @@
+{
+  "id": "69.1",
+  "title": "Bài 69.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val n = 14\n    if (n % 2 == 0)\n        println(\"$n la so chan\")\n    else\n        println(\"$n la so le\")\n}",
+  "lang": "kotlin",
+  "desc": "if - else biểu thức",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson69"
+}

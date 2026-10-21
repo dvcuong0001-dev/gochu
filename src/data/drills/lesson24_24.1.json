@@ -1,0 +1,194 @@
+{
+  "id": "24.1",
+  "title": "Bài 24.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "d#",
+        "d#",
+        "d#",
+        "d#"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "de3#",
+        "de3#",
+        "de3#",
+        "de3#"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j^",
+        "j^",
+        "j^",
+        "j^"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jy6^",
+        "jy6^",
+        "jy6^",
+        "jy6^"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "k*",
+        "k*",
+        "k*",
+        "k*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ki8*",
+        "ki8*",
+        "ki8*",
+        "ki8*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "d#",
+        "e#",
+        "d#",
+        "e#"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j^",
+        "y^",
+        "j^",
+        "y^"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "k*",
+        "i*",
+        "k*",
+        "i*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s#f*",
+        "s#f*",
+        "s#f*",
+        "s#f*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j*f^",
+        "j*f^",
+        "j*f^",
+        "j*f^"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f^j&",
+        "f^j&",
+        "f^j&",
+        "f^j&"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a7^*",
+        "a7^*",
+        "a7^*",
+        "a7^*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "p#u*",
+        "p#u*",
+        "p#u*",
+        "p#u*"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "n^v^",
+        "n^v^",
+        "n^v^",
+        "n^v^"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "*57%",
+        "*57%",
+        "*57%",
+        "*57%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2^3=",
+        "2^3=",
+        "2^3=",
+        "2^3="
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$87#",
+        "$87#",
+        "$87#",
+        "$87#"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "*a#l",
+        "*a#l",
+        "*a#l",
+        "*a#l"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";%^&",
+        ";%^&",
+        ";%^&",
+        ";%^&"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "d#e3j^y6k*i8sf&a7punv5%2=$l;",
+  "totalChars": 352,
+  "lessonId": "lesson24"
+}

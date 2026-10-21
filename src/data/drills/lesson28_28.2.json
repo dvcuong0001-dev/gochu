@@ -1,0 +1,13 @@
+{
+  "id": "28.2",
+  "title": "Bài 28.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "x = 7\nprint(x > 5)\nprint(x == 7)\nprint(x != 10)\nprint(True and False, True or False, not True)",
+  "lang": "python",
+  "desc": "Kiểu Boolean và phép so sánh",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson28"
+}

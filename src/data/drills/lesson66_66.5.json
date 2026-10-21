@@ -1,0 +1,13 @@
+{
+  "id": "66.5",
+  "title": "Bài 66.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass TaiKhoan {\n    public double SoDu { get; private set; }\n    public void NapTien(double t) {\n        if (t > 0) SoDu += t;\n    }\n}\nclass Program {\n    static void Main() {\n        var tk = new TaiKhoan();\n        tk.NapTien(500);\n        tk.NapTien(300);\n        Console.WriteLine(tk.SoDu);\n    }\n}",
+  "lang": "csharp",
+  "desc": "Property với get và set",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson66"
+}

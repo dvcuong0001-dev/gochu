@@ -1,0 +1,217 @@
+{
+  "id": "18.1",
+  "title": "Bài 18.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        ";;//",
+        ";;//"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "::??",
+        "::??"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";/",
+        ";/",
+        ";/",
+        ";/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ":?",
+        ":?",
+        ":?",
+        ":?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a/a/",
+        "a/a/",
+        "a/a/",
+        "a/a/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "P?P?",
+        "P?P?",
+        "P?P?",
+        "P?P?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "F?f/",
+        "F?f/",
+        "F?f/",
+        "F?f/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j/J?",
+        "j/J?",
+        "j/J?",
+        "j/J?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "q/z/",
+        "q/z/",
+        "q/z/",
+        "q/z/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "P?:?",
+        "P?:?",
+        "P?:?",
+        "P?:?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "/nv/",
+        "/nv/",
+        "/nv/",
+        "/nv/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Who?",
+        "Who?",
+        "Who?",
+        "Who?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tp:/",
+        "tp:/",
+        "tp:/",
+        "tp:/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kl;/",
+        "kl;/",
+        "kl;/",
+        "kl;/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "How?",
+        "How?",
+        "How?",
+        "How?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "6/12",
+        "6/12",
+        "6/12",
+        "6/12"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ",.:?",
+        ",.:?",
+        ",.:?",
+        ",.:?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wav/",
+        "wav/",
+        "wav/",
+        "wav/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Poz?",
+        "Poz?",
+        "Poz?",
+        "Poz?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "c:/d",
+        "c:/d",
+        "c:/d",
+        "c:/d"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "r.u?",
+        "r.u?",
+        "r.u?",
+        "r.u?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "g/h/",
+        "g/h/",
+        "g/h/",
+        "g/h/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "v?t?",
+        "v?t?",
+        "v?t?",
+        "v?t?"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": ";/:?aPFfjJqznvWhotpklHw612,.cdrug",
+  "totalChars": 424,
+  "lessonId": "lesson18"
+}

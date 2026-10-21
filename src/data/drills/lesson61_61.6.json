@@ -1,0 +1,13 @@
+{
+  "id": "61.6",
+  "title": "Bài 61.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        int n = 29;\n        bool nt = n > 1;\n        for (int i = 2; i * i <= n; i++)\n            if (n % i == 0) { nt = false; break; }\n        Console.WriteLine($\"{n} nguyen to? {nt}\");\n    }\n}",
+  "lang": "csharp",
+  "desc": "Kiểm tra số nguyên tố",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson61"
+}

@@ -1,0 +1,239 @@
+{
+  "id": "5.1",
+  "title": "Bài 5.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "fF",
+        "fF",
+        "jJ",
+        "jJ"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fF",
+        "fF",
+        "jJ",
+        "jJ"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Aa",
+        "Ss",
+        "Dd",
+        "Ff"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Jj",
+        "Kk",
+        "Ll",
+        ":;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jAjA",
+        "jSjS",
+        "jDjD",
+        "jFjF"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fJfJ",
+        "fKfK",
+        "fLfL",
+        "f:f:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dEdE",
+        "kIkI",
+        "dEdE",
+        "kIkI"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fRfR",
+        "jUjU",
+        "fRfR",
+        "jUjU"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fGfG",
+        "jHjH",
+        "fGfG",
+        "jHjH"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dCdC",
+        "kIkI",
+        "dCdC",
+        "kIkI"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "FJFJ",
+        "KDKD",
+        "FJFJ",
+        "KDKD"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "Aida",
+        "Aida",
+        "Aida",
+        "Aida"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Jude",
+        "Jude",
+        "Jude",
+        "Jude"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cris",
+        "Cris",
+        "Cris",
+        "Cris"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Uses",
+        "Uses",
+        "Uses",
+        "Uses"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Side",
+        "Side",
+        "Side",
+        "Side"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Kite",
+        "Kite",
+        "Kite",
+        "Kite"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Greg",
+        "Greg",
+        "Greg",
+        "Greg"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Edie",
+        "Edie",
+        "Edie",
+        "Edie"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Drue",
+        "Drue",
+        "Drue",
+        "Drue"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Left",
+        "Left",
+        "Left",
+        "Left"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Hide",
+        "Hide",
+        "Hide",
+        "Hide"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Reds",
+        "Reds",
+        "Reds",
+        "Reds"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Flos",
+        "Flos",
+        "Flos",
+        "Flos"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eir:",
+        "eir:",
+        "eir:",
+        "eir:"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "fFjJAaSsDdKkLl:;EIRUGHCiuertgo",
+  "totalChars": 468,
+  "lessonId": "lesson5"
+}

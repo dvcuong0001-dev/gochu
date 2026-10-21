@@ -1,0 +1,13 @@
+{
+  "id": "40.3",
+  "title": "Bài 40.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "function chao(ten, loi = \"Xin chao\") {\n  return `${loi}, ${ten}`;\n}\nfunction tong(...nums) {\n  return nums.reduce((a, b) => a + b, 0);\n}\nconsole.log(chao(\"An\"));\nconsole.log(tong(1, 2, 3, 4));",
+  "lang": "javascript",
+  "desc": "Tham số mặc định và rest parameter",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson40"
+}

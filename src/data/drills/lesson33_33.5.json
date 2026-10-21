@@ -1,0 +1,13 @@
+{
+  "id": "33.5",
+  "title": "Bài 33.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "from datetime import datetime, timedelta\nnow = datetime(2026, 5, 31, 10, 30)\nprint(now.year, now.month, now.day)\nmai = now + timedelta(days=1)\nprint(mai.strftime(\"%d/%m/%Y\"))",
+  "lang": "python",
+  "desc": "Module datetime: ngày giờ và timedelta",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson33"
+}

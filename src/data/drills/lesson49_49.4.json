@@ -1,0 +1,13 @@
+{
+  "id": "49.4",
+  "title": "Bài 49.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <string>\n#include <utility>\nusing namespace std;\n\nint main() {\n    pair<string, int> sv = {\"An\", 20};\n    cout << sv.first << \" \" << sv.second << endl;\n    auto p = make_pair(3, 4);\n    cout << p.first + p.second << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "pair: cặp giá trị",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson49"
+}

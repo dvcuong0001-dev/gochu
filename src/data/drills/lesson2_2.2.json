@@ -1,0 +1,212 @@
+{
+  "id": "2.2",
+  "title": "Bài 2.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "de",
+        "de",
+        "ki",
+        "ki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ed",
+        "ed",
+        "ik",
+        "ik"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ddee",
+        "ddee",
+        "kkii",
+        "kkii"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "edde",
+        "edde",
+        "ikki",
+        "ikki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eedd",
+        "eedd",
+        "iikk",
+        "iikk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eede",
+        "eede",
+        "iiki",
+        "iiki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fdes",
+        "fdes",
+        "jkil",
+        "jkil"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "deki",
+        "deki",
+        "kide",
+        "kide"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "didi",
+        "didi",
+        "keke",
+        "keke"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dese",
+        "dese",
+        "jiki",
+        "jiki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lisi",
+        "lisi",
+        "seke",
+        "seke"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fisi",
+        "fisi",
+        "jele",
+        "jele"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deli",
+        "deli",
+        "jile",
+        "jile"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jkef",
+        "jkef",
+        "diej",
+        "diej"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ajei",
+        "ajei",
+        "elif",
+        "elif"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "feli",
+        "feli",
+        "aife",
+        "aife"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "leif",
+        "leif",
+        "said",
+        "said"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dela",
+        "dela",
+        "lids",
+        "lids"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ifai",
+        "ifai",
+        "ekle",
+        "ekle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kela",
+        "kela",
+        "sije",
+        "sije"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "diik",
+        "diik",
+        "jees",
+        "jees"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fila",
+        "fila",
+        "leda",
+        "leda"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "dekifsjla",
+  "totalChars": 424,
+  "lessonId": "lesson2"
+}

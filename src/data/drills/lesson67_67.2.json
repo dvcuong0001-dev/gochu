@@ -1,0 +1,13 @@
+{
+  "id": "67.2",
+  "title": "Bài 67.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val tuoi = 20\n    var diem = 8.5\n    diem = 9.0\n    println(\"$tuoi - $diem\")\n}",
+  "lang": "kotlin",
+  "desc": "Biến val (bất biến) và var",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson67"
+}

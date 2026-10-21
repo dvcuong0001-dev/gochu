@@ -1,0 +1,13 @@
+{
+  "id": "55.1",
+  "title": "Bài 55.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        String s = \"Java\";\n        System.out.println(s.length());\n        System.out.println(s.charAt(0));\n        System.out.println(s.substring(1, 3));\n        System.out.println(s.toUpperCase());\n    }\n}",
+  "lang": "java",
+  "desc": "String: length, charAt, substring",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson55"
+}

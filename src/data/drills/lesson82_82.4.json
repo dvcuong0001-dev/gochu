@@ -1,0 +1,13 @@
+{
+  "id": "82.4",
+  "title": "Bài 82.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction HienThi({ giaTri }) {\n  return <p>Gia tri: {giaTri}</p>;\n}\n\nfunction App() {\n  const [so, setSo] = useState(0);\n  return (\n    <div>\n      <HienThi giaTri={so} />\n      <button onClick={() => setSo(so + 1)}>Tang</button>\n    </div>\n  );\n}\n\nexport default App;",
+  "lang": "react",
+  "desc": "Lift state up — chia sẻ state giữa con",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson82"
+}

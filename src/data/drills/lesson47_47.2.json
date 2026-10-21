@@ -1,0 +1,13 @@
+{
+  "id": "47.2",
+  "title": "Bài 47.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string s = \"tuhoc typing\";\n    cout << s.find(\"typing\") << endl;\n    s.replace(0, 5, \"TUHOC\");\n    s.append(\"!\");\n    cout << s << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "string: find, replace, append",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson47"
+}

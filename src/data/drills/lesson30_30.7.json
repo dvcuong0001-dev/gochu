@@ -1,0 +1,13 @@
+{
+  "id": "30.7",
+  "title": "Bài 30.7",
+  "orderIndex": 7,
+  "lines": [],
+  "type": 3,
+  "rawText": "nums = [3, 8, 1, 6, 7, 4, 9, 2]\nchan = [x for x in nums if x % 2 == 0]\nle = [x for x in nums if x % 2 == 1]\nprint(\"Chan:\", chan)\nprint(\"Le:\", le)",
+  "lang": "python",
+  "desc": "Tách số chẵn và số lẻ từ một list",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson30"
+}

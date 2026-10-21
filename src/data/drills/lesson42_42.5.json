@@ -1,0 +1,13 @@
+{
+  "id": "42.5",
+  "title": "Bài 42.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "function layDuLieu() {\n  return Promise.resolve([1, 2, 3]);\n}\nasync function chay() {\n  const data = await layDuLieu();\n  console.log(\"Tong:\", data.reduce((a, b) => a + b, 0));\n}\nchay();",
+  "lang": "javascript",
+  "desc": "async / await",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson42"
+}

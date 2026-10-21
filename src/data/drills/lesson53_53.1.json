@@ -1,0 +1,13 @@
+{
+  "id": "53.1",
+  "title": "Bài 53.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int n = 14;\n        if (n % 2 == 0)\n            System.out.println(n + \" la so chan\");\n        else\n            System.out.println(n + \" la so le\");\n    }\n}",
+  "lang": "java",
+  "desc": "Câu lệnh if - else",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson53"
+}

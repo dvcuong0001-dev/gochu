@@ -1,0 +1,13 @@
+{
+  "id": "64.5",
+  "title": "Bài 64.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static int Fib(int n) {\n        if (n < 2) return n;\n        return Fib(n - 1) + Fib(n - 2);\n    }\n    static void Main() {\n        for (int i = 0; i < 10; i++)\n            Console.Write(Fib(i) + \" \");\n        Console.WriteLine();\n    }\n}",
+  "lang": "csharp",
+  "desc": "Đệ quy: dãy Fibonacci",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson64"
+}

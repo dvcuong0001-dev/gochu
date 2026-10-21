@@ -1,0 +1,13 @@
+{
+  "id": "38.6",
+  "title": "Bài 38.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "let s = new Set([1, 2, 2, 3, 3, 3]);\nconsole.log([...s]);\nlet m = new Map();\nm.set(\"a\", 1);\nm.set(\"b\", 2);\nconsole.log(m.get(\"a\"), m.size);",
+  "lang": "javascript",
+  "desc": "Set và Map",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson38"
+}

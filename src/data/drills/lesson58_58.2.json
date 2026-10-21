@@ -1,0 +1,13 @@
+{
+  "id": "58.2",
+  "title": "Bài 58.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        HinhChuNhat h = new HinhChuNhat(5, 3);\n        System.out.println(h.dienTich());\n    }\n}\n\nclass HinhChuNhat {\n    int dai, rong;\n    HinhChuNhat(int d, int r) {\n        dai = d;\n        rong = r;\n    }\n    int dienTich() { return dai * rong; }\n}",
+  "lang": "java",
+  "desc": "Constructor khởi tạo đối tượng",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson58"
+}

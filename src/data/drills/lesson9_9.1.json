@@ -1,0 +1,212 @@
+{
+  "id": "9.1",
+  "title": "Bài 9.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "sw",
+        "sw",
+        "jm",
+        "jm"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sw",
+        "sw",
+        "jm",
+        "jm"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ws",
+        "ws",
+        "mj",
+        "mj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wW",
+        "wW",
+        "mM",
+        "mM"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "swjm",
+        "swjm",
+        "mjws",
+        "mjws"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ssww",
+        "ssww",
+        "jjmm",
+        "jjmm"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ssws",
+        "ssws",
+        "jjmj",
+        "jjmj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sWsW",
+        "sWsW",
+        "jMjM",
+        "jMjM"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wwWw",
+        "wwWw",
+        "mmMm",
+        "mmMm"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "swsw",
+        "swsw",
+        "jmjm",
+        "jmjm"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "WssW",
+        "WssW",
+        "MjjM",
+        "MjjM"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "swjm",
+        "swjm",
+        "sMjW",
+        "sMjW"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Mike",
+        "Mike",
+        "Want",
+        "Want"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "kmij",
+        "kmij",
+        "awes",
+        "awes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "emen",
+        "emen",
+        "owel",
+        "owel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Mane",
+        "Mane",
+        "Wine",
+        "Wine"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "amwi",
+        "amwi",
+        "uwvo",
+        "uwvo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "name",
+        "name",
+        "lowe",
+        "lowe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dewc",
+        "dewc",
+        "okmj",
+        "okmj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "More",
+        "More",
+        "Wink",
+        "Wink"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "iwwo",
+        "iwwo",
+        "tmma",
+        "tmma"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "wiki",
+        "wiki",
+        "mams",
+        "mams"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "swjmWMikeantoluvdcr",
+  "totalChars": 408,
+  "lessonId": "lesson9"
+}

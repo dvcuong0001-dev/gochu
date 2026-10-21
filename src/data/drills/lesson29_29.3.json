@@ -1,0 +1,13 @@
+{
+  "id": "29.3",
+  "title": "Bài 29.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "tong = 0\nfor i in range(1, 11):\n    tong += i\nprint(\"Tong 1..10 =\", tong)",
+  "lang": "python",
+  "desc": "Vòng lặp for với range(): tổng 1..n",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson29"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "82.5",
+  "title": "Bài 82.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction useInput(banDau = \"\") {\n  const [giaTri, setGiaTri] = useState(banDau);\n  const onChange = (e) => setGiaTri(e.target.value);\n  return { giaTri, onChange };\n}\n\nfunction Form() {\n  const ten = useInput(\"\");\n  return (\n    <div>\n      <input {...ten} />\n      <p>Chao {ten.giaTri}</p>\n    </div>\n  );\n}\n\nexport default Form;",
+  "lang": "react",
+  "desc": "Custom hook quản lý input form",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson82"
+}

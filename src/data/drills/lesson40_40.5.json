@@ -1,0 +1,13 @@
+{
+  "id": "40.5",
+  "title": "Bài 40.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "function giaiThua(n) {\n  return n <= 1 ? 1 : n * giaiThua(n - 1);\n}\nfunction fib(n) {\n  return n < 2 ? n : fib(n - 1) + fib(n - 2);\n}\nconsole.log(giaiThua(5));\nconsole.log(fib(10));",
+  "lang": "javascript",
+  "desc": "Đệ quy: giai thừa và Fibonacci",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson40"
+}

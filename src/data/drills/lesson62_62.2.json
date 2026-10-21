@@ -1,0 +1,13 @@
+{
+  "id": "62.2",
+  "title": "Bài 62.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nusing System.Collections.Generic;\nclass Program {\n    static void Main() {\n        List<string> ds = new List<string> { \"tao\", \"cam\", \"le\" };\n        ds.Add(\"nho\");\n        ds.Remove(\"cam\");\n        Console.WriteLine(string.Join(\", \", ds));\n        Console.WriteLine(\"Count: \" + ds.Count);\n    }\n}",
+  "lang": "csharp",
+  "desc": "List<T>: thêm, xóa, duyệt",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson62"
+}

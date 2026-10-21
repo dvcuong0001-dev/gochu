@@ -1,0 +1,13 @@
+{
+  "id": "80.2",
+  "title": "Bài 80.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction Form() {\n  const [form, setForm] = useState({ ten: \"\", tuoi: \"\" });\n  const doi = (e) =>\n    setForm({ ...form, [e.target.name]: e.target.value });\n  return (\n    <form>\n      <input name=\"ten\" value={form.ten} onChange={doi} />\n      <input name=\"tuoi\" value={form.tuoi} onChange={doi} />\n    </form>\n  );\n}\n\nexport default Form;",
+  "lang": "react",
+  "desc": "Form nhiều trường với object state",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson80"
+}

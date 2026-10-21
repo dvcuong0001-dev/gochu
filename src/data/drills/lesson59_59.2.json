@@ -1,0 +1,13 @@
+{
+  "id": "59.2",
+  "title": "Bài 59.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\n\nclass Program {\n    static void Main() {\n        int tuoi = 20;\n        double diem = 8.5;\n        char hang = 'A';\n        bool dau = true;\n        Console.WriteLine($\"{tuoi} {diem} {hang} {dau}\");\n    }\n}",
+  "lang": "csharp",
+  "desc": "Biến và các kiểu cơ bản",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson59"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "43.5",
+  "title": "Bài 43.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string ten = \"Tuhoc\";\n    string loi = \"Xin chao, \" + ten + \"!\";\n    cout << loi << endl;\n    cout << \"Do dai: \" << loi.length() << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Chuỗi string và nối chuỗi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson43"
+}

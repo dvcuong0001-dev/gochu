@@ -1,0 +1,13 @@
+{
+  "id": "38.4",
+  "title": "Bài 38.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "let sv = { ten: \"An\", tuoi: 20 };\nconsole.log(sv.ten);\nsv.lop = \"12A\";\nfor (const k in sv) {\n  console.log(k, \"=\", sv[k]);\n}",
+  "lang": "javascript",
+  "desc": "Object: tạo, truy cập, duyệt",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson38"
+}

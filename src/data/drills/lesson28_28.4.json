@@ -1,0 +1,13 @@
+{
+  "id": "28.4",
+  "title": "Bài 28.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "diem = 8\ntuoi = 20\nprint(diem >= 5 and tuoi >= 18)\nprint(diem > 9 or tuoi == 20)\nprint(not (diem < 5))",
+  "lang": "python",
+  "desc": "Toán tử logic and, or, not",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson28"
+}

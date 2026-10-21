@@ -1,0 +1,470 @@
+{
+  "id": "24.3",
+  "title": "Bài 24.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "If",
+        "n",
+        "=",
+        "5",
+        "then",
+        "n!",
+        "=",
+        "5",
+        "*",
+        "4",
+        "*",
+        "3",
+        "*",
+        "2",
+        "*",
+        "1"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "asterisk",
+        "*",
+        "is",
+        "not",
+        "the",
+        "same",
+        "as",
+        "Asterix."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Great!",
+        "Wonderful!",
+        "Fabulous!",
+        "Fantastic!",
+        "Splendid!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(3x^2",
+        "+",
+        "4x",
+        "-",
+        "2)",
+        "+",
+        "(-7x^2",
+        "-",
+        "10x",
+        "+",
+        "17)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "backslash",
+        "\\",
+        "is",
+        "used",
+        "as",
+        "a",
+        "path",
+        "separator",
+        "(for",
+        "example,",
+        "c:\\program",
+        "files\\typing)."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "symbol",
+        "^",
+        "is",
+        "called",
+        "the",
+        "caret/hat/control/uparrow."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2",
+        "*",
+        "3",
+        "=",
+        "6",
+        "and",
+        "2^3",
+        "=",
+        "8."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "We",
+        "count",
+        "with",
+        "natural",
+        "numbers:",
+        "{1,",
+        "2,",
+        "3,",
+        "4,",
+        "5,",
+        "...",
+        "}."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Enter",
+        "the",
+        "number",
+        "you",
+        "wish",
+        "to",
+        "dial",
+        "and",
+        "then",
+        "press",
+        "#."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"That's",
+        "absolutely",
+        "wonderful!\"",
+        "George",
+        "exclaimed."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "set",
+        "of",
+        "all",
+        "integers",
+        "=",
+        "{.",
+        ".",
+        ".",
+        "-3,",
+        "-2,",
+        "-1,",
+        "0,",
+        "1,",
+        "2,",
+        "3,",
+        ".",
+        ".",
+        ".}."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "In",
+        "the",
+        "US,",
+        "the",
+        "asterisk",
+        "*",
+        "is",
+        "informally",
+        "called",
+        "a",
+        "\"bug\"."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "How",
+        "much",
+        "is",
+        "(3",
+        "*",
+        "4)^2?",
+        "Does",
+        "it",
+        "equal",
+        "12",
+        "*",
+        "12?",
+        "Yes!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cartoonists",
+        "sometimes",
+        "use",
+        "symbols",
+        "such",
+        "as",
+        "\"#",
+        "^",
+        "@",
+        "&",
+        "#\"",
+        "to",
+        "represent",
+        "swearing."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Where",
+        "the",
+        "backslash",
+        "\\",
+        "is",
+        "used",
+        "in",
+        "UNIX",
+        "the",
+        "foreslash",
+        "/",
+        "is",
+        "used",
+        "in",
+        "Windows."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"Hooray!",
+        "Hooray!",
+        "Hooray!\"",
+        "the",
+        "audience",
+        "shouted."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Some",
+        "people",
+        "call",
+        "#",
+        "a",
+        "\"gate\"",
+        "and",
+        "some",
+        "call",
+        "it",
+        "a",
+        "\"criss-cross\"."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "You",
+        "can",
+        "use",
+        "*",
+        "to",
+        "mark",
+        "a",
+        "footnote;",
+        "e.g.",
+        "\"...special",
+        "symbols",
+        "are",
+        "often",
+        "informally",
+        "called",
+        "dingbats*\"."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "File",
+        "names",
+        "cannot",
+        "include",
+        "!",
+        "or",
+        "\\",
+        "or",
+        "symbols",
+        "like",
+        "&,",
+        "$",
+        "and",
+        "%."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Stop",
+        "that!",
+        "Stop",
+        "it!",
+        "Can't",
+        "you",
+        "hear",
+        "what",
+        "I'm",
+        "saying?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "To",
+        "simulate",
+        "pressing",
+        "Ctrl",
+        "+",
+        "C,",
+        "write",
+        "^C."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "elements",
+        "of",
+        "a",
+        "set",
+        "are",
+        "specified",
+        "by",
+        "the",
+        "symbols",
+        "inside",
+        "the",
+        "brackets:",
+        "{a,",
+        "b,",
+        "c",
+        "...",
+        "n}."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "You",
+        "can",
+        "use",
+        "a",
+        "line",
+        "of",
+        "symbols",
+        "like",
+        "###",
+        "or",
+        "***",
+        "to",
+        "divide",
+        "text",
+        "and",
+        "break",
+        "up",
+        "a",
+        "page."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Emphasis",
+        "is",
+        "not",
+        "only",
+        "given",
+        "with",
+        "the",
+        "!",
+        "but",
+        "can",
+        "be",
+        "indicated",
+        "by",
+        "underlining",
+        "and",
+        "bold",
+        "print!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Isn't",
+        "he",
+        "clever?",
+        "Wouldn't",
+        "you",
+        "sing?",
+        "Don't",
+        "do",
+        "that!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "A",
+        "useful",
+        "way",
+        "to",
+        "indicate",
+        "permutations",
+        "of",
+        "n",
+        "objects",
+        "is",
+        "n!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Alas!",
+        "All",
+        "music",
+        "offends",
+        "when",
+        "the",
+        "soul",
+        "is",
+        "out",
+        "of",
+        "tune."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "Ifn=5the!*4321TasrikomAx.GWdulFbcSp(^+-)70\\,:gy/w68{}E#\"'UH?DqYC@&NX;$%vj",
+  "totalChars": 1591,
+  "lessonId": "lesson24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "52.2",
+  "title": "Bài 52.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int x = 7;\n        System.out.println(x > 5);\n        System.out.println(x == 7);\n        System.out.println(x != 10);\n    }\n}",
+  "lang": "java",
+  "desc": "Kiểu boolean và so sánh",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson52"
+}

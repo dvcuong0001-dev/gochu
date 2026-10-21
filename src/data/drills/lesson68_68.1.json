@@ -1,0 +1,13 @@
+{
+  "id": "68.1",
+  "title": "Bài 68.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val a = 17\n    val b = 5\n    println(a / b)\n    println(a % b)\n    println(a.toDouble() / b)\n}",
+  "lang": "kotlin",
+  "desc": "Kiểu số và phép chia",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson68"
+}

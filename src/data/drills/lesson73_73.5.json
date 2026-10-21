@@ -1,0 +1,13 @@
+{
+  "id": "73.5",
+  "title": "Bài 73.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val ten: String? = \"An\"\n    ten?.let {\n        println(\"Do dai: ${it.length}\")\n    }\n    val x = 10.also { println(\"Gia tri: $it\") }\n    println(x * 2)\n}",
+  "lang": "kotlin",
+  "desc": "let và also",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson73"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "63.5",
+  "title": "Bài 63.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        string s = \"programming\";\n        int dem = 0;\n        foreach (char c in s)\n            if (c == 'm') dem++;\n        Console.WriteLine(\"So ky tu m: \" + dem);\n    }\n}",
+  "lang": "csharp",
+  "desc": "Đếm ký tự trong chuỗi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson63"
+}

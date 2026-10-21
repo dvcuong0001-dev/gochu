@@ -1,0 +1,13 @@
+{
+  "id": "31.8",
+  "title": "Bài 31.8",
+  "orderIndex": 8,
+  "lines": [],
+  "type": 3,
+  "rawText": "text = \"tuhoc typing\"\nfreq = {}\nfor ch in text:\n    if ch != \" \":\n        freq[ch] = freq.get(ch, 0) + 1\nfor ch, count in sorted(freq.items()):\n    print(ch, \"->\", count)",
+  "lang": "python",
+  "desc": "Đếm tần suất ký tự bằng dictionary",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson31"
+}

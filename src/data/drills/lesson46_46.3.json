@@ -1,0 +1,13 @@
+{
+  "id": "46.3",
+  "title": "Bài 46.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    vector<int> v = {5, 2, 8, 1, 9};\n    sort(v.begin(), v.end());\n    cout << \"Min: \" << v.front() << \" Max: \" << v.back() << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Vector: sort, min, max",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson46"
+}

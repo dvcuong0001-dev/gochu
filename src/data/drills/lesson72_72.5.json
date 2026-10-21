@@ -1,0 +1,13 @@
+{
+  "id": "72.5",
+  "title": "Bài 72.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun giaiThua(n: Int): Long {\n    if (n <= 1) return 1\n    return n * giaiThua(n - 1)\n}\n\nfun main() {\n    println(giaiThua(5))\n    println(giaiThua(6))\n}",
+  "lang": "kotlin",
+  "desc": "Đệ quy: tính giai thừa",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson72"
+}

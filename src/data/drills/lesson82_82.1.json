@@ -1,0 +1,13 @@
+{
+  "id": "82.1",
+  "title": "Bài 82.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "function Avatar({ ten }) {\n  return <div className=\"avatar\">{ten[0]}</div>;\n}\n\nfunction The({ ten }) {\n  return (\n    <div className=\"card\">\n      <Avatar ten={ten} />\n      <span>{ten}</span>\n    </div>\n  );\n}\n\nexport default The;",
+  "lang": "react",
+  "desc": "Tách component con và lắp ghép",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson82"
+}

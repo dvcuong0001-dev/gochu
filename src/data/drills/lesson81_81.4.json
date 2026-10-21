@@ -1,0 +1,13 @@
+{
+  "id": "81.4",
+  "title": "Bài 81.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState, useEffect } from \"react\";\n\nfunction DongHo() {\n  const [giay, setGiay] = useState(0);\n  useEffect(() => {\n    const id = setInterval(() => setGiay((g) => g + 1), 1000);\n    return () => clearInterval(id);\n  }, []);\n  return <p>Giay: {giay}</p>;\n}\n\nexport default DongHo;",
+  "lang": "react",
+  "desc": "Cleanup trong useEffect",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson81"
+}

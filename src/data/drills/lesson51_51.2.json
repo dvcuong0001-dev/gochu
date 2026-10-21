@@ -1,0 +1,13 @@
+{
+  "id": "51.2",
+  "title": "Bài 51.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int tuoi = 20;\n        double diem = 8.5;\n        char hang = 'A';\n        boolean dau = true;\n        System.out.println(tuoi + \" \" + diem + \" \" + hang + \" \" + dau);\n    }\n}",
+  "lang": "java",
+  "desc": "Biến và các kiểu cơ bản",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson51"
+}

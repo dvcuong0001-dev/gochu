@@ -1,0 +1,306 @@
+{
+  "id": "23.2",
+  "title": "Bài 23.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "{elements}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{elements}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Run!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Run!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "C:\\letters\\"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "C:\\letters\\"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{34;45;23}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{34;45;23}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\\\\dir\\folder\\file"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\\\\dir\\folder\\file"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{deeper}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{deeper}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "C:\\root\\docs\\secrets"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "C:\\root\\docs\\secrets"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{impressed}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{impressed}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Faster-faster!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Faster-faster!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{inside}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{inside}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "You-don't-say!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "You-don't-say!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{impairs}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{impairs}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "A:\\install"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "A:\\install"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Oh-No!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Oh-No!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{mapping}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{mapping}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Help!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Help!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{part}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{part}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "5!",
+        "=",
+        "120"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "5!",
+        "=",
+        "120"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{entity}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{entity}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "What?!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "What?!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{primary}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{primary}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ouch!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ouch!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{roots}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{roots}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Great!!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Great!!"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "{elmnts}Ru!C:\\r34;52difopcFa-Y'yAOhNgH=10W?G",
+  "totalChars": 492,
+  "lessonId": "lesson23"
+}

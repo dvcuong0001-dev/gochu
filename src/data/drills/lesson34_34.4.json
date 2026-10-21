@@ -1,0 +1,13 @@
+{
+  "id": "34.4",
+  "title": "Bài 34.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "import os\nduong_dan = os.path.join(\"thu_muc\", \"file.txt\")\nprint(duong_dan)\nprint(os.path.basename(duong_dan))\nprint(os.path.splitext(duong_dan))",
+  "lang": "python",
+  "desc": "Module os.path: ghép và tách đường dẫn",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson34"
+}

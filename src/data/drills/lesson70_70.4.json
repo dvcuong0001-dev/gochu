@@ -1,0 +1,13 @@
+{
+  "id": "70.4",
+  "title": "Bài 70.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val s = setOf(1, 2, 2, 3, 3, 3)\n    println(s)\n    println(\"Size: ${s.size}\")\n}",
+  "lang": "kotlin",
+  "desc": "Set: loại trùng phần tử",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson70"
+}

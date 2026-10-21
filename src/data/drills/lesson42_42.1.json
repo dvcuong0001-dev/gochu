@@ -1,0 +1,13 @@
+{
+  "id": "42.1",
+  "title": "Bài 42.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "class Diem {\n  constructor(x, y) {\n    this.x = x;\n    this.y = y;\n  }\n  tong() {\n    return this.x + this.y;\n  }\n}\nlet d = new Diem(3, 4);\nconsole.log(d.tong());",
+  "lang": "javascript",
+  "desc": "Class: định nghĩa và phương thức",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson42"
+}

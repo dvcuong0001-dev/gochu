@@ -1,0 +1,13 @@
+{
+  "id": "32.4",
+  "title": "Bài 32.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "nums = [1, 2, 3, 4, 5, 6]\nbinh_phuong = list(map(lambda x: x * x, nums))\nchan = list(filter(lambda x: x % 2 == 0, nums))\nprint(binh_phuong)\nprint(chan)",
+  "lang": "python",
+  "desc": "Hàm lambda với map và filter",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson32"
+}

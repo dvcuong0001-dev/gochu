@@ -1,0 +1,13 @@
+{
+  "id": "61.4",
+  "title": "Bài 61.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        int tong = 0;\n        for (int i = 1; i <= 10; i++)\n            tong += i;\n        Console.WriteLine(\"Tong = \" + tong);\n    }\n}",
+  "lang": "csharp",
+  "desc": "Vòng lặp for: tổng 1..n",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson61"
+}

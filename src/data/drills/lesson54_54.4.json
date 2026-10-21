@@ -1,0 +1,13 @@
+{
+  "id": "54.4",
+  "title": "Bài 54.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "import java.util.HashSet;\n\npublic class Main {\n    public static void main(String[] args) {\n        HashSet<Integer> s = new HashSet<>();\n        s.add(1); s.add(2); s.add(2); s.add(3);\n        System.out.println(\"Size: \" + s.size());\n        System.out.println(s.contains(2));\n    }\n}",
+  "lang": "java",
+  "desc": "HashSet: loại trùng phần tử",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson54"
+}

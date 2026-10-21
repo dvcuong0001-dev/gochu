@@ -1,0 +1,13 @@
+{
+  "id": "40.2",
+  "title": "Bài 40.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "const binhPhuong = x => x * x;\nconst cong = (a, b) => a + b;\nconsole.log(binhPhuong(6));\nconsole.log(cong(4, 9));",
+  "lang": "javascript",
+  "desc": "Arrow function",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson40"
+}

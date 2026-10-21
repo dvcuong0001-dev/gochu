@@ -1,0 +1,13 @@
+{
+  "id": "70.3",
+  "title": "Bài 70.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val gia = mapOf(\"tao\" to 30, \"cam\" to 25)\n    for ((k, v) in gia)\n        println(\"$k = $v\")\n    println(gia[\"tao\"])\n}",
+  "lang": "kotlin",
+  "desc": "Map: cặp key-value",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson70"
+}

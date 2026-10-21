@@ -1,0 +1,234 @@
+{
+  "id": "20.1",
+  "title": "Bài 20.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        ";-",
+        ";-",
+        ";-",
+        ";-"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";p-;",
+        ";p-;",
+        ";p-;",
+        ";p-;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";=",
+        ";=",
+        ";=",
+        ";="
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";p=;",
+        ";p=;",
+        ";p=;",
+        ";p=;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ":+",
+        ":+",
+        ":+",
+        ":+"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";p+;",
+        ";p+;",
+        ";p+;",
+        ";p+;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "--;-",
+        "--;-",
+        "--;-",
+        "--;-"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";=;=",
+        ";=;=",
+        ";=;=",
+        ";=;="
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "+:+:",
+        "+:+:",
+        "+:+:",
+        "+:+:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";p-=",
+        ";p-=",
+        ";p-=",
+        ";p",
+        "-="
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "P+;+",
+        "P+;+",
+        "P+;+",
+        "P+;+"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a-f=",
+        "a-f=",
+        "a-f=",
+        "a-",
+        "f="
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "A+p+",
+        "A+p+",
+        "A+p+",
+        "A+p+"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "1+1=",
+        "1+1=",
+        "1+1=",
+        "1+1="
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "85-2",
+        "85-2",
+        "85-2",
+        "85-2"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a+b=",
+        "a+b=",
+        "a+b=",
+        "a+b="
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2x-5",
+        "2x-5",
+        "2x-5",
+        "2x-5"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "y+9x",
+        "y+9x",
+        "y+9x",
+        "y+9x"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "-100",
+        "-100",
+        "-100",
+        "-",
+        "100"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "+529",
+        "+529",
+        "+529",
+        "+529"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "5a=?",
+        "5a=?",
+        "5a=?",
+        "5a=?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "y-b-",
+        "y-b-",
+        "y-b-",
+        "y-",
+        "b-"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "m=v=",
+        "m=v=",
+        "m=v=",
+        "m=v="
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "z+q+",
+        "z+q+",
+        "z+q+",
+        "z+q+"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": ";-p=:+PafA1852bxy90?mvzq",
+  "totalChars": 460,
+  "lessonId": "lesson20"
+}

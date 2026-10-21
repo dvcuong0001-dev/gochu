@@ -1,0 +1,285 @@
+{
+  "id": "18.2",
+  "title": "Bài 18.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "What?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "What?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "km/hr"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "km/hr"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Where?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Where?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "m/sec."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "m/sec."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "How?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "How?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "http://"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "http://"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "When?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "When?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cm/inch"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cm/inch"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Which?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Which?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "miles/gallon",
+        "miles/gallon"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Who?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Who?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "up/down"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "up/down"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "and/or"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "and/or"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Where?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Where?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "drive:/file"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "drive:/file"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Who?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Who?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "/x/y/z/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "/x/y/z/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Really?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Really?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "his/hers"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "his/hers"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Then?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Then?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "/a/b/c/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "/a/b/c/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "In/out?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "In/out?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "feet/second"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "feet/second"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "What?km/resc.Howp:nilgudvfxyzRTbI",
+  "totalChars": 352,
+  "lessonId": "lesson18"
+}

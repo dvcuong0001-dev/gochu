@@ -1,0 +1,13 @@
+{
+  "id": "47.5",
+  "title": "Bài 47.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <string>\n#include <cctype>\nusing namespace std;\n\nint main() {\n    string s = \"Hello\";\n    for (char& c : s)\n        c = toupper(c);\n    cout << s << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Chuyển chữ hoa với toupper",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson47"
+}

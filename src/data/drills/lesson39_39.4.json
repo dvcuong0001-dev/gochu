@@ -1,0 +1,13 @@
+{
+  "id": "39.4",
+  "title": "Bài 39.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "let s = \"madam\";\nlet dao = s.split(\"\").reverse().join(\"\");\nconsole.log(dao);\nconsole.log(s === dao);",
+  "lang": "javascript",
+  "desc": "Đảo ngược chuỗi và palindrome",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson39"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "29.6",
+  "title": "Bài 29.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "n = 29\nla_nguyen_to = n > 1\nfor i in range(2, int(n ** 0.5) + 1):\n    if n % i == 0:\n        la_nguyen_to = False\n        break\nprint(n, \"nguyen to?\", la_nguyen_to)",
+  "lang": "python",
+  "desc": "Kiểm tra số nguyên tố",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson29"
+}

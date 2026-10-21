@@ -1,0 +1,13 @@
+{
+  "id": "72.2",
+  "title": "Bài 72.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun binhPhuong(x: Int) = x * x\nfun cong(a: Int, b: Int) = a + b\n\nfun main() {\n    println(binhPhuong(6))\n    println(cong(4, 9))\n}",
+  "lang": "kotlin",
+  "desc": "Hàm một dòng (expression body)",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson72"
+}

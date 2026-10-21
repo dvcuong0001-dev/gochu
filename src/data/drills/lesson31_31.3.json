@@ -1,0 +1,13 @@
+{
+  "id": "31.3",
+  "title": "Bài 31.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "s = \"  tuhoc, typing, code  \"\nprint(s.strip())\nprint(s.replace(\"code\", \"python\"))\nparts = s.strip().split(\", \")\nprint(parts)\nprint(\" | \".join(parts))",
+  "lang": "python",
+  "desc": "Method chuỗi: strip, replace, split, join",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson31"
+}

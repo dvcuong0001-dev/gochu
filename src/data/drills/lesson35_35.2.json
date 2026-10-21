@@ -1,0 +1,13 @@
+{
+  "id": "35.2",
+  "title": "Bài 35.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "let ten = \"An\";\nlet tuoi = 20;\nconsole.log(`Xin chao ${ten}, ${tuoi} tuoi`);\nconsole.log(`Nam sau: ${tuoi + 1} tuoi`);",
+  "lang": "javascript",
+  "desc": "Template literal — nối chuỗi với ${}",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson35"
+}

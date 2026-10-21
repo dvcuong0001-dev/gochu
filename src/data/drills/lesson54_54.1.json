@@ -1,0 +1,13 @@
+{
+  "id": "54.1",
+  "title": "Bài 54.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int[] a = {10, 20, 30, 40, 50};\n        int tong = 0;\n        for (int x : a)\n            tong += x;\n        System.out.println(\"Tong: \" + tong);\n    }\n}",
+  "lang": "java",
+  "desc": "Mảng: khai báo và duyệt",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson54"
+}

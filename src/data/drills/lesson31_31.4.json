@@ -1,0 +1,13 @@
+{
+  "id": "31.4",
+  "title": "Bài 31.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "s = \"python is fun and python is easy\"\nprint(s.find(\"fun\"))\nprint(s.count(\"python\"))\nprint(s.upper())\nprint(s.title())",
+  "lang": "python",
+  "desc": "Method chuỗi: find, count, upper, title",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson31"
+}

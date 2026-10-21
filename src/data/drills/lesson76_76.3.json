@@ -1,0 +1,13 @@
+{
+  "id": "76.3",
+  "title": "Bài 76.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "function NutBam({ nhan = \"Bam vao day\" }) {\n  return <button>{nhan}</button>;\n}\n\nfunction App() {\n  return (\n    <div>\n      <NutBam />\n      <NutBam nhan=\"Gui\" />\n    </div>\n  );\n}\n\nexport default App;",
+  "lang": "react",
+  "desc": "Props với giá trị mặc định",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson76"
+}

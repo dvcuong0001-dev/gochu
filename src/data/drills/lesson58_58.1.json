@@ -1,0 +1,13 @@
+{
+  "id": "58.1",
+  "title": "Bài 58.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        Diem d = new Diem();\n        d.x = 3;\n        d.y = 4;\n        System.out.println(d.tong());\n    }\n}\n\nclass Diem {\n    int x, y;\n    int tong() { return x + y; }\n}",
+  "lang": "java",
+  "desc": "Class: thuộc tính và method",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson58"
+}

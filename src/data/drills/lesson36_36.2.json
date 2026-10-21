@@ -1,0 +1,13 @@
+{
+  "id": "36.2",
+  "title": "Bài 36.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b);\nconsole.log(a / b);\nconsole.log(a % b);\nconsole.log(2 ** 10);",
+  "lang": "javascript",
+  "desc": "Toán tử số học và ** %",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson36"
+}

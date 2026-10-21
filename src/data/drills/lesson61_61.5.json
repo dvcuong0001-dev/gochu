@@ -1,0 +1,13 @@
+{
+  "id": "61.5",
+  "title": "Bài 61.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        int i = 1;\n        long gt = 1;\n        while (i <= 5) {\n            gt *= i;\n            i++;\n        }\n        Console.WriteLine(\"5! = \" + gt);\n    }\n}",
+  "lang": "csharp",
+  "desc": "Vòng lặp while: tính giai thừa",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson61"
+}

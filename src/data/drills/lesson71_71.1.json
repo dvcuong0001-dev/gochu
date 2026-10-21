@@ -1,0 +1,13 @@
+{
+  "id": "71.1",
+  "title": "Bài 71.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val s = \"Kotlin\"\n    println(s.length)\n    println(s[0])\n    println(s.substring(0, 3))\n    println(s.uppercase())\n}",
+  "lang": "kotlin",
+  "desc": "Chuỗi: length, truy cập, substring",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson71"
+}

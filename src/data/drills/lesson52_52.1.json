@@ -1,0 +1,13 @@
+{
+  "id": "52.1",
+  "title": "Bài 52.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int a = 17, b = 5;\n        System.out.println(a / b);\n        System.out.println(a % b);\n        System.out.println((double) a / b);\n    }\n}",
+  "lang": "java",
+  "desc": "Phép chia nguyên và chia thực",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson52"
+}

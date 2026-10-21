@@ -1,0 +1,13 @@
+{
+  "id": "27.6",
+  "title": "Bài 27.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "ten = \"Lan\"\ntuoi = 20\nprint(\"Chuc mung \" + ten + \" \" + str(tuoi) + \" tuoi!\")",
+  "lang": "python",
+  "desc": "Lời chúc — kết hợp biến và nối chuỗi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson27"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "74.2",
+  "title": "Bài 74.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "data class SinhVien(val ten: String, val tuoi: Int)\n\nfun main() {\n    val sv = SinhVien(\"An\", 20)\n    println(sv)\n    println(sv.ten)\n}",
+  "lang": "kotlin",
+  "desc": "data class",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson74"
+}

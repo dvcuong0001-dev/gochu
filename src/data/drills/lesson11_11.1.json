@@ -1,0 +1,221 @@
+{
+  "id": "11.1",
+  "title": "Bài 11.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "fb",
+        "fb",
+        "jy",
+        "jy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fb",
+        "fb",
+        "jy",
+        "jy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "bf",
+        "bf",
+        "yj",
+        "yj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "bB",
+        "bB",
+        "yY",
+        "yY"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fbjy",
+        "fbjy",
+        "yjbf",
+        "yjbf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ffbb",
+        "ffbb",
+        "jjyy",
+        "jjyy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ffbf",
+        "ffbf",
+        "jjyj",
+        "jjyj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fBfB",
+        "fBfB",
+        "jYjY",
+        "jYjY"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "bbBb",
+        "bbBb",
+        "yyYy",
+        "yyYy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fbfb",
+        "fbfb",
+        "jyjy",
+        "jyjy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "BffB",
+        "BffB",
+        "YjjY",
+        "YjjY"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fbjy",
+        "fbjy",
+        "fYjB",
+        "fYjB"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ftgb",
+        "ftgb",
+        "jyhn",
+        "jyhn"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "Yike",
+        "Yike",
+        "Bent",
+        "Bent"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kyif",
+        "kyif",
+        "iber",
+        "iber"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eyen",
+        "eyen",
+        "obel",
+        "obel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yves",
+        "Yves",
+        "Brow",
+        "Brow"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fybi",
+        "fybi",
+        "sylb",
+        "sylb"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nfye",
+        "nfye",
+        "lobe",
+        "lobe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "keys",
+        "keys",
+        "olbi",
+        "olbi"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yore",
+        "Yore",
+        "Bink",
+        "Bink"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "bobi",
+        "bobi",
+        "yoya",
+        "yoya"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "biib",
+        "biib",
+        "yssy",
+        "yssy"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "fbjyBYtghnikerolvswa",
+  "totalChars": 428,
+  "lessonId": "lesson11"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "69.2",
+  "title": "Bài 69.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val thu = 3\n    val ten = when (thu) {\n        1 -> \"Chu nhat\"\n        2 -> \"Thu hai\"\n        3 -> \"Thu ba\"\n        else -> \"Khac\"\n    }\n    println(ten)\n}",
+  "lang": "kotlin",
+  "desc": "when thay cho switch",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson69"
+}

@@ -1,0 +1,338 @@
+{
+  "id": "21.2",
+  "title": "Bài 21.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "(brackets)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(brackets)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Enter]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Enter]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(device)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(device)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[calendar]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[calendar]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Ctrl]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Ctrl]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(active)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(active)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[category]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[category]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(molecule)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(molecule)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Insert]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Insert]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(school)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(school)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Alt]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Alt]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(cast)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(cast)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[PrntScrn]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[PrntScrn]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(four)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(four)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Tab]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Tab]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(control)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(control)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Delete]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Delete]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(curious)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(curious)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Ctrl][Alt][Del]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Ctrl][Alt][Del]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(enforced)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(enforced)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[key]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[key]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(branches)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(branches)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Shift]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[Shift]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(lucid)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(lucid)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[CapsLock]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "[CapsLock]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(classical)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(classical)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(country)"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(country)"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "(brackets)[En]dvilCgoymuIhAPSfTDpL",
+  "totalChars": 510,
+  "lessonId": "lesson21"
+}

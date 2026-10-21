@@ -1,0 +1,212 @@
+{
+  "id": "8.1",
+  "title": "Bài 8.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "fv",
+        "fv",
+        "jn",
+        "jn"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fv",
+        "fv",
+        "jn",
+        "jn"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "vf",
+        "vf",
+        "nj",
+        "nj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "vV",
+        "vV",
+        "nN",
+        "nN"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fvjn",
+        "fvjn",
+        "njvf",
+        "njvf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ffvv",
+        "ffvv",
+        "jjnn",
+        "jjnn"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ffvf",
+        "ffvf",
+        "jjnj",
+        "jjnj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fVfV",
+        "fVfV",
+        "jNjN",
+        "jNjN"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "vvVv",
+        "vvVv",
+        "nnNn",
+        "nnNn"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fvfv",
+        "fvfv",
+        "jnjn",
+        "jnjn"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "VffV",
+        "VffV",
+        "NjjN",
+        "NjjN"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fvjn",
+        "fvjn",
+        "fNjV",
+        "fNjV"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ftvn",
+        "ftvn",
+        "junv",
+        "junv"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "vunr",
+        "vunr",
+        "nuvt",
+        "nuvt"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nono",
+        "nono",
+        "onon",
+        "onon"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Vint",
+        "Vint",
+        "Nevu",
+        "Nevu"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "uvve",
+        "uvve",
+        "anni",
+        "anni"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Veil",
+        "Veil",
+        "Nice",
+        "Nice"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "over",
+        "over",
+        "knee",
+        "knee"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Vale",
+        "Vale",
+        "Nofe",
+        "Nofe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "vivs",
+        "vivs",
+        "nans",
+        "nans"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ivve",
+        "ivve",
+        "enna",
+        "enna"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "fvjnVNturoiealcks",
+  "totalChars": 408,
+  "lessonId": "lesson8"
+}

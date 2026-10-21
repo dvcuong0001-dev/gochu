@@ -1,0 +1,230 @@
+{
+  "id": "7.3",
+  "title": "Bài 7.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "fg",
+        "fg",
+        "jh",
+        "jh"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "gf",
+        "gf",
+        "hj",
+        "hj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ffgg",
+        "ffgg",
+        "jjhh",
+        "jjhh"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fgfg",
+        "fgfg",
+        "jhjh",
+        "jhjh"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "gffg",
+        "gffg",
+        "hjjh",
+        "hjjh"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ggfg",
+        "ggfg",
+        "hhjh",
+        "hhjh"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "gfgf",
+        "gfgf",
+        "hjhj",
+        "hjhj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fgds",
+        "fgds",
+        "jhkl",
+        "jhkl"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fgjh",
+        "fgjh",
+        "jhfg",
+        "jhfg"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fhfh",
+        "fhfh",
+        "jgjg",
+        "jgjg"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jujh",
+        "jujh",
+        "frfg",
+        "frfg"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "hugr",
+        "hugr",
+        "rguh",
+        "rguh"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "guhg",
+        "guhg",
+        "higj",
+        "higj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ligh",
+        "ligh",
+        "sehg",
+        "sehg"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "figs",
+        "figs",
+        "hugs",
+        "hugs"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "hair",
+        "hair",
+        "hike",
+        "hike"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "glis",
+        "glis",
+        "gals",
+        "gals"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "hige",
+        "hige",
+        "hugr",
+        "hugr"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "egih",
+        "egih",
+        "lhag",
+        "lhag"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dhji",
+        "dhji",
+        "lgek",
+        "lkeg"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "guru",
+        "guru",
+        "heir",
+        "heir"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "legu",
+        "legu",
+        "gala",
+        "gala"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "hire",
+        "hire",
+        "lugs",
+        "lugs"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jeha",
+        "jeha",
+        "guld",
+        "guld"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "fgjhdskluriea",
+  "totalChars": 464,
+  "lessonId": "lesson7"
+}

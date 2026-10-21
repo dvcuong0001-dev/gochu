@@ -1,0 +1,13 @@
+{
+  "id": "63.2",
+  "title": "Bài 63.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        string s = \"tuhoc typing\";\n        Console.WriteLine(s.IndexOf(\"typing\"));\n        Console.WriteLine(s.Replace(\"typing\", \"code\"));\n        Console.WriteLine(s.Contains(\"hoc\"));\n    }\n}",
+  "lang": "csharp",
+  "desc": "string: IndexOf, Replace, Contains",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson63"
+}

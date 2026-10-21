@@ -1,0 +1,13 @@
+{
+  "id": "40.4",
+  "title": "Bài 40.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "function taoBoDem() {\n  let dem = 0;\n  return () => ++dem;\n}\nconst dem = taoBoDem();\nconsole.log(dem(), dem(), dem());",
+  "lang": "javascript",
+  "desc": "Closure — hàm nhớ trạng thái",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson40"
+}

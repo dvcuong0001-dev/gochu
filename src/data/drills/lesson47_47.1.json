@@ -1,0 +1,13 @@
+{
+  "id": "47.1",
+  "title": "Bài 47.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string s = \"Cplusplus\";\n    cout << s.length() << endl;\n    cout << s[0] << \" \" << s.back() << endl;\n    cout << s.substr(0, 4) << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "string: length, truy cập, substr",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson47"
+}

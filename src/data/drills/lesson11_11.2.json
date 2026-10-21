@@ -1,0 +1,428 @@
+{
+  "id": "11.2",
+  "title": "Bài 11.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "but",
+        "but",
+        "but"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yet",
+        "yet",
+        "yet"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Bye",
+        "Bye",
+        "Bye"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "You",
+        "You",
+        "You"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "busy",
+        "busy",
+        "busy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "year",
+        "year",
+        "year"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "berry",
+        "berry",
+        "berry"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yodle",
+        "yodle",
+        "yodle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "maybe",
+        "maybe",
+        "maybe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "babble",
+        "babble",
+        "babble"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yours",
+        "yours",
+        "yours"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "baby",
+        "baby",
+        "baby"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yellow",
+        "yellow",
+        "yellow"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Byron",
+        "Byron",
+        "Byron"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yvette",
+        "Yvette",
+        "Yvette"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yesterday",
+        "dynasty"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "yesterday",
+        "dynasty"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "baboon",
+        "oboe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "baboon",
+        "oboe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "your",
+        "royalty"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "your",
+        "royalty"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "beetle",
+        "lullaby"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "beetle",
+        "lullaby"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yale",
+        "Broadway"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yale",
+        "Broadway"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "blue",
+        "mobile"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "blue",
+        "mobile"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yoghurt",
+        "dairy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yoghurt",
+        "dairy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "brush",
+        "clobber"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "brush",
+        "clobber"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yoga",
+        "fluency"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yoga",
+        "fluency"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "barrel",
+        "jumble"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "barrel",
+        "jumble"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Burgundy",
+        "Yukon"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Burgundy",
+        "Yukon"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "black",
+        "bike"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "black",
+        "bike"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yacht",
+        "twenty"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yacht",
+        "twenty"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "beach",
+        "tribe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "beach",
+        "tribe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yearly",
+        "today"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yearly",
+        "today"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Byron",
+        "Bay"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Byron",
+        "Bay"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yves",
+        "Young"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yves",
+        "Young"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "big",
+        "beautiful"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "big",
+        "beautiful"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yet",
+        "wavy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yet",
+        "wavy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yearbook",
+        "byte"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yearbook",
+        "byte"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eyebrow",
+        "abyss"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eyebrow",
+        "abyss"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "butyeBYosardlmwnvighcfjk",
+  "totalChars": 796,
+  "lessonId": "lesson11"
+}

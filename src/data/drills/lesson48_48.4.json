@@ -1,0 +1,13 @@
+{
+  "id": "48.4",
+  "title": "Bài 48.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\nusing namespace std;\n\nvoid hoanVi(int& a, int& b) {\n    int t = a;\n    a = b;\n    b = t;\n}\n\nint main() {\n    int x = 3, y = 7;\n    hoanVi(x, y);\n    cout << x << \" \" << y << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Truyền tham chiếu (reference)",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson48"
+}

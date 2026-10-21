@@ -1,0 +1,13 @@
+{
+  "id": "32.6",
+  "title": "Bài 32.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "def giai_thua(n):\n    if n <= 1:\n        return 1\n    return n * giai_thua(n - 1)\n\nprint(giai_thua(5))\nprint(giai_thua(6))",
+  "lang": "python",
+  "desc": "Đệ quy: tính giai thừa",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson32"
+}

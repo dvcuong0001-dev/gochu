@@ -1,0 +1,13 @@
+{
+  "id": "34.2",
+  "title": "Bài 34.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "with open(\"data.txt\", \"w\", encoding=\"utf-8\") as f:\n    f.write(\"Python\\nTuhoc\\nTyping\\n\")\n\nwith open(\"data.txt\", \"r\", encoding=\"utf-8\") as f:\n    for dong in f:\n        print(dong.strip())",
+  "lang": "python",
+  "desc": "Đọc file: lặp trực tiếp trên file",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson34"
+}

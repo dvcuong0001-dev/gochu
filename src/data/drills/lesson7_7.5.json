@@ -1,0 +1,354 @@
+{
+  "id": "7.5",
+  "title": "Bài 7.5",
+  "orderIndex": 5,
+  "lines": [
+    {
+      "groups": [
+        "Doghouses",
+        "offer",
+        "good",
+        "shelter",
+        "for",
+        "Lisa's",
+        "dogs."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Carriages",
+        "full",
+        "of",
+        "goat",
+        "cheese",
+        "roll",
+        "through",
+        "Greg's",
+        "garage."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "A",
+        "Chicago",
+        "cargo",
+        "of",
+        "cogs",
+        "clogs",
+        "the",
+        "carriage."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Tasteful",
+        "Thai",
+        "tea",
+        "theft",
+        "is",
+        "a",
+        "theoretical",
+        "threat."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Let's",
+        "hug,",
+        "huddled",
+        "hugs",
+        "are",
+        "good",
+        "after",
+        "sad",
+        "acts."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"Grills",
+        "are",
+        "great,\"",
+        "said",
+        "the",
+        "Scottish",
+        "girls."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Leigh's",
+        "eight",
+        "guitars",
+        "call",
+        "out",
+        "across",
+        "the",
+        "hushed",
+        "hall."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "College",
+        "graduates",
+        "get",
+        "their",
+        "grades",
+        "at",
+        "teacher",
+        "tutorials."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Rich",
+        "gorgeous",
+        "actresses",
+        "hide",
+        "out",
+        "at",
+        "outrageous",
+        "hotels."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Rough",
+        "rogues",
+        "reject",
+        "rises",
+        "of",
+        "refrigerated",
+        "goods."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Logistics",
+        "of",
+        "logic,",
+        "that's",
+        "difficult",
+        "to",
+        "figure",
+        "out."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Horace",
+        "searches",
+        "for",
+        "a",
+        "shortcut",
+        "to",
+        "his",
+        "house."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "There's",
+        "a",
+        "large",
+        "choice",
+        "of",
+        "terrific",
+        "tutorials",
+        "to",
+        "teach."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "hat",
+        "is",
+        "Roger's,",
+        "the",
+        "jacket",
+        "is",
+        "Hettie's."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"Halt",
+        "right",
+        "there,\"",
+        "hollered",
+        "the",
+        "halfhearted",
+        "harsh",
+        "guard."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Halfhearted",
+        "guards",
+        "hate",
+        "to",
+        "guard",
+        "their",
+        "leaders'",
+        "loot."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Irish",
+        "horses'",
+        "coats",
+        "glitter",
+        "after",
+        "the",
+        "dark",
+        "clouds",
+        "clear."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"Hose",
+        "the",
+        "horses",
+        "off,\"",
+        "shouts",
+        "the",
+        "horse",
+        "guide",
+        "Guthrie."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"Frogs",
+        "are",
+        "forgetful",
+        "creatures,\"",
+        "lectured",
+        "the",
+        "teacher."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"Geckos",
+        "are",
+        "so",
+        "delightful,\"",
+        "said",
+        "the",
+        "gecko",
+        "adorer",
+        "Gil."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"Go",
+        "get",
+        "a",
+        "galactic",
+        "gift",
+        "for",
+        "Gertrud,\"",
+        "orders",
+        "his",
+        "father."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"I",
+        "got",
+        "her",
+        "a",
+        "galactic",
+        "gadget",
+        "as",
+        "a",
+        "gift,\"",
+        "said",
+        "the",
+        "girl."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"I",
+        "forgot",
+        "to",
+        "get",
+        "a",
+        "haircut,\"",
+        "said",
+        "the",
+        "regretful",
+        "Roger."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"The",
+        "horse",
+        "is",
+        "too",
+        "high,\"",
+        "sighs",
+        "the",
+        "short",
+        "little",
+        "girl."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Gothic",
+        "castle",
+        "guides",
+        "go",
+        "outside",
+        "as",
+        "dark",
+        "clouds",
+        "drift",
+        "close."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "DoghusefrdltLia'.CcGAT,\"SRjHkIF",
+  "totalChars": 1319,
+  "lessonId": "lesson7"
+}

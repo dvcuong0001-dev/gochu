@@ -1,0 +1,212 @@
+{
+  "id": "22.1",
+  "title": "Bài 22.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "f$",
+        "f$",
+        "f$",
+        "f$"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fr4$",
+        "fr4$",
+        "fr4$",
+        "fr4$"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f%",
+        "f%",
+        "f%",
+        "f%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ft5%",
+        "ft5%",
+        "ft5%",
+        "ft5%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s@",
+        "s@",
+        "s@",
+        "s@"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sw2@",
+        "sw2@",
+        "sw2@",
+        "sw2@"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j&",
+        "j&",
+        "j&",
+        "j&"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ju7&",
+        "ju7&",
+        "ju7&",
+        "ju7&"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f5",
+        "f%",
+        "f5",
+        "f%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j7",
+        "j&",
+        "j7",
+        "j&"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f4",
+        "f$",
+        "f4",
+        "f$"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s2",
+        "s@",
+        "s2",
+        "s@"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a@d$",
+        "a@d$",
+        "a@d$",
+        "a@d$"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "f%j&",
+        "f%j&",
+        "f%j&",
+        "f%j&"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "@$%&",
+        "@$%&",
+        "@$%&",
+        "@$%&"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f@j$",
+        "f@j$",
+        "f@j$",
+        "f@j$"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "%tu%",
+        "%tu%",
+        "%tu%",
+        "%tu%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$s@a",
+        "$s@a",
+        "$s@a",
+        "$s@a"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$50?",
+        "$50?",
+        "$50?",
+        "$50?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "at/@",
+        "at/@",
+        "at/@",
+        "at/@"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "274%",
+        "274%",
+        "274%",
+        "274%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "I&me",
+        "I&me",
+        "I&me",
+        "I&me"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "f$r4%t5s@w2j&u7ad0?/Ime",
+  "totalChars": 376,
+  "lessonId": "lesson22"
+}

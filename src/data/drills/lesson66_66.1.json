@@ -1,0 +1,13 @@
+{
+  "id": "66.1",
+  "title": "Bài 66.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Diem {\n    public int X, Y;\n    public int Tong() => X + Y;\n}\nclass Program {\n    static void Main() {\n        Diem d = new Diem { X = 3, Y = 4 };\n        Console.WriteLine(d.Tong());\n    }\n}",
+  "lang": "csharp",
+  "desc": "Class: thuộc tính và method",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson66"
+}

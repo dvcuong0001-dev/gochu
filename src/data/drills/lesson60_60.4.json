@@ -1,0 +1,13 @@
+{
+  "id": "60.4",
+  "title": "Bài 60.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        int x = 10;\n        x += 5;\n        x *= 2;\n        Console.WriteLine(x);\n        int n = 7;\n        string loai = n % 2 == 0 ? \"chan\" : \"le\";\n        Console.WriteLine($\"{n} la so {loai}\");\n    }\n}",
+  "lang": "csharp",
+  "desc": "Gán phức hợp và toán tử ba ngôi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson60"
+}

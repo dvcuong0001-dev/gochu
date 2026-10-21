@@ -1,0 +1,13 @@
+{
+  "id": "59.1",
+  "title": "Bài 59.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Hello, World!\");\n        Console.WriteLine(\"Chao mung den voi C#\");\n    }\n}",
+  "lang": "csharp",
+  "desc": "Chương trình đầu tiên — Console.WriteLine",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson59"
+}

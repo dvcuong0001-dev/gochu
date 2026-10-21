@@ -1,0 +1,13 @@
+{
+  "id": "31.6",
+  "title": "Bài 31.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "s = \"madam\"\nprint(s == s[::-1])\nt = \"python\"\nprint(t == t[::-1])",
+  "lang": "python",
+  "desc": "Kiểm tra chuỗi đối xứng (palindrome)",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson31"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "8.2",
+  "title": "Bài 8.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        ";?",
+        ";?",
+        ";?",
+        ";?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ":?",
+        ":?",
+        ":?",
+        ":?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";;??",
+        ";;??",
+        "?;:?",
+        "?;:?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f??f",
+        "f??f",
+        ";??;",
+        ";??;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "n?v?",
+        "n?v?",
+        "r?t?",
+        "r?t?"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "ere?",
+        "ere?",
+        "ais?",
+        "ais?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Vor?",
+        "Vor?",
+        "Nad?",
+        "Nad?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ks?s",
+        "ks?s",
+        "er?s",
+        "er?s"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Niv?",
+        "Niv?",
+        "Van?",
+        "Van?"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": ";?:fnvrteaisVoNdk",
+  "totalChars": 164,
+  "lessonId": "lesson8"
+}

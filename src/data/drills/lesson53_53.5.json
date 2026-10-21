@@ -1,0 +1,13 @@
+{
+  "id": "53.5",
+  "title": "Bài 53.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int i = 1;\n        long gt = 1;\n        while (i <= 5) {\n            gt *= i;\n            i++;\n        }\n        System.out.println(\"5! = \" + gt);\n    }\n}",
+  "lang": "java",
+  "desc": "Vòng lặp while: tính giai thừa",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson53"
+}

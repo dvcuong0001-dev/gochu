@@ -1,0 +1,13 @@
+{
+  "id": "64.3",
+  "title": "Bài 64.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static int Tong(params int[] nums) {\n        int s = 0;\n        foreach (int x in nums) s += x;\n        return s;\n    }\n    static void Main() {\n        Console.WriteLine(Tong(1, 2, 3));\n        Console.WriteLine(Tong(10, 20, 30, 40));\n    }\n}",
+  "lang": "csharp",
+  "desc": "Tham số params",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson64"
+}

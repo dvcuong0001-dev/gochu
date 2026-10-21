@@ -1,0 +1,13 @@
+{
+  "id": "35.3",
+  "title": "Bài 35.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "let a = 10, b = 3;\nconsole.log(\"Tong:\", a + b);\nconsole.log(\"Hieu:\", a - b);\nconsole.log(\"Tich:\", a * b);\nconsole.log(\"Thuong:\", a / b);",
+  "lang": "javascript",
+  "desc": "Máy tính đơn giản",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson35"
+}

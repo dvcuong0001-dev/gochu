@@ -1,0 +1,286 @@
+{
+  "id": "1.4",
+  "title": "Bài 1.4",
+  "orderIndex": 4,
+  "lines": [
+    {
+      "groups": [
+        "as",
+        "as",
+        "as"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "all",
+        "all"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ask",
+        "ask",
+        "ask"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sad",
+        "sad",
+        "sad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sals",
+        "sals",
+        "sals"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dad",
+        "dad",
+        "dad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fall",
+        "fall",
+        "fall"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "flask",
+        "flask",
+        "flask"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lads",
+        "lads",
+        "lads"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dada",
+        "dada",
+        "dada"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "alas",
+        "alas",
+        "alas"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kala",
+        "kala",
+        "kala"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lada",
+        "lada",
+        "lada"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "flak",
+        "flak",
+        "flak"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jaffa",
+        "jaffa",
+        "jaffa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dalk",
+        "dalk",
+        "dalk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kalf",
+        "kalf",
+        "kalf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "salad",
+        "salad",
+        "salad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dallas",
+        "dallas",
+        "dallas"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alaska",
+        "alaska",
+        "alaska"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "flasks",
+        "flasks",
+        "flasks"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lass",
+        "lass",
+        "lass"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alfalfa",
+        "alfalfa",
+        "alfalfa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alfa",
+        "alfa",
+        "alfa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kafka",
+        "kafka",
+        "kafka"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "salsa",
+        "salsa",
+        "salsa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lalalaa",
+        "lalalaa",
+        "lalalaa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kaff",
+        "kaff",
+        "kaff"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dalk",
+        "dalk",
+        "dalk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lasa",
+        "lasa",
+        "lasa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fajas",
+        "fajas",
+        "fajas"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kalla",
+        "kalla",
+        "kalla"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dassa",
+        "dassa",
+        "dassa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alfas",
+        "alfas",
+        "alfas"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "aslkdfj",
+  "totalChars": 555,
+  "lessonId": "lesson1"
+}

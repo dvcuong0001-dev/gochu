@@ -1,0 +1,13 @@
+{
+  "id": "69.5",
+  "title": "Bài 69.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    var i = 1\n    var gt = 1L\n    while (i <= 5) {\n        gt *= i\n        i++\n    }\n    println(\"5! = $gt\")\n}",
+  "lang": "kotlin",
+  "desc": "Vòng lặp while: tính giai thừa",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson69"
+}

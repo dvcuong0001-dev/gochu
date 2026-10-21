@@ -1,0 +1,13 @@
+{
+  "id": "27.5",
+  "title": "Bài 27.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "so = int(\"25\")\nprint(so + 5)\ngia = float(\"19.5\")\nprint(\"Gia:\", gia)\nprint(\"Tuoi: \" + str(18))",
+  "lang": "python",
+  "desc": "Ép kiểu dữ liệu: int, float, str",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson27"
+}

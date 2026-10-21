@@ -1,0 +1,13 @@
+{
+  "id": "80.3",
+  "title": "Bài 80.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction Form() {\n  const [ten, setTen] = useState(\"\");\n  const [chao, setChao] = useState(\"\");\n  const gui = (e) => {\n    e.preventDefault();\n    setChao(\"Xin chao, \" + ten);\n  };\n  return (\n    <form onSubmit={gui}>\n      <input value={ten} onChange={(e) => setTen(e.target.value)} />\n      <button>Gui</button>\n      <p>{chao}</p>\n    </form>\n  );\n}\n\nexport default Form;",
+  "lang": "react",
+  "desc": "Submit form và hiển thị kết quả",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson80"
+}

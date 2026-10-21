@@ -1,0 +1,13 @@
+{
+  "id": "55.4",
+  "title": "Bài 55.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        String s = \"madam\";\n        String dao = new StringBuilder(s).reverse().toString();\n        System.out.println(dao);\n        System.out.println(s.equals(dao));\n    }\n}",
+  "lang": "java",
+  "desc": "Đảo ngược chuỗi với StringBuilder",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson55"
+}

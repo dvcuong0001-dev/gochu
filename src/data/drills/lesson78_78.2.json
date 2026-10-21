@@ -1,0 +1,13 @@
+{
+  "id": "78.2",
+  "title": "Bài 78.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "function DanhSachNut() {\n  const chon = (mon) => {\n    console.log(\"Chon:\", mon);\n  };\n  return (\n    <div>\n      <button onClick={() => chon(\"Toan\")}>Toan</button>\n      <button onClick={() => chon(\"Ly\")}>Ly</button>\n    </div>\n  );\n}\n\nexport default DanhSachNut;",
+  "lang": "react",
+  "desc": "Truyền tham số cho event handler",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson78"
+}

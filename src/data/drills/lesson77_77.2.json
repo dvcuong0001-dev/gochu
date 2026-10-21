@@ -1,0 +1,13 @@
+{
+  "id": "77.2",
+  "title": "Bài 77.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction LoiChao() {\n  const [ten, setTen] = useState(\"An\");\n  return (\n    <div>\n      <p>Xin chao, {ten}</p>\n      <button onClick={() => setTen(\"Binh\")}>Doi ten</button>\n    </div>\n  );\n}\n\nexport default LoiChao;",
+  "lang": "react",
+  "desc": "useState với chuỗi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson77"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "59.3",
+  "title": "Bài 59.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\n\nclass Program {\n    static void Main() {\n        int a = 10, b = 3;\n        Console.WriteLine(\"Tong: \" + (a + b));\n        Console.WriteLine(\"Hieu: \" + (a - b));\n        Console.WriteLine(\"Tich: \" + (a * b));\n        Console.WriteLine(\"Thuong: \" + ((double)a / b));\n    }\n}",
+  "lang": "csharp",
+  "desc": "Máy tính đơn giản",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson59"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "17.2",
+  "title": "Bài 17.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "Austria;",
+        "Belize:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Canada;",
+        "Denmark:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ecuador;",
+        "Finland:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ghana;",
+        "Honduras:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "India;",
+        "Japan:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Kenya;",
+        "Laos:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Malta;",
+        "Norway:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Oman;",
+        "Peru:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Qatar;",
+        "Russia:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Senegal;",
+        "Turkey:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Uruguay;",
+        "Vanuatu:"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Wales;",
+        "Yemen:",
+        "Zambia;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "Austria;Belz:CndDmkEcoFGhHIJpKyLMNwOPQRSgTUVWYZb",
+  "totalChars": 195,
+  "lessonId": "lesson17"
+}

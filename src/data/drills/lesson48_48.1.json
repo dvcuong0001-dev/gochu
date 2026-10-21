@@ -1,0 +1,13 @@
+{
+  "id": "48.1",
+  "title": "Bài 48.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\nusing namespace std;\n\nint cong(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    cout << cong(3, 5) << endl;\n    cout << cong(10, 20) << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Hàm: khai báo và return",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson48"
+}

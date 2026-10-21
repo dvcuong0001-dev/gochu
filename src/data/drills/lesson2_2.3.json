@@ -1,0 +1,293 @@
+{
+  "id": "2.3",
+  "title": "Bài 2.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "de",
+        "de",
+        "ki",
+        "ki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ed",
+        "ed",
+        "ik",
+        "ik"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ddee",
+        "ddee",
+        "kkii",
+        "kkii"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dede",
+        "dede",
+        "kiki",
+        "kiki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "edde",
+        "edde",
+        "ikki",
+        "ikki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eedd",
+        "eedd",
+        "iikk",
+        "iikk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eede",
+        "eede",
+        "iiki",
+        "iiki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eded",
+        "eded",
+        "ikik",
+        "ikik"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "fdes",
+        "fdes",
+        "jkil",
+        "jkil"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deki",
+        "deki",
+        "kide",
+        "kide"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "didi",
+        "didi",
+        "keke",
+        "keke"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eekk",
+        "eekk",
+        "iidd",
+        "iidd"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dese",
+        "dese",
+        "jiki",
+        "jiki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lisi",
+        "lisi",
+        "seke",
+        "seke"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fisi",
+        "fisi",
+        "jele",
+        "jele"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deli",
+        "deli",
+        "jile",
+        "jile"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jkef",
+        "jkef",
+        "diej",
+        "diej"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ajei",
+        "ajei",
+        "elif",
+        "elif"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "feli",
+        "feli",
+        "aife",
+        "aife"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aida",
+        "aida",
+        "ails",
+        "ails"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "self",
+        "self",
+        "isle",
+        "isle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "file",
+        "file",
+        "silk",
+        "silk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "side",
+        "skis",
+        "side",
+        "ski"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "elks",
+        "else",
+        "elks",
+        "else"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "desk",
+        "jake",
+        "desk",
+        "jake"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "seek",
+        "skid",
+        "seek",
+        "skid"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "keel",
+        "life",
+        "keel",
+        "life"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sail",
+        "seed",
+        "sail",
+        "seed"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eels",
+        "ease",
+        "eels",
+        "ease"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kids",
+        "slid",
+        "kids",
+        "slid"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "leaf",
+        "leik",
+        "leaf",
+        "leik"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "dekifsjla",
+  "totalChars": 603,
+  "lessonId": "lesson2"
+}

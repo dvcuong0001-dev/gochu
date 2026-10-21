@@ -1,0 +1,13 @@
+{
+  "id": "77.5",
+  "title": "Bài 77.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction HoSo() {\n  const [sv, setSv] = useState({ ten: \"An\", diem: 8 });\n  return (\n    <div>\n      <p>{sv.ten}: {sv.diem}</p>\n      <button onClick={() => setSv({ ...sv, diem: sv.diem + 1 })}>\n        Cong diem\n      </button>\n    </div>\n  );\n}\n\nexport default HoSo;",
+  "lang": "react",
+  "desc": "useState với object",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson77"
+}

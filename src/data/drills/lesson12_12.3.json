@@ -1,0 +1,200 @@
+{
+  "id": "12.3",
+  "title": "Bài 12.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "Zanzibar",
+        "is",
+        "an",
+        "exotic",
+        "island",
+        "next",
+        "to",
+        "Tanzania."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Computers",
+        "can",
+        "be",
+        "so",
+        "exasperating",
+        "sometimes."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Beatrix",
+        "passed",
+        "the",
+        "exam",
+        "with",
+        "the",
+        "highest",
+        "score."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Xavier",
+        "went",
+        "to",
+        "an",
+        "exquisite",
+        "art",
+        "exhibition",
+        "yesterday."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Zeke",
+        "goes",
+        "to",
+        "many",
+        "jazz",
+        "festivals",
+        "every",
+        "summer."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "Spanish",
+        "poet",
+        "Jimenez",
+        "has",
+        "won",
+        "the",
+        "Nobel",
+        "prize."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Many",
+        "lizards",
+        "have",
+        "become",
+        "extinct",
+        "after",
+        "excessive",
+        "hunting."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Car",
+        "exhaust",
+        "fumes",
+        "affect",
+        "the",
+        "ozone",
+        "layer",
+        "in",
+        "an",
+        "adverse",
+        "way."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Extreme",
+        "sports",
+        "is",
+        "a",
+        "mixture",
+        "of",
+        "fear",
+        "and",
+        "excitement."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Lazy",
+        "lizards",
+        "exaggerate",
+        "the",
+        "excruciating",
+        "effects",
+        "of",
+        "lazing."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "All",
+        "insects",
+        "have",
+        "exoskeletons",
+        "say",
+        "the",
+        "experts."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "lexicon",
+        "is",
+        "annexed",
+        "to",
+        "explain",
+        "exact",
+        "expressions."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Some",
+        "citizens",
+        "of",
+        "Zurich",
+        "visited",
+        "the",
+        "bazaars",
+        "in",
+        "Zaire."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Luxurious",
+        "beaches",
+        "of",
+        "Belize",
+        "never",
+        "seize",
+        "to",
+        "amaze",
+        "Xavier."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "ZanzibrsexotcldT.CmpugBhwXvqykjfSJNMELA",
+  "totalChars": 731,
+  "lessonId": "lesson12"
+}

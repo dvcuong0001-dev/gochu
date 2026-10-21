@@ -1,0 +1,13 @@
+{
+  "id": "59.4",
+  "title": "Bài 59.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\n\nclass Program {\n    static void Main() {\n        const double PI = 3.14159;\n        int r = 4;\n        Console.WriteLine($\"Chu vi: {2 * PI * r}\");\n        Console.WriteLine($\"Dien tich: {PI * r * r}\");\n    }\n}",
+  "lang": "csharp",
+  "desc": "Hằng số const và phép toán",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson59"
+}

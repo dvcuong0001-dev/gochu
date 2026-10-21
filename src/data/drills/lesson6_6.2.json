@@ -1,0 +1,293 @@
+{
+  "id": "6.2",
+  "title": "Bài 6.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "dc",
+        "dc",
+        "k,",
+        "k,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cd",
+        "cd",
+        ",k",
+        ",k"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ddcc",
+        "ddcc",
+        "kk,,",
+        "kk,,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dcdc",
+        "dcdc",
+        "k,k,",
+        "k,k,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cddc",
+        "cddc",
+        ",kk,",
+        ",kk,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ccdd",
+        "ccdd",
+        ",,kk",
+        ",,kk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ccdc",
+        "ccdc",
+        ",,k,",
+        ",,k,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cdcd",
+        "cdcd",
+        ",k,k",
+        ",k,k"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "fdcs",
+        "fdcs",
+        "jk,l",
+        "jk,l"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dck,",
+        "dck,",
+        "k,dc",
+        "k,dc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "d,d,",
+        "d,d,",
+        "kckc",
+        "kckc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cckk",
+        "cckk",
+        ",,dd",
+        ",,dd"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dcsc",
+        "dcsc",
+        "j,k,",
+        "j,k,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "l,s,",
+        "l,s,",
+        "sckc",
+        "sckc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f,s,",
+        "f,s,",
+        "jclc",
+        "jclc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dcl,",
+        "dcl,",
+        "j,lc",
+        "j,lc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jkcf",
+        "jkcf",
+        "d,cj",
+        "d,cj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ajc,",
+        "ajc,",
+        "cl,f",
+        "cl,f"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fcl,",
+        "fcl,",
+        "a,fc",
+        "a,fc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a,da",
+        "a,da",
+        "a,ls",
+        "a,ls"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sclf",
+        "sclf",
+        ",slc",
+        ",slc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f,lc",
+        "f,lc",
+        "s,lk",
+        "s,lk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s,dc",
+        "sk,s",
+        "s,dc",
+        "sk,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "clks",
+        "clsc",
+        "clks",
+        "clsc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dcsk",
+        "jakc",
+        "dcsk",
+        "jakc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "scck",
+        "sk,d",
+        "scck",
+        "sk,d"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kccl",
+        "l,fc",
+        "kccl",
+        "l,fc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sa,l",
+        "sccd",
+        "sa,l",
+        "sccd"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ccls",
+        "casc",
+        "ccls",
+        "casc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "k,ds",
+        "sl,d",
+        "k,ds",
+        "sl,d"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lcaf",
+        "lc,k",
+        "lcaf",
+        "lc,k"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "dck,fsjla",
+  "totalChars": 603,
+  "lessonId": "lesson6"
+}

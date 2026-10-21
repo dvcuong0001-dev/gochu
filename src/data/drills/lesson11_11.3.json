@@ -1,0 +1,189 @@
+{
+  "id": "11.3",
+  "title": "Bài 11.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "Bethany",
+        "borrowed",
+        "a",
+        "beach",
+        "ball",
+        "from",
+        "Barbara."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yolanda",
+        "loves",
+        "to",
+        "have",
+        "fruit",
+        "yoghurt",
+        "for",
+        "breakfast."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yvette",
+        "was",
+        "displeased",
+        "with",
+        "her",
+        "yearbook",
+        "picture."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\"Watch",
+        "out",
+        "for",
+        "that",
+        "bike,\"",
+        "Bettina",
+        "yelled",
+        "out",
+        "to",
+        "Yves."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Baby",
+        "boys",
+        "may",
+        "grow",
+        "bigger",
+        "than",
+        "baby",
+        "girls."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Busy",
+        "Broadway",
+        "actress",
+        "Yvette",
+        "borrowed",
+        "a",
+        "book",
+        "from",
+        "Bill."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Betsy's",
+        "arm",
+        "broke",
+        "again.",
+        "This",
+        "was",
+        "the",
+        "second",
+        "time",
+        "already."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Boiling",
+        "water",
+        "can",
+        "bubble",
+        "furiously",
+        "so",
+        "be",
+        "careful."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "books",
+        "by",
+        "Lewis",
+        "Carroll",
+        "are",
+        "very",
+        "popular."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Do",
+        "you",
+        "think",
+        "there",
+        "are",
+        "a",
+        "lot",
+        "of",
+        "yucca",
+        "plants",
+        "in",
+        "Yucatan?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Bernadette",
+        "enjoys",
+        "all",
+        "sports,",
+        "especially",
+        "badminton."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "We've",
+        "not",
+        "yet",
+        "seen",
+        "any",
+        "baboons",
+        "eat",
+        "breadfruit."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Did",
+        "your",
+        "brother",
+        "help",
+        "repair",
+        "the",
+        "yellow",
+        "wall",
+        "today?"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "Bethanyborwdclfm.Yvsuigkp\"W,'TLCD?j",
+  "totalChars": 660,
+  "lessonId": "lesson11"
+}

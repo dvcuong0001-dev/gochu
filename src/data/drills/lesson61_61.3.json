@@ -1,0 +1,13 @@
+{
+  "id": "61.3",
+  "title": "Bài 61.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        int thu = 3;\n        switch (thu) {\n            case 1: Console.WriteLine(\"Chu nhat\"); break;\n            case 2: Console.WriteLine(\"Thu hai\"); break;\n            case 3: Console.WriteLine(\"Thu ba\"); break;\n            default: Console.WriteLine(\"Khac\"); break;\n        }\n    }\n}",
+  "lang": "csharp",
+  "desc": "Câu lệnh switch - case",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson61"
+}

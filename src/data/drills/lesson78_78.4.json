@@ -1,0 +1,13 @@
+{
+  "id": "78.4",
+  "title": "Bài 78.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction Hop() {\n  const [mau, setMau] = useState(\"white\");\n  return (\n    <div\n      onMouseOver={() => setMau(\"yellow\")}\n      onMouseOut={() => setMau(\"white\")}\n      style={{ background: mau, padding: 20 }}\n    >\n      Di chuot vao day\n    </div>\n  );\n}\n\nexport default Hop;",
+  "lang": "react",
+  "desc": "Nhiều sự kiện: onMouseOver, onMouseOut",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson78"
+}

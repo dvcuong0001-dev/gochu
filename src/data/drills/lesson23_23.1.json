@@ -1,0 +1,194 @@
+{
+  "id": "23.1",
+  "title": "Bài 23.1",
+  "orderIndex": 1,
+  "lines": [
+    {
+      "groups": [
+        "a!",
+        "a!",
+        "a!",
+        "a!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aq1!",
+        "aq1!",
+        "aq1!",
+        "aq1!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";\\",
+        ";\\",
+        ";\\",
+        ";\\"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";\\:?",
+        ";\\:?",
+        ";\\:?",
+        ";\\:?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";{",
+        ";{",
+        ";{",
+        ";{"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";[:{",
+        ";[:{",
+        ";[:{",
+        ";[:{"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";}",
+        ";}",
+        ";}",
+        ";}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";]:}",
+        ";]:}",
+        ";]:}",
+        ";]:}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a1a!",
+        "a1a!",
+        "a1a!",
+        "a1a!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\\;p\\",
+        "\\;p\\",
+        "\\;p\\",
+        "\\;p\\"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{10}",
+        "{10}",
+        "{10}",
+        "{10}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a!j1",
+        "a!j1",
+        "a!j1",
+        "a!j1"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{1\\}",
+        "{1\\}",
+        "{1\\}",
+        "{1\\}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "\\p{!",
+        "\\p{!",
+        "\\p{!",
+        "\\p{!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a\\f}",
+        "a\\f}",
+        "a\\f}",
+        "a\\f}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "j{;!",
+        "j{;!",
+        "j{;!",
+        "j{;!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "!a}f",
+        "!a}f",
+        "!a}f",
+        "!a}f"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yes!",
+        "Yes!",
+        "Yes!",
+        "Yes!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{go}",
+        "{go}",
+        "{go}",
+        "{go}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "c:\\d",
+        "c:\\d",
+        "c:\\d",
+        "c:\\d"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "a!q1;\\:?{[}]p0jfYesgocd",
+  "totalChars": 368,
+  "lessonId": "lesson23"
+}

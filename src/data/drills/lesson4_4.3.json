@@ -1,0 +1,261 @@
+{
+  "id": "4.3",
+  "title": "Bài 4.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "todd",
+        "talks",
+        "to",
+        "ross"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lisa",
+        "talks",
+        "to",
+        "rose"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rose",
+        "talks",
+        "to",
+        "ross",
+        "too"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "todd",
+        "likes",
+        "oaks",
+        "like",
+        "ross",
+        "likes",
+        "toast",
+        "like",
+        "lisa",
+        "likes",
+        "roast"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "does",
+        "roasted",
+        "toast",
+        "taste",
+        "like",
+        "toasted",
+        "roast",
+        "asks",
+        "todd"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "deloused",
+        "terriers",
+        "are",
+        "assessed",
+        "at",
+        "a",
+        "roasted",
+        "food",
+        "feast"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rosa",
+        "rides",
+        "a",
+        "tired",
+        "rooster",
+        "to",
+        "a",
+        "roadside",
+        "forest",
+        "feast"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "it",
+        "is",
+        "a",
+        "feast",
+        "for",
+        "rookie",
+        "roosters",
+        "also",
+        "for",
+        "tired",
+        "roosters"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rosa",
+        "likes",
+        "roadside",
+        "forest",
+        "feasts",
+        "after",
+        "dessert"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "toads",
+        "dislike",
+        "roadside",
+        "forest",
+        "feasts",
+        "as",
+        "fires",
+        "result"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eduardo",
+        "took",
+        "a",
+        "look",
+        "at",
+        "leafless",
+        "koala",
+        "trees"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "koalas",
+        "like",
+        "to",
+        "eat",
+        "leaf",
+        "koalas",
+        "dislike",
+        "roots"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "koalas",
+        "are",
+        "odorous",
+        "old",
+        "stout",
+        "fat",
+        "jokers"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "koalas",
+        "feel",
+        "like",
+        "tired",
+        "fools",
+        "after",
+        "koalas",
+        "fall",
+        "a",
+        "foot"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rosalie",
+        "likes",
+        "serious",
+        "souffle",
+        "soirees",
+        "after",
+        "tutorials"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tutorials",
+        "are",
+        "torture",
+        "for",
+        "old",
+        "editor",
+        "rosalie"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "editor",
+        "rosalie",
+        "likes",
+        "trout",
+        "to",
+        "roll",
+        "a",
+        "foot",
+        "for",
+        "jokes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "editor",
+        "rosalie",
+        "dislikes",
+        "fossil",
+        "loaded",
+        "lakes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rosalie",
+        "takes",
+        "trout",
+        "to",
+        "a",
+        "lake",
+        "at",
+        "a",
+        "fort",
+        "after",
+        "dark"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "todalksrieufj",
+  "totalChars": 872,
+  "lessonId": "lesson4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "41.4",
+  "title": "Bài 41.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "let sv = { ten: \"An\", diem: [8, 9, 7] };\nlet json = JSON.stringify(sv);\nconsole.log(json);\nlet lai = JSON.parse(json);\nconsole.log(lai.ten, lai.diem[0]);",
+  "lang": "javascript",
+  "desc": "JSON.stringify và JSON.parse",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson41"
+}

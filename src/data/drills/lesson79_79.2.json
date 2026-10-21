@@ -1,0 +1,13 @@
+{
+  "id": "79.2",
+  "title": "Bài 79.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "function DanhSachSV() {\n  const ds = [\n    { id: 1, ten: \"An\" },\n    { id: 2, ten: \"Binh\" },\n  ];\n  return (\n    <ul>\n      {ds.map((sv) => (\n        <li key={sv.id}>{sv.ten}</li>\n      ))}\n    </ul>\n  );\n}\n\nexport default DanhSachSV;",
+  "lang": "react",
+  "desc": "Render mảng object với key là id",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson79"
+}

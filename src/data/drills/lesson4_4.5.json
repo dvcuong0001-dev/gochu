@@ -1,0 +1,254 @@
+{
+  "id": "4.5",
+  "title": "Bài 4.5",
+  "orderIndex": 5,
+  "lines": [
+    {
+      "groups": [
+        "artist",
+        "alfred",
+        "adores",
+        "florida",
+        "tastes",
+        "ie",
+        "seafood",
+        "tastes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "droll",
+        "sailor",
+        "ross",
+        "tailors",
+        "seafood",
+        "to",
+        "florida",
+        "tastes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ross",
+        "took",
+        "loud",
+        "lottie",
+        "out",
+        "to",
+        "a",
+        "dakota",
+        "feast"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "toasted",
+        "seafood",
+        "tastes",
+        "like",
+        "defrosted",
+        "roasted",
+        "tossed",
+        "oats"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "todd",
+        "sees",
+        "auroras",
+        "after",
+        "riotous",
+        "florida",
+        "seafood",
+        "feast"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aristotle",
+        "likes",
+        "roasted",
+        "seafood",
+        "tastes"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eduardo",
+        "takes",
+        "furious",
+        "lisa",
+        "to",
+        "eat",
+        "soft",
+        "tofu",
+        "at",
+        "a",
+        "kiosk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "josef",
+        "tells",
+        "jokes",
+        "to",
+        "rosa",
+        "at",
+        "floodlit",
+        "roadside",
+        "fort",
+        "stairs"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "artist",
+        "alfred",
+        "likes",
+        "defrosted",
+        "tofu",
+        "laos",
+        "lotuses",
+        "too"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sailor",
+        "ross",
+        "likes",
+        "aristotle",
+        "as",
+        "does",
+        "furious",
+        "lisa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "todd",
+        "toasts",
+        "toffee",
+        "taoist",
+        "sailor",
+        "roasts",
+        "soft",
+        "tofu",
+        "at",
+        "sea"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "delirious",
+        "daffodils",
+        "fade",
+        "tudor",
+        "folklore"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lottie",
+        "likes",
+        "retro",
+        "stilettos",
+        "riotous",
+        "daffodils"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "riotous",
+        "asteroids",
+        "strike",
+        "stiletto",
+        "toddlers",
+        "out",
+        "of",
+        "road"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "toddler",
+        "otto",
+        "lassos",
+        "sofa",
+        "raoul",
+        "strokes",
+        "stout",
+        "toledo",
+        "rats"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aloof",
+        "leo",
+        "likes",
+        "odious",
+        "audio",
+        "tales",
+        "told",
+        "after",
+        "dark"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lost",
+        "furious",
+        "lisa",
+        "looks",
+        "out",
+        "at",
+        "deforested",
+        "areas",
+        "ie",
+        "deserts"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "furious",
+        "lisa",
+        "likes",
+        "deserts",
+        "a",
+        "lot",
+        "if",
+        "oases",
+        "are",
+        "lustrous"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "artislfedokuj",
+  "totalChars": 937,
+  "lessonId": "lesson4"
+}

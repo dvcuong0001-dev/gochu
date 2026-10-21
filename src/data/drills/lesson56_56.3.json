@@ -1,0 +1,13 @@
+{
+  "id": "56.3",
+  "title": "Bài 56.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    static int tong(int... nums) {\n        int s = 0;\n        for (int x : nums) s += x;\n        return s;\n    }\n\n    public static void main(String[] args) {\n        System.out.println(tong(1, 2, 3));\n        System.out.println(tong(10, 20, 30, 40));\n    }\n}",
+  "lang": "java",
+  "desc": "Tham số động varargs",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson56"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "45.5",
+  "title": "Bài 45.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int i = 1;\n    long gt = 1;\n    while (i <= 5) {\n        gt *= i;\n        i++;\n    }\n    cout << \"5! = \" << gt << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Vòng lặp while: tính giai thừa",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson45"
+}

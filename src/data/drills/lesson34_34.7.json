@@ -1,0 +1,13 @@
+{
+  "id": "34.7",
+  "title": "Bài 34.7",
+  "orderIndex": 7,
+  "lines": [],
+  "type": 3,
+  "rawText": "diem = {\"An\": 8, \"Binh\": 6, \"Cuong\": 9}\nwith open(\"diem.txt\", \"w\", encoding=\"utf-8\") as f:\n    for ten, d in diem.items():\n        f.write(ten + \" \" + str(d) + \"\\n\")\n\nwith open(\"diem.txt\", \"r\", encoding=\"utf-8\") as f:\n    for dong in f:\n        ten, d = dong.split()\n        print(ten, \"->\", d)",
+  "lang": "python",
+  "desc": "Tổng hợp: ghi điểm ra file rồi đọc lại",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson34"
+}

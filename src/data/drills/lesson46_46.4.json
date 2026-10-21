@@ -1,0 +1,13 @@
+{
+  "id": "46.4",
+  "title": "Bài 46.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <string>\n#include <map>\nusing namespace std;\n\nint main() {\n    map<string, int> gia;\n    gia[\"tao\"] = 30;\n    gia[\"cam\"] = 25;\n    for (auto& p : gia)\n        cout << p.first << \" = \" << p.second << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Map: lưu cặp key-value",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson46"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "82.3",
+  "title": "Bài 82.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "function Nut({ onChon, nhan }) {\n  return <button onClick={() => onChon(nhan)}>{nhan}</button>;\n}\n\nfunction App() {\n  const chon = (m) => console.log(\"Chon:\", m);\n  return (\n    <div>\n      <Nut nhan=\"A\" onChon={chon} />\n      <Nut nhan=\"B\" onChon={chon} />\n    </div>\n  );\n}\n\nexport default App;",
+  "lang": "react",
+  "desc": "Truyền hàm qua props (callback)",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson82"
+}

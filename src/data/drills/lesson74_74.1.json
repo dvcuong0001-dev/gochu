@@ -1,0 +1,13 @@
+{
+  "id": "74.1",
+  "title": "Bài 74.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "class Diem(val x: Int, val y: Int) {\n    fun tong() = x + y\n}\n\nfun main() {\n    val d = Diem(3, 4)\n    println(d.tong())\n}",
+  "lang": "kotlin",
+  "desc": "Class và phương thức",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson74"
+}

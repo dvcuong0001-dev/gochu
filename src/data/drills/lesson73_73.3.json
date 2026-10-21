@@ -1,0 +1,13 @@
+{
+  "id": "73.3",
+  "title": "Bài 73.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val nums = listOf(5, 2, 8, 1, 9)\n    println(nums.sorted())\n    val nhom = nums.groupBy { it % 2 == 0 }\n    println(nhom)\n}",
+  "lang": "kotlin",
+  "desc": "sorted và groupBy",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson73"
+}

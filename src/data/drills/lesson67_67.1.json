@@ -1,0 +1,13 @@
+{
+  "id": "67.1",
+  "title": "Bài 67.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    println(\"Hello, World!\")\n    println(\"Chao mung den voi Kotlin\")\n}",
+  "lang": "kotlin",
+  "desc": "Chương trình đầu tiên — println",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson67"
+}

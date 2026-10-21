@@ -1,0 +1,13 @@
+{
+  "id": "42.4",
+  "title": "Bài 42.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "function delay(val) {\n  return new Promise(resolve => resolve(val * 2));\n}\ndelay(5).then(kq => console.log(\"Ket qua:\", kq));",
+  "lang": "javascript",
+  "desc": "Promise và then",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson42"
+}

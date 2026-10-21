@@ -1,0 +1,13 @@
+{
+  "id": "74.3",
+  "title": "Bài 74.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "open class DongVat(val ten: String) {\n    open fun keu() = \"$ten keu\"\n}\n\nclass Cho(ten: String) : DongVat(ten) {\n    override fun keu() = \"$ten sua gau gau\"\n}\n\nfun main() {\n    println(Cho(\"Mun\").keu())\n}",
+  "lang": "kotlin",
+  "desc": "Kế thừa với open và override",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson74"
+}

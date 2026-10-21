@@ -1,0 +1,13 @@
+{
+  "id": "50.2",
+  "title": "Bài 50.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\nusing namespace std;\n\nclass HinhChuNhat {\n    int dai, rong;\npublic:\n    HinhChuNhat(int d, int r) : dai(d), rong(r) {}\n    int dienTich() { return dai * rong; }\n};\n\nint main() {\n    HinhChuNhat h(5, 3);\n    cout << h.dienTich() << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Constructor khởi tạo đối tượng",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson50"
+}

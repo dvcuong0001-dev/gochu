@@ -1,0 +1,13 @@
+{
+  "id": "34.5",
+  "title": "Bài 34.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "from datetime import date\nhom_nay = date(2026, 5, 31)\ntet = date(2027, 1, 1)\ncon_lai = (tet - hom_nay).days\nprint(\"Con\", con_lai, \"ngay\")",
+  "lang": "python",
+  "desc": "datetime: tính số ngày còn lại",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson34"
+}

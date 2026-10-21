@@ -1,0 +1,13 @@
+{
+  "id": "48.2",
+  "title": "Bài 48.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <string>\nusing namespace std;\n\nstring chao(string ten, string loi = \"Xin chao\") {\n    return loi + \", \" + ten;\n}\n\nint main() {\n    cout << chao(\"An\") << endl;\n    cout << chao(\"Binh\", \"Hello\") << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Tham số mặc định",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson48"
+}

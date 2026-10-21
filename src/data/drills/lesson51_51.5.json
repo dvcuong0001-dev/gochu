@@ -1,0 +1,13 @@
+{
+  "id": "51.5",
+  "title": "Bài 51.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        String ten = \"Tuhoc\";\n        String loi = \"Xin chao, \" + ten + \"!\";\n        System.out.println(loi);\n        System.out.println(\"Do dai: \" + loi.length());\n    }\n}",
+  "lang": "java",
+  "desc": "Chuỗi String và nối chuỗi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson51"
+}

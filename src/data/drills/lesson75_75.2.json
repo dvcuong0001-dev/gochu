@@ -1,0 +1,13 @@
+{
+  "id": "75.2",
+  "title": "Bài 75.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "function ThongTin() {\n  const ten = \"An\";\n  const tuoi = 20;\n  return (\n    <div>\n      <p>Ten: {ten}</p>\n      <p>Tuoi: {tuoi}</p>\n      <p>Nam sau: {tuoi + 1}</p>\n    </div>\n  );\n}\n\nexport default ThongTin;",
+  "lang": "react",
+  "desc": "JSX nhúng biểu thức với {}",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson75"
+}

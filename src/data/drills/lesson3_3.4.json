@@ -1,0 +1,185 @@
+{
+  "id": "3.4",
+  "title": "Bài 3.4",
+  "orderIndex": 4,
+  "lines": [
+    {
+      "groups": [
+        "sue",
+        "is",
+        "a",
+        "skillful",
+        "surfer"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jill",
+        "likes",
+        "red",
+        "daisies"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rural",
+        "referrals",
+        "fill",
+        "lauderdale"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "deirdre",
+        "reads",
+        "false",
+        "fliers"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "surreal",
+        "alf",
+        "surfs",
+        "as",
+        "leisure"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ask",
+        "russell",
+        "jessie",
+        "dear"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "sulfide",
+        "jars",
+        "are",
+        "full"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "saul",
+        "susses",
+        "all",
+        "deals"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "laura",
+        "fears",
+        "fake",
+        "frauds"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fred",
+        "used",
+        "rake",
+        "like",
+        "alfred"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "elsie",
+        "fusses",
+        "as",
+        "allie",
+        "falls"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "flu",
+        "is",
+        "a",
+        "risk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "is",
+        "flu",
+        "a",
+        "real",
+        "risk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "flu",
+        "sure",
+        "is",
+        "a",
+        "dreadful",
+        "risk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fluff",
+        "is",
+        "real",
+        "lifelike",
+        "dusk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ursula",
+        "skied",
+        "seaside",
+        "fields"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "adieu",
+        "dukes",
+        "adieu",
+        "earls"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "readers",
+        "read",
+        "real",
+        "ukases"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "sueiaklfrjd",
+  "totalChars": 453,
+  "lessonId": "lesson3"
+}

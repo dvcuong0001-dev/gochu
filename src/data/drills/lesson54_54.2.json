@@ -1,0 +1,13 @@
+{
+  "id": "54.2",
+  "title": "Bài 54.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "import java.util.ArrayList;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<String> ds = new ArrayList<>();\n        ds.add(\"tao\");\n        ds.add(\"cam\");\n        ds.add(\"le\");\n        ds.remove(\"cam\");\n        System.out.println(ds);\n        System.out.println(\"Size: \" + ds.size());\n    }\n}",
+  "lang": "java",
+  "desc": "ArrayList: thêm, xóa, duyệt",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson54"
+}

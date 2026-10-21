@@ -1,0 +1,455 @@
+{
+  "id": "8.3",
+  "title": "Bài 8.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "and",
+        "and",
+        "and"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "van",
+        "van",
+        "van"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "not",
+        "not",
+        "not"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Oh?",
+        "Oh?",
+        "Oh?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Vail",
+        "Vail",
+        "Vail"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nina",
+        "Nina",
+        "Nina"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Vince?",
+        "Vince?",
+        "Vince?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "valve",
+        "valve",
+        "valve"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "noodle",
+        "noodle",
+        "noodle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "None?",
+        "None?",
+        "None?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Verne",
+        "Verne",
+        "Verne"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "near",
+        "near",
+        "near"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "velvet",
+        "velvet",
+        "velvet"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "native",
+        "native",
+        "native"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Viking?",
+        "Viking?",
+        "Viking?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Niagara",
+        "Verdi"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "Niagara",
+        "Verdi"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Vince",
+        "Niles"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Vince",
+        "Niles"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nine?",
+        "Eleven."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nine?",
+        "Eleven."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "valve",
+        "level"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "valve",
+        "level"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "noodle",
+        "olive"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "noodle",
+        "olive"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "varnish",
+        "river"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "varnish",
+        "river"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nevada",
+        "Vancouver",
+        "Nevada",
+        "Vancouver"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "vehicle",
+        "harvest",
+        "vehicle",
+        "harvest"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "neither",
+        "innate"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "neither",
+        "innate"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "village",
+        "glove"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "village",
+        "glove"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nectar",
+        "connect"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nectar",
+        "connect"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "virtual",
+        "universe",
+        "virtual",
+        "universe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nathan",
+        "Alvin"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nathan",
+        "Alvin"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "voice",
+        "over"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "voice",
+        "over"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nation",
+        "tornado"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nation",
+        "tornado"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Venice",
+        "Nassau"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Venice",
+        "Nassau"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "necklace",
+        "cousin"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "necklace",
+        "cousin"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "volatile",
+        "divide"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "volatile",
+        "divide"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nature",
+        "nutshell"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nature",
+        "nutshell"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Vivaldi",
+        "Nagasaki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Vivaldi",
+        "Nagasaki"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "never",
+        "vendor"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "never",
+        "vendor"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "novice",
+        "vanilla"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "novice",
+        "vanilla"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "navigate",
+        "volcano"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "navigate",
+        "volcano"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "veranda",
+        "Argentina"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "veranda",
+        "Argentina"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "andvotOh?VilNcerkgsE.uA",
+  "totalChars": 963,
+  "lessonId": "lesson8"
+}

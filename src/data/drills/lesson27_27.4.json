@@ -1,0 +1,13 @@
+{
+  "id": "27.4",
+  "title": "Bài 27.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "a = 10\nb = 3\nprint(\"Tong:\", a + b)\nprint(\"Hieu:\", a - b)\nprint(\"Tich:\", a * b)\nprint(\"Thuong:\", a / b)",
+  "lang": "python",
+  "desc": "Máy tính đơn giản — bốn phép tính",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson27"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "39.5",
+  "title": "Bài 39.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "let text = \"SDT 0912345678 mail an@gmail.com\";\nconsole.log(text.match(/\\d+/g));\nconsole.log(/^\\w+@\\w+\\.\\w+$/.test(\"an@gmail.com\"));",
+  "lang": "javascript",
+  "desc": "Regex: match số và test mẫu",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson39"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "62.4",
+  "title": "Bài 62.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nusing System.Collections.Generic;\nclass Program {\n    static void Main() {\n        var s = new HashSet<int> { 1, 2, 2, 3, 3 };\n        Console.WriteLine(\"Count: \" + s.Count);\n        Console.WriteLine(s.Contains(2));\n    }\n}",
+  "lang": "csharp",
+  "desc": "HashSet: loại trùng phần tử",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson62"
+}

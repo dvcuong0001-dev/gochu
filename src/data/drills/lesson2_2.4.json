@@ -1,0 +1,347 @@
+{
+  "id": "2.4",
+  "title": "Bài 2.4",
+  "orderIndex": 4,
+  "lines": [
+    {
+      "groups": [
+        "if",
+        "if",
+        "if"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "eel",
+        "eel",
+        "eel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "led",
+        "led",
+        "led"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aid",
+        "aid",
+        "aid"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ski",
+        "ski",
+        "ski"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ill",
+        "ill",
+        "ill"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "side",
+        "side",
+        "side"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "keel",
+        "keel",
+        "keel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "life",
+        "life",
+        "life"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ellis",
+        "isle"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "ellis",
+        "isle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "field",
+        "file"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "field",
+        "file"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "silk",
+        "skill"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "silk",
+        "skill"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "elk",
+        "else"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "elk",
+        "else"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "desk",
+        "lead"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "desk",
+        "lead"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sail",
+        "seal"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sail",
+        "seal"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "see",
+        "diesel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "see",
+        "diesel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fiddle",
+        "saddle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fiddle",
+        "saddle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kids",
+        "alike"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kids",
+        "alike"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "slide",
+        "leaf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "slide",
+        "leaf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "adelaide",
+        "sleek",
+        "adelaide",
+        "sleek"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aides",
+        "flea"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aides",
+        "flea"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "seek",
+        "skills"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "seek",
+        "skills"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "asia",
+        "jake"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "asia",
+        "jake"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fields",
+        "leeds"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fields",
+        "leeds"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "leila",
+        "deskless"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "leila",
+        "deskless"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fail",
+        "safe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fail",
+        "safe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "diddle",
+        "jessie"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "diddle",
+        "jessie"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "filial",
+        "flies"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "filial",
+        "flies"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "ifeldaskj",
+  "totalChars": 558,
+  "lessonId": "lesson2"
+}

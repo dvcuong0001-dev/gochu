@@ -1,0 +1,13 @@
+{
+  "id": "75.1",
+  "title": "Bài 75.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "function ChaoMung() {\n  return <h1>Xin chao Tuhoc!</h1>;\n}\n\nexport default ChaoMung;",
+  "lang": "react",
+  "desc": "Component đầu tiên — function trả về JSX",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson75"
+}

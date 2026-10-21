@@ -1,0 +1,13 @@
+{
+  "id": "62.1",
+  "title": "Bài 62.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        int[] a = {10, 20, 30, 40, 50};\n        int tong = 0;\n        foreach (int x in a)\n            tong += x;\n        Console.WriteLine(\"Tong: \" + tong);\n    }\n}",
+  "lang": "csharp",
+  "desc": "Mảng: khai báo và duyệt",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson62"
+}

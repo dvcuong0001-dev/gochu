@@ -1,0 +1,13 @@
+{
+  "id": "73.2",
+  "title": "Bài 73.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val diem = listOf(8, 6, 9, 7, 5)\n    println(diem.sum())\n    println(diem.average())\n    println(diem.maxOrNull())\n    println(diem.minOrNull())\n}",
+  "lang": "kotlin",
+  "desc": "sum, average, max, min",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson73"
+}

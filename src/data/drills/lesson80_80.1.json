@@ -1,0 +1,13 @@
+{
+  "id": "80.1",
+  "title": "Bài 80.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "import { useState } from \"react\";\n\nfunction O() {\n  const [ten, setTen] = useState(\"\");\n  return (\n    <div>\n      <input value={ten} onChange={(e) => setTen(e.target.value)} />\n      <p>Chao {ten}</p>\n    </div>\n  );\n}\n\nexport default O;",
+  "lang": "react",
+  "desc": "Controlled input",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson80"
+}

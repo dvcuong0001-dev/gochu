@@ -1,0 +1,13 @@
+{
+  "id": "58.3",
+  "title": "Bài 58.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(new Cho(\"Mun\").keu());\n    }\n}\n\nclass DongVat {\n    String ten;\n    DongVat(String t) { ten = t; }\n    String keu() { return ten + \" keu\"; }\n}\n\nclass Cho extends DongVat {\n    Cho(String t) { super(t); }\n    String keu() { return ten + \" sua gau gau\"; }\n}",
+  "lang": "java",
+  "desc": "Kế thừa với extends và super",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson58"
+}

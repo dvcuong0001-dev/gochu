@@ -1,0 +1,13 @@
+{
+  "id": "53.6",
+  "title": "Bài 53.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        int n = 29;\n        boolean nt = n > 1;\n        for (int i = 2; i * i <= n; i++)\n            if (n % i == 0) { nt = false; break; }\n        System.out.println(n + \" nguyen to? \" + nt);\n    }\n}",
+  "lang": "java",
+  "desc": "Kiểm tra số nguyên tố",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson53"
+}

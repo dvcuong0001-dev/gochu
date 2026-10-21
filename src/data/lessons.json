@@ -1,0 +1,5366 @@
+[
+  {
+    "id": "lesson1",
+    "code": "1",
+    "title": "The home row",
+    "subtitle": "asdf jkl;",
+    "orderIndex": 1,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "1.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 1.1",
+        "totalChars": 560,
+        "maxGroupLen": 4,
+        "wordCount": 112,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "1.2",
+        "orderIndex": 2,
+        "type": 0,
+        "title": "Bài 1.2",
+        "totalChars": 600,
+        "maxGroupLen": 4,
+        "wordCount": 120,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "1.3",
+        "orderIndex": 3,
+        "type": 0,
+        "title": "Bài 1.3",
+        "totalChars": 752,
+        "maxGroupLen": 4,
+        "wordCount": 160,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "1.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 1.4",
+        "totalChars": 555,
+        "maxGroupLen": 7,
+        "wordCount": 102,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson2",
+    "code": "2",
+    "title": "E và I",
+    "subtitle": "",
+    "orderIndex": 2,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "2.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 2.1",
+        "totalChars": 364,
+        "maxGroupLen": 4,
+        "wordCount": 76,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "2.2",
+        "orderIndex": 2,
+        "type": 0,
+        "title": "Bài 2.2",
+        "totalChars": 424,
+        "maxGroupLen": 4,
+        "wordCount": 88,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "2.3",
+        "orderIndex": 3,
+        "type": 0,
+        "title": "Bài 2.3",
+        "totalChars": 603,
+        "maxGroupLen": 4,
+        "wordCount": 124,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "2.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 2.4",
+        "totalChars": 558,
+        "maxGroupLen": 8,
+        "wordCount": 103,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson3",
+    "code": "3",
+    "title": "R và U",
+    "subtitle": "",
+    "orderIndex": 3,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "3.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 3.1",
+        "totalChars": 404,
+        "maxGroupLen": 4,
+        "wordCount": 84,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "3.2",
+        "orderIndex": 2,
+        "type": 0,
+        "title": "Bài 3.2",
+        "totalChars": 404,
+        "maxGroupLen": 4,
+        "wordCount": 84,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "3.3",
+        "orderIndex": 3,
+        "type": 0,
+        "title": "Bài 3.3",
+        "totalChars": 404,
+        "maxGroupLen": 4,
+        "wordCount": 84,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "3.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 3.4",
+        "totalChars": 453,
+        "maxGroupLen": 10,
+        "wordCount": 81,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "3.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 3.5",
+        "totalChars": 1290,
+        "maxGroupLen": 9,
+        "wordCount": 243,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "3.6",
+        "orderIndex": 6,
+        "type": 1,
+        "title": "Bài 3.6",
+        "totalChars": 885,
+        "maxGroupLen": 9,
+        "wordCount": 170,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson4",
+    "code": "4",
+    "title": "T và O",
+    "subtitle": "",
+    "orderIndex": 4,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "4.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 4.1",
+        "totalChars": 564,
+        "maxGroupLen": 4,
+        "wordCount": 116,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "4.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 4.2",
+        "totalChars": 893,
+        "maxGroupLen": 8,
+        "wordCount": 143,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "4.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 4.3",
+        "totalChars": 872,
+        "maxGroupLen": 9,
+        "wordCount": 152,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "4.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 4.4",
+        "totalChars": 1026,
+        "maxGroupLen": 11,
+        "wordCount": 170,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "4.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 4.5",
+        "totalChars": 937,
+        "maxGroupLen": 10,
+        "wordCount": 150,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson5",
+    "code": "5",
+    "title": "Shift và dot",
+    "subtitle": "",
+    "orderIndex": 5,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "5.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 5.1",
+        "totalChars": 468,
+        "maxGroupLen": 4,
+        "wordCount": 100,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "5.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 5.2",
+        "totalChars": 1010,
+        "maxGroupLen": 10,
+        "wordCount": 150,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "5.3",
+        "orderIndex": 3,
+        "type": 0,
+        "title": "Bài 5.3",
+        "totalChars": 364,
+        "maxGroupLen": 4,
+        "wordCount": 76,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "5.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 5.4",
+        "totalChars": 760,
+        "maxGroupLen": 12,
+        "wordCount": 127,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "5.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 5.5",
+        "totalChars": 698,
+        "maxGroupLen": 10,
+        "wordCount": 130,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "5.6",
+        "orderIndex": 6,
+        "type": 1,
+        "title": "Bài 5.6",
+        "totalChars": 1065,
+        "maxGroupLen": 10,
+        "wordCount": 185,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson6",
+    "code": "6",
+    "title": "C và ,",
+    "subtitle": "",
+    "orderIndex": 6,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "6.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 6.1",
+        "totalChars": 444,
+        "maxGroupLen": 4,
+        "wordCount": 92,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "6.2",
+        "orderIndex": 2,
+        "type": 0,
+        "title": "Bài 6.2",
+        "totalChars": 603,
+        "maxGroupLen": 4,
+        "wordCount": 124,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "6.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 6.3",
+        "totalChars": 944,
+        "maxGroupLen": 11,
+        "wordCount": 119,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "6.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 6.4",
+        "totalChars": 875,
+        "maxGroupLen": 12,
+        "wordCount": 138,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "6.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 6.5",
+        "totalChars": 915,
+        "maxGroupLen": 10,
+        "wordCount": 154,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "6.6",
+        "orderIndex": 6,
+        "type": 1,
+        "title": "Bài 6.6",
+        "totalChars": 1163,
+        "maxGroupLen": 11,
+        "wordCount": 185,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson7",
+    "code": "7",
+    "title": "G và H ; và  '",
+    "subtitle": "",
+    "orderIndex": 7,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "7.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 7.1",
+        "totalChars": 408,
+        "maxGroupLen": 4,
+        "wordCount": 88,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "7.2",
+        "orderIndex": 2,
+        "type": 0,
+        "title": "Bài 7.2",
+        "totalChars": 318,
+        "maxGroupLen": 4,
+        "wordCount": 70,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "7.3",
+        "orderIndex": 3,
+        "type": 0,
+        "title": "Bài 7.3",
+        "totalChars": 464,
+        "maxGroupLen": 4,
+        "wordCount": 96,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "7.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 7.4",
+        "totalChars": 876,
+        "maxGroupLen": 9,
+        "wordCount": 134,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "7.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 7.5",
+        "totalChars": 1319,
+        "maxGroupLen": 12,
+        "wordCount": 215,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "7.6",
+        "orderIndex": 6,
+        "type": 1,
+        "title": "Bài 7.6",
+        "totalChars": 1045,
+        "maxGroupLen": 15,
+        "wordCount": 183,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "7.7",
+        "orderIndex": 7,
+        "type": 1,
+        "title": "Bài 7.7",
+        "totalChars": 1287,
+        "maxGroupLen": 15,
+        "wordCount": 222,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson8",
+    "code": "8",
+    "title": "V và N - hoi cham",
+    "subtitle": "",
+    "orderIndex": 8,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "8.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 8.1",
+        "totalChars": 408,
+        "maxGroupLen": 4,
+        "wordCount": 88,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "8.2",
+        "orderIndex": 2,
+        "type": 0,
+        "title": "Bài 8.2",
+        "totalChars": 164,
+        "maxGroupLen": 4,
+        "wordCount": 36,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "8.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 8.3",
+        "totalChars": 963,
+        "maxGroupLen": 9,
+        "wordCount": 141,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "8.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 8.4",
+        "totalChars": 1632,
+        "maxGroupLen": 12,
+        "wordCount": 270,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "8.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 8.5",
+        "totalChars": 1071,
+        "maxGroupLen": 13,
+        "wordCount": 200,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "8.6",
+        "orderIndex": 6,
+        "type": 1,
+        "title": "Bài 8.6",
+        "totalChars": 1363,
+        "maxGroupLen": 13,
+        "wordCount": 236,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson9",
+    "code": "9",
+    "title": "W và M",
+    "subtitle": "",
+    "orderIndex": 9,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "9.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 9.1",
+        "totalChars": 408,
+        "maxGroupLen": 4,
+        "wordCount": 88,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "9.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 9.2",
+        "totalChars": 878,
+        "maxGroupLen": 10,
+        "wordCount": 128,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "9.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 9.3",
+        "totalChars": 1033,
+        "maxGroupLen": 13,
+        "wordCount": 167,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "9.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 9.4",
+        "totalChars": 1049,
+        "maxGroupLen": 13,
+        "wordCount": 186,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "9.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 9.5",
+        "totalChars": 1403,
+        "maxGroupLen": 11,
+        "wordCount": 254,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson10",
+    "code": "10",
+    "title": "Q và P",
+    "subtitle": "",
+    "orderIndex": 10,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "10.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 10.1",
+        "totalChars": 408,
+        "maxGroupLen": 4,
+        "wordCount": 88,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "10.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 10.2",
+        "totalChars": 841,
+        "maxGroupLen": 9,
+        "wordCount": 121,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "10.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 10.3",
+        "totalChars": 780,
+        "maxGroupLen": 13,
+        "wordCount": 126,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "10.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 10.4",
+        "totalChars": 1087,
+        "maxGroupLen": 12,
+        "wordCount": 198,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "10.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 10.5",
+        "totalChars": 1406,
+        "maxGroupLen": 13,
+        "wordCount": 254,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson11",
+    "code": "11",
+    "title": "B và Y",
+    "subtitle": "",
+    "orderIndex": 11,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "11.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 11.1",
+        "totalChars": 428,
+        "maxGroupLen": 4,
+        "wordCount": 92,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "11.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 11.2",
+        "totalChars": 796,
+        "maxGroupLen": 9,
+        "wordCount": 129,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "11.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 11.3",
+        "totalChars": 660,
+        "maxGroupLen": 11,
+        "wordCount": 110,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "11.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 11.4",
+        "totalChars": 1154,
+        "maxGroupLen": 14,
+        "wordCount": 201,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "11.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 11.5",
+        "totalChars": 1526,
+        "maxGroupLen": 13,
+        "wordCount": 269,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson12",
+    "code": "12",
+    "title": "Z và X",
+    "subtitle": "",
+    "orderIndex": 12,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "12.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 12.1",
+        "totalChars": 384,
+        "maxGroupLen": 4,
+        "wordCount": 80,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "12.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 12.2",
+        "totalChars": 798,
+        "maxGroupLen": 9,
+        "wordCount": 116,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "12.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 12.3",
+        "totalChars": 731,
+        "maxGroupLen": 12,
+        "wordCount": 116,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "12.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 12.4",
+        "totalChars": 981,
+        "maxGroupLen": 13,
+        "wordCount": 186,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "12.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 12.5",
+        "totalChars": 1399,
+        "maxGroupLen": 12,
+        "wordCount": 232,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson13",
+    "code": "13",
+    "title": "Number 4567",
+    "subtitle": "",
+    "orderIndex": 13,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "13.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 13.1",
+        "totalChars": 708,
+        "maxGroupLen": 4,
+        "wordCount": 148,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "13.2",
+        "orderIndex": 2,
+        "type": 0,
+        "title": "Bài 13.2",
+        "totalChars": 708,
+        "maxGroupLen": 4,
+        "wordCount": 148,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "13.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 13.3",
+        "totalChars": 364,
+        "maxGroupLen": 9,
+        "wordCount": 70,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson14",
+    "code": "14",
+    "title": "Number 38",
+    "subtitle": "",
+    "orderIndex": 14,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "14.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 14.1",
+        "totalChars": 436,
+        "maxGroupLen": 4,
+        "wordCount": 92,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "14.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 14.2",
+        "totalChars": 510,
+        "maxGroupLen": 9,
+        "wordCount": 113,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "14.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 14.3",
+        "totalChars": 523,
+        "maxGroupLen": 10,
+        "wordCount": 96,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson15",
+    "code": "15",
+    "title": "Number 29",
+    "subtitle": "",
+    "orderIndex": 15,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "15.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 15.1",
+        "totalChars": 476,
+        "maxGroupLen": 4,
+        "wordCount": 100,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "15.2",
+        "orderIndex": 2,
+        "type": 0,
+        "title": "Bài 15.2",
+        "totalChars": 476,
+        "maxGroupLen": 4,
+        "wordCount": 100,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson16",
+    "code": "16",
+    "title": "Number 10",
+    "subtitle": "",
+    "orderIndex": 16,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "16.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 16.1",
+        "totalChars": 416,
+        "maxGroupLen": 4,
+        "wordCount": 88,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "16.2",
+        "orderIndex": 2,
+        "type": 0,
+        "title": "Bài 16.2",
+        "totalChars": 416,
+        "maxGroupLen": 4,
+        "wordCount": 88,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "16.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 16.3",
+        "totalChars": 640,
+        "maxGroupLen": 11,
+        "wordCount": 134,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "16.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 16.4",
+        "totalChars": 1017,
+        "maxGroupLen": 12,
+        "wordCount": 181,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "16.5",
+        "orderIndex": 5,
+        "type": 1,
+        "title": "Bài 16.5",
+        "totalChars": 1945,
+        "maxGroupLen": 15,
+        "wordCount": 339,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson17",
+    "code": "17",
+    "title": "Special Marks  ; và hai cham",
+    "subtitle": "",
+    "orderIndex": 17,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "17.1",
+        "orderIndex": 1,
+        "type": 1,
+        "title": "Bài 17.1",
+        "totalChars": 364,
+        "maxGroupLen": 4,
+        "wordCount": 76,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "17.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 17.2",
+        "totalChars": 195,
+        "maxGroupLen": 9,
+        "wordCount": 25,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson18",
+    "code": "18",
+    "title": "Special Marks  ; và xuoc phai",
+    "subtitle": "",
+    "orderIndex": 18,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "18.1",
+        "orderIndex": 1,
+        "type": 1,
+        "title": "Bài 18.1",
+        "totalChars": 424,
+        "maxGroupLen": 4,
+        "wordCount": 88,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "18.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 18.2",
+        "totalChars": 352,
+        "maxGroupLen": 12,
+        "wordCount": 46,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "18.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 18.3",
+        "totalChars": 1155,
+        "maxGroupLen": 25,
+        "wordCount": 197,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "18.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 18.4",
+        "totalChars": 1011,
+        "maxGroupLen": 22,
+        "wordCount": 178,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson19",
+    "code": "19",
+    "title": "Special Marks  ; và '",
+    "subtitle": "",
+    "orderIndex": 19,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "19.1",
+        "orderIndex": 1,
+        "type": 1,
+        "title": "Bài 19.1",
+        "totalChars": 326,
+        "maxGroupLen": 4,
+        "wordCount": 70,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "19.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 19.2",
+        "totalChars": 250,
+        "maxGroupLen": 11,
+        "wordCount": 34,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "19.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 19.3",
+        "totalChars": 482,
+        "maxGroupLen": 12,
+        "wordCount": 82,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson20",
+    "code": "20",
+    "title": "Special + - =",
+    "subtitle": "",
+    "orderIndex": 20,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "20.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 20.1",
+        "totalChars": 460,
+        "maxGroupLen": 4,
+        "wordCount": 100,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "20.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 20.2",
+        "totalChars": 328,
+        "maxGroupLen": 15,
+        "wordCount": 86,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "20.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 20.3",
+        "totalChars": 1413,
+        "maxGroupLen": 14,
+        "wordCount": 297,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson21",
+    "code": "21",
+    "title": "Special () []",
+    "subtitle": "",
+    "orderIndex": 21,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "21.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 21.1",
+        "totalChars": 372,
+        "maxGroupLen": 4,
+        "wordCount": 84,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "21.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 21.2",
+        "totalChars": 510,
+        "maxGroupLen": 16,
+        "wordCount": 54,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson22",
+    "code": "22",
+    "title": "Special @ $ & %",
+    "subtitle": "",
+    "orderIndex": 22,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "22.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 22.1",
+        "totalChars": 376,
+        "maxGroupLen": 4,
+        "wordCount": 88,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "22.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 22.2",
+        "totalChars": 536,
+        "maxGroupLen": 24,
+        "wordCount": 62,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "22.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 22.3",
+        "totalChars": 2037,
+        "maxGroupLen": 21,
+        "wordCount": 367,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "22.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 22.4",
+        "totalChars": 1772,
+        "maxGroupLen": 14,
+        "wordCount": 322,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson23",
+    "code": "23",
+    "title": "Special {} xược trái !",
+    "subtitle": "",
+    "orderIndex": 23,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "23.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 23.1",
+        "totalChars": 368,
+        "maxGroupLen": 4,
+        "wordCount": 80,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "23.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 23.2",
+        "totalChars": 492,
+        "maxGroupLen": 20,
+        "wordCount": 52,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson24",
+    "code": "24",
+    "title": "Special # ^ dấu sao",
+    "subtitle": "",
+    "orderIndex": 24,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "24.1",
+        "orderIndex": 1,
+        "type": 0,
+        "title": "Bài 24.1",
+        "totalChars": 352,
+        "maxGroupLen": 4,
+        "wordCount": 80,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "24.2",
+        "orderIndex": 2,
+        "type": 1,
+        "title": "Bài 24.2",
+        "totalChars": 290,
+        "maxGroupLen": 14,
+        "wordCount": 50,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "24.3",
+        "orderIndex": 3,
+        "type": 1,
+        "title": "Bài 24.3",
+        "totalChars": 1591,
+        "maxGroupLen": 26,
+        "wordCount": 321,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "24.4",
+        "orderIndex": 4,
+        "type": 1,
+        "title": "Bài 24.4",
+        "totalChars": 1031,
+        "maxGroupLen": 36,
+        "wordCount": 184,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson26",
+    "code": "26",
+    "title": "Tiếng Việt có dấu",
+    "subtitle": "",
+    "orderIndex": 26,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "26.1",
+        "orderIndex": 1,
+        "type": 2,
+        "title": "Tư duy cốt lõi và trí tuệ",
+        "totalChars": 1000332,
+        "maxGroupLen": 11,
+        "wordCount": 226434,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.2",
+        "orderIndex": 2,
+        "type": 2,
+        "title": "Tư duy sâu và làm chủ nội tâm",
+        "totalChars": 813966,
+        "maxGroupLen": 11,
+        "wordCount": 182406,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.3",
+        "orderIndex": 3,
+        "type": 2,
+        "title": "Giá trị cuộc đời và nghị lực",
+        "totalChars": 184867,
+        "maxGroupLen": 10,
+        "wordCount": 41543,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.4",
+        "orderIndex": 4,
+        "type": 2,
+        "title": "Trưởng thành qua nghịch cảnh",
+        "totalChars": 3510,
+        "maxGroupLen": 7,
+        "wordCount": 790,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.5",
+        "orderIndex": 5,
+        "type": 2,
+        "title": "Bản lĩnh sống và chọn nghề",
+        "totalChars": 288542,
+        "maxGroupLen": 10,
+        "wordCount": 65253,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.6",
+        "orderIndex": 6,
+        "type": 2,
+        "title": "Phát triển bản thân và nuôi dạy con",
+        "totalChars": 1248427,
+        "maxGroupLen": 13,
+        "wordCount": 278793,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.7",
+        "orderIndex": 7,
+        "type": 2,
+        "title": "Nhân quả và tâm thức thoát khổ",
+        "totalChars": 266821,
+        "maxGroupLen": 10,
+        "wordCount": 60281,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.8",
+        "orderIndex": 8,
+        "type": 2,
+        "title": "Tâm an và đối nhân xử thế",
+        "totalChars": 312231,
+        "maxGroupLen": 10,
+        "wordCount": 70713,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.9",
+        "orderIndex": 9,
+        "type": 2,
+        "title": "Thấu hiểu bản thân với DISC",
+        "totalChars": 151463,
+        "maxGroupLen": 10,
+        "wordCount": 34026,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.10",
+        "orderIndex": 10,
+        "type": 2,
+        "title": "Đọc người qua nhân tướng",
+        "totalChars": 47366,
+        "maxGroupLen": 10,
+        "wordCount": 10587,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.11",
+        "orderIndex": 11,
+        "type": 2,
+        "title": "Nhân tướng phụ nữ và ngoại tình",
+        "totalChars": 6610,
+        "maxGroupLen": 9,
+        "wordCount": 1494,
+        "lang": null,
+        "desc": null
+      },
+      {
+        "id": "26.12",
+        "orderIndex": 12,
+        "type": 2,
+        "title": "Chọn bạn đời và giữ lửa hôn nhân",
+        "totalChars": 312894,
+        "maxGroupLen": 10,
+        "wordCount": 70052,
+        "lang": null,
+        "desc": null
+      }
+    ]
+  },
+  {
+    "id": "lesson27",
+    "code": "27",
+    "title": "Python 1 Nhap mon",
+    "subtitle": "",
+    "orderIndex": 27,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "27.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 27.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "In ra màn hình — Hello World"
+      },
+      {
+        "id": "27.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 27.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Biến và nối chuỗi với toán tử +"
+      },
+      {
+        "id": "27.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 27.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Hàm print: tham số sep và end"
+      },
+      {
+        "id": "27.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 27.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Máy tính đơn giản — bốn phép tính"
+      },
+      {
+        "id": "27.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 27.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Ép kiểu dữ liệu: int, float, str"
+      },
+      {
+        "id": "27.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 27.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Lời chúc — kết hợp biến và nối chuỗi"
+      }
+    ]
+  },
+  {
+    "id": "lesson28",
+    "code": "28",
+    "title": "Python 2 Bien và Kieu du lieu",
+    "subtitle": "",
+    "orderIndex": 28,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "28.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 28.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Kiểu số int, float và hàm type()"
+      },
+      {
+        "id": "28.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 28.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Kiểu Boolean và phép so sánh"
+      },
+      {
+        "id": "28.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 28.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Toán tử số học: + - * / // % **"
+      },
+      {
+        "id": "28.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 28.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Toán tử logic and, or, not"
+      },
+      {
+        "id": "28.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 28.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Phép gán phức hợp += -= *= //="
+      },
+      {
+        "id": "28.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 28.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Hằng số và biểu thức — tính chu vi, diện tích"
+      }
+    ]
+  },
+  {
+    "id": "lesson29",
+    "code": "29",
+    "title": "Python 3 Cau truc dieu khien",
+    "subtitle": "",
+    "orderIndex": 29,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "29.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 29.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Câu lệnh if - else: kiểm tra chẵn lẻ"
+      },
+      {
+        "id": "29.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 29.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "if - elif - else: xếp loại học lực"
+      },
+      {
+        "id": "29.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 29.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Vòng lặp for với range(): tổng 1..n"
+      },
+      {
+        "id": "29.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 29.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Vòng lặp while: tổng số chia hết cho 5"
+      },
+      {
+        "id": "29.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 29.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "break và continue trong vòng lặp"
+      },
+      {
+        "id": "29.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 29.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Kiểm tra số nguyên tố"
+      },
+      {
+        "id": "29.7",
+        "orderIndex": 7,
+        "type": 3,
+        "title": "Bài 29.7",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Tính giai thừa bằng vòng lặp for"
+      }
+    ]
+  },
+  {
+    "id": "lesson30",
+    "code": "30",
+    "title": "Python 4 Cau truc du lieu",
+    "subtitle": "",
+    "orderIndex": 30,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "30.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 30.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "List: tạo, truy cập index và cắt lát"
+      },
+      {
+        "id": "30.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 30.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "List: thêm, xóa, sắp xếp phần tử"
+      },
+      {
+        "id": "30.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 30.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Tuple: bộ giá trị bất biến và unpacking"
+      },
+      {
+        "id": "30.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 30.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Dictionary: tạo và duyệt cặp key-value"
+      },
+      {
+        "id": "30.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 30.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Dictionary: get, keys, values, update"
+      },
+      {
+        "id": "30.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 30.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Set: loại trùng và phép toán tập hợp"
+      },
+      {
+        "id": "30.7",
+        "orderIndex": 7,
+        "type": 3,
+        "title": "Bài 30.7",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Tách số chẵn và số lẻ từ một list"
+      }
+    ]
+  },
+  {
+    "id": "lesson31",
+    "code": "31",
+    "title": "Python 5 Chuoi và Regex",
+    "subtitle": "",
+    "orderIndex": 31,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "31.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 31.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Chuỗi: cắt lát và đảo ngược chuỗi"
+      },
+      {
+        "id": "31.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 31.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Định dạng chuỗi: f-string và căn lề"
+      },
+      {
+        "id": "31.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 31.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Method chuỗi: strip, replace, split, join"
+      },
+      {
+        "id": "31.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 31.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Method chuỗi: find, count, upper, title"
+      },
+      {
+        "id": "31.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 31.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Kiểm tra nội dung: isdigit, isalpha, endswith"
+      },
+      {
+        "id": "31.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 31.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Kiểm tra chuỗi đối xứng (palindrome)"
+      },
+      {
+        "id": "31.7",
+        "orderIndex": 7,
+        "type": 3,
+        "title": "Bài 31.7",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Regex: tìm tất cả số và email trong chuỗi"
+      },
+      {
+        "id": "31.8",
+        "orderIndex": 8,
+        "type": 3,
+        "title": "Bài 31.8",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Đếm tần suất ký tự bằng dictionary"
+      }
+    ]
+  },
+  {
+    "id": "lesson32",
+    "code": "32",
+    "title": "Python 6 Ham",
+    "subtitle": "",
+    "orderIndex": 32,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "32.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 32.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Định nghĩa hàm với def và return"
+      },
+      {
+        "id": "32.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 32.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Tham số mặc định trong hàm"
+      },
+      {
+        "id": "32.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 32.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Tham số *args và **kwargs"
+      },
+      {
+        "id": "32.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 32.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Hàm lambda với map và filter"
+      },
+      {
+        "id": "32.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 32.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Biến cục bộ và biến toàn cục (global)"
+      },
+      {
+        "id": "32.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 32.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Đệ quy: tính giai thừa"
+      },
+      {
+        "id": "32.7",
+        "orderIndex": 7,
+        "type": 3,
+        "title": "Bài 32.7",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Đệ quy: tổng 1 + 2 + ... + n"
+      }
+    ]
+  },
+  {
+    "id": "lesson33",
+    "code": "33",
+    "title": "Python 7 Module",
+    "subtitle": "",
+    "orderIndex": 33,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "33.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 33.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Module math: sqrt, ceil, floor, pi"
+      },
+      {
+        "id": "33.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 33.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Module random: randint, choice, sample"
+      },
+      {
+        "id": "33.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 33.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Đổi tên module với từ khóa as"
+      },
+      {
+        "id": "33.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 33.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Module statistics: mean, median, mode"
+      },
+      {
+        "id": "33.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 33.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Module datetime: ngày giờ và timedelta"
+      },
+      {
+        "id": "33.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 33.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Tự viết hàm và pattern if __name__"
+      }
+    ]
+  },
+  {
+    "id": "lesson34",
+    "code": "34",
+    "title": "Python 8 File IO và OS",
+    "subtitle": "",
+    "orderIndex": 34,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "34.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 34.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Ghi file với open() chế độ w"
+      },
+      {
+        "id": "34.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 34.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Đọc file: lặp trực tiếp trên file"
+      },
+      {
+        "id": "34.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 34.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Ghi nối vào cuối file với chế độ a"
+      },
+      {
+        "id": "34.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 34.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Module os.path: ghép và tách đường dẫn"
+      },
+      {
+        "id": "34.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 34.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "datetime: tính số ngày còn lại"
+      },
+      {
+        "id": "34.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 34.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Module calendar: năm nhuận và thứ trong tuần"
+      },
+      {
+        "id": "34.7",
+        "orderIndex": 7,
+        "type": 3,
+        "title": "Bài 34.7",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "python",
+        "desc": "Tổng hợp: ghi điểm ra file rồi đọc lại"
+      }
+    ]
+  },
+  {
+    "id": "lesson35",
+    "code": "35",
+    "title": "JavaScript 1 Nhap mon",
+    "subtitle": "",
+    "orderIndex": 35,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "35.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 35.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "In ra console và biến let, const"
+      },
+      {
+        "id": "35.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 35.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Template literal — nối chuỗi với ${}"
+      },
+      {
+        "id": "35.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 35.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Máy tính đơn giản"
+      },
+      {
+        "id": "35.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 35.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Ép kiểu: Number, parseInt, String"
+      },
+      {
+        "id": "35.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 35.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Hàm cơ bản với function"
+      }
+    ]
+  },
+  {
+    "id": "lesson36",
+    "code": "36",
+    "title": "JavaScript 2 Bien và Kieu du lieu",
+    "subtitle": "",
+    "orderIndex": 36,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "36.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 36.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Kiểu dữ liệu và typeof"
+      },
+      {
+        "id": "36.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 36.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Toán tử số học và ** %"
+      },
+      {
+        "id": "36.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 36.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "So sánh == và === (strict)"
+      },
+      {
+        "id": "36.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 36.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Toán tử logic && || !"
+      },
+      {
+        "id": "36.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 36.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Gán phức hợp và toán tử ba ngôi"
+      }
+    ]
+  },
+  {
+    "id": "lesson37",
+    "code": "37",
+    "title": "JavaScript 3 Cau truc dieu khien",
+    "subtitle": "",
+    "orderIndex": 37,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "37.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 37.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Câu lệnh if - else"
+      },
+      {
+        "id": "37.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 37.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "if - else if - else: xếp loại"
+      },
+      {
+        "id": "37.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 37.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Câu lệnh switch - case"
+      },
+      {
+        "id": "37.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 37.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Vòng lặp for: tổng 1..n"
+      },
+      {
+        "id": "37.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 37.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Vòng lặp while: tính giai thừa"
+      },
+      {
+        "id": "37.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 37.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "for...of với break và continue"
+      }
+    ]
+  },
+  {
+    "id": "lesson38",
+    "code": "38",
+    "title": "JavaScript 4 Mang và Object",
+    "subtitle": "",
+    "orderIndex": 38,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "38.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 38.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Mảng: tạo, push, pop, truy cập"
+      },
+      {
+        "id": "38.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 38.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Mảng: map, filter, reduce"
+      },
+      {
+        "id": "38.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 38.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Mảng: slice, sort, includes"
+      },
+      {
+        "id": "38.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 38.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Object: tạo, truy cập, duyệt"
+      },
+      {
+        "id": "38.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 38.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Object: keys, values, entries"
+      },
+      {
+        "id": "38.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 38.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Set và Map"
+      }
+    ]
+  },
+  {
+    "id": "lesson39",
+    "code": "39",
+    "title": "JavaScript 5 Chuoi và Regex",
+    "subtitle": "",
+    "orderIndex": 39,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "39.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 39.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Chuỗi: length, truy cập, slice, hoa thường"
+      },
+      {
+        "id": "39.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 39.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Chuỗi: trim, split, join, replace"
+      },
+      {
+        "id": "39.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 39.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Chuỗi: indexOf, includes, startsWith"
+      },
+      {
+        "id": "39.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 39.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Đảo ngược chuỗi và palindrome"
+      },
+      {
+        "id": "39.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 39.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Regex: match số và test mẫu"
+      },
+      {
+        "id": "39.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 39.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Đếm tần suất ký tự bằng object"
+      }
+    ]
+  },
+  {
+    "id": "lesson40",
+    "code": "40",
+    "title": "JavaScript 6 Ham",
+    "subtitle": "",
+    "orderIndex": 40,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "40.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 40.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Hàm: function declaration và return"
+      },
+      {
+        "id": "40.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 40.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Arrow function"
+      },
+      {
+        "id": "40.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 40.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Tham số mặc định và rest parameter"
+      },
+      {
+        "id": "40.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 40.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Closure — hàm nhớ trạng thái"
+      },
+      {
+        "id": "40.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 40.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Đệ quy: giai thừa và Fibonacci"
+      }
+    ]
+  },
+  {
+    "id": "lesson41",
+    "code": "41",
+    "title": "JavaScript 7 Math Date JSON",
+    "subtitle": "",
+    "orderIndex": 41,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "41.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 41.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Đối tượng Math"
+      },
+      {
+        "id": "41.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 41.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Math.random, abs, pow"
+      },
+      {
+        "id": "41.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 41.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Đối tượng Date"
+      },
+      {
+        "id": "41.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 41.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "JSON.stringify và JSON.parse"
+      },
+      {
+        "id": "41.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 41.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Destructuring và spread operator"
+      }
+    ]
+  },
+  {
+    "id": "lesson42",
+    "code": "42",
+    "title": "JavaScript 8 Class và Async",
+    "subtitle": "",
+    "orderIndex": 42,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "42.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 42.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Class: định nghĩa và phương thức"
+      },
+      {
+        "id": "42.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 42.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Class: kế thừa với extends"
+      },
+      {
+        "id": "42.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 42.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Getter và static method"
+      },
+      {
+        "id": "42.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 42.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "Promise và then"
+      },
+      {
+        "id": "42.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 42.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "javascript",
+        "desc": "async / await"
+      }
+    ]
+  },
+  {
+    "id": "lesson43",
+    "code": "43",
+    "title": "Cpp 1 Nhap mon",
+    "subtitle": "",
+    "orderIndex": 43,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "43.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 43.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Chương trình đầu tiên với cout"
+      },
+      {
+        "id": "43.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 43.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Biến và các kiểu cơ bản"
+      },
+      {
+        "id": "43.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 43.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Máy tính đơn giản"
+      },
+      {
+        "id": "43.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 43.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Hằng số const và phép toán"
+      },
+      {
+        "id": "43.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 43.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Chuỗi string và nối chuỗi"
+      }
+    ]
+  },
+  {
+    "id": "lesson44",
+    "code": "44",
+    "title": "Cpp 2 Bien và Toan tu",
+    "subtitle": "",
+    "orderIndex": 44,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "44.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 44.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Phép chia nguyên và chia thực"
+      },
+      {
+        "id": "44.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 44.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Kiểu bool và phép so sánh"
+      },
+      {
+        "id": "44.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 44.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Toán tử logic && || !"
+      },
+      {
+        "id": "44.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 44.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Gán phức hợp và tăng giảm"
+      },
+      {
+        "id": "44.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 44.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Ép kiểu giữa int và double"
+      }
+    ]
+  },
+  {
+    "id": "lesson45",
+    "code": "45",
+    "title": "Cpp 3 Cau truc dieu khien",
+    "subtitle": "",
+    "orderIndex": 45,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "45.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 45.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Câu lệnh if - else"
+      },
+      {
+        "id": "45.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 45.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "if - else if - else: xếp loại"
+      },
+      {
+        "id": "45.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 45.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Câu lệnh switch - case"
+      },
+      {
+        "id": "45.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 45.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Vòng lặp for: tổng 1..n"
+      },
+      {
+        "id": "45.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 45.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Vòng lặp while: tính giai thừa"
+      },
+      {
+        "id": "45.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 45.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Kiểm tra số nguyên tố"
+      }
+    ]
+  },
+  {
+    "id": "lesson46",
+    "code": "46",
+    "title": "Cpp 4 Mang và STL",
+    "subtitle": "",
+    "orderIndex": 46,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "46.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 46.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Mảng tĩnh và tính tổng"
+      },
+      {
+        "id": "46.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 46.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Vector: thêm và duyệt phần tử"
+      },
+      {
+        "id": "46.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 46.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Vector: sort, min, max"
+      },
+      {
+        "id": "46.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 46.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Map: lưu cặp key-value"
+      },
+      {
+        "id": "46.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 46.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Set: loại trùng và tự sắp xếp"
+      }
+    ]
+  },
+  {
+    "id": "lesson47",
+    "code": "47",
+    "title": "Cpp 5 Chuoi",
+    "subtitle": "",
+    "orderIndex": 47,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "47.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 47.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "string: length, truy cập, substr"
+      },
+      {
+        "id": "47.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 47.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "string: find, replace, append"
+      },
+      {
+        "id": "47.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 47.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Duyệt và đếm ký tự trong chuỗi"
+      },
+      {
+        "id": "47.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 47.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Đảo ngược chuỗi với reverse"
+      },
+      {
+        "id": "47.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 47.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Chuyển chữ hoa với toupper"
+      }
+    ]
+  },
+  {
+    "id": "lesson48",
+    "code": "48",
+    "title": "Cpp 6 Ham",
+    "subtitle": "",
+    "orderIndex": 48,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "48.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 48.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Hàm: khai báo và return"
+      },
+      {
+        "id": "48.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 48.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Tham số mặc định"
+      },
+      {
+        "id": "48.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 48.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Nạp chồng hàm (overloading)"
+      },
+      {
+        "id": "48.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 48.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Truyền tham chiếu (reference)"
+      },
+      {
+        "id": "48.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 48.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Đệ quy: tính giai thừa"
+      }
+    ]
+  },
+  {
+    "id": "lesson49",
+    "code": "49",
+    "title": "Cpp 7 STL nang cao",
+    "subtitle": "",
+    "orderIndex": 49,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "49.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 49.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "sort với comparator lambda"
+      },
+      {
+        "id": "49.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 49.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "accumulate: tính tổng vector"
+      },
+      {
+        "id": "49.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 49.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "find và count trong vector"
+      },
+      {
+        "id": "49.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 49.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "pair: cặp giá trị"
+      },
+      {
+        "id": "49.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 49.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Lambda với for_each"
+      }
+    ]
+  },
+  {
+    "id": "lesson50",
+    "code": "50",
+    "title": "Cpp 8 OOP",
+    "subtitle": "",
+    "orderIndex": 50,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "50.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 50.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Class: thuộc tính và phương thức"
+      },
+      {
+        "id": "50.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 50.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Constructor khởi tạo đối tượng"
+      },
+      {
+        "id": "50.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 50.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Kế thừa lớp với public"
+      },
+      {
+        "id": "50.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 50.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Hàm ảo (virtual) và đa hình"
+      },
+      {
+        "id": "50.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 50.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "cpp",
+        "desc": "Đóng gói với getter/setter"
+      }
+    ]
+  },
+  {
+    "id": "lesson51",
+    "code": "51",
+    "title": "Java 1 Nhap mon",
+    "subtitle": "",
+    "orderIndex": 51,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "51.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 51.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Chương trình đầu tiên — println"
+      },
+      {
+        "id": "51.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 51.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Biến và các kiểu cơ bản"
+      },
+      {
+        "id": "51.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 51.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Máy tính đơn giản"
+      },
+      {
+        "id": "51.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 51.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Hằng số final và phép toán"
+      },
+      {
+        "id": "51.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 51.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Chuỗi String và nối chuỗi"
+      }
+    ]
+  },
+  {
+    "id": "lesson52",
+    "code": "52",
+    "title": "Java 2 Bien và Toan tu",
+    "subtitle": "",
+    "orderIndex": 52,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "52.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 52.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Phép chia nguyên và chia thực"
+      },
+      {
+        "id": "52.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 52.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Kiểu boolean và so sánh"
+      },
+      {
+        "id": "52.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 52.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Toán tử logic && || !"
+      },
+      {
+        "id": "52.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 52.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Gán phức hợp và toán tử ba ngôi"
+      },
+      {
+        "id": "52.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 52.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Ép kiểu và Integer.parseInt"
+      }
+    ]
+  },
+  {
+    "id": "lesson53",
+    "code": "53",
+    "title": "Java 3 Cau truc dieu khien",
+    "subtitle": "",
+    "orderIndex": 53,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "53.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 53.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Câu lệnh if - else"
+      },
+      {
+        "id": "53.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 53.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "if - else if - else: xếp loại"
+      },
+      {
+        "id": "53.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 53.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Câu lệnh switch - case"
+      },
+      {
+        "id": "53.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 53.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Vòng lặp for: tổng 1..n"
+      },
+      {
+        "id": "53.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 53.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Vòng lặp while: tính giai thừa"
+      },
+      {
+        "id": "53.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 53.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Kiểm tra số nguyên tố"
+      }
+    ]
+  },
+  {
+    "id": "lesson54",
+    "code": "54",
+    "title": "Java 4 Mang và Collection",
+    "subtitle": "",
+    "orderIndex": 54,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "54.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 54.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Mảng: khai báo và duyệt"
+      },
+      {
+        "id": "54.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 54.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "ArrayList: thêm, xóa, duyệt"
+      },
+      {
+        "id": "54.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 54.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "HashMap: lưu cặp key-value"
+      },
+      {
+        "id": "54.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 54.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "HashSet: loại trùng phần tử"
+      },
+      {
+        "id": "54.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 54.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Mảng hai chiều"
+      }
+    ]
+  },
+  {
+    "id": "lesson55",
+    "code": "55",
+    "title": "Java 5 Chuoi",
+    "subtitle": "",
+    "orderIndex": 55,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "55.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 55.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "String: length, charAt, substring"
+      },
+      {
+        "id": "55.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 55.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "String: indexOf, replace, contains"
+      },
+      {
+        "id": "55.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 55.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "String: split và join"
+      },
+      {
+        "id": "55.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 55.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Đảo ngược chuỗi với StringBuilder"
+      },
+      {
+        "id": "55.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 55.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Đếm ký tự trong chuỗi"
+      }
+    ]
+  },
+  {
+    "id": "lesson56",
+    "code": "56",
+    "title": "Java 6 Method",
+    "subtitle": "",
+    "orderIndex": 56,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "56.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 56.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Method: khai báo static và return"
+      },
+      {
+        "id": "56.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 56.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Nạp chồng method (overloading)"
+      },
+      {
+        "id": "56.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 56.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Tham số động varargs"
+      },
+      {
+        "id": "56.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 56.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Đệ quy: tính giai thừa"
+      },
+      {
+        "id": "56.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 56.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Đệ quy: dãy Fibonacci"
+      }
+    ]
+  },
+  {
+    "id": "lesson57",
+    "code": "57",
+    "title": "Java 7 Math và Collections",
+    "subtitle": "",
+    "orderIndex": 57,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "57.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 57.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Math: sqrt, pow, max, abs"
+      },
+      {
+        "id": "57.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 57.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Collections.sort và max"
+      },
+      {
+        "id": "57.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 57.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Stream: filter và sum"
+      },
+      {
+        "id": "57.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 57.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Stream: map và collect"
+      },
+      {
+        "id": "57.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 57.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Định dạng với String.format"
+      }
+    ]
+  },
+  {
+    "id": "lesson58",
+    "code": "58",
+    "title": "Java 8 OOP",
+    "subtitle": "",
+    "orderIndex": 58,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "58.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 58.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Class: thuộc tính và method"
+      },
+      {
+        "id": "58.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 58.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Constructor khởi tạo đối tượng"
+      },
+      {
+        "id": "58.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 58.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Kế thừa với extends và super"
+      },
+      {
+        "id": "58.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 58.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Interface và đa hình"
+      },
+      {
+        "id": "58.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 58.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "java",
+        "desc": "Đóng gói với private và getter"
+      }
+    ]
+  },
+  {
+    "id": "lesson59",
+    "code": "59",
+    "title": "Csharp 1 Nhap mon",
+    "subtitle": "",
+    "orderIndex": 59,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "59.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 59.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Chương trình đầu tiên — Console.WriteLine"
+      },
+      {
+        "id": "59.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 59.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Biến và các kiểu cơ bản"
+      },
+      {
+        "id": "59.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 59.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Máy tính đơn giản"
+      },
+      {
+        "id": "59.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 59.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Hằng số const và phép toán"
+      },
+      {
+        "id": "59.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 59.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Chuỗi và nội suy chuỗi"
+      }
+    ]
+  },
+  {
+    "id": "lesson60",
+    "code": "60",
+    "title": "Csharp 2 Bien và Toan tu",
+    "subtitle": "",
+    "orderIndex": 60,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "60.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 60.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Phép chia nguyên và chia thực"
+      },
+      {
+        "id": "60.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 60.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Kiểu bool và so sánh"
+      },
+      {
+        "id": "60.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 60.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Toán tử logic && || !"
+      },
+      {
+        "id": "60.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 60.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Gán phức hợp và toán tử ba ngôi"
+      },
+      {
+        "id": "60.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 60.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Ép kiểu và int.Parse"
+      }
+    ]
+  },
+  {
+    "id": "lesson61",
+    "code": "61",
+    "title": "Csharp 3 Cau truc dieu khien",
+    "subtitle": "",
+    "orderIndex": 61,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "61.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 61.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Câu lệnh if - else"
+      },
+      {
+        "id": "61.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 61.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "if - else if - else: xếp loại"
+      },
+      {
+        "id": "61.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 61.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Câu lệnh switch - case"
+      },
+      {
+        "id": "61.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 61.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Vòng lặp for: tổng 1..n"
+      },
+      {
+        "id": "61.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 61.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Vòng lặp while: tính giai thừa"
+      },
+      {
+        "id": "61.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 61.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Kiểm tra số nguyên tố"
+      }
+    ]
+  },
+  {
+    "id": "lesson62",
+    "code": "62",
+    "title": "Csharp 4 Mang và Collection",
+    "subtitle": "",
+    "orderIndex": 62,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "62.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 62.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Mảng: khai báo và duyệt"
+      },
+      {
+        "id": "62.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 62.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "List<T>: thêm, xóa, duyệt"
+      },
+      {
+        "id": "62.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 62.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Dictionary: cặp key-value"
+      },
+      {
+        "id": "62.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 62.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "HashSet: loại trùng phần tử"
+      },
+      {
+        "id": "62.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 62.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Tách số chẵn lẻ với List"
+      }
+    ]
+  },
+  {
+    "id": "lesson63",
+    "code": "63",
+    "title": "Csharp 5 Chuoi",
+    "subtitle": "",
+    "orderIndex": 63,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "63.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 63.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "string: Length, Substring, ToUpper"
+      },
+      {
+        "id": "63.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 63.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "string: IndexOf, Replace, Contains"
+      },
+      {
+        "id": "63.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 63.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "string: Split và Join"
+      },
+      {
+        "id": "63.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 63.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Đảo ngược chuỗi"
+      },
+      {
+        "id": "63.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 63.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Đếm ký tự trong chuỗi"
+      }
+    ]
+  },
+  {
+    "id": "lesson64",
+    "code": "64",
+    "title": "Csharp 6 Method",
+    "subtitle": "",
+    "orderIndex": 64,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "64.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 64.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Method: static và return"
+      },
+      {
+        "id": "64.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 64.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Nạp chồng method (overloading)"
+      },
+      {
+        "id": "64.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 64.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Tham số params"
+      },
+      {
+        "id": "64.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 64.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Đệ quy: tính giai thừa"
+      },
+      {
+        "id": "64.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 64.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Đệ quy: dãy Fibonacci"
+      }
+    ]
+  },
+  {
+    "id": "lesson65",
+    "code": "65",
+    "title": "Csharp 7 LINQ và Math",
+    "subtitle": "",
+    "orderIndex": 65,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "65.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 65.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Math: Sqrt, Pow, Max, Abs"
+      },
+      {
+        "id": "65.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 65.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "LINQ: Where và Sum"
+      },
+      {
+        "id": "65.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 65.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "LINQ: Select bình phương"
+      },
+      {
+        "id": "65.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 65.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "LINQ: OrderBy và Max"
+      },
+      {
+        "id": "65.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 65.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Định dạng số với chuỗi nội suy"
+      }
+    ]
+  },
+  {
+    "id": "lesson66",
+    "code": "66",
+    "title": "Csharp 8 OOP",
+    "subtitle": "",
+    "orderIndex": 66,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "66.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 66.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Class: thuộc tính và method"
+      },
+      {
+        "id": "66.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 66.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Constructor khởi tạo đối tượng"
+      },
+      {
+        "id": "66.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 66.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Kế thừa với base và virtual"
+      },
+      {
+        "id": "66.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 66.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Interface và đa hình"
+      },
+      {
+        "id": "66.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 66.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "csharp",
+        "desc": "Property với get và set"
+      }
+    ]
+  },
+  {
+    "id": "lesson67",
+    "code": "67",
+    "title": "Kotlin 1 Nhap mon",
+    "subtitle": "",
+    "orderIndex": 67,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "67.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 67.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Chương trình đầu tiên — println"
+      },
+      {
+        "id": "67.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 67.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Biến val (bất biến) và var"
+      },
+      {
+        "id": "67.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 67.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "String template — chèn biến vào chuỗi với dấu $"
+      },
+      {
+        "id": "67.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 67.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Máy tính đơn giản"
+      },
+      {
+        "id": "67.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 67.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Hằng số và ép kiểu"
+      }
+    ]
+  },
+  {
+    "id": "lesson68",
+    "code": "68",
+    "title": "Kotlin 2 Bien và Toan tu",
+    "subtitle": "",
+    "orderIndex": 68,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "68.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 68.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Kiểu số và phép chia"
+      },
+      {
+        "id": "68.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 68.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Kiểu Boolean và so sánh"
+      },
+      {
+        "id": "68.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 68.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Toán tử logic && || !"
+      },
+      {
+        "id": "68.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 68.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Gán phức hợp và if biểu thức"
+      },
+      {
+        "id": "68.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 68.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Lũy thừa và các hàm số học"
+      }
+    ]
+  },
+  {
+    "id": "lesson69",
+    "code": "69",
+    "title": "Kotlin 3 Cau truc dieu khien",
+    "subtitle": "",
+    "orderIndex": 69,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "69.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 69.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "if - else biểu thức"
+      },
+      {
+        "id": "69.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 69.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "when thay cho switch"
+      },
+      {
+        "id": "69.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 69.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "when với điều kiện khoảng"
+      },
+      {
+        "id": "69.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 69.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Vòng lặp for với range 1..n"
+      },
+      {
+        "id": "69.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 69.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Vòng lặp while: tính giai thừa"
+      },
+      {
+        "id": "69.6",
+        "orderIndex": 6,
+        "type": 3,
+        "title": "Bài 69.6",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "for với step và downTo"
+      }
+    ]
+  },
+  {
+    "id": "lesson70",
+    "code": "70",
+    "title": "Kotlin 4 Collection",
+    "subtitle": "",
+    "orderIndex": 70,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "70.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 70.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "List và duyệt phần tử"
+      },
+      {
+        "id": "70.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 70.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "MutableList: thêm, xóa"
+      },
+      {
+        "id": "70.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 70.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Map: cặp key-value"
+      },
+      {
+        "id": "70.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 70.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Set: loại trùng phần tử"
+      },
+      {
+        "id": "70.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 70.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Tách chẵn lẻ với partition"
+      }
+    ]
+  },
+  {
+    "id": "lesson71",
+    "code": "71",
+    "title": "Kotlin 5 Chuoi",
+    "subtitle": "",
+    "orderIndex": 71,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "71.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 71.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Chuỗi: length, truy cập, substring"
+      },
+      {
+        "id": "71.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 71.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Chuỗi: split, replace, contains"
+      },
+      {
+        "id": "71.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 71.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Đảo ngược chuỗi và palindrome"
+      },
+      {
+        "id": "71.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 71.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Đếm ký tự với count"
+      },
+      {
+        "id": "71.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 71.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "trim, endsWith, padStart"
+      }
+    ]
+  },
+  {
+    "id": "lesson72",
+    "code": "72",
+    "title": "Kotlin 6 Ham",
+    "subtitle": "",
+    "orderIndex": 72,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "72.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 72.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Hàm fun với return"
+      },
+      {
+        "id": "72.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 72.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Hàm một dòng (expression body)"
+      },
+      {
+        "id": "72.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 72.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Tham số mặc định và vararg"
+      },
+      {
+        "id": "72.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 72.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Lambda và hàm bậc cao"
+      },
+      {
+        "id": "72.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 72.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Đệ quy: tính giai thừa"
+      }
+    ]
+  },
+  {
+    "id": "lesson73",
+    "code": "73",
+    "title": "Kotlin 7 Collection ops và Null safety",
+    "subtitle": "",
+    "orderIndex": 73,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "73.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 73.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "map, filter, reduce"
+      },
+      {
+        "id": "73.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 73.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "sum, average, max, min"
+      },
+      {
+        "id": "73.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 73.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "sorted và groupBy"
+      },
+      {
+        "id": "73.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 73.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Null safety: ?. và Elvis ?:"
+      },
+      {
+        "id": "73.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 73.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "let và also"
+      }
+    ]
+  },
+  {
+    "id": "lesson74",
+    "code": "74",
+    "title": "Kotlin 8 OOP",
+    "subtitle": "",
+    "orderIndex": 74,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "74.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 74.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Class và phương thức"
+      },
+      {
+        "id": "74.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 74.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "data class"
+      },
+      {
+        "id": "74.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 74.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Kế thừa với open và override"
+      },
+      {
+        "id": "74.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 74.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Interface và đa hình"
+      },
+      {
+        "id": "74.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 74.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "kotlin",
+        "desc": "Property với custom getter"
+      }
+    ]
+  },
+  {
+    "id": "lesson75",
+    "code": "75",
+    "title": "ReactJS 1 Component",
+    "subtitle": "",
+    "orderIndex": 75,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "75.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 75.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Component đầu tiên — function trả về JSX"
+      },
+      {
+        "id": "75.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 75.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "JSX nhúng biểu thức với {}"
+      },
+      {
+        "id": "75.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 75.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Nhiều phần tử với Fragment"
+      },
+      {
+        "id": "75.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 75.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "className và style inline"
+      },
+      {
+        "id": "75.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 75.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Render có điều kiện với toán tử ba ngôi"
+      }
+    ]
+  },
+  {
+    "id": "lesson76",
+    "code": "76",
+    "title": "ReactJS 2 Props",
+    "subtitle": "",
+    "orderIndex": 76,
+    "difficulty": 0,
+    "drillsMeta": [
+      {
+        "id": "76.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 76.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Truyền và nhận props"
+      },
+      {
+        "id": "76.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 76.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Destructuring props"
+      },
+      {
+        "id": "76.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 76.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Props với giá trị mặc định"
+      },
+      {
+        "id": "76.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 76.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Props children"
+      },
+      {
+        "id": "76.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 76.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Truyền props là số và biểu thức"
+      }
+    ]
+  },
+  {
+    "id": "lesson77",
+    "code": "77",
+    "title": "ReactJS 3 State useState",
+    "subtitle": "",
+    "orderIndex": 77,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "77.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 77.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "useState — bộ đếm cơ bản"
+      },
+      {
+        "id": "77.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 77.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "useState với chuỗi"
+      },
+      {
+        "id": "77.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 77.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "useState với boolean — bật tắt"
+      },
+      {
+        "id": "77.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 77.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Cập nhật state dựa trên state trước"
+      },
+      {
+        "id": "77.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 77.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "useState với object"
+      }
+    ]
+  },
+  {
+    "id": "lesson78",
+    "code": "78",
+    "title": "ReactJS 4 Su kien",
+    "subtitle": "",
+    "orderIndex": 78,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "78.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 78.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Sự kiện onClick"
+      },
+      {
+        "id": "78.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 78.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Truyền tham số cho event handler"
+      },
+      {
+        "id": "78.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 78.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Sự kiện onChange với input"
+      },
+      {
+        "id": "78.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 78.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Nhiều sự kiện: onMouseOver, onMouseOut"
+      },
+      {
+        "id": "78.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 78.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Ngăn hành vi mặc định preventDefault"
+      }
+    ]
+  },
+  {
+    "id": "lesson79",
+    "code": "79",
+    "title": "ReactJS 5 Render danh sach",
+    "subtitle": "",
+    "orderIndex": 79,
+    "difficulty": 1,
+    "drillsMeta": [
+      {
+        "id": "79.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 79.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Render danh sách với map và key"
+      },
+      {
+        "id": "79.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 79.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Render mảng object với key là id"
+      },
+      {
+        "id": "79.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 79.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Lọc danh sách trước khi render"
+      },
+      {
+        "id": "79.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 79.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Render bảng từ mảng dữ liệu"
+      },
+      {
+        "id": "79.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 79.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Danh sách động với useState"
+      }
+    ]
+  },
+  {
+    "id": "lesson80",
+    "code": "80",
+    "title": "ReactJS 6 Form",
+    "subtitle": "",
+    "orderIndex": 80,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "80.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 80.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Controlled input"
+      },
+      {
+        "id": "80.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 80.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Form nhiều trường với object state"
+      },
+      {
+        "id": "80.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 80.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Submit form và hiển thị kết quả"
+      },
+      {
+        "id": "80.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 80.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Checkbox controlled"
+      },
+      {
+        "id": "80.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 80.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Select dropdown controlled"
+      }
+    ]
+  },
+  {
+    "id": "lesson81",
+    "code": "81",
+    "title": "ReactJS 7 useEffect",
+    "subtitle": "",
+    "orderIndex": 81,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "81.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 81.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "useEffect chạy sau mỗi render"
+      },
+      {
+        "id": "81.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 81.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "useEffect với dependency array"
+      },
+      {
+        "id": "81.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 81.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "useEffect chạy một lần khi mount"
+      },
+      {
+        "id": "81.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 81.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Cleanup trong useEffect"
+      },
+      {
+        "id": "81.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 81.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "useEffect tính giá trị phụ thuộc"
+      }
+    ]
+  },
+  {
+    "id": "lesson82",
+    "code": "82",
+    "title": "ReactJS 8 Composition và Hook",
+    "subtitle": "",
+    "orderIndex": 82,
+    "difficulty": 2,
+    "drillsMeta": [
+      {
+        "id": "82.1",
+        "orderIndex": 1,
+        "type": 3,
+        "title": "Bài 82.1",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Tách component con và lắp ghép"
+      },
+      {
+        "id": "82.2",
+        "orderIndex": 2,
+        "type": 3,
+        "title": "Bài 82.2",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Custom hook — useBoDem"
+      },
+      {
+        "id": "82.3",
+        "orderIndex": 3,
+        "type": 3,
+        "title": "Bài 82.3",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Truyền hàm qua props (callback)"
+      },
+      {
+        "id": "82.4",
+        "orderIndex": 4,
+        "type": 3,
+        "title": "Bài 82.4",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Lift state up — chia sẻ state giữa con"
+      },
+      {
+        "id": "82.5",
+        "orderIndex": 5,
+        "type": 3,
+        "title": "Bài 82.5",
+        "totalChars": 0,
+        "maxGroupLen": 0,
+        "wordCount": 0,
+        "lang": "react",
+        "desc": "Custom hook quản lý input form"
+      }
+    ]
+  }
+]

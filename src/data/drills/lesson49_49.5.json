@@ -1,0 +1,13 @@
+{
+  "id": "49.5",
+  "title": "Bài 49.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    vector<int> v = {1, 2, 3, 4};\n    int tong = 0;\n    for_each(v.begin(), v.end(), [&](int x) { tong += x; });\n    cout << \"Tong: \" << tong << endl;\n    return 0;\n}",
+  "lang": "cpp",
+  "desc": "Lambda với for_each",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson49"
+}

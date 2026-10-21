@@ -1,0 +1,13 @@
+{
+  "id": "74.4",
+  "title": "Bài 74.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "interface Hinh {\n    fun dienTich(): Double\n}\n\nclass Vuong(val canh: Double) : Hinh {\n    override fun dienTich() = canh * canh\n}\n\nfun main() {\n    val h: Hinh = Vuong(4.0)\n    println(h.dienTich())\n}",
+  "lang": "kotlin",
+  "desc": "Interface và đa hình",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson74"
+}

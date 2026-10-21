@@ -1,0 +1,13 @@
+{
+  "id": "75.5",
+  "title": "Bài 75.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "function TrangThai() {\n  const dangNhap = true;\n  return (\n    <div>\n      {dangNhap ? <p>Xin chao!</p> : <p>Vui long dang nhap</p>}\n    </div>\n  );\n}\n\nexport default TrangThai;",
+  "lang": "react",
+  "desc": "Render có điều kiện với toán tử ba ngôi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson75"
+}

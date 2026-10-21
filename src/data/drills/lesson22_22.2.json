@@ -1,0 +1,266 @@
+{
+  "id": "22.2",
+  "title": "Bài 22.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "You",
+        "&",
+        "Me"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "You",
+        "&",
+        "Me"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "learning@harvard.edu"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "learning@harvard.edu"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "99.9%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "99.9%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$7,905.00"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$7,905.00"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "micro@company.com"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "micro@company.com"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "32%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "32%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "exhibits@museum.gov"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "exhibits@museum.gov"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Baxter",
+        "&",
+        "Baxter",
+        "LLC"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Baxter",
+        "&",
+        "Baxter",
+        "LLC"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$10,500.00",
+        "CAD"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$10,500.00",
+        "CAD"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "25%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "25%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "windmills@holland.nl"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "windmills@holland.nl"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$2.99"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$2.99"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "marshall@association.org"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "marshall@association.org"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$1.00",
+        "USD",
+        "=",
+        "0.85",
+        "EUR"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$1.00",
+        "USD",
+        "=",
+        "0.85",
+        "EUR"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$6.20/yard"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$6.20/yard"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "news@news.com"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "news@news.com"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$35.65"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$35.65"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "here",
+        "&",
+        "there"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "here",
+        "&",
+        "there"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mainframe@computer.com"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mainframe@computer.com"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "You&Melarnig@hvd.9%$7,05mcpy32xbtsBLC1ADwUS=8ER6/f",
+  "totalChars": 536,
+  "lessonId": "lesson22"
+}

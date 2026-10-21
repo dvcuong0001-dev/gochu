@@ -1,0 +1,13 @@
+{
+  "id": "29.4",
+  "title": "Bài 29.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "tong = 0\ni = 5\nwhile i <= 50:\n    tong += i\n    i += 5\nprint(\"Tong =\", tong)",
+  "lang": "python",
+  "desc": "Vòng lặp while: tổng số chia hết cho 5",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson29"
+}

@@ -1,0 +1,223 @@
+{
+  "id": "16.3",
+  "title": "Bài 16.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "10",
+        "October",
+        "2005"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "December",
+        "24,",
+        "1992"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "I",
+        "had",
+        "to",
+        "count",
+        "to",
+        "200."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "50",
+        "is",
+        "half",
+        "of",
+        "100.",
+        "50",
+        "is",
+        "half",
+        "of",
+        "100.",
+        "50,",
+        "50,",
+        "100."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "911",
+        "is",
+        "the",
+        "emergency",
+        "number",
+        "in",
+        "the",
+        "USA."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "European",
+        "emergency",
+        "number,",
+        "however,",
+        "is",
+        "112."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "9",
+        "and",
+        "9",
+        "makes",
+        "18.",
+        "7",
+        "and",
+        "9",
+        "makes",
+        "16.",
+        "Mathematics",
+        "is",
+        "easy."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "I",
+        "live",
+        "in",
+        "Paris",
+        "and",
+        "my",
+        "zip",
+        "code",
+        "is",
+        "65230.",
+        "Write",
+        "soon."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "How",
+        "do",
+        "you",
+        "write",
+        "1998",
+        "in",
+        "Roman",
+        "numerals?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "L",
+        "is",
+        "the",
+        "Roman",
+        "numeral",
+        "for",
+        "50,",
+        "C",
+        "is",
+        "100,",
+        "M",
+        "is",
+        "1000.",
+        "X",
+        "is",
+        "10."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "How",
+        "to",
+        "write",
+        "2090?",
+        "Could",
+        "it",
+        "be",
+        "MMCX?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "He",
+        "invested",
+        "24,990",
+        "dollars",
+        "in",
+        "his",
+        "Chevrolet."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "My",
+        "new",
+        "fax",
+        "is",
+        "a",
+        "version",
+        "2005.",
+        "It",
+        "cost",
+        "599",
+        "dollars."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "He",
+        "mixed",
+        "up",
+        "our",
+        "numbers.",
+        "Mine",
+        "is",
+        "19,",
+        "yours",
+        "is",
+        "28."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "She",
+        "paid",
+        "1,279.00",
+        "dollars",
+        "for",
+        "her",
+        "new",
+        "computer."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "10October25Dm4,9Ihadun.islfgyUSATEpwvk876MPz3WHR?LCXx",
+  "totalChars": 640,
+  "lessonId": "lesson16"
+}

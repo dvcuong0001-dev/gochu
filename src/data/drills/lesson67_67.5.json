@@ -1,0 +1,13 @@
+{
+  "id": "67.5",
+  "title": "Bài 67.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val pi = 3.14159\n    val r = 4\n    println(\"Chu vi: ${2 * pi * r}\")\n    val s = \"25\"\n    println(s.toInt() + 5)\n}",
+  "lang": "kotlin",
+  "desc": "Hằng số và ép kiểu",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson67"
+}

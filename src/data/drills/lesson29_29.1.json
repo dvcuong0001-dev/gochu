@@ -1,0 +1,13 @@
+{
+  "id": "29.1",
+  "title": "Bài 29.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "n = 14\nif n % 2 == 0:\n    print(n, \"la so chan\")\nelse:\n    print(n, \"la so le\")",
+  "lang": "python",
+  "desc": "Câu lệnh if - else: kiểm tra chẵn lẻ",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson29"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "63.4",
+  "title": "Bài 63.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "using System;\nclass Program {\n    static void Main() {\n        string s = \"madam\";\n        char[] arr = s.ToCharArray();\n        Array.Reverse(arr);\n        string dao = new string(arr);\n        Console.WriteLine(dao);\n        Console.WriteLine(s == dao);\n    }\n}",
+  "lang": "csharp",
+  "desc": "Đảo ngược chuỗi",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson63"
+}

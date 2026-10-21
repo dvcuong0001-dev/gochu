@@ -1,0 +1,13 @@
+{
+  "id": "51.4",
+  "title": "Bài 51.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        final double PI = 3.14159;\n        int r = 4;\n        System.out.println(\"Chu vi: \" + (2 * PI * r));\n        System.out.println(\"Dien tich: \" + (PI * r * r));\n    }\n}",
+  "lang": "java",
+  "desc": "Hằng số final và phép toán",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson51"
+}

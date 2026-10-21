@@ -1,0 +1,13 @@
+{
+  "id": "30.2",
+  "title": "Bài 30.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "fruits = [\"tao\", \"cam\", \"le\"]\nfruits.append(\"nho\")\nfruits.insert(1, \"chuoi\")\nfruits.remove(\"le\")\nfruits.sort()\nprint(fruits)\nprint(\"So phan tu:\", len(fruits))",
+  "lang": "python",
+  "desc": "List: thêm, xóa, sắp xếp phần tử",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson30"
+}

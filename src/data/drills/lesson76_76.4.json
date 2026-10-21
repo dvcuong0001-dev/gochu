@@ -1,0 +1,13 @@
+{
+  "id": "76.4",
+  "title": "Bài 76.4",
+  "orderIndex": 4,
+  "lines": [],
+  "type": 3,
+  "rawText": "function KhungVien({ children }) {\n  return <div className=\"khung\">{children}</div>;\n}\n\nfunction App() {\n  return (\n    <KhungVien>\n      <p>Noi dung ben trong</p>\n    </KhungVien>\n  );\n}\n\nexport default App;",
+  "lang": "react",
+  "desc": "Props children",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson76"
+}

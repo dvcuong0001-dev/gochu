@@ -1,0 +1,13 @@
+{
+  "id": "33.6",
+  "title": "Bài 33.6",
+  "orderIndex": 6,
+  "lines": [],
+  "type": 3,
+  "rawText": "def cong(a, b):\n    return a + b\n\ndef nhan(a, b):\n    return a * b\n\nif __name__ == \"__main__\":\n    print(cong(3, 4))\n    print(nhan(3, 4))",
+  "lang": "python",
+  "desc": "Tự viết hàm và pattern if __name__",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson33"
+}

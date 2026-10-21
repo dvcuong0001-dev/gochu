@@ -1,0 +1,13 @@
+{
+  "id": "42.3",
+  "title": "Bài 42.3",
+  "orderIndex": 3,
+  "lines": [],
+  "type": 3,
+  "rawText": "class HinhTron {\n  constructor(r) { this.r = r; }\n  get dienTich() { return Math.PI * this.r ** 2; }\n  static tao(r) { return new HinhTron(r); }\n}\nlet h = HinhTron.tao(2);\nconsole.log(h.dienTich.toFixed(2));",
+  "lang": "javascript",
+  "desc": "Getter và static method",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson42"
+}

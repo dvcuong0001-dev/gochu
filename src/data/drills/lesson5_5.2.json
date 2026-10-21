@@ -1,0 +1,479 @@
+{
+  "id": "5.2",
+  "title": "Bài 5.2",
+  "orderIndex": 2,
+  "lines": [
+    {
+      "groups": [
+        "Fred",
+        "Fred",
+        "Fred"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Just",
+        "Just",
+        "Just"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Fiji",
+        "Fiji",
+        "Fiji"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Joel",
+        "Joel",
+        "Joel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Tulsa",
+        "Tulsa",
+        "Tulsa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Osaka",
+        "Osaka",
+        "Osaka"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Dakota",
+        "Dakota",
+        "Dakota"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Louise",
+        "Louise",
+        "Louise"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Juliet",
+        "Juliet",
+        "Juliet"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ursula",
+        "Ursula",
+        "Ursula"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Saul",
+        "Titus"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "Saul",
+        "Titus"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Eloise",
+        "Fred"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Eloise",
+        "Fred"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Isolde",
+        "Josef"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Isolde",
+        "Josef"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Karl",
+        "Lorelei"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Karl",
+        "Lorelei"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Olaf",
+        "Rosetta"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Olaf",
+        "Rosetta"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Alaska",
+        "Artist"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Alaska",
+        "Artist"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Detroit",
+        "Diesel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Detroit",
+        "Diesel"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Eurasia",
+        "Editor",
+        "Eurasia",
+        "Editor"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Florida",
+        "Ferret"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Florida",
+        "Ferret"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Italia",
+        "Itself"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Italia",
+        "Itself"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Jura",
+        "Jitter"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Jura",
+        "Jitter"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Korea",
+        "Kettle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Korea",
+        "Kettle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Leeds",
+        "Little"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Leeds",
+        "Little"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Osaka",
+        "Otter"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Osaka",
+        "Otter"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Russia",
+        "Rodeo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Russia",
+        "Rodeo"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Stafford",
+        "Soda",
+        "Stafford",
+        "Soda"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Toledo",
+        "Toast"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Toledo",
+        "Toast"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Utter",
+        "Use"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Utter",
+        "Use"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Austria",
+        "Fiji"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Austria",
+        "Fiji"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Eire",
+        "Dusseldorf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Eire",
+        "Dusseldorf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Fairfield",
+        "Isle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Fairfield",
+        "Isle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Jakarta",
+        "Krakatoa",
+        "Jakarta",
+        "Krakatoa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Lusaka",
+        "Odessa",
+        "Lusaka",
+        "Odessa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Rutford",
+        "Seattle",
+        "Rutford",
+        "Seattle"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Tulsa",
+        "Ulster"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Tulsa",
+        "Ulster"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Alfredo",
+        "Darius",
+        "Alfredo",
+        "Darius"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Juliet",
+        "Australia"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Juliet",
+        "Australia"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Kodiak",
+        "Suffolk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Kodiak",
+        "Suffolk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Faustus",
+        "Iliad",
+        "Faustus",
+        "Iliad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Rafael",
+        "Eurasia"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Rafael",
+        "Eurasia"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 1,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "FredJustijolTaOkDLUSEIfKRA",
+  "totalChars": 1010,
+  "lessonId": "lesson5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "57.2",
+  "title": "Bài 57.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "import java.util.ArrayList;\nimport java.util.Collections;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<Integer> v = new ArrayList<>();\n        Collections.addAll(v, 5, 2, 8, 1, 9);\n        Collections.sort(v);\n        System.out.println(v);\n        System.out.println(\"Max: \" + Collections.max(v));\n    }\n}",
+  "lang": "java",
+  "desc": "Collections.sort và max",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson57"
+}

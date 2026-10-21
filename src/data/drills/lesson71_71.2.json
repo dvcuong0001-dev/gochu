@@ -1,0 +1,13 @@
+{
+  "id": "71.2",
+  "title": "Bài 71.2",
+  "orderIndex": 2,
+  "lines": [],
+  "type": 3,
+  "rawText": "fun main() {\n    val s = \"tuhoc typing\"\n    println(s.split(\" \"))\n    println(s.replace(\"typing\", \"code\"))\n    println(s.contains(\"hoc\"))\n}",
+  "lang": "kotlin",
+  "desc": "Chuỗi: split, replace, contains",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson71"
+}

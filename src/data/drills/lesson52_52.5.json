@@ -1,0 +1,13 @@
+{
+  "id": "52.5",
+  "title": "Bài 52.5",
+  "orderIndex": 5,
+  "lines": [],
+  "type": 3,
+  "rawText": "public class Main {\n    public static void main(String[] args) {\n        double d = 9.7;\n        int i = (int) d;\n        System.out.println(i);\n        int n = Integer.parseInt(\"25\");\n        System.out.println(n + 5);\n    }\n}",
+  "lang": "java",
+  "desc": "Ép kiểu và Integer.parseInt",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson52"
+}

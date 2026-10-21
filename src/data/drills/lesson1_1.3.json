@@ -1,0 +1,374 @@
+{
+  "id": "1.3",
+  "title": "Bài 1.3",
+  "orderIndex": 3,
+  "lines": [
+    {
+      "groups": [
+        "aa",
+        "ss",
+        "dd",
+        "ff"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aa",
+        "ss",
+        "dd",
+        "ff"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jj",
+        "kk",
+        "ll",
+        ";;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jj",
+        "kk",
+        "ll",
+        ";;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "as",
+        "df",
+        "as",
+        "df"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jk",
+        "l;",
+        "jk",
+        "l;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "asdf",
+        "asdf",
+        "asdf",
+        "asdf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jkl;",
+        "jkl;",
+        "jkl;",
+        "jkl;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fdsa",
+        "fdsa",
+        "fdsa",
+        "fdsa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";lkj",
+        ";lkj",
+        ";lkj",
+        ";lkj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ajja",
+        "ajja",
+        "akka",
+        "akka"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alla",
+        "alla",
+        "a;;a",
+        "a;;a"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jaaj",
+        "jaaj",
+        "jssj",
+        "jssj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jddj",
+        "jddj",
+        "jffj",
+        "jffj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "adsf",
+        "adsf",
+        "jlk;",
+        "jlk;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fasd",
+        "fasd",
+        ";jkl",
+        ";jkl"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "skks",
+        "skks",
+        "dlld",
+        "dlld"
+      ],
+      "isLoopStart": true
+    },
+    {
+      "groups": [
+        "djjd",
+        "djjd",
+        "f;;f",
+        "f;;f"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "asjk",
+        "asjk",
+        "asl;",
+        "asl;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dfl;",
+        "dfl;",
+        "dfjk",
+        "dfjk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jasd",
+        "jasd",
+        "ksdf",
+        "ksdf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fjkl",
+        "fjkl",
+        "dkl;",
+        "dkl;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "laks",
+        "laks",
+        "jd;f",
+        "jd;f"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sjal",
+        "sjal",
+        "akf;",
+        "akf;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ldaj",
+        "ldaj",
+        ";akd",
+        ";akd"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "jfds",
+        "jfds",
+        "kdsa",
+        "kdsa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";saf",
+        ";saf",
+        "lfda",
+        "lfda"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ajk;",
+        "ajk;",
+        "fl;j",
+        "fl;j"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kaks",
+        "kaks",
+        "ldlf",
+        "ldlf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ajaf",
+        "ajaf",
+        "sksl",
+        "sksl"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "akfl",
+        "akfl",
+        "sjd;",
+        "sjd;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        ";dfj",
+        ";dfj",
+        "jald",
+        "jald"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "falk",
+        "dsas",
+        "falk",
+        "dsas"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alsa",
+        "dafa",
+        "alsa",
+        "dafa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lkds",
+        "asfa",
+        "lkds",
+        "asfa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "daja",
+        "jada",
+        "daja",
+        "jada"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "kala",
+        "sall",
+        "kala",
+        "sall"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "alas",
+        "fall",
+        "alas",
+        "fall"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "laka",
+        "flak",
+        "laka",
+        "flak"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "salk",
+        "fask",
+        "salk",
+        "fask"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": 0,
+  "rawText": null,
+  "lang": null,
+  "desc": null,
+  "charSet": "asdfjkl;",
+  "totalChars": 752,
+  "lessonId": "lesson1"
+}

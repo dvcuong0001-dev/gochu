@@ -1,0 +1,13 @@
+{
+  "id": "28.1",
+  "title": "Bài 28.1",
+  "orderIndex": 1,
+  "lines": [],
+  "type": 3,
+  "rawText": "a = 10\nb = 3.14\nprint(type(a))\nprint(type(b))\nprint(a, \"nguyen;\", b, \"thuc\")",
+  "lang": "python",
+  "desc": "Kiểu số int, float và hàm type()",
+  "charSet": "",
+  "totalChars": 0,
+  "lessonId": "lesson28"
+}
