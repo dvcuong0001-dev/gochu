@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { FileSpreadsheet, Copy, Check, ArrowLeft, ExternalLink, Sparkles } from "lucide-react";
+import { FileSpreadsheet, Copy, Check, ArrowLeft, ExternalLink, Sparkles, KeyRound } from "lucide-react";
 
 export const SheetsGuideView: React.FC<{ onBack: () => void }> = ({ onBack }) => {
   const [copied, setCopied] = useState(false);
@@ -12,21 +12,87 @@ export const SheetsGuideView: React.FC<{ onBack: () => void }> = ({ onBack }) =>
   try {
     var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
     var data = JSON.parse(e.postData.contents);
+    var action = data.action || "save_score";
     var username = (data.username || "Ẩn danh").trim();
+    var pin = (data.pin || "").toString().trim();
     var avatar = data.avatar || "🐱";
-    var wpm = Number(data.wpm) || 0;
-    var accuracy = Number(data.accuracy) || 100;
-    var timeSpent = Number(data.timeSpent) || 0;
-    var earnedXp = Number(data.earnedXp) || Math.max(10, Math.round(wpm * 0.8));
     var rows = sheet.getDataRange().getValues();
     var userRowIndex = -1;
+
     for (var i = 1; i < rows.length; i++) {
       if (rows[i][0] && rows[i][0].toString().toLowerCase() === username.toLowerCase()) {
         userRowIndex = i + 1;
         break;
       }
     }
+
     var now = new Date().toISOString();
+
+    // 1. XỬ LÝ ĐĂNG NHẬP / XÁC THỰC HỌC SINH (ACTION = 'auth')
+    if (action === "auth") {
+      if (userRowIndex > 0) {
+        var existingPin = (rows[userRowIndex - 1][9] || "").toString().trim();
+        // Nếu đã có PIN và không khớp
+        if (existingPin && existingPin !== pin) {
+          return ContentService.createTextOutput(JSON.stringify({
+            success: false,
+            error: "Mã PIN 6 số không đúng cho tài khoản này!"
+          })).setMimeType(ContentService.MimeType.JSON);
+        }
+        // Nếu tài khoản cũ chưa có PIN thì cập nhật PIN mới
+        if (!existingPin && pin) {
+          sheet.getRange(userRowIndex, 10).setValue(pin);
+        }
+        var unlockedJson = rows[userRowIndex - 1][10] || "[]";
+        var unlockedLessons = ["lesson1"];
+        try { unlockedLessons = JSON.parse(unlockedJson); } catch (_) {}
+
+        return ContentService.createTextOutput(JSON.stringify({
+          success: true,
+          isNew: false,
+          user: {
+            username: rows[userRowIndex - 1][0],
+            avatar: rows[userRowIndex - 1][1] || avatar,
+            level: Number(rows[userRowIndex - 1][2]) || 1,
+            xp: Number(rows[userRowIndex - 1][3]) || 0,
+            bestWpm: Number(rows[userRowIndex - 1][4]) || 0,
+            avgAccuracy: Number(rows[userRowIndex - 1][5]) || 100,
+            totalTimeSeconds: Number(rows[userRowIndex - 1][6]) || 0,
+            completedDrills: Number(rows[userRowIndex - 1][7]) || 0,
+            joinedAt: rows[userRowIndex - 1][8] || now,
+            unlockedLessons: unlockedLessons
+          }
+        })).setMimeType(ContentService.MimeType.JSON);
+      } else {
+        // Tạo tài khoản học sinh mới
+        var initialLessons = JSON.stringify(["lesson1"]);
+        sheet.appendRow([username, avatar, 1, 0, 0, 100, 0, 0, now, pin, initialLessons]);
+        return ContentService.createTextOutput(JSON.stringify({
+          success: true,
+          isNew: true,
+          user: {
+            username: username,
+            avatar: avatar,
+            level: 1,
+            xp: 0,
+            bestWpm: 0,
+            avgAccuracy: 100,
+            totalTimeSeconds: 0,
+            completedDrills: 0,
+            joinedAt: now,
+            unlockedLessons: ["lesson1"]
+          }
+        })).setMimeType(ContentService.MimeType.JSON);
+      }
+    }
+
+    // 2. XỬ LÝ LƯU ĐIỂM / ĐỒNG BỘ TIẾN ĐỘ BÀI TẬP (ACTION = 'save_score')
+    var wpm = Number(data.wpm) || 0;
+    var accuracy = Number(data.accuracy) || 100;
+    var timeSpent = Number(data.timeSpent) || 0;
+    var earnedXp = Number(data.earnedXp) || Math.max(10, Math.round(wpm * 0.8));
+    var unlockedStr = data.unlockedLessons || JSON.stringify(["lesson1"]);
+
     if (userRowIndex > 0) {
       var currentXp = Number(rows[userRowIndex - 1][3]) || 0;
       var currentBestWpm = Number(rows[userRowIndex - 1][4]) || 0;
@@ -34,6 +100,7 @@ export const SheetsGuideView: React.FC<{ onBack: () => void }> = ({ onBack }) =>
       var currentTime = Number(rows[userRowIndex - 1][6]) || 0;
       var currentCompleted = Number(rows[userRowIndex - 1][7]) || 0;
       var newXp = currentXp + earnedXp;
+
       sheet.getRange(userRowIndex, 2).setValue(avatar);
       sheet.getRange(userRowIndex, 3).setValue(1 + Math.floor(newXp / 100));
       sheet.getRange(userRowIndex, 4).setValue(newXp);
@@ -42,9 +109,12 @@ export const SheetsGuideView: React.FC<{ onBack: () => void }> = ({ onBack }) =>
       sheet.getRange(userRowIndex, 7).setValue(currentTime + timeSpent);
       sheet.getRange(userRowIndex, 8).setValue(currentCompleted + 1);
       sheet.getRange(userRowIndex, 9).setValue(now);
+      if (pin) sheet.getRange(userRowIndex, 10).setValue(pin);
+      if (unlockedStr) sheet.getRange(userRowIndex, 11).setValue(unlockedStr);
     } else {
-      sheet.appendRow([username, avatar, 1 + Math.floor(earnedXp / 100), earnedXp, wpm, accuracy, timeSpent, 1, now]);
+      sheet.appendRow([username, avatar, 1 + Math.floor(earnedXp / 100), earnedXp, wpm, accuracy, timeSpent, 1, now, pin, unlockedStr]);
     }
+
     return ContentService.createTextOutput(JSON.stringify({ status: "success" })).setMimeType(ContentService.MimeType.JSON);
   } catch (err) {
     return ContentService.createTextOutput(JSON.stringify({ status: "error", message: err.toString() })).setMimeType(ContentService.MimeType.JSON);
@@ -62,10 +132,12 @@ function doGet(e) {
   for (var i = 1; i < rows.length; i++) {
     var r = rows[i];
     if (!r[0]) continue;
+    var unlocked = ["lesson1"];
+    try { if (r[10]) unlocked = JSON.parse(r[10]); } catch (_) {}
     results.push({
       username: r[0], avatar: r[1] || "🐱", level: Number(r[2]) || 1, xp: Number(r[3]) || 0,
       bestWpm: Number(r[4]) || 0, avgAccuracy: Number(r[5]) || 100, totalTimeSeconds: Number(r[6]) || 0,
-      completedDrills: Number(r[7]) || 1, lastActive: r[8] || ""
+      completedDrills: Number(r[7]) || 1, lastActive: r[8] || "", unlockedLessons: unlocked
     });
   }
   if (sortBy === "wpm") results.sort(function(a, b) { return b.bestWpm - a.bestWpm; });
@@ -96,26 +168,16 @@ function doGet(e) {
           <div>
             <h2 className="text-2xl font-bold text-white flex items-center gap-2.5">
               <FileSpreadsheet className="text-emerald-400" />
-              <span>Kết Nối Bảng Xếp Hạng Với Google Sheets</span>
+              <span>Kết Nối Bảng Xếp Hạng & Đăng Nhập Học Sinh (Google Sheets)</span>
             </h2>
-            <p className="text-xs text-gray-400">
-              Lưu bảng xếp hạng tổng toàn nền tảng (Level, XP, WPM, Thời gian) vào Google Sheets
+            <p className="text-xs text-gray-400 mt-1">
+              Đồng bộ dữ liệu điểm số, mã PIN 6 số và bài tập đã mở khóa của học sinh trực tiếp vào Google Sheets
             </p>
           </div>
         </div>
-
-        <a
-          href="https://sheets.new"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-3.5 py-2 rounded-xl bg-emerald-500/20 border border-emerald-500/40 hover:bg-emerald-500/30 text-emerald-300 text-xs font-medium transition-all flex items-center gap-1.5"
-        >
-          <span>Mở Google Sheets</span>
-          <ExternalLink size={14} />
-        </a>
       </div>
 
-      {/* Steps */}
+      {/* Guide Steps */}
       <div className="space-y-6">
         {/* Step 1 */}
         <div className="p-6 rounded-3xl bg-[#0c1322] border border-white/10 shadow-xl">
@@ -126,18 +188,20 @@ function doGet(e) {
             <h3 className="text-base font-bold text-white">Tạo Google Sheet Mới & Đặt Tên Tiêu Đề Cột</h3>
           </div>
           <p className="text-xs text-gray-300 mb-3">
-            Truy cập <a href="https://sheets.new" target="_blank" className="text-cyan-400 underline">sheets.new</a> để tạo 1 file trang tính mới. Điền dòng 1 làm tiêu đề:
+            Truy cập <a href="https://sheets.new" target="_blank" className="text-cyan-400 underline">sheets.new</a> để tạo 1 file trang tính mới. Điền dòng 1 làm tiêu đề từ Cột A đến Cột K:
           </p>
-          <div className="grid grid-cols-4 sm:grid-cols-9 gap-1 p-2.5 bg-black/50 border border-white/10 rounded-xl font-mono text-[10px] text-center text-gray-300">
+          <div className="grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-11 gap-1 p-2.5 bg-black/50 border border-white/10 rounded-xl font-mono text-[10px] text-center text-gray-300">
             <div className="bg-white/5 py-1 rounded">A: Username</div>
             <div className="bg-white/5 py-1 rounded">B: Avatar</div>
             <div className="bg-white/5 py-1 rounded">C: Level</div>
             <div className="bg-white/5 py-1 rounded">D: XP</div>
             <div className="bg-white/5 py-1 rounded">E: BestWPM</div>
             <div className="bg-white/5 py-1 rounded">F: AvgAccuracy</div>
-            <div className="bg-white/5 py-1 rounded">G: TotalTimeSeconds</div>
-            <div className="bg-white/5 py-1 rounded">H: CompletedDrills</div>
+            <div className="bg-white/5 py-1 rounded">G: TotalTime</div>
+            <div className="bg-white/5 py-1 rounded">H: DrillsCount</div>
             <div className="bg-white/5 py-1 rounded">I: LastUpdated</div>
+            <div className="bg-cyan-500/15 text-cyan-300 py-1 rounded border border-cyan-500/30">J: PIN (6 số)</div>
+            <div className="bg-amber-500/15 text-amber-300 py-1 rounded border border-amber-500/30">K: Lessons</div>
           </div>
         </div>
 
@@ -148,7 +212,7 @@ function doGet(e) {
               <span className="w-7 h-7 rounded-xl bg-emerald-500/20 text-emerald-400 font-bold flex items-center justify-center text-xs">
                 2
               </span>
-              <h3 className="text-base font-bold text-white">Dán mã Google Apps Script</h3>
+              <h3 className="text-base font-bold text-white">Dán mã Google Apps Script Nâng Cấp</h3>
             </div>
             <button
               onClick={handleCopy}

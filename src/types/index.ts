@@ -50,9 +50,24 @@ export interface Drill {
   minAccuracy?: number;
 }
 
+export interface UserProfile {
+  username: string;
+  pin?: string;
+  avatar: string;
+  level: number;
+  xp: number;
+  joinedAt: string;
+  isGuest?: boolean;
+  unlockedLessons?: string[];
+  bestWpm?: number;
+  avgAccuracy?: number;
+  totalTimeSeconds?: number;
+}
+
 export interface LeaderboardUserRecord {
   id?: string;
   username: string;
+  pin?: string;
   avatar?: string;
   level: number;
   xp: number;
@@ -60,6 +75,7 @@ export interface LeaderboardUserRecord {
   avgAccuracy: number;
   totalTimeSeconds: number;
   completedDrills: number;
+  unlockedLessons?: string[];
   lastActive?: string;
 }
 

@@ -58,6 +58,16 @@ export default function Home() {
     localStorage.setItem("typing_free_mode", String(nextVal));
   };
 
+  const handleLoginSuccess = (newProfile: UserProfile) => {
+    setUser(newProfile);
+    if (Array.isArray(newProfile.unlockedLessons) && newProfile.unlockedLessons.length > 0) {
+      setUnlockedLessons(newProfile.unlockedLessons);
+      try {
+        localStorage.setItem("unlocked_lessons", JSON.stringify(newProfile.unlockedLessons));
+      } catch (_) {}
+    }
+  };
+
   const handleUnlockNextLesson = (completedLessonId: string) => {
     const idx = lessons.findIndex((l) => l.id === completedLessonId);
     if (idx !== -1 && idx < lessons.length - 1) {
@@ -68,6 +78,25 @@ export default function Home() {
         try {
           localStorage.setItem("unlocked_lessons", JSON.stringify(updated));
         } catch (_) {}
+
+        // Background sync to server if logged in
+        if (user && !user.isGuest) {
+          fetch("/api/leaderboard", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              username: user.username,
+              pin: user.pin,
+              avatar: user.avatar,
+              wpm: 0,
+              accuracy: 100,
+              timeSpent: 0,
+              earnedXp: 0,
+              unlockedLessons: updated,
+            }),
+          }).catch(() => {});
+        }
+
         return updated;
       });
     }
@@ -87,12 +116,18 @@ export default function Home() {
     };
 
     setUser(updatedUser);
-    localStorage.setItem("tuhoc_user", JSON.stringify(updatedUser));
+    try {
+      localStorage.setItem("tuhoc_user", JSON.stringify(updatedUser));
+    } catch (_) {}
   };
 
   const handleLogout = () => {
     setUser(null);
-    localStorage.removeItem("tuhoc_user");
+    setUnlockedLessons(["lesson1"]);
+    try {
+      localStorage.removeItem("tuhoc_user");
+      localStorage.removeItem("unlocked_lessons");
+    } catch (_) {}
   };
 
   // Load drill
@@ -282,7 +317,7 @@ export default function Home() {
       <AuthModal
         isOpen={isAuthOpen}
         onClose={() => setIsAuthOpen(false)}
-        onLoginSuccess={(newProfile) => setUser(newProfile)}
+        onLoginSuccess={handleLoginSuccess}
         currentUser={user}
       />
 

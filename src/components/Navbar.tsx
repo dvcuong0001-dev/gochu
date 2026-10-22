@@ -146,22 +146,32 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div className="flex items-center gap-2">
               <button
                 onClick={onOpenAuth}
-                className="flex items-center gap-2 px-2.5 py-1 rounded-xl bg-black/40 border border-white/10 hover:border-cyan-500/40 transition-all text-xs"
-                title="Bấm để chỉnh sửa hồ sơ"
+                className={`flex items-center gap-2 px-2.5 py-1 rounded-xl border transition-all text-xs ${
+                  user.isGuest
+                    ? "bg-amber-500/10 border-amber-500/30 text-amber-300 hover:border-amber-400"
+                    : "bg-black/40 border-white/10 hover:border-cyan-500/40 text-white"
+                }`}
+                title={user.isGuest ? "Chế độ Khách - Bấm để tạo tài khoản & lưu điểm" : "Bấm để chỉnh sửa hồ sơ"}
               >
                 <span className="text-base">{user.avatar}</span>
-                <span className="font-semibold text-white max-w-[100px] truncate hidden sm:inline">
+                <span className="font-semibold max-w-[100px] truncate hidden sm:inline">
                   {user.username}
                 </span>
-                <span className="text-[10px] font-mono font-bold px-1.5 py-0.2 rounded bg-cyan-500/20 text-cyan-300">
-                  Lv.{user.level}
-                </span>
+                {user.isGuest ? (
+                  <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300">
+                    Khách
+                  </span>
+                ) : (
+                  <span className="text-[10px] font-mono font-bold px-1.5 py-0.2 rounded bg-cyan-500/20 text-cyan-300">
+                    Lv.{user.level}
+                  </span>
+                )}
               </button>
 
               <button
                 onClick={onLogout}
                 className="p-1.5 rounded-xl bg-gray-800/80 hover:bg-red-500/20 hover:text-red-400 text-gray-400 transition-colors"
-                title="Đăng xuất"
+                title={user.isGuest ? "Thoát chế độ Khách" : "Đăng xuất"}
               >
                 <LogOut size={15} />
               </button>

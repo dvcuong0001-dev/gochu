@@ -29,14 +29,18 @@ export async function POST(req: NextRequest) {
     const timeSpent = Math.max(0, Math.round(Number(body.timeSpent) || 0));
     const earnedXp = Math.max(10, Math.round(Number(body.earnedXp) || wpm * 0.8));
     const avatar = body.avatar || "🐱";
+    const pin = body.pin ? body.pin.toString().trim() : undefined;
+    const unlockedLessons = Array.isArray(body.unlockedLessons) ? body.unlockedLessons : undefined;
 
     const saved = await updateLeaderboardUser({
       username,
       avatar,
+      pin,
       wpm,
       accuracy,
       timeSpent,
       earnedXp,
+      unlockedLessons,
     });
 
     return NextResponse.json({ success: true, saved });

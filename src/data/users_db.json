@@ -1,0 +1,102 @@
+[
+  {
+    "username": "pro_typer_vn",
+    "pin": "123456",
+    "avatar": "👑",
+    "level": 18,
+    "xp": 1840,
+    "bestWpm": 98,
+    "avgAccuracy": 99.4,
+    "totalTimeSeconds": 5240,
+    "completedDrills": 45,
+    "unlockedLessons": [
+      "lesson1",
+      "lesson2",
+      "lesson3",
+      "lesson4",
+      "lesson5"
+    ],
+    "lastActive": "2026-10-22T10:00:54.811Z"
+  },
+  {
+    "username": "banphimthan",
+    "pin": "112233",
+    "avatar": "⚡",
+    "level": 15,
+    "xp": 1520,
+    "bestWpm": 88,
+    "avgAccuracy": 98.6,
+    "totalTimeSeconds": 4320,
+    "completedDrills": 38,
+    "unlockedLessons": [
+      "lesson1",
+      "lesson2",
+      "lesson3"
+    ],
+    "lastActive": "2026-10-22T10:00:54.812Z"
+  },
+  {
+    "username": "cyber_ninja",
+    "pin": "654321",
+    "avatar": "🎮",
+    "level": 12,
+    "xp": 1240,
+    "bestWpm": 82,
+    "avgAccuracy": 97.2,
+    "totalTimeSeconds": 3800,
+    "completedDrills": 30,
+    "unlockedLessons": [
+      "lesson1",
+      "lesson2"
+    ],
+    "lastActive": "2026-10-22T10:00:54.812Z"
+  },
+  {
+    "username": "tap_go_nhanh",
+    "pin": "999888",
+    "avatar": "🚀",
+    "level": 10,
+    "xp": 1050,
+    "bestWpm": 74,
+    "avgAccuracy": 96.5,
+    "totalTimeSeconds": 3100,
+    "completedDrills": 26,
+    "unlockedLessons": [
+      "lesson1",
+      "lesson2"
+    ],
+    "lastActive": "2026-10-22T10:00:54.812Z"
+  },
+  {
+    "username": "cuong_dev",
+    "pin": "123456",
+    "avatar": "🐱",
+    "level": 8,
+    "xp": 820,
+    "bestWpm": 66,
+    "avgAccuracy": 95.8,
+    "totalTimeSeconds": 2400,
+    "completedDrills": 19,
+    "unlockedLessons": [
+      "lesson1",
+      "lesson2",
+      "lesson3"
+    ],
+    "lastActive": "2026-10-22T10:00:54.812Z"
+  },
+  {
+    "username": "HocSinhMoi",
+    "pin": "123456",
+    "avatar": "??",
+    "level": 1,
+    "xp": 0,
+    "bestWpm": 0,
+    "avgAccuracy": 100,
+    "totalTimeSeconds": 0,
+    "completedDrills": 0,
+    "unlockedLessons": [
+      "lesson1"
+    ],
+    "lastActive": "2026-10-22T10:00:54.831Z"
+  }
+]

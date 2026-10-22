@@ -44,14 +44,39 @@ export const HomeView: React.FC<HomeViewProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-bold text-lg text-white">
-                  Chào mừng trở lại, {user.username}!
+                  {user.isGuest ? "Bạn đang ở Chế độ Khách" : `Chào mừng trở lại, ${user.username}!`}
                 </span>
-                <span className="text-xs font-mono font-semibold px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">
-                  Cấp {user.level}
+                <span
+                  className={`text-xs font-mono font-semibold px-2 py-0.5 rounded-full border ${
+                    user.isGuest
+                      ? "bg-amber-500/20 text-amber-300 border-amber-500/30"
+                      : "bg-cyan-500/20 text-cyan-300 border-cyan-500/30"
+                  }`}
+                >
+                  {user.isGuest ? "Khách (Tạm thời)" : `Cấp ${user.level}`}
                 </span>
               </div>
               <p className="text-xs text-gray-400">
-                Tích lũy: <span className="text-cyan-400 font-mono font-bold">{user.xp} XP</span> · Sẵn sàng bứt phá tốc độ gõ hôm nay chưa?
+                {user.isGuest ? (
+                  <span>
+                    Tiến độ lưu tạm trên máy này.{" "}
+                    <button
+                      onClick={onOpenAuth}
+                      className="text-cyan-400 hover:underline font-semibold"
+                    >
+                      Tạo tài khoản với PIN 6 số
+                    </button>{" "}
+                    để lưu vĩnh viễn!
+                  </span>
+                ) : (
+                  <span>
+                    Tích lũy:{" "}
+                    <span className="text-cyan-400 font-mono font-bold">
+                      {user.xp} XP
+                    </span>{" "}
+                    · Sẵn sàng bứt phá tốc độ gõ hôm nay chưa?
+                  </span>
+                )}
               </p>
             </div>
           </div>

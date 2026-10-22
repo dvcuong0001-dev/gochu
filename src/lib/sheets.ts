@@ -1,9 +1,15 @@
-import { LeaderboardUserRecord } from "@/types";
+import { LeaderboardUserRecord, UserProfile } from "@/types";
+import fs from "fs";
+import path from "path";
 
-// In-memory fallback global leaderboard data
-let mockGlobalLeaderboard: LeaderboardUserRecord[] = [
+// Local persistent fallback file path
+const USERS_DB_PATH = path.join(process.cwd(), "src", "data", "users_db.json");
+
+// Default initial leaderboard mock
+const DEFAULT_MOCK_USERS: LeaderboardUserRecord[] = [
   {
     username: "pro_typer_vn",
+    pin: "123456",
     avatar: "👑",
     level: 18,
     xp: 1840,
@@ -11,10 +17,12 @@ let mockGlobalLeaderboard: LeaderboardUserRecord[] = [
     avgAccuracy: 99.4,
     totalTimeSeconds: 5240,
     completedDrills: 45,
+    unlockedLessons: ["lesson1", "lesson2", "lesson3", "lesson4", "lesson5"],
     lastActive: new Date().toISOString(),
   },
   {
     username: "banphimthan",
+    pin: "112233",
     avatar: "⚡",
     level: 15,
     xp: 1520,
@@ -22,10 +30,12 @@ let mockGlobalLeaderboard: LeaderboardUserRecord[] = [
     avgAccuracy: 98.6,
     totalTimeSeconds: 4320,
     completedDrills: 38,
+    unlockedLessons: ["lesson1", "lesson2", "lesson3"],
     lastActive: new Date().toISOString(),
   },
   {
     username: "cyber_ninja",
+    pin: "654321",
     avatar: "🎮",
     level: 12,
     xp: 1240,
@@ -33,10 +43,12 @@ let mockGlobalLeaderboard: LeaderboardUserRecord[] = [
     avgAccuracy: 97.2,
     totalTimeSeconds: 3800,
     completedDrills: 30,
+    unlockedLessons: ["lesson1", "lesson2"],
     lastActive: new Date().toISOString(),
   },
   {
     username: "tap_go_nhanh",
+    pin: "999888",
     avatar: "🚀",
     level: 10,
     xp: 1050,
@@ -44,49 +56,61 @@ let mockGlobalLeaderboard: LeaderboardUserRecord[] = [
     avgAccuracy: 96.5,
     totalTimeSeconds: 3100,
     completedDrills: 26,
+    unlockedLessons: ["lesson1", "lesson2"],
     lastActive: new Date().toISOString(),
   },
   {
-    username: "tets1",
-    avatar: "🦊",
+    username: "cuong_dev",
+    pin: "123456",
+    avatar: "🐱",
     level: 8,
     xp: 820,
     bestWpm: 66,
     avgAccuracy: 95.8,
     totalTimeSeconds: 2400,
     completedDrills: 19,
-    lastActive: new Date().toISOString(),
-  },
-  {
-    username: "nguoimoibatdau",
-    avatar: "🌸",
-    level: 5,
-    xp: 510,
-    bestWpm: 52,
-    avgAccuracy: 94.0,
-    totalTimeSeconds: 1520,
-    completedDrills: 12,
-    lastActive: new Date().toISOString(),
-  },
-  {
-    username: "cuong_dev",
-    avatar: "🐱",
-    level: 4,
-    xp: 430,
-    bestWpm: 48,
-    avgAccuracy: 93.5,
-    totalTimeSeconds: 1100,
-    completedDrills: 9,
+    unlockedLessons: ["lesson1", "lesson2", "lesson3"],
     lastActive: new Date().toISOString(),
   },
 ];
 
+// Helper to read local users DB
+function readLocalUsers(): LeaderboardUserRecord[] {
+  try {
+    if (fs.existsSync(USERS_DB_PATH)) {
+      const content = fs.readFileSync(USERS_DB_PATH, "utf-8");
+      const parsed = JSON.parse(content);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        return parsed;
+      }
+    }
+  } catch (err) {
+    console.error("Error reading users_db.json:", err);
+  }
+  return [...DEFAULT_MOCK_USERS];
+}
+
+// Helper to save local users DB
+function writeLocalUsers(users: LeaderboardUserRecord[]) {
+  try {
+    fs.writeFileSync(USERS_DB_PATH, JSON.stringify(users, null, 2), "utf-8");
+  } catch (err) {
+    console.error("Error saving users_db.json:", err);
+  }
+}
+
+// In-memory cache
+let cachedUsers: LeaderboardUserRecord[] = readLocalUsers();
+
+/**
+ * Fetch leaderboard records sorted by criteria
+ */
 export async function fetchGlobalLeaderboard(
   sortBy: "xp" | "wpm" | "time" = "xp"
 ): Promise<LeaderboardUserRecord[]> {
   const sheetUrl = process.env.GOOGLE_SHEET_WEBAPP_URL;
 
-  let records: LeaderboardUserRecord[] = [...mockGlobalLeaderboard];
+  let records: LeaderboardUserRecord[] = [...cachedUsers];
 
   if (sheetUrl) {
     try {
@@ -102,11 +126,11 @@ export async function fetchGlobalLeaderboard(
         }
       }
     } catch (error) {
-      console.error("Failed to fetch from Google Sheets, using mock:", error);
+      console.error("Failed to fetch from Google Sheets, using local DB:", error);
     }
   }
 
-  // Normalize all records to ensure no undefined / NaN fields
+  // Normalize all records (hide PIN for public leaderboard display)
   const safeRecords: LeaderboardUserRecord[] = records.map((r: any) => ({
     username: r?.username || "Ẩn danh",
     avatar: r?.avatar || "🐱",
@@ -116,6 +140,11 @@ export async function fetchGlobalLeaderboard(
     avgAccuracy: Number(r?.avgAccuracy ?? r?.accuracy ?? 100),
     totalTimeSeconds: Number(r?.totalTimeSeconds ?? r?.timeSpent ?? 0),
     completedDrills: Number(r?.completedDrills ?? 1),
+    unlockedLessons: Array.isArray(r?.unlockedLessons)
+      ? r.unlockedLessons
+      : typeof r?.unlockedLessons === "string"
+      ? JSON.parse(r.unlockedLessons || "[]")
+      : ["lesson1"],
     lastActive: r?.lastActive || r?.createdAt || new Date().toISOString(),
   }));
 
@@ -131,13 +160,158 @@ export async function fetchGlobalLeaderboard(
   return safeRecords;
 }
 
+/**
+ * Authenticate student by Username and 6-digit PIN
+ * - If user exists: checks PIN. If correct, returns user profile + progress.
+ * - If user does not exist: creates a new student account.
+ */
+export async function authenticateStudent(
+  username: string,
+  pin: string,
+  avatar: string = "🐱"
+): Promise<{ success: boolean; user?: UserProfile; isNew?: boolean; error?: string }> {
+  const cleanName = (username || "").trim();
+  const cleanPin = (pin || "").trim();
+
+  if (!cleanName || cleanName.length < 2 || cleanName.length > 30) {
+    return { success: false, error: "Tên đăng nhập phải từ 2 đến 30 ký tự." };
+  }
+
+  if (!/^\d{6}$/.test(cleanPin)) {
+    return { success: false, error: "Mã PIN phải bao gồm đúng 6 chữ số!" };
+  }
+
+  const sheetUrl = process.env.GOOGLE_SHEET_WEBAPP_URL;
+
+  // Try Google Sheets if configured
+  if (sheetUrl) {
+    try {
+      const res = await fetch(sheetUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          action: "auth",
+          username: cleanName,
+          pin: cleanPin,
+          avatar: avatar,
+        }),
+      });
+
+      if (res.ok) {
+        const result = await res.json();
+        if (result.success && result.user) {
+          return {
+            success: true,
+            user: {
+              username: result.user.username,
+              avatar: result.user.avatar || avatar,
+              level: Number(result.user.level) || 1,
+              xp: Number(result.user.xp) || 0,
+              pin: cleanPin,
+              joinedAt: result.user.joinedAt || new Date().toISOString(),
+              unlockedLessons: result.user.unlockedLessons || ["lesson1"],
+              bestWpm: Number(result.user.bestWpm) || 0,
+              avgAccuracy: Number(result.user.avgAccuracy) || 100,
+              totalTimeSeconds: Number(result.user.totalTimeSeconds) || 0,
+              isGuest: false,
+            },
+            isNew: !!result.isNew,
+          };
+        } else if (result.error) {
+          return { success: false, error: result.error };
+        }
+      }
+    } catch (err) {
+      console.error("Auth via Google Sheets failed, falling back to local storage:", err);
+    }
+  }
+
+  // Local fallback auth
+  cachedUsers = readLocalUsers();
+  const existingIndex = cachedUsers.findIndex(
+    (u) => u.username.toLowerCase() === cleanName.toLowerCase()
+  );
+
+  if (existingIndex !== -1) {
+    const existing = cachedUsers[existingIndex];
+    // Check PIN
+    if (existing.pin && existing.pin !== cleanPin) {
+      return {
+        success: false,
+        error: "Mã PIN 6 số không đúng cho tài khoản này! Vui lòng kiểm tra lại hoặc đổi tên khác.",
+      };
+    }
+
+    // If existing had no PIN, attach this PIN
+    if (!existing.pin) {
+      existing.pin = cleanPin;
+      writeLocalUsers(cachedUsers);
+    }
+
+    const profile: UserProfile = {
+      username: existing.username,
+      avatar: existing.avatar || avatar,
+      level: existing.level || 1,
+      xp: existing.xp || 0,
+      pin: cleanPin,
+      joinedAt: existing.lastActive || new Date().toISOString(),
+      unlockedLessons: existing.unlockedLessons || ["lesson1"],
+      bestWpm: existing.bestWpm || 0,
+      avgAccuracy: existing.avgAccuracy || 100,
+      totalTimeSeconds: existing.totalTimeSeconds || 0,
+      isGuest: false,
+    };
+
+    return { success: true, user: profile, isNew: false };
+  }
+
+  // Create new user
+  const newUser: LeaderboardUserRecord = {
+    username: cleanName,
+    pin: cleanPin,
+    avatar: avatar,
+    level: 1,
+    xp: 0,
+    bestWpm: 0,
+    avgAccuracy: 100,
+    totalTimeSeconds: 0,
+    completedDrills: 0,
+    unlockedLessons: ["lesson1"],
+    lastActive: new Date().toISOString(),
+  };
+
+  cachedUsers.push(newUser);
+  writeLocalUsers(cachedUsers);
+
+  const profile: UserProfile = {
+    username: cleanName,
+    avatar: avatar,
+    level: 1,
+    xp: 0,
+    pin: cleanPin,
+    joinedAt: newUser.lastActive!,
+    unlockedLessons: ["lesson1"],
+    bestWpm: 0,
+    avgAccuracy: 100,
+    totalTimeSeconds: 0,
+    isGuest: false,
+  };
+
+  return { success: true, user: profile, isNew: true };
+}
+
+/**
+ * Update Leaderboard & Sync progress (XP, Unlocked lessons, WPM)
+ */
 export async function updateLeaderboardUser(data: {
   username: string;
   avatar?: string;
+  pin?: string;
   wpm: number;
   accuracy: number;
   timeSpent: number;
   earnedXp?: number;
+  unlockedLessons?: string[];
 }): Promise<boolean> {
   const sheetUrl = process.env.GOOGLE_SHEET_WEBAPP_URL;
 
@@ -147,8 +321,8 @@ export async function updateLeaderboardUser(data: {
   const validTime = Math.max(0, Math.round(Number(data.timeSpent) || 0));
   const xpGained = Math.max(10, Math.round(Number(data.earnedXp) || validWpm * 0.8));
 
-  // Update in-memory / fallback
-  const existing = mockGlobalLeaderboard.find(
+  cachedUsers = readLocalUsers();
+  const existing = cachedUsers.find(
     (u) => u.username && u.username.toLowerCase() === validName.toLowerCase()
   );
 
@@ -162,10 +336,18 @@ export async function updateLeaderboardUser(data: {
       (((Number(existing.avgAccuracy) || 100) + validAcc) / 2).toFixed(1)
     );
     if (data.avatar) existing.avatar = data.avatar;
+    if (data.pin) existing.pin = data.pin;
+    if (Array.isArray(data.unlockedLessons) && data.unlockedLessons.length > 0) {
+      // Merge unique lessons
+      const current = existing.unlockedLessons || ["lesson1"];
+      const merged = Array.from(new Set([...current, ...data.unlockedLessons]));
+      existing.unlockedLessons = merged;
+    }
     existing.lastActive = new Date().toISOString();
   } else {
-    mockGlobalLeaderboard.push({
+    cachedUsers.push({
       username: validName,
+      pin: data.pin || "",
       avatar: data.avatar || "🐱",
       level: 1 + Math.floor(xpGained / 100),
       xp: xpGained,
@@ -173,9 +355,12 @@ export async function updateLeaderboardUser(data: {
       avgAccuracy: parseFloat(validAcc.toFixed(1)),
       totalTimeSeconds: validTime,
       completedDrills: 1,
+      unlockedLessons: data.unlockedLessons || ["lesson1"],
       lastActive: new Date().toISOString(),
     });
   }
+
+  writeLocalUsers(cachedUsers);
 
   if (!sheetUrl) return true;
 
@@ -184,12 +369,14 @@ export async function updateLeaderboardUser(data: {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
+        action: "save_score",
         ...data,
         username: validName,
         wpm: validWpm,
         accuracy: validAcc,
         timeSpent: validTime,
         earnedXp: xpGained,
+        unlockedLessons: JSON.stringify(data.unlockedLessons || ["lesson1"]),
       }),
     });
     return res.ok;

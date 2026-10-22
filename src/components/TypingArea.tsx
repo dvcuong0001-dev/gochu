@@ -376,12 +376,20 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
 
     setIsSubmitting(true);
     try {
+      let savedUnlocked: string[] = ["lesson1"];
+      try {
+        const stored = localStorage.getItem("unlocked_lessons");
+        if (stored) savedUnlocked = JSON.parse(stored);
+      } catch (_) {}
+
       const res = await fetch("/api/leaderboard", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           username: finalName,
           avatar: user?.avatar || "🦊",
+          pin: user?.pin,
+          unlockedLessons: savedUnlocked,
           lessonId: drill.lessonId || "lesson1",
           drillId: drill.id || "1.01",
           wpm: Math.max(0, Math.round(Number(wpm) || 0)),
@@ -679,6 +687,11 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
             </div>
 
             {/* Save Score Form */}
+            {user?.isGuest && (
+              <p className="text-[11px] text-amber-400/90 mb-2 font-mono flex items-center gap-1">
+                <span>⚠️ Bạn đang ở Chế độ Khách. Tạo tài khoản với PIN 6 số để giữ hạng vĩnh viễn!</span>
+              </p>
+            )}
             {!isSubmitted ? (
               <form onSubmit={handleSubmitScore} className="mb-6 text-left">
                 <label className="block text-xs font-medium text-gray-300 mb-1.5 font-mono">
