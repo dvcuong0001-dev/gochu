@@ -1,0 +1,47 @@
+{
+  "id": "12.01",
+  "title": "Bài 12.01 - Khởi động ngón út Z & áp út X",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "z z",
+        "x x",
+        "z z",
+        "x x"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "z x",
+        "z x",
+        "x z",
+        "x z"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "az",
+        "sx",
+        "za",
+        "xs"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "azsx",
+        "sxaz",
+        "zxzx",
+        "xzxz"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "en",
+  "desc": "Rèn co ngón út và áp út xuống hàng dưới",
+  "lessonId": "lesson12"
+}

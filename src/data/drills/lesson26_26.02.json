@@ -1,0 +1,47 @@
+{
+  "id": "26.02",
+  "title": "Bài 26.02 - Luyện Dấu Huyền (Phím F)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "af",
+        "af",
+        "ef",
+        "ef"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "if",
+        "of",
+        "of"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "uf",
+        "uf",
+        "af",
+        "of"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ca",
+        "ce",
+        "ci",
+        "co"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "vi",
+  "desc": "Phản xạ bỏ dấu huyền bằng ngón trỏ trái",
+  "lessonId": "lesson26"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "3.01",
+  "title": "Bài 3.01 - Khởi động vươn ngón R & U",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "r r",
+        "u u",
+        "r r",
+        "u u"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "r u",
+        "r u",
+        "u r",
+        "u r"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fr",
+        "ju",
+        "rf",
+        "uj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "frju",
+        "jufr",
+        "frfr",
+        "juju"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "en",
+  "desc": "Tập vươn ngón trỏ hai tay lên hàng phím trên",
+  "lessonId": "lesson3"
+}

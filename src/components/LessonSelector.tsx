@@ -153,6 +153,7 @@ export const LessonSelector: React.FC<LessonSelectorProps> = ({
                       const isDrillActive =
                         lesson.id === currentLessonId &&
                         m.drill_id === currentDrillId;
+                      const isWarmup = m.type === "warmup";
 
                       return (
                         <button
@@ -161,12 +162,16 @@ export const LessonSelector: React.FC<LessonSelectorProps> = ({
                             onSelectDrill(lesson.id, m.drill_id);
                             onClose();
                           }}
-                          className={`h-2.5 sm:h-3 w-7 sm:w-10 rounded-full transition-all duration-150 ${
+                          className={`h-2.5 sm:h-3 rounded-full transition-all duration-150 ${
+                            isWarmup ? "w-8 sm:w-12" : "w-7 sm:w-10"
+                          } ${
                             isDrillActive
                               ? "bg-amber-400 ring-2 ring-amber-300 shadow-md shadow-amber-400/70 scale-110"
+                              : isWarmup
+                              ? "bg-amber-500/30 border border-amber-400/40 hover:bg-amber-400/60"
                               : "bg-[#152342] hover:bg-cyan-500/50 border border-white/5"
                           }`}
-                          title={`Bài tập ${m.drill_id}`}
+                          title={isWarmup ? `Khởi động: ${m.drill_id}` : `Bài tập: ${m.drill_id}`}
                         />
                       );
                     })}

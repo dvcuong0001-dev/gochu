@@ -1,0 +1,47 @@
+{
+  "id": "26.06",
+  "title": "Bài 26.06 - Luyện Phím Mũ & Móc (aa, ee, oo, aw, ow, uw, dd)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "aa",
+        "ee",
+        "oo",
+        "dd"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aw",
+        "ow",
+        "uw",
+        "dd"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ba",
+        "be",
+        "bo",
+        "da"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ăn",
+        "ơn",
+        "ưa",
+        "đi"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "vi",
+  "desc": "Phản xạ gõ các nguyên âm đôi và chữ đ",
+  "lessonId": "lesson26"
+}

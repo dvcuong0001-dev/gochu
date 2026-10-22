@@ -1,0 +1,47 @@
+{
+  "id": "1.03",
+  "title": "Bài 1.03 - Thêm ngón áp út S & L",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "s s",
+        "l l",
+        "s s",
+        "l l"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s l",
+        "s l",
+        "l s",
+        "l s"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sdf",
+        "jkl",
+        "fds",
+        "lkj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sldk",
+        "fjls",
+        "sldk",
+        "dkfj"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "en",
+  "desc": "Rèn sự linh hoạt của ngón áp út",
+  "lessonId": "lesson1"
+}

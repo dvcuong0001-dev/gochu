@@ -1,0 +1,47 @@
+{
+  "id": "1.04",
+  "title": "Bài 1.04 - Hoàn thiện hàng cơ sở A & ;",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "a a",
+        "; ;",
+        "a a",
+        "; ;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a ;",
+        "a ;",
+        "; a",
+        "; a"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "asdf",
+        "jkl;",
+        "fdsa",
+        ";lkj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "asdf",
+        "jkl;",
+        "asdf",
+        "jkl;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "en",
+  "desc": "Luyện trọn vẹn cả 8 ngón trên hàng phím cơ sở",
+  "lessonId": "lesson1"
+}

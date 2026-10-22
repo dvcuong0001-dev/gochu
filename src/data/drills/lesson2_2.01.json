@@ -1,0 +1,47 @@
+{
+  "id": "2.01",
+  "title": "Bài 2.01 - Khởi động vươn ngón E & I",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "e e",
+        "i i",
+        "e e",
+        "i i"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "e i",
+        "e i",
+        "i e",
+        "i e"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "de",
+        "ki",
+        "ed",
+        "ik"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dede",
+        "kiki",
+        "deik",
+        "kide"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "en",
+  "desc": "Tập vươn ngón giữa hai tay lên hàng phím trên",
+  "lessonId": "lesson2"
+}

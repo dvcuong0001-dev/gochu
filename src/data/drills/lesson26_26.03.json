@@ -1,0 +1,47 @@
+{
+  "id": "26.03",
+  "title": "Bài 26.03 - Luyện Dấu Hỏi (Phím R)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "ar",
+        "ar",
+        "er",
+        "er"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ir",
+        "ir",
+        "or",
+        "or"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ur",
+        "ur",
+        "ar",
+        "or"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "da",
+        "de",
+        "di",
+        "do"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "vi",
+  "desc": "Phản xạ bỏ dấu hỏi bằng ngón trỏ trái vươn lên",
+  "lessonId": "lesson26"
+}

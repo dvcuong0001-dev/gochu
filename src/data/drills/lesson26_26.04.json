@@ -1,0 +1,47 @@
+{
+  "id": "26.04",
+  "title": "Bài 26.04 - Luyện Dấu Ngã (Phím X)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "ax",
+        "ax",
+        "ex",
+        "ex"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ix",
+        "ix",
+        "ox",
+        "ox"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ux",
+        "ux",
+        "ax",
+        "ox"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ga",
+        "ge",
+        "gi",
+        "go"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "vi",
+  "desc": "Phản xạ bỏ dấu ngã bằng ngón áp út trái co xuống",
+  "lessonId": "lesson26"
+}

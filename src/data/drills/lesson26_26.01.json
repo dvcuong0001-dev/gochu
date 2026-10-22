@@ -1,0 +1,47 @@
+{
+  "id": "26.01",
+  "title": "Bài 26.01 - Luyện Dấu Sắc (Phím S)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "as",
+        "as",
+        "es",
+        "es"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "is",
+        "is",
+        "os",
+        "os"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "us",
+        "us",
+        "as",
+        "os"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ba",
+        "be",
+        "bi",
+        "bo"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "vi",
+  "desc": "Phản xạ bỏ dấu sắc bằng ngón áp út trái",
+  "lessonId": "lesson26"
+}

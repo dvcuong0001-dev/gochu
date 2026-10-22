@@ -1,0 +1,47 @@
+{
+  "id": "1.02",
+  "title": "Bài 1.02 - Thêm ngón giữa D & K",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "d d",
+        "k k",
+        "d d",
+        "k k"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "d k",
+        "d k",
+        "k d",
+        "k d"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fd",
+        "jk",
+        "df",
+        "kj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dkfj",
+        "kdfj",
+        "fdjk",
+        "jkfd"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "en",
+  "desc": "Rèn phản xạ độc lập giữa ngón trỏ và ngón giữa",
+  "lessonId": "lesson1"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "26.05",
+  "title": "Bài 26.05 - Luyện Dấu Nặng (Phím J)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "aj",
+        "aj",
+        "ej",
+        "ej"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ij",
+        "ij",
+        "oj",
+        "oj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "uj",
+        "uj",
+        "aj",
+        "oj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ha",
+        "he",
+        "hi",
+        "ho"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "vi",
+  "desc": "Phản xạ bỏ dấu nặng bằng ngón trỏ phải",
+  "lessonId": "lesson26"
+}

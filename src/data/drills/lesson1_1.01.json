@@ -1,0 +1,47 @@
+{
+  "id": "1.01",
+  "title": "Bài 1.01 - Khởi động phím định vị F & J",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "f f",
+        "j j",
+        "f f",
+        "j j"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f j",
+        "f j",
+        "j f",
+        "j f"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ff",
+        "jj",
+        "ff",
+        "jj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fj",
+        "jf",
+        "fj",
+        "jf"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "en",
+  "desc": "Tập cảm nhận 2 gờ nổi của ngón trỏ định vị",
+  "lessonId": "lesson1"
+}

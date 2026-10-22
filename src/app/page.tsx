@@ -25,7 +25,7 @@ export default function Home() {
 
   // Lesson & Drill state
   const [currentLessonId, setCurrentLessonId] = useState("lesson1");
-  const [currentDrillId, setCurrentDrillId] = useState("1.1");
+  const [currentDrillId, setCurrentDrillId] = useState("1.01");
   const [currentDrill, setCurrentDrill] = useState<Drill | null>(null);
   const [loadingDrill, setLoadingDrill] = useState(true);
   const [isLessonSelectorOpen, setIsLessonSelectorOpen] = useState(false);

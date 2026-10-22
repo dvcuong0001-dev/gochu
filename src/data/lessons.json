@@ -8,6 +8,46 @@
     "difficulty": 0,
     "drillsMeta": [
       {
+        "drill_id": "1.01",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 40,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "en",
+        "desc": "Bài 1.01 - Khởi động phím định vị F & J"
+      },
+      {
+        "drill_id": "1.02",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 48,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "en",
+        "desc": "Bài 1.02 - Thêm ngón giữa D & K"
+      },
+      {
+        "drill_id": "1.03",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 52,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "en",
+        "desc": "Bài 1.03 - Thêm ngón áp út S & L"
+      },
+      {
+        "drill_id": "1.04",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 56,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "en",
+        "desc": "Bài 1.04 - Hoàn thiện hàng cơ sở A & ;"
+      },
+      {
         "id": "1.1",
         "orderIndex": 1,
         "type": 0,
@@ -62,6 +102,16 @@
     "difficulty": 0,
     "drillsMeta": [
       {
+        "drill_id": "2.01",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 48,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "en",
+        "desc": "Bài 2.01 - Khởi động vươn ngón E & I"
+      },
+      {
         "id": "2.1",
         "orderIndex": 1,
         "type": 0,
@@ -115,6 +165,16 @@
     "orderIndex": 3,
     "difficulty": 0,
     "drillsMeta": [
+      {
+        "drill_id": "3.01",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 48,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "en",
+        "desc": "Bài 3.01 - Khởi động vươn ngón R & U"
+      },
       {
         "id": "3.1",
         "orderIndex": 1,
@@ -332,6 +392,16 @@
     "orderIndex": 6,
     "difficulty": 1,
     "drillsMeta": [
+      {
+        "drill_id": "6.01",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 48,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "en",
+        "desc": "Bài 6.01 - Khởi động co ngón C & ,"
+      },
       {
         "id": "6.1",
         "orderIndex": 1,
@@ -766,6 +836,16 @@
     "orderIndex": 12,
     "difficulty": 1,
     "drillsMeta": [
+      {
+        "drill_id": "12.01",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 48,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "en",
+        "desc": "Bài 12.01 - Khởi động ngón út Z & áp út X"
+      },
       {
         "id": "12.1",
         "orderIndex": 1,
@@ -1358,6 +1438,66 @@
     "orderIndex": 26,
     "difficulty": 2,
     "drillsMeta": [
+      {
+        "drill_id": "26.01",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 32,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "vi",
+        "desc": "Bài 26.01 - Luyện Dấu Sắc (Phím S)"
+      },
+      {
+        "drill_id": "26.02",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 32,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "vi",
+        "desc": "Bài 26.02 - Luyện Dấu Huyền (Phím F)"
+      },
+      {
+        "drill_id": "26.03",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 32,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "vi",
+        "desc": "Bài 26.03 - Luyện Dấu Hỏi (Phím R)"
+      },
+      {
+        "drill_id": "26.04",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 32,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "vi",
+        "desc": "Bài 26.04 - Luyện Dấu Ngã (Phím X)"
+      },
+      {
+        "drill_id": "26.05",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 32,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "vi",
+        "desc": "Bài 26.05 - Luyện Dấu Nặng (Phím J)"
+      },
+      {
+        "drill_id": "26.06",
+        "order_index": 0,
+        "word_count": 16,
+        "total_chars": 32,
+        "max_group_len": 4,
+        "type": "warmup",
+        "lang": "vi",
+        "desc": "Bài 26.06 - Luyện Phím Mũ & Móc (aa, ee, oo, aw, ow, uw, dd)"
+      },
       {
         "id": "26.1",
         "orderIndex": 1,

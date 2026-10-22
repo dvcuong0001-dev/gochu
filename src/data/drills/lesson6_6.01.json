@@ -1,0 +1,47 @@
+{
+  "id": "6.01",
+  "title": "Bài 6.01 - Khởi động co ngón C & ,",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "c c",
+        ", ,",
+        "c c",
+        ", ,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "c ,",
+        "c ,",
+        ", c",
+        ", c"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dc",
+        "k,",
+        "cd",
+        ",k"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dck,",
+        "k,dc",
+        "dcdc",
+        "k,k,"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "drill",
+  "lang": "en",
+  "desc": "Tập co ngón giữa xuống hàng phím dưới",
+  "lessonId": "lesson6"
+}
