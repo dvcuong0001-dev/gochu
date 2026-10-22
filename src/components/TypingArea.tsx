@@ -20,6 +20,7 @@ import {
   Crown,
   XCircle,
   Sparkles,
+  Loader2,
 } from "lucide-react";
 
 interface TypingAreaProps {
@@ -85,6 +86,11 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const clickAudioRef = useRef<HTMLAudioElement | null>(null);
   const buzzAudioRef = useRef<HTMLAudioElement | null>(null);
+  const statsRef = useRef({
+    correct: 0,
+    errors: 0,
+    startTime: null as number | null,
+  });
 
   // Total characters in the entire drill
   const totalDrillChars = useMemo(() => {
@@ -168,6 +174,11 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
 
   // Reset drill state when drill prop changes
   const resetDrill = useCallback(() => {
+    statsRef.current = {
+      correct: 0,
+      errors: 0,
+      startTime: null,
+    };
     setCurrentLineIndex(0);
     setCharIndexInCurrentLine(0);
     setLineTypedStatuses([]);
@@ -179,6 +190,7 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
     setAccuracy(100);
     setIsCompleted(false);
     setIsSubmitted(false);
+    setIsSubmitting(false);
     setIsPaused(false);
     if (timerRef.current) clearInterval(timerRef.current);
     setTimeout(() => containerRef.current?.focus(), 50);
@@ -200,35 +212,86 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
     return () => window.removeEventListener("blur", handleWindowBlur);
   }, [startTime, isCompleted]);
 
+  // Auto submit score to Google Sheets / Leaderboard
+  const autoSubmitScore = useCallback(
+    async (subWpm: number, subAcc: number, subTime: number, subXp: number) => {
+      setIsSubmitting(true);
+      try {
+        let finalName = (user?.username || "").trim();
+        if (!finalName) {
+          try {
+            const saved = localStorage.getItem("tuhoc_user");
+            if (saved) {
+              const parsed = JSON.parse(saved);
+              if (parsed?.username) finalName = parsed.username;
+            }
+          } catch (_) {}
+        }
+        if (!finalName) finalName = "Khách";
+
+        let savedUnlocked: string[] = ["lesson1"];
+        try {
+          const stored = localStorage.getItem("unlocked_lessons");
+          if (stored) savedUnlocked = JSON.parse(stored);
+        } catch (_) {}
+
+        await fetch("/api/leaderboard", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            username: finalName,
+            avatar: user?.avatar || "🐱",
+            pin: user?.pin,
+            unlockedLessons: savedUnlocked,
+            lessonId: drill.lessonId || "lesson1",
+            drillId: drill.id || "1.01",
+            wpm: subWpm,
+            accuracy: subAcc,
+            timeSpent: subTime,
+            earnedXp: subXp,
+          }),
+        });
+
+        setIsSubmitted(true);
+      } catch (err) {
+        console.error("Auto submit score error:", err);
+      } finally {
+        setIsSubmitting(false);
+      }
+    },
+    [user, drill.lessonId, drill.id]
+  );
+
   // Timer loop
   useEffect(() => {
     if (startTime && !isCompleted && !isPaused) {
       timerRef.current = setInterval(() => {
         const now = Date.now();
-        const seconds = Math.max(1, (now - startTime) / 1000);
+        const start = statsRef.current.startTime || startTime;
+        const seconds = Math.max(1, (now - start) / 1000);
         setElapsed(Math.round(seconds));
 
         // WPM: (correct chars / 5) / (seconds / 60)
-        const words = totalCorrectChars / 5;
+        const words = statsRef.current.correct / 5;
         const minutes = seconds / 60;
         const currentWpm = minutes > 0 ? Math.round(words / minutes) : 0;
         setWpm(currentWpm);
 
         // Accuracy
-        const totalTyped = totalCorrectChars + totalErrorChars;
+        const totalTyped = statsRef.current.correct + statsRef.current.errors;
         const currentAcc =
           totalTyped > 0
-            ? Math.max(0, Math.min(100, Math.round((totalCorrectChars / totalTyped) * 100)))
+            ? Math.max(0, Math.min(100, Math.round((statsRef.current.correct / totalTyped) * 100)))
             : 100;
         setAccuracy(currentAcc);
-      }, 500);
+      }, 300);
     } else {
       if (timerRef.current) clearInterval(timerRef.current);
     }
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [startTime, isCompleted, isPaused, totalCorrectChars, totalErrorChars]);
+  }, [startTime, isCompleted, isPaused]);
 
   // Target character for current position in line
   const activeChar = useMemo(() => {
@@ -280,8 +343,9 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
       e.preventDefault();
 
       // Start timer on first keypress
-      if (!startTime) {
-        setStartTime(Date.now());
+      if (!statsRef.current.startTime) {
+        statsRef.current.startTime = Date.now();
+        setStartTime(statsRef.current.startTime);
       }
 
       const expected = activeChar;
@@ -290,10 +354,20 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
       playSound(isCorrect);
 
       if (isCorrect) {
+        statsRef.current.correct += 1;
         setTotalCorrectChars((prev) => prev + 1);
       } else {
+        statsRef.current.errors += 1;
         setTotalErrorChars((prev) => prev + 1);
       }
+
+      // Synchronous live accuracy calculation directly from statsRef
+      const totalTyped = statsRef.current.correct + statsRef.current.errors;
+      const liveAcc =
+        totalTyped > 0
+          ? Math.max(0, Math.min(100, Math.round((statsRef.current.correct / totalTyped) * 100)))
+          : 100;
+      setAccuracy(liveAcc);
 
       setLineTypedStatuses((prev) => [...prev, isCorrect]);
       const nextCharIndex = charIndexInCurrentLine + 1;
@@ -307,17 +381,26 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
           setLineTypedStatuses([]);
         } else {
           // Drill completed!
-          setIsCompleted(true);
+          if (timerRef.current) clearInterval(timerRef.current);
 
-          const finalAcc = Math.round(
-            ((totalCorrectChars + (isCorrect ? 1 : 0)) /
-              (totalCorrectChars + totalErrorChars + 1)) *
-              100
-          );
-          const finalSeconds = Math.max(1, (Date.now() - (startTime || Date.now())) / 1000);
-          const finalWpm = Math.round(((totalCorrectChars + 1) / 5) / (finalSeconds / 60));
+          const now = Date.now();
+          const finalStart = statsRef.current.startTime || startTime || now;
+          const finalSeconds = Math.max(1, Math.round((now - finalStart) / 1000));
+          const finalCorrect = statsRef.current.correct;
+          const finalErrors = statsRef.current.errors;
+          const finalTotal = finalCorrect + finalErrors;
+          const finalAcc =
+            finalTotal > 0
+              ? Math.max(0, Math.min(100, Math.round((finalCorrect / finalTotal) * 100)))
+              : 100;
+          const finalWpm = Math.max(1, Math.round((finalCorrect / 5) / (finalSeconds / 60)));
 
           const passed = !isExam || (finalWpm >= targetWpm && finalAcc >= minAccuracy);
+
+          setElapsed(finalSeconds);
+          setWpm(finalWpm);
+          setAccuracy(finalAcc);
+          setIsCompleted(true);
 
           if (passed) {
             confetti({
@@ -330,11 +413,16 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
             }
           }
 
+          const baseEarned = Math.max(15, Math.round(totalDrillChars * 0.8));
+          const bonus = isExam && passed ? 100 : 0;
+          const earnedXp = baseEarned + bonus;
+
           if (onAwardXp) {
-            const baseEarned = Math.max(15, Math.round(totalDrillChars * 0.8));
-            const bonus = isExam && passed ? 100 : 0;
-            onAwardXp(baseEarned + bonus);
+            onAwardXp(earnedXp);
           }
+
+          // Automatically submit score to leaderboard
+          autoSubmitScore(finalWpm, finalAcc, finalSeconds, earnedXp);
         }
       } else {
         setCharIndexInCurrentLine(nextCharIndex);
@@ -355,10 +443,9 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
       isExam,
       targetWpm,
       minAccuracy,
-      totalCorrectChars,
-      totalErrorChars,
       onUnlockNextLesson,
       drill.lessonId,
+      autoSubmitScore,
     ]
   );
 
@@ -686,39 +773,36 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
               </div>
             </div>
 
-            {/* Save Score Form */}
-            {user?.isGuest && (
-              <p className="text-[11px] text-amber-400/90 mb-2 font-mono flex items-center gap-1">
-                <span>⚠️ Bạn đang ở Chế độ Khách. Tạo tài khoản với PIN 6 số để giữ hạng vĩnh viễn!</span>
-              </p>
-            )}
-            {!isSubmitted ? (
-              <form onSubmit={handleSubmitScore} className="mb-6 text-left">
-                <label className="block text-xs font-medium text-gray-300 mb-1.5 font-mono">
-                  Lưu điểm xếp hạng (Google Sheets):
-                </label>
-                <div className="flex gap-2">
-                  <input
-                    type="text"
-                    value={username}
-                    onChange={(e) => setUsername(e.target.value)}
-                    placeholder="Nhập nickname của bạn..."
-                    className="flex-1 bg-black/40 border border-white/10 rounded-xl px-3.5 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400 font-mono"
-                  />
-                  <button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="px-4 py-2 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-semibold text-xs transition-colors flex items-center gap-1.5 shadow-md shadow-cyan-500/20 disabled:opacity-50"
-                  >
-                    {isSubmitting ? "Đang lưu..." : "Lưu Điểm"}
-                  </button>
-                </div>
-              </form>
-            ) : (
-              <div className="mb-6 p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center gap-2 text-emerald-400 text-xs font-medium font-mono">
-                <CheckCircle2 size={16} />
-                <span>Đã ghi danh thành công lên Bảng Xếp Hạng!</span>
+            {/* Auto Save Status Banner */}
+            {isSubmitting ? (
+              <div className="mb-6 p-3.5 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center gap-2.5 text-cyan-300 text-xs font-mono">
+                <Loader2 size={16} className="animate-spin text-cyan-400" />
+                <span>Đang tự động cập nhật kết quả lên Bảng Xếp Hạng...</span>
               </div>
+            ) : isSubmitted ? (
+              <div className="mb-6 p-3.5 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-between gap-3 text-emerald-400 text-xs font-medium font-mono">
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 size={17} className="text-emerald-400 shrink-0" />
+                  <span>
+                    Đã tự động tính toán & ghi nhận vào Bảng Xếp Hạng!
+                  </span>
+                </div>
+                {onOpenLeaderboard && (
+                  <button
+                    onClick={onOpenLeaderboard}
+                    className="px-2.5 py-1 rounded-lg bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/40 text-[11px] font-semibold transition-all shrink-0 flex items-center gap-1"
+                  >
+                    <span>Xem Hạng</span>
+                    <ArrowRight size={12} />
+                  </button>
+                )}
+              </div>
+            ) : null}
+
+            {user?.isGuest && (
+              <p className="text-[11px] text-amber-400/90 mb-4 font-mono text-center">
+                💡 Bạn đang ở Chế độ Khách. Đăng nhập với mã PIN 6 số để lưu trữ tài khoản vĩnh viễn.
+              </p>
             )}
 
             {/* Actions */}

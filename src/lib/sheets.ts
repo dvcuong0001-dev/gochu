@@ -76,18 +76,43 @@ const DEFAULT_MOCK_USERS: LeaderboardUserRecord[] = [
 
 // Helper to read local users DB
 function readLocalUsers(): LeaderboardUserRecord[] {
+  let list: LeaderboardUserRecord[] = [...DEFAULT_MOCK_USERS];
   try {
     if (fs.existsSync(USERS_DB_PATH)) {
-      const content = fs.readFileSync(USERS_DB_PATH, "utf-8");
-      const parsed = JSON.parse(content);
-      if (Array.isArray(parsed) && parsed.length > 0) {
-        return parsed;
+      const content = fs.readFileSync(USERS_DB_PATH, "utf-8").replace(/^\uFEFF/, "").trim();
+      if (content) {
+        const parsed = JSON.parse(content);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          list = parsed;
+        }
       }
     }
   } catch (err) {
     console.error("Error reading users_db.json:", err);
   }
-  return [...DEFAULT_MOCK_USERS];
+
+  // Deduplicate and aggregate on read so same account never duplicates
+  const map = new Map<string, LeaderboardUserRecord>();
+  list.forEach((u) => {
+    const rawName = (u.username || "").trim();
+    if (!rawName) return;
+    const key = rawName.toLowerCase();
+    if (!map.has(key)) {
+      map.set(key, { ...u, username: rawName });
+    } else {
+      const ex = map.get(key)!;
+      ex.xp = Math.max(Number(ex.xp) || 0, Number(u.xp) || 0);
+      ex.level = 1 + Math.floor(ex.xp / 100);
+      ex.bestWpm = Math.max(Number(ex.bestWpm) || 0, Number(u.bestWpm) || 0);
+      ex.avgAccuracy = Math.round((((Number(ex.avgAccuracy) || 100) + (Number(u.avgAccuracy) || 100)) / 2) * 10) / 10;
+      ex.totalTimeSeconds = Math.max(Number(ex.totalTimeSeconds) || 0, Number(u.totalTimeSeconds) || 0);
+      ex.completedDrills = Math.max(Number(ex.completedDrills) || 0, Number(u.completedDrills) || 0);
+      if (u.pin) ex.pin = u.pin;
+      if (u.avatar && u.avatar !== "🐱") ex.avatar = u.avatar;
+    }
+  });
+
+  return Array.from(map.values());
 }
 
 // Helper to save local users DB
@@ -103,13 +128,14 @@ function writeLocalUsers(users: LeaderboardUserRecord[]) {
 let cachedUsers: LeaderboardUserRecord[] = readLocalUsers();
 
 /**
- * Fetch leaderboard records sorted by criteria
+ * Fetch leaderboard records sorted by criteria (Guaranteed strictly unique per account)
  */
 export async function fetchGlobalLeaderboard(
   sortBy: "xp" | "wpm" | "time" = "xp"
 ): Promise<LeaderboardUserRecord[]> {
   const sheetUrl = process.env.GOOGLE_SHEET_WEBAPP_URL;
 
+  cachedUsers = readLocalUsers();
   let records: LeaderboardUserRecord[] = [...cachedUsers];
 
   if (sheetUrl) {
@@ -130,23 +156,58 @@ export async function fetchGlobalLeaderboard(
     }
   }
 
-  // Normalize all records (hide PIN for public leaderboard display)
-  const safeRecords: LeaderboardUserRecord[] = records.map((r: any) => ({
-    username: r?.username || "Ẩn danh",
-    avatar: r?.avatar || "🐱",
-    level: Number(r?.level) || 1,
-    xp: Number(r?.xp) || 0,
-    bestWpm: Number(r?.bestWpm ?? r?.wpm ?? 0),
-    avgAccuracy: Number(r?.avgAccuracy ?? r?.accuracy ?? 100),
-    totalTimeSeconds: Number(r?.totalTimeSeconds ?? r?.timeSpent ?? 0),
-    completedDrills: Number(r?.completedDrills ?? 1),
-    unlockedLessons: Array.isArray(r?.unlockedLessons)
+  // Deduplicate and aggregate across all records (No account can appear more than once)
+  const uniqueUsersMap = new Map<string, LeaderboardUserRecord>();
+
+  records.forEach((r: any) => {
+    const rawName = (r?.username || "Ẩn danh").trim();
+    if (!rawName) return;
+    const key = rawName.toLowerCase();
+
+    const wpm = Number(r?.bestWpm ?? r?.wpm ?? 0);
+    const acc = Number(r?.avgAccuracy ?? r?.accuracy ?? 100);
+    const timeSpent = Number(r?.totalTimeSeconds ?? r?.timeSpent ?? 0);
+    const drills = Number(r?.completedDrills ?? 1);
+    const xp = Number(r?.xp ?? 0);
+    const level = Number(r?.level) || (1 + Math.floor(xp / 100));
+    const avatar = r?.avatar || "🐱";
+    const lastActive = r?.lastActive || r?.createdAt || new Date().toISOString();
+    const unlocked = Array.isArray(r?.unlockedLessons)
       ? r.unlockedLessons
       : typeof r?.unlockedLessons === "string"
       ? JSON.parse(r.unlockedLessons || "[]")
-      : ["lesson1"],
-    lastActive: r?.lastActive || r?.createdAt || new Date().toISOString(),
-  }));
+      : ["lesson1"];
+
+    if (!uniqueUsersMap.has(key)) {
+      uniqueUsersMap.set(key, {
+        username: rawName,
+        avatar,
+        level,
+        xp,
+        bestWpm: wpm,
+        avgAccuracy: acc,
+        totalTimeSeconds: timeSpent,
+        completedDrills: drills,
+        unlockedLessons: unlocked,
+        lastActive,
+      });
+    } else {
+      const existing = uniqueUsersMap.get(key)!;
+      existing.bestWpm = Math.max(existing.bestWpm, wpm);
+      existing.xp = Math.max(existing.xp, xp);
+      existing.level = Math.max(existing.level, level);
+      existing.totalTimeSeconds = Math.max(existing.totalTimeSeconds, timeSpent);
+      existing.completedDrills = Math.max(existing.completedDrills, drills);
+      existing.avgAccuracy = parseFloat((((existing.avgAccuracy + acc) / 2)).toFixed(1));
+      if (avatar && avatar !== "🐱") existing.avatar = avatar;
+      if (new Date(lastActive) > new Date(existing.lastActive || 0)) {
+        existing.lastActive = lastActive;
+      }
+      existing.unlockedLessons = Array.from(new Set([...(existing.unlockedLessons || []), ...unlocked]));
+    }
+  });
+
+  const safeRecords = Array.from(uniqueUsersMap.values());
 
   // Sort based on chosen criteria
   if (sortBy === "wpm") {
@@ -344,6 +405,10 @@ export async function updateLeaderboardUser(data: {
       existing.unlockedLessons = merged;
     }
     existing.lastActive = new Date().toISOString();
+    // Ensure no duplicate records remain in cache
+    cachedUsers = cachedUsers.filter(
+      (u) => u === existing || u.username.toLowerCase() !== validName.toLowerCase()
+    );
   } else {
     cachedUsers.push({
       username: validName,

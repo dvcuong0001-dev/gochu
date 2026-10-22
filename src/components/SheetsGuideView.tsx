@@ -128,18 +128,51 @@ function doGet(e) {
   var rows = sheet.getDataRange().getValues();
   if (rows.length <= 1) return ContentService.createTextOutput("[]").setMimeType(ContentService.MimeType.JSON);
   var sortBy = e && e.parameter && e.parameter.sort ? e.parameter.sort : "xp";
-  var results = [];
+  var userMap = {};
+
   for (var i = 1; i < rows.length; i++) {
     var r = rows[i];
     if (!r[0]) continue;
+    var uKey = r[0].toString().trim().toLowerCase();
     var unlocked = ["lesson1"];
     try { if (r[10]) unlocked = JSON.parse(r[10]); } catch (_) {}
-    results.push({
-      username: r[0], avatar: r[1] || "🐱", level: Number(r[2]) || 1, xp: Number(r[3]) || 0,
-      bestWpm: Number(r[4]) || 0, avgAccuracy: Number(r[5]) || 100, totalTimeSeconds: Number(r[6]) || 0,
-      completedDrills: Number(r[7]) || 1, lastActive: r[8] || "", unlockedLessons: unlocked
-    });
+    var wpm = Number(r[4]) || 0;
+    var acc = Number(r[5]) || 100;
+    var timeSpent = Number(r[6]) || 0;
+    var drills = Number(r[7]) || 1;
+    var xp = Number(r[3]) || 0;
+    var lvl = Number(r[2]) || (1 + Math.floor(xp / 100));
+
+    if (!userMap[uKey]) {
+      userMap[uKey] = {
+        username: r[0].toString().trim(),
+        avatar: r[1] || "🐱",
+        level: lvl,
+        xp: xp,
+        bestWpm: wpm,
+        avgAccuracy: acc,
+        totalTimeSeconds: timeSpent,
+        completedDrills: drills,
+        lastActive: r[8] || "",
+        unlockedLessons: unlocked
+      };
+    } else {
+      var ex = userMap[uKey];
+      ex.bestWpm = Math.max(ex.bestWpm, wpm);
+      ex.xp = Math.max(ex.xp, xp);
+      ex.level = Math.max(ex.level, lvl);
+      ex.totalTimeSeconds = Math.max(ex.totalTimeSeconds, timeSpent);
+      ex.completedDrills = Math.max(ex.completedDrills, drills);
+      ex.avgAccuracy = Math.round(((ex.avgAccuracy + acc) / 2) * 10) / 10;
+      if (r[1] && r[1] !== "🐱") ex.avatar = r[1];
+    }
   }
+
+  var results = [];
+  for (var k in userMap) {
+    results.push(userMap[k]);
+  }
+
   if (sortBy === "wpm") results.sort(function(a, b) { return b.bestWpm - a.bestWpm; });
   else if (sortBy === "time") results.sort(function(a, b) { return b.totalTimeSeconds - a.totalTimeSeconds; });
   else results.sort(function(a, b) { return b.xp - a.xp; });
