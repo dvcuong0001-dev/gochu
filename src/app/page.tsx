@@ -199,6 +199,7 @@ export default function Home() {
                 drill={currentDrill}
                 onNextDrill={handleNextDrill}
                 onOpenLeaderboard={() => setCurrentTab("leaderboard")}
+                onExit={() => setCurrentTab("home")}
                 user={user}
                 onAwardXp={handleAwardXp}
               />
