@@ -1,0 +1,59 @@
+{
+  "id": "8.01",
+  "title": "8.01 - Khởi động F-V & J-N",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "v",
+        "v",
+        "n",
+        "n",
+        "v",
+        "v",
+        "n",
+        "n"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f",
+        "v",
+        "j",
+        "n",
+        "v",
+        "f",
+        "n",
+        "j"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fvjn",
+        "njvf",
+        "fvfv",
+        "jnjn"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Who?",
+        "Can?",
+        "Why?",
+        "Where?",
+        "When?"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Tập co ngón trỏ xuống hàng dưới và dấu ?",
+  "lessonId": "lesson8",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

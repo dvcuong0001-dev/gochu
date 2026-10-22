@@ -1,0 +1,101 @@
+{
+  "id": "30.P4",
+  "title": "30.P4 - Chuyến tàu cuộc đời (200 từ)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Đời",
+        "người",
+        "giống",
+        "như",
+        "một",
+        "chuyến",
+        "tàu",
+        "dài,",
+        "nơi",
+        "mỗi",
+        "chúng",
+        "ta",
+        "đều",
+        "là",
+        "hành",
+        "khách."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Có",
+        "người",
+        "vội",
+        "vã",
+        "chạy",
+        "theo",
+        "danh",
+        "vọng,",
+        "có",
+        "người",
+        "mải",
+        "mê",
+        "đếm",
+        "những",
+        "mất",
+        "mát",
+        "đã",
+        "qua."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nhưng",
+        "người",
+        "biết",
+        "tận",
+        "hưởng",
+        "chuyến",
+        "đi",
+        "là",
+        "người",
+        "biết",
+        "ngắm",
+        "nhìn",
+        "phong",
+        "cảnh",
+        "bên",
+        "khung",
+        "cửa,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "biết",
+        "mỉm",
+        "cười",
+        "với",
+        "người",
+        "đồng",
+        "hành",
+        "và",
+        "luôn",
+        "trân",
+        "quý",
+        "từng",
+        "phút",
+        "giây",
+        "hiện",
+        "tại."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Văn xuôi liền mạch tốc độ cao",
+  "lessonId": "lesson30",
+  "isExam": false,
+  "targetWpm": 43,
+  "minAccuracy": 96
+}

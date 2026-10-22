@@ -1,0 +1,61 @@
+{
+  "id": "15.P4",
+  "title": "15.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "On",
+        "September",
+        "29,",
+        "Flight",
+        "292",
+        "departed",
+        "at",
+        "9:20",
+        "with",
+        "289",
+        "guests."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "library",
+        "catalog",
+        "has",
+        "2,982",
+        "books",
+        "across",
+        "92",
+        "different",
+        "genres."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Runner",
+        "29",
+        "completed",
+        "92",
+        "laps",
+        "around",
+        "the",
+        "290",
+        "meter",
+        "circular",
+        "track."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu văn liên hoàn",
+  "lessonId": "lesson15",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

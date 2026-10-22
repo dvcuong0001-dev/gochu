@@ -1,0 +1,59 @@
+{
+  "id": "7.01",
+  "title": "7.01 - Khởi động F-G & J-H",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "g",
+        "g",
+        "h",
+        "h",
+        "g",
+        "g",
+        "h",
+        "h"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f",
+        "g",
+        "j",
+        "h",
+        "g",
+        "f",
+        "h",
+        "j"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fghj",
+        "jhg",
+        "fghj",
+        "jhg"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "it's",
+        "that's",
+        "don't",
+        "let's",
+        "he's"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Tập vươn ngang ngón trỏ",
+  "lessonId": "lesson7",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

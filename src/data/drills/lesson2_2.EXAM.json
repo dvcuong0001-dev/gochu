@@ -1,0 +1,79 @@
+{
+  "id": "2.EXAM",
+  "title": "2.EXAM - KIỂM TRA VƯỢT ẢI BÀI 2 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "idle",
+        "kids",
+        "seek",
+        "a",
+        "safe",
+        "life",
+        "and",
+        "feel",
+        "like",
+        "a",
+        "silk",
+        "leaf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dad",
+        "said",
+        "he",
+        "will",
+        "feed",
+        "all",
+        "sick",
+        "kids",
+        "as",
+        "if",
+        "a",
+        "safe",
+        "deal"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sail",
+        "like",
+        "a",
+        "fish",
+        "and",
+        "feel",
+        "free",
+        "in",
+        "daily",
+        "life"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lisa",
+        "likes",
+        "to",
+        "fill",
+        "idle",
+        "files",
+        "and",
+        "seek",
+        "real",
+        "skills"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch hàng cơ sở + E, I (Cần Acc ≥ 95%, WPM ≥ 20)",
+  "lessonId": "lesson2",
+  "isExam": true,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

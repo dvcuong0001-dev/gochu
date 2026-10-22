@@ -1,0 +1,52 @@
+{
+  "id": "24.P3",
+  "title": "24.P3 - Đường dẫn Unix & Dấu ngã ~",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "cd",
+        "~/documents;",
+        "path",
+        "=",
+        "\"~/.config/app.json\";"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "~100",
+        "people;",
+        "cost",
+        "~",
+        "$50;",
+        "duration",
+        "~",
+        "30",
+        "minutes;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Roughly",
+        "~20%",
+        "of",
+        "users",
+        "achieve",
+        "#top1",
+        "rank",
+        "in",
+        "typing."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện phím ~",
+  "lessonId": "lesson24",
+  "isExam": false,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

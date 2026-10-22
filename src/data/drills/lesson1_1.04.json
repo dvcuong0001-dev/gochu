@@ -1,23 +1,18 @@
 {
   "id": "1.04",
-  "title": "Bài 1.04 - Hoàn thiện hàng cơ sở A & ;",
+  "title": "1.04 - Hoàn thiện ngón út A & ;",
   "orderIndex": 0,
   "lines": [
     {
       "groups": [
-        "a a",
-        "; ;",
-        "a a",
-        "; ;"
-      ],
-      "isLoopStart": false
-    },
-    {
-      "groups": [
-        "a ;",
-        "a ;",
-        "; a",
-        "; a"
+        "a",
+        "a",
+        ";",
+        ";",
+        "a",
+        "a",
+        ";",
+        ";"
       ],
       "isLoopStart": false
     },
@@ -38,10 +33,26 @@
         "jkl;"
       ],
       "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        ";",
+        "a",
+        ";",
+        ";",
+        "a",
+        ";",
+        "a"
+      ],
+      "isLoopStart": false
     }
   ],
-  "type": "drill",
+  "type": "warmup",
   "lang": "en",
-  "desc": "Luyện trọn vẹn cả 8 ngón trên hàng phím cơ sở",
-  "lessonId": "lesson1"
+  "desc": "Luyện trọn vẹn 8 ngón trên hàng phím cơ sở",
+  "lessonId": "lesson1",
+  "isExam": false,
+  "targetWpm": 15,
+  "minAccuracy": 95
 }

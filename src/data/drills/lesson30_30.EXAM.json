@@ -1,0 +1,135 @@
+{
+  "id": "30.EXAM",
+  "title": "30.EXAM - ĐẠI SÁT HẠCH CHẶNG 4 (GRAND MASTER) 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Đời",
+        "người",
+        "giống",
+        "như",
+        "một",
+        "chuyến",
+        "tàu",
+        "dài,",
+        "nơi",
+        "mỗi",
+        "chúng",
+        "ta",
+        "đều",
+        "là",
+        "những"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "hành",
+        "khách",
+        "đi",
+        "tìm",
+        "ý",
+        "nghĩa",
+        "của",
+        "cuộc",
+        "hành",
+        "trình."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Người",
+        "biết",
+        "tận",
+        "hưởng",
+        "chuyến",
+        "đi",
+        "là",
+        "người",
+        "biết",
+        "ngắm",
+        "nhìn",
+        "phong",
+        "cảnh",
+        "bên",
+        "khung",
+        "cửa",
+        "sổ,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "biết",
+        "mỉm",
+        "cười",
+        "với",
+        "người",
+        "đồng",
+        "hành",
+        "và",
+        "luôn",
+        "trân",
+        "quý",
+        "từng",
+        "phút",
+        "giây",
+        "hiện",
+        "tại."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Hãy",
+        "sống",
+        "trọn",
+        "vẹn,",
+        "yêu",
+        "thương",
+        "chân",
+        "thành",
+        "và",
+        "không",
+        "bao",
+        "giờ",
+        "ngừng",
+        "ước",
+        "mơ,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "bởi",
+        "cuộc",
+        "sống",
+        "đẹp",
+        "đẽ",
+        "nhất",
+        "là",
+        "khi",
+        "ta",
+        "sống",
+        "với",
+        "tất",
+        "cả",
+        "niềm",
+        "tin",
+        "và",
+        "nhiệt",
+        "huyết."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "vi",
+  "desc": "Sát hạch đỉnh cao tốc ký thực chiến (Cần Acc ≥ 97%, WPM ≥ 45)",
+  "lessonId": "lesson30",
+  "isExam": true,
+  "targetWpm": 45,
+  "minAccuracy": 97
+}

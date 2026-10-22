@@ -1,0 +1,93 @@
+{
+  "id": "10.P5",
+  "title": "10.P5 - Đoạn văn tích lũy",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "The",
+        "quiet",
+        "poet",
+        "wrote",
+        "deep",
+        "quotes",
+        "about",
+        "peaceful",
+        "pink",
+        "planets."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Please",
+        "step",
+        "forward",
+        "and",
+        "provide",
+        "quick",
+        "answers",
+        "to",
+        "this",
+        "simple",
+        "quiz."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Equal",
+        "power",
+        "and",
+        "proud",
+        "people",
+        "will",
+        "bring",
+        "plenty",
+        "of",
+        "sweet",
+        "peace."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Keep",
+        "your",
+        "temper",
+        "in",
+        "check,",
+        "for",
+        "patience",
+        "is",
+        "the",
+        "supreme",
+        "quality."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Every",
+        "proper",
+        "question",
+        "deserves",
+        "a",
+        "polite",
+        "and",
+        "prompt",
+        "reply",
+        "from",
+        "us."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tích lũy Bài 1 đến Bài 10",
+  "lessonId": "lesson10",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

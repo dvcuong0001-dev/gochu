@@ -1,0 +1,76 @@
+{
+  "id": "10.EXAM",
+  "title": "10.EXAM - KIỂM TRA VƯỢT ẢI BÀI 10 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "The",
+        "quiet",
+        "poet",
+        "wrote",
+        "deep",
+        "quotes",
+        "about",
+        "peaceful",
+        "pink",
+        "planets."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Please",
+        "step",
+        "forward",
+        "and",
+        "provide",
+        "quick",
+        "answers",
+        "to",
+        "this",
+        "simple",
+        "quiz."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Equal",
+        "power",
+        "and",
+        "proud",
+        "people",
+        "will",
+        "bring",
+        "plenty",
+        "of",
+        "sweet",
+        "peace."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Patience",
+        "and",
+        "practice",
+        "will",
+        "help",
+        "you",
+        "conquer",
+        "every",
+        "difficult",
+        "problem."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch Q, P (Cần Acc ≥ 95%, WPM ≥ 25)",
+  "lessonId": "lesson10",
+  "isExam": true,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

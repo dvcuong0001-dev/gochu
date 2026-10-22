@@ -1,0 +1,48 @@
+{
+  "id": "24.P1",
+  "title": "24.P1 - Tiêu đề Markdown & Hashtag",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "#",
+        "Chapter",
+        "1:",
+        "Introduction;",
+        "##",
+        "Section",
+        "2.1:",
+        "Overview"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "#typing",
+        "#speed",
+        "#practice",
+        "#victory",
+        "#top1"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "color:",
+        "#ffffff;",
+        "background:",
+        "#000000;",
+        "border:",
+        "#333333;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện phím #",
+  "lessonId": "lesson24",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

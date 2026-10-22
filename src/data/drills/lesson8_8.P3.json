@@ -1,0 +1,62 @@
+{
+  "id": "8.P3",
+  "title": "8.P3 - Câu hỏi ngắn dấu ?",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Who",
+        "is",
+        "in?",
+        "Can",
+        "you",
+        "see",
+        "it?",
+        "Is",
+        "that",
+        "voice",
+        "very",
+        "loud?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Where",
+        "did",
+        "nine",
+        "men",
+        "go?",
+        "When",
+        "will",
+        "our",
+        "new",
+        "train",
+        "arrive?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Have",
+        "you",
+        "visited",
+        "that",
+        "town?",
+        "Can",
+        "we",
+        "leave",
+        "at",
+        "noon?"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện phím hỏi ?",
+  "lessonId": "lesson8",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

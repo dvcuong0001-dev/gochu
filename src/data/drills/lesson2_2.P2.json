@@ -1,0 +1,60 @@
+{
+  "id": "2.P2",
+  "title": "2.P2 - Từ trung bình đổi tay",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "field",
+        "salad",
+        "skill",
+        "fails",
+        "alike",
+        "false",
+        "slide"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "easel",
+        "diesel",
+        "shield",
+        "flakes",
+        "asleep",
+        "detail"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aisle",
+        "fails",
+        "fakes",
+        "feeds",
+        "flies",
+        "fills",
+        "files"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "liked",
+        "leafed",
+        "sailed",
+        "killed",
+        "filled",
+        "leaked"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Phối hợp chuyển động giữa 2 bàn tay",
+  "lessonId": "lesson2",
+  "isExam": false,
+  "targetWpm": 19,
+  "minAccuracy": 95
+}

@@ -1,0 +1,53 @@
+{
+  "id": "6.P1",
+  "title": "6.P1 - Từ ngắn có C và dấu phẩy",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "cat,",
+        "car,",
+        "cup,",
+        "ice,",
+        "rice,",
+        "dice,",
+        "face,",
+        "race,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cook,",
+        "cake,",
+        "call,",
+        "rock,",
+        "lock,",
+        "sick,",
+        "track,",
+        "card,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cold,",
+        "cute,",
+        "cell,",
+        "coin,",
+        "coat,",
+        "clam,",
+        "calm,",
+        "fact,"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện phím C và ngắt phẩy",
+  "lessonId": "lesson6",
+  "isExam": false,
+  "targetWpm": 21,
+  "minAccuracy": 95
+}

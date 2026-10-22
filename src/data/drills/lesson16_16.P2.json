@@ -1,0 +1,50 @@
+{
+  "id": "16.P2",
+  "title": "16.P2 - Dãy số tự nhiên đầy đủ",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "0123456789",
+        "9876543210",
+        "1029384756",
+        "0918273645"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "100",
+        "dollars,",
+        "1000",
+        "miles,",
+        "100%",
+        "accurate,",
+        "10",
+        "seconds"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Year",
+        "2026",
+        "marks",
+        "our",
+        "10th",
+        "anniversary",
+        "with",
+        "1000",
+        "partners."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện 0-9 liên tục",
+  "lessonId": "lesson16",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

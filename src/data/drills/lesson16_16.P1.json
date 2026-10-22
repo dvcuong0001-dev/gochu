@@ -1,0 +1,46 @@
+{
+  "id": "16.P1",
+  "title": "16.P1 - Số tròn chục & Năm",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "10,",
+        "100,",
+        "1000,",
+        "10000,",
+        "2026,",
+        "2030,",
+        "1990"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "phone:",
+        "0912345678,",
+        "code:",
+        "1029384756"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "account:",
+        "1002948,",
+        "pin:",
+        "1089,",
+        "id:",
+        "1001"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện số 10, 100, 1000, 2026",
+  "lessonId": "lesson16",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

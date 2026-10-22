@@ -1,0 +1,74 @@
+{
+  "id": "16.EXAM",
+  "title": "16.EXAM - KIỂM TRA VƯỢT ẢI BÀI 16 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "In",
+        "2026,",
+        "user",
+        "1098",
+        "paid",
+        "1500",
+        "USD",
+        "for",
+        "order",
+        "43820",
+        "at",
+        "10:45."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Our",
+        "company",
+        "reached",
+        "10,000",
+        "active",
+        "clients",
+        "across",
+        "100",
+        "different",
+        "cities."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Dial",
+        "0912345678",
+        "or",
+        "call",
+        "extension",
+        "101",
+        "to",
+        "reach",
+        "customer",
+        "service."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Account",
+        "1029384756",
+        "deposited",
+        "10,000",
+        "dollars",
+        "on",
+        "October",
+        "10."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch toàn bộ hàng số 0-9 (Cần Acc ≥ 95%, WPM ≥ 26)",
+  "lessonId": "lesson16",
+  "isExam": true,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

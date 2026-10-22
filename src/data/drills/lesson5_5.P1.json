@@ -1,0 +1,51 @@
+{
+  "id": "5.P1",
+  "title": "5.P1 - Từ viết hoa đầu câu",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "All.",
+        "Dad.",
+        "Kate.",
+        "Lisa.",
+        "Tom.",
+        "Rita.",
+        "Sue.",
+        "Leo."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "London.",
+        "Paris.",
+        "Tokyo.",
+        "Rome.",
+        "Seoul.",
+        "Dallas."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Dr.",
+        "Mr.",
+        "Mrs.",
+        "St.",
+        "Rd.",
+        "Ave.",
+        "Ltd.",
+        "Inc."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn phản xạ Shift ngón út",
+  "lessonId": "lesson5",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

@@ -1,0 +1,82 @@
+{
+  "id": "28.P4",
+  "title": "28.P4 - Thư cảm ơn và tri ân",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Nhân",
+        "dịp",
+        "kỷ",
+        "niệm",
+        "thành",
+        "lập",
+        "công",
+        "ty,",
+        "chúng",
+        "tôi",
+        "xin",
+        "gửi",
+        "lời",
+        "tri",
+        "ân",
+        "sâu",
+        "sắc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tới",
+        "toàn",
+        "thể",
+        "cán",
+        "bộ",
+        "nhân",
+        "viên",
+        "đã",
+        "cống",
+        "hiến",
+        "hết",
+        "mình",
+        "cho",
+        "sự",
+        "phát",
+        "triển",
+        "chung."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Sự",
+        "nỗ",
+        "lực",
+        "và",
+        "đoàn",
+        "kết",
+        "của",
+        "các",
+        "bạn",
+        "chính",
+        "là",
+        "tài",
+        "sản",
+        "quý",
+        "giá",
+        "nhất",
+        "của",
+        "tập",
+        "thể."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Cảm xúc trang nhã trong công việc",
+  "lessonId": "lesson28",
+  "isExam": false,
+  "targetWpm": 40,
+  "minAccuracy": 95
+}

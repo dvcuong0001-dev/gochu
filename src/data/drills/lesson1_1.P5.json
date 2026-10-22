@@ -1,0 +1,107 @@
+{
+  "id": "1.P5",
+  "title": "1.P5 - Đoạn văn tích lũy toàn diện",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "a",
+        "glad",
+        "dad",
+        "had",
+        "a",
+        "flask",
+        "of",
+        "fresh",
+        "salad",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dad",
+        "ask",
+        "all",
+        "lads",
+        "to",
+        "add",
+        "alfalfa",
+        "and",
+        "salsa",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "sad",
+        "lad",
+        "asks",
+        "dad",
+        "if",
+        "all",
+        "salads",
+        "fall",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dad",
+        "said",
+        "all",
+        "glad",
+        "lads",
+        "shall",
+        "add",
+        "all",
+        "salsa",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "lads",
+        "fall",
+        "as",
+        "a",
+        "glad",
+        "dad",
+        "asks",
+        "for",
+        "a",
+        "flask",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sad",
+        "lads",
+        "and",
+        "glad",
+        "dads",
+        "fall",
+        "as",
+        "all",
+        "salads",
+        "fall",
+        "."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền ngón tay trên hàng cơ sở",
+  "lessonId": "lesson1",
+  "isExam": false,
+  "targetWpm": 18,
+  "minAccuracy": 95
+}

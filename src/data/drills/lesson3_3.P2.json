@@ -1,0 +1,64 @@
+{
+  "id": "3.P2",
+  "title": "3.P2 - Từ trung bình",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "ruler",
+        "fluid",
+        "sugar",
+        "radar",
+        "rural",
+        "flare",
+        "trail",
+        "fruit"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "order",
+        "floor",
+        "clear",
+        "raise",
+        "nurse",
+        "drive",
+        "fraud",
+        "adult"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "refuse",
+        "figure",
+        "serial",
+        "afraid",
+        "visual",
+        "casual",
+        "future"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "useful",
+        "drawer",
+        "reader",
+        "seller",
+        "leader",
+        "ladder",
+        "trader"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Phối hợp ngón trỏ vươn hàng trên",
+  "lessonId": "lesson3",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

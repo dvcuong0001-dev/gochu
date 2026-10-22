@@ -1,0 +1,88 @@
+{
+  "id": "18.P5",
+  "title": "18.P5 - Đoạn văn tích lũy / và ?",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Have",
+        "you",
+        "visited",
+        "our",
+        "website",
+        "at",
+        "https://tuhoc.cc/practice?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Does",
+        "the",
+        "application",
+        "run",
+        "fast",
+        "on",
+        "Windows/Mac/Linux?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "If",
+        "you",
+        "encounter",
+        "any",
+        "bug/issue,",
+        "did",
+        "you",
+        "check",
+        "the",
+        "log",
+        "at",
+        "/var/log/app.log?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Who",
+        "can",
+        "help",
+        "us",
+        "test",
+        "the",
+        "new",
+        "release?",
+        "Are",
+        "you",
+        "willing",
+        "to",
+        "join?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Practice",
+        "every",
+        "day:",
+        "30",
+        "minutes/session;",
+        "2",
+        "sessions/day;",
+        "success",
+        "is",
+        "guaranteed!"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền",
+  "lessonId": "lesson18",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

@@ -1,0 +1,62 @@
+{
+  "id": "20.P2",
+  "title": "20.P2 - Gán biến trong lập trình",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "let",
+        "x",
+        "=",
+        "10;",
+        "let",
+        "y",
+        "=",
+        "20;",
+        "let",
+        "z",
+        "=",
+        "x",
+        "+",
+        "y;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "count",
+        "=",
+        "count",
+        "+",
+        "1;",
+        "score",
+        "=",
+        "score",
+        "-",
+        "5;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "target",
+        "=",
+        "(max",
+        "+",
+        "min)",
+        "/",
+        "2",
+        "=",
+        "50;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Cú pháp code gán biến",
+  "lessonId": "lesson20",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

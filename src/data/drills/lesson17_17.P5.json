@@ -1,0 +1,88 @@
+{
+  "id": "17.P5",
+  "title": "17.P5 - Đoạn văn tích lũy",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Log",
+        "report:",
+        "2026-10-22;",
+        "System",
+        "status:",
+        "optimal;",
+        "Active",
+        "sessions:",
+        "142."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Database",
+        "host:",
+        "db.internal:5432;",
+        "User:",
+        "admin;",
+        "Access:",
+        "granted."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Remember",
+        "the",
+        "golden",
+        "rule:",
+        "speak",
+        "with",
+        "kindness;",
+        "listen",
+        "with",
+        "patience."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "When",
+        "obstacles",
+        "arise:",
+        "stay",
+        "calm;",
+        "analyze",
+        "the",
+        "problem;",
+        "take",
+        "decisive",
+        "action."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Work",
+        "schedule:",
+        "Monday",
+        "to",
+        "Friday:",
+        "08:30",
+        "to",
+        "17:30;",
+        "Weekend:",
+        "rest",
+        "and",
+        "family."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền",
+  "lessonId": "lesson17",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

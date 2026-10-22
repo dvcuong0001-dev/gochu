@@ -1,0 +1,49 @@
+{
+  "id": "7.P2",
+  "title": "7.P2 - Từ chứa G và H",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "ghost,",
+        "light,",
+        "night,",
+        "height,",
+        "laugh,",
+        "dough,",
+        "tough,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "growth,",
+        "knight,",
+        "flight,",
+        "guitar,",
+        "gather,",
+        "hanger,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "high,",
+        "huge,",
+        "heart,",
+        "earth,",
+        "health,",
+        "wealth,",
+        "truth,"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tập vươn ngón trỏ vào giữa",
+  "lessonId": "lesson7",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

@@ -1,0 +1,60 @@
+{
+  "id": "17.P4",
+  "title": "17.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Server:",
+        "online;",
+        "Port:",
+        "8080;",
+        "Status:",
+        "ready;",
+        "Time:",
+        "12:30:45."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Remember",
+        "this:",
+        "true",
+        "wisdom",
+        "comes",
+        "from",
+        "experience;",
+        "never",
+        "stop",
+        "learning."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Daily",
+        "tasks:",
+        "review",
+        "code",
+        "at",
+        "09:00;",
+        "test",
+        "components",
+        "at",
+        "14:00;",
+        "deploy",
+        "at",
+        "17:00."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu chứa ; và :",
+  "lessonId": "lesson17",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

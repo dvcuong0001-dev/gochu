@@ -1,0 +1,103 @@
+{
+  "id": "12.EXAM",
+  "title": "12.EXAM - ĐẠI SÁT HẠCH CHẶNG 1 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "The",
+        "quick",
+        "brown",
+        "fox",
+        "jumps",
+        "over",
+        "a",
+        "lazy",
+        "sleeping",
+        "dog",
+        "in",
+        "the",
+        "quiet",
+        "park."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Zero",
+        "excuses",
+        "can",
+        "justify",
+        "an",
+        "exit",
+        "when",
+        "you",
+        "have",
+        "the",
+        "capacity",
+        "to",
+        "excel."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Crazy",
+        "breezes",
+        "blew",
+        "six",
+        "dozen",
+        "extra",
+        "boxes",
+        "from",
+        "the",
+        "next",
+        "yellow",
+        "taxi."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Practice",
+        "every",
+        "day",
+        "with",
+        "exact",
+        "zeal,",
+        "and",
+        "your",
+        "fingers",
+        "will",
+        "fly",
+        "with",
+        "joy."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Every",
+        "letter",
+        "of",
+        "the",
+        "alphabet",
+        "is",
+        "now",
+        "firmly",
+        "rooted",
+        "in",
+        "your",
+        "reflex."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch toàn diện 26 chữ cái Alphabet (Cần Acc ≥ 96%, WPM ≥ 28)",
+  "lessonId": "lesson12",
+  "isExam": true,
+  "targetWpm": 28,
+  "minAccuracy": 96
+}

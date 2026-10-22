@@ -1,0 +1,85 @@
+{
+  "id": "29.P1",
+  "title": "29.P1 - Tư duy gốc trong cuộc sống",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Làm",
+        "bất",
+        "cứ",
+        "việc",
+        "gì",
+        "cũng",
+        "phải",
+        "có",
+        "đích",
+        "đến",
+        "rõ",
+        "ràng."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Có",
+        "mục",
+        "đích",
+        "mà",
+        "không",
+        "có",
+        "con",
+        "đường",
+        "thì",
+        "hão",
+        "huyền;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "có",
+        "con",
+        "đường",
+        "mà",
+        "không",
+        "có",
+        "mục",
+        "đích",
+        "thì",
+        "đi",
+        "loanh",
+        "quanh",
+        "cho",
+        "đời",
+        "mỏi",
+        "mệt."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Phải",
+        "có",
+        "đích",
+        "trước,",
+        "rồi",
+        "mới",
+        "tìm",
+        "kiếm",
+        "con",
+        "đường",
+        "để",
+        "đi."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Trích đoạn tư duy gốc",
+  "lessonId": "lesson29",
+  "isExam": false,
+  "targetWpm": 38,
+  "minAccuracy": 95
+}

@@ -1,0 +1,55 @@
+{
+  "id": "16.01",
+  "title": "16.01 - Khởi động A-1 & ;-0",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "1",
+        "1",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "1"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a1",
+        "1a",
+        ";0",
+        "0;",
+        "a1;0",
+        "1010"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "10",
+        "100",
+        "1000",
+        "10000",
+        "2026"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "0123456789",
+        "9876543210"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện phản xạ ngón út",
+  "lessonId": "lesson16",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

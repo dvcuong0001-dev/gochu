@@ -1,0 +1,61 @@
+{
+  "id": "24.P2",
+  "title": "24.P2 - Lũy thừa ^ và Phép nhân *",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "2^10",
+        "=",
+        "1024;",
+        "2^16",
+        "=",
+        "65536;",
+        "10^6",
+        "=",
+        "1000000;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "area",
+        "=",
+        "width",
+        "*",
+        "height;",
+        "volume",
+        "=",
+        "base",
+        "*",
+        "height",
+        "*",
+        "depth;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "pointer",
+        "=",
+        "*ptr;",
+        "address",
+        "=",
+        "&variable;",
+        "factor",
+        "=",
+        "scale",
+        "*",
+        "2.5;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện toán học",
+  "lessonId": "lesson24",
+  "isExam": false,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

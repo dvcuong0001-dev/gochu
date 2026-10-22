@@ -1,0 +1,43 @@
+{
+  "id": "23.P1",
+  "title": "23.P1 - Thẻ HTML & Đóng mở",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "<html>",
+        "<body>",
+        "<h1>Hello",
+        "World!</h1>",
+        "</body>",
+        "</html>"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "<button",
+        "class=\"btn\">Click",
+        "me!</button>"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "<input",
+        "type=\"text\"",
+        "placeholder=\"Type",
+        "here!\"",
+        "/>"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện cú pháp HTML",
+  "lessonId": "lesson23",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

@@ -1,0 +1,76 @@
+{
+  "id": "7.P4",
+  "title": "7.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "It's",
+        "not",
+        "easy",
+        "to",
+        "find",
+        "true",
+        "courage",
+        "when",
+        "the",
+        "night",
+        "is",
+        "dark."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Let's",
+        "fight",
+        "together,",
+        "for",
+        "there's",
+        "great",
+        "light",
+        "after",
+        "the",
+        "storm."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "He's",
+        "honest,",
+        "he's",
+        "kind,",
+        "and",
+        "he",
+        "doesn't",
+        "fear",
+        "high",
+        "hurdles."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Laugh",
+        "with",
+        "your",
+        "good",
+        "friends",
+        "and",
+        "forget",
+        "that",
+        "tough",
+        "defeat."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu tăng tốc",
+  "lessonId": "lesson7",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

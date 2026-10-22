@@ -1,0 +1,96 @@
+{
+  "id": "9.P5",
+  "title": "9.P5 - Đoạn văn tích lũy",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "When",
+        "autumn",
+        "arrives,",
+        "warm",
+        "memories",
+        "fill",
+        "our",
+        "quiet",
+        "wooden",
+        "rooms."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Many",
+        "brave",
+        "women",
+        "walked",
+        "towards",
+        "the",
+        "morning",
+        "sun",
+        "with",
+        "sweet",
+        "smiles."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Wise",
+        "minds",
+        "make",
+        "wise",
+        "moves,",
+        "while",
+        "weak",
+        "words",
+        "melt",
+        "like",
+        "warm",
+        "snow."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "We",
+        "must",
+        "remember",
+        "that",
+        "small",
+        "streams",
+        "will",
+        "slowly",
+        "form",
+        "a",
+        "mighty",
+        "river."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Work",
+        "with",
+        "all",
+        "your",
+        "heart,",
+        "and",
+        "your",
+        "wonderful",
+        "dreams",
+        "will",
+        "come",
+        "true."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tích lũy Bài 1 đến Bài 9",
+  "lessonId": "lesson9",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

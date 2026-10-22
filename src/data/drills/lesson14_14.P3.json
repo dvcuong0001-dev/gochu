@@ -1,0 +1,54 @@
+{
+  "id": "14.P3",
+  "title": "14.P3 - Thống kê tài chính",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Invoice",
+        "387:",
+        "subtotal",
+        "$350,",
+        "tax",
+        "$38,",
+        "total",
+        "$388."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Account",
+        "8345",
+        "received",
+        "830",
+        "dollars",
+        "on",
+        "August",
+        "3."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Stock",
+        "index",
+        "jumped",
+        "83",
+        "points",
+        "to",
+        "reach",
+        "3845",
+        "today."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện dãy số tài chính",
+  "lessonId": "lesson14",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

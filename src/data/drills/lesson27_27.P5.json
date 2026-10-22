@@ -1,0 +1,130 @@
+{
+  "id": "27.P5",
+  "title": "27.P5 - Bài báo hoàn chỉnh (250 từ)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Giáo",
+        "dục",
+        "thế",
+        "hệ",
+        "trẻ",
+        "không",
+        "chỉ",
+        "dừng",
+        "lại",
+        "ở",
+        "việc",
+        "truyền",
+        "đạt",
+        "kiến",
+        "thức",
+        "sách",
+        "vở,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mà",
+        "quan",
+        "trọng",
+        "hơn",
+        "là",
+        "bồi",
+        "dưỡng",
+        "nhân",
+        "cách,",
+        "lòng",
+        "trắc",
+        "ẩn",
+        "và",
+        "tư",
+        "duy",
+        "độc",
+        "lập."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Một",
+        "đứa",
+        "trẻ",
+        "được",
+        "dạy",
+        "về",
+        "lòng",
+        "biết",
+        "ơn",
+        "sẽ",
+        "biết",
+        "trân",
+        "trọng",
+        "cuộc",
+        "sống",
+        "của",
+        "chính",
+        "mình."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Khi",
+        "gặp",
+        "khó",
+        "khăn,",
+        "các",
+        "em",
+        "sẽ",
+        "có",
+        "đủ",
+        "nội",
+        "lực",
+        "để",
+        "vượt",
+        "qua",
+        "nghịch",
+        "cảnh",
+        "và",
+        "đứng",
+        "dậy",
+        "mạnh",
+        "mẽ."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Đó",
+        "chính",
+        "là",
+        "nền",
+        "tảng",
+        "vững",
+        "chắc",
+        "để",
+        "xây",
+        "dựng",
+        "một",
+        "xã",
+        "hội",
+        "hạnh",
+        "phúc",
+        "và",
+        "văn",
+        "minh."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Đoạn văn dài rèn luyện sức bền",
+  "lessonId": "lesson27",
+  "isExam": false,
+  "targetWpm": 40,
+  "minAccuracy": 96
+}

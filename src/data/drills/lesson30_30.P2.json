@@ -1,0 +1,80 @@
+{
+  "id": "30.P2",
+  "title": "30.P2 - Hoàng tử bé (Trích đoạn)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Người",
+        "ta",
+        "chỉ",
+        "nhìn",
+        "thấy",
+        "thật",
+        "rõ",
+        "ràng",
+        "bằng",
+        "trái",
+        "tim."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Những",
+        "điều",
+        "cốt",
+        "lõi",
+        "thì",
+        "vô",
+        "hình",
+        "trong",
+        "mắt",
+        "trần."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Chính",
+        "thời",
+        "gian",
+        "mà",
+        "bạn",
+        "đã",
+        "bỏ",
+        "ra",
+        "cho",
+        "đóa",
+        "hoa",
+        "của",
+        "mình"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mới",
+        "làm",
+        "cho",
+        "đóa",
+        "hoa",
+        "ấy",
+        "trở",
+        "nên",
+        "quan",
+        "trọng",
+        "đến",
+        "thế."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Tác phẩm kinh điển thế giới",
+  "lessonId": "lesson30",
+  "isExam": false,
+  "targetWpm": 41,
+  "minAccuracy": 95
+}

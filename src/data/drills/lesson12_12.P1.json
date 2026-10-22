@@ -1,0 +1,54 @@
+{
+  "id": "12.P1",
+  "title": "12.P1 - Từ ngắn Z và X",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "zero",
+        "zone",
+        "zoom",
+        "size",
+        "prize",
+        "freeze",
+        "breeze",
+        "crazy"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "taxi",
+        "next",
+        "exact",
+        "exit",
+        "expert",
+        "relax",
+        "complex",
+        "extra"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "six",
+        "fox",
+        "box",
+        "wax",
+        "fix",
+        "mix",
+        "axe",
+        "examine",
+        "luxury"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện Z và X",
+  "lessonId": "lesson12",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

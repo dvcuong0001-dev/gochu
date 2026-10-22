@@ -1,0 +1,54 @@
+{
+  "id": "17.EXAM",
+  "title": "17.EXAM - KIỂM TRA VƯỢT ẢI BÀI 17 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Server:",
+        "online;",
+        "Port:",
+        "8080;",
+        "Status:",
+        "ready;",
+        "Time:",
+        "12:30:45."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "System",
+        "report:",
+        "memory:",
+        "64%;",
+        "storage:",
+        "45%;",
+        "status:",
+        "healthy."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Remember:",
+        "great",
+        "dreams",
+        "require",
+        "daily",
+        "action;",
+        "never",
+        "give",
+        "up."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch ; và : (Cần Acc ≥ 95%, WPM ≥ 26)",
+  "lessonId": "lesson17",
+  "isExam": true,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

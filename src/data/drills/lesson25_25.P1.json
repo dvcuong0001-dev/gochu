@@ -1,0 +1,59 @@
+{
+  "id": "25.P1",
+  "title": "25.P1 - Luyện từ đơn tiếng Việt",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "bóng",
+        "đá",
+        "dòng",
+        "sông",
+        "bến",
+        "bờ",
+        "ngọn",
+        "đèn",
+        "mái",
+        "nhà"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "con",
+        "suối",
+        "dòng",
+        "kênh",
+        "cây",
+        "đa",
+        "làng",
+        "quê",
+        "tổ",
+        "quốc"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "hạt",
+        "mưa",
+        "hạt",
+        "thóc",
+        "cánh",
+        "đồng",
+        "vầng",
+        "trăng",
+        "ánh",
+        "sao"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Các từ đơn có dấu thanh đa dạng",
+  "lessonId": "lesson25",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

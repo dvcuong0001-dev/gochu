@@ -1,0 +1,75 @@
+{
+  "id": "2.P3",
+  "title": "2.P3 - Cụm từ nhịp điệu",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "like",
+        "a",
+        "leaf",
+        ";",
+        "feel",
+        "a",
+        "skill",
+        ";",
+        "seek",
+        "a",
+        "life"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "feed",
+        "a",
+        "kid",
+        ";",
+        "safe",
+        "side",
+        ";",
+        "sail",
+        "like",
+        "silk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fill",
+        "a",
+        "file",
+        ";",
+        "fake",
+        "a",
+        "slide",
+        ";",
+        "ask",
+        "for",
+        "aid"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "idle",
+        "kids",
+        "feel",
+        "safe",
+        ";",
+        "a",
+        "kid",
+        "likes",
+        "salad"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ cụm từ có nghĩa, nhịp phím đều",
+  "lessonId": "lesson2",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

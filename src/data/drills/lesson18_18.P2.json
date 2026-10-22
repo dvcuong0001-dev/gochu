@@ -1,0 +1,60 @@
+{
+  "id": "18.P2",
+  "title": "18.P2 - Câu hỏi nghi vấn liên tiếp",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Are",
+        "you",
+        "ready?",
+        "Can",
+        "we",
+        "start",
+        "now?",
+        "Who",
+        "is",
+        "online?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Is",
+        "this",
+        "the",
+        "right",
+        "path?",
+        "Did",
+        "you",
+        "check",
+        "the",
+        "docs?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Where",
+        "is",
+        "the",
+        "new",
+        "file?",
+        "How",
+        "fast",
+        "can",
+        "your",
+        "fingers",
+        "type?"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện dấu hỏi chấm ?",
+  "lessonId": "lesson18",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

@@ -1,0 +1,54 @@
+{
+  "id": "19.P3",
+  "title": "19.P3 - Cấu trúc dữ liệu thực tế",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "const",
+        "colors",
+        "=",
+        "[\"red\",",
+        "\"green\",",
+        "\"blue\"];"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "const",
+        "point",
+        "=",
+        "(x[0]",
+        "+",
+        "y[0],",
+        "x[1]",
+        "+",
+        "y[1]);"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "(scores[i]",
+        ">=",
+        "90)",
+        "{",
+        "report((i",
+        "+",
+        "1),",
+        "scores[i]);",
+        "}"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện gõ mã mảng",
+  "lessonId": "lesson19",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

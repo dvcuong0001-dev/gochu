@@ -1,0 +1,67 @@
+{
+  "id": "12.P4",
+  "title": "12.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Zero",
+        "excuses",
+        "can",
+        "justify",
+        "an",
+        "exit",
+        "when",
+        "you",
+        "have",
+        "the",
+        "capacity",
+        "to",
+        "excel."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Crazy",
+        "breezes",
+        "blew",
+        "six",
+        "dozen",
+        "extra",
+        "boxes",
+        "from",
+        "the",
+        "next",
+        "yellow",
+        "taxi."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Practice",
+        "every",
+        "day",
+        "with",
+        "exact",
+        "zeal,",
+        "and",
+        "your",
+        "fingers",
+        "will",
+        "fly",
+        "with",
+        "joy."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu tăng tốc 26 chữ cái",
+  "lessonId": "lesson12",
+  "isExam": false,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

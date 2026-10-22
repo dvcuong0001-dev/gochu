@@ -1,0 +1,46 @@
+{
+  "id": "18.P3",
+  "title": "18.P3 - URL & Truy vấn query",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Visit",
+        "https://tuhoc.cc/typing?mode=practice&level=hard."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Is",
+        "it",
+        "secure?",
+        "Yes/no?",
+        "Check",
+        "ssl/tls",
+        "before",
+        "connect."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Does",
+        "the",
+        "endpoint",
+        "/api/user/profile",
+        "return",
+        "status",
+        "200?"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện URL chuẩn",
+  "lessonId": "lesson18",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

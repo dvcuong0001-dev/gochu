@@ -1,0 +1,103 @@
+{
+  "id": "1.P3",
+  "title": "1.P3 - Cụm từ nhịp điệu",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "a",
+        "sad",
+        "lad",
+        ";",
+        "a",
+        "glad",
+        "dad",
+        ";",
+        "ask",
+        "a",
+        "dad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "lads",
+        "fall",
+        ";",
+        "add",
+        "a",
+        "salad",
+        ";",
+        "all",
+        "fall"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "flask",
+        "of",
+        "salad",
+        ";",
+        "all",
+        "glad",
+        "lads",
+        "ask"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dad",
+        "asks",
+        "a",
+        "lad",
+        ";",
+        "a",
+        "sad",
+        "lad",
+        "asks",
+        "dad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fall",
+        "as",
+        "a",
+        "leaf",
+        ";",
+        "glad",
+        "lad",
+        "asks",
+        "for",
+        "all"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sad",
+        "dad",
+        "falls",
+        ";",
+        "all",
+        "glad",
+        "lads",
+        "add",
+        "salsa"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện nhịp bấm phím cách Space bằng ngón cái",
+  "lessonId": "lesson1",
+  "isExam": false,
+  "targetWpm": 18,
+  "minAccuracy": 95
+}

@@ -1,0 +1,55 @@
+{
+  "id": "18.P4",
+  "title": "18.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Did",
+        "you",
+        "check",
+        "file",
+        "path",
+        "src/components/TypingArea.tsx",
+        "today?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Can",
+        "we",
+        "achieve",
+        "50",
+        "words/minute",
+        "with",
+        "98%",
+        "accuracy",
+        "this",
+        "month?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Why",
+        "did",
+        "the",
+        "system",
+        "report",
+        "an",
+        "error",
+        "at",
+        "/api/drill?id=10?"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu tăng tốc",
+  "lessonId": "lesson18",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

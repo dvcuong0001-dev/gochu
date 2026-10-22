@@ -1,0 +1,62 @@
+{
+  "id": "14.01",
+  "title": "14.01 - Khởi động D-3 & K-8",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "3",
+        "3",
+        "8",
+        "8",
+        "3",
+        "8",
+        "8",
+        "3"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "d3",
+        "3d",
+        "k8",
+        "8k",
+        "d3k8",
+        "8k3d"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "38",
+        "83",
+        "338",
+        "883",
+        "3883",
+        "8338"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "3",
+        "8",
+        "3",
+        "8",
+        "8",
+        "3",
+        "8",
+        "3"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện phản xạ ngón giữa vươn hàng số",
+  "lessonId": "lesson14",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

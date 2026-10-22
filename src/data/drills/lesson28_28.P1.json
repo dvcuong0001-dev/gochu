@@ -1,0 +1,82 @@
+{
+  "id": "28.P1",
+  "title": "28.P1 - Thư gửi đối tác ngắn",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Kính",
+        "gửi",
+        "Quý",
+        "đối",
+        "tác,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Lời",
+        "đầu",
+        "tiên,",
+        "chúng",
+        "tôi",
+        "xin",
+        "gửi",
+        "lời",
+        "chào",
+        "trân",
+        "trọng",
+        "và",
+        "lời",
+        "chúc",
+        "sức",
+        "khỏe."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Chúng",
+        "tôi",
+        "xin",
+        "gửi",
+        "kèm",
+        "tài",
+        "liệu",
+        "đề",
+        "xuất",
+        "hợp",
+        "tác",
+        "cho",
+        "dự",
+        "án",
+        "quý",
+        "tới."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Rất",
+        "mong",
+        "nhận",
+        "được",
+        "phản",
+        "hồi",
+        "sớm",
+        "từ",
+        "Quý",
+        "công",
+        "ty."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Văn phong trang trọng",
+  "lessonId": "lesson28",
+  "isExam": false,
+  "targetWpm": 36,
+  "minAccuracy": 95
+}

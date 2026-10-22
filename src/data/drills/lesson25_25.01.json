@@ -1,0 +1,65 @@
+{
+  "id": "25.01",
+  "title": "25.01 - Khởi động Dấu Sắc (S) & Huyền (F)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "as",
+        "es",
+        "is",
+        "os",
+        "us",
+        "af",
+        "ef",
+        "if",
+        "of",
+        "uf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "bán",
+        "má",
+        "lá",
+        "cá",
+        "giá",
+        "cà",
+        "mà",
+        "nhà",
+        "bà",
+        "gà",
+        "cá",
+        "vàng",
+        "nhà",
+        "lá"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mẹ",
+        "mua",
+        "cá",
+        "vàng",
+        "về",
+        "nhà",
+        "lá",
+        "ở",
+        "bờ",
+        "đê",
+        "xanh",
+        "ngát"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "vi",
+  "desc": "Phản xạ bỏ dấu sắc và dấu huyền",
+  "lessonId": "lesson25",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

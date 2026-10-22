@@ -1,0 +1,99 @@
+{
+  "id": "6.P5",
+  "title": "6.P5 - Đoạn văn tích lũy toàn diện",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Alice,",
+        "Tom,",
+        "and",
+        "Lisa",
+        "sat",
+        "in",
+        "the",
+        "cafe,",
+        "eating",
+        "fresh",
+        "cake",
+        "and",
+        "fruit."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "doctor",
+        "told",
+        "them",
+        "to",
+        "walk,",
+        "breathe",
+        "fresh",
+        "air,",
+        "and",
+        "sleep",
+        "early."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "If",
+        "a",
+        "difficult",
+        "task",
+        "comes,",
+        "stay",
+        "calm,",
+        "focus",
+        "your",
+        "mind,",
+        "and",
+        "smile."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Clear",
+        "thoughts,",
+        "kind",
+        "words,",
+        "and",
+        "honest",
+        "deeds",
+        "create",
+        "a",
+        "beautiful",
+        "life."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Every",
+        "day",
+        "is",
+        "a",
+        "gift,",
+        "so",
+        "cherish",
+        "your",
+        "friends",
+        "and",
+        "your",
+        "family."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tích lũy từ Bài 1 đến Bài 6",
+  "lessonId": "lesson6",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

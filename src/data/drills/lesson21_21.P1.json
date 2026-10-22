@@ -1,0 +1,54 @@
+{
+  "id": "21.P1",
+  "title": "21.P1 - Khối lệnh JSON & Đối tượng",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "{",
+        "\"id\":",
+        "101,",
+        "\"role\":",
+        "\"admin\",",
+        "\"status\":",
+        "\"ok\"",
+        "}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{",
+        "width:",
+        "100,",
+        "height:",
+        "200,",
+        "depth:",
+        "50",
+        "}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "function",
+        "test()",
+        "{",
+        "return",
+        "{",
+        "ok:",
+        "true",
+        "};",
+        "}"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Cú pháp JSON",
+  "lessonId": "lesson21",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

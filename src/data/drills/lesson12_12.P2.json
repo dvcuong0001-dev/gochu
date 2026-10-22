@@ -1,0 +1,36 @@
+{
+  "id": "12.P2",
+  "title": "12.P2 - Từ trung bình",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "horizon",
+        "citizen",
+        "puzzle",
+        "blizzard",
+        "squeeze",
+        "realize"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "example",
+        "explain",
+        "explore",
+        "extreme",
+        "oxygen",
+        "exercise"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Từ chứa âm Z và X",
+  "lessonId": "lesson12",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

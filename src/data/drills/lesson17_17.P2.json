@@ -1,0 +1,57 @@
+{
+  "id": "17.P2",
+  "title": "17.P2 - Ghi chú & Giờ giấc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Meeting",
+        "time:",
+        "08:30;",
+        "Lunch:",
+        "12:00;",
+        "Dinner:",
+        "18:45."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Note:",
+        "please",
+        "read",
+        "carefully;",
+        "then",
+        "answer:",
+        "yes",
+        "or",
+        "no."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Rule",
+        "1:",
+        "be",
+        "honest;",
+        "Rule",
+        "2:",
+        "work",
+        "hard;",
+        "Rule",
+        "3:",
+        "stay",
+        "calm."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện viết giờ và ghi chú",
+  "lessonId": "lesson17",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

@@ -1,0 +1,58 @@
+{
+  "id": "25.03",
+  "title": "25.03 - Khởi động Dấu Nặng (J)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "aj",
+        "ej",
+        "ij",
+        "oj",
+        "uj"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "học",
+        "bạn",
+        "mẹ",
+        "gạo",
+        "mộng",
+        "nặng",
+        "vội",
+        "vã",
+        "lộng",
+        "lẫy",
+        "học",
+        "tập"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "mẹ",
+        "dặn",
+        "bạn",
+        "nhỏ",
+        "học",
+        "tập",
+        "thật",
+        "chăm",
+        "chỉ",
+        "và",
+        "siêng",
+        "năng"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "vi",
+  "desc": "Phản xạ bỏ dấu nặng",
+  "lessonId": "lesson25",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

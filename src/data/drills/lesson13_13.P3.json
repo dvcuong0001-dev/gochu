@@ -1,0 +1,52 @@
+{
+  "id": "13.P3",
+  "title": "13.P3 - Cụm số liệu thống kê",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "height:",
+        "175",
+        "cm;",
+        "weight:",
+        "65",
+        "kg;",
+        "speed:",
+        "75",
+        "km/h"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "total:",
+        "457",
+        "units;",
+        "sold:",
+        "450;",
+        "remaining:",
+        "7",
+        "units"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "order",
+        "567",
+        "delivered",
+        "in",
+        "45",
+        "minutes"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Số liệu đo lường thực tế",
+  "lessonId": "lesson13",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

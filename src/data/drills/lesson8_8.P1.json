@@ -1,0 +1,53 @@
+{
+  "id": "8.P1",
+  "title": "8.P1 - Từ ngắn chứa V và N",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "view",
+        "vain",
+        "vote",
+        "voice",
+        "vivid",
+        "vine",
+        "oven",
+        "event"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nine",
+        "neon",
+        "noon",
+        "none",
+        "noun",
+        "sound",
+        "drown",
+        "round"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "navy",
+        "envy",
+        "never",
+        "novel",
+        "haven",
+        "level",
+        "river",
+        "cover"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện ngón trỏ hàng dưới",
+  "lessonId": "lesson8",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

@@ -1,0 +1,50 @@
+{
+  "id": "9.P1",
+  "title": "9.P1 - Từ ngắn W và M",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "warm",
+        "wind",
+        "swim",
+        "wave",
+        "window",
+        "mirror",
+        "summer"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "moon",
+        "smart",
+        "dream",
+        "women",
+        "memory",
+        "flame",
+        "storm"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "water",
+        "woman",
+        "world",
+        "crown",
+        "brown",
+        "crowd",
+        "hammer"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện từ đơn",
+  "lessonId": "lesson9",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

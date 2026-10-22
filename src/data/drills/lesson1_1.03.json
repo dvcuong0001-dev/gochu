@@ -1,32 +1,35 @@
 {
   "id": "1.03",
-  "title": "Bài 1.03 - Thêm ngón áp út S & L",
+  "title": "1.03 - Mở rộng ngón áp út S & L",
   "orderIndex": 0,
   "lines": [
     {
       "groups": [
-        "s s",
-        "l l",
-        "s s",
-        "l l"
+        "s",
+        "s",
+        "l",
+        "l",
+        "s",
+        "s",
+        "l",
+        "l"
       ],
       "isLoopStart": false
     },
     {
       "groups": [
-        "s l",
-        "s l",
-        "l s",
-        "l s"
-      ],
-      "isLoopStart": false
-    },
-    {
-      "groups": [
-        "sdf",
-        "jkl",
-        "fds",
-        "lkj"
+        "s",
+        "d",
+        "f",
+        "j",
+        "k",
+        "l",
+        "l",
+        "k",
+        "j",
+        "f",
+        "d",
+        "s"
       ],
       "isLoopStart": false
     },
@@ -38,10 +41,26 @@
         "dkfj"
       ],
       "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s",
+        "l",
+        "s",
+        "l",
+        "l",
+        "s",
+        "l",
+        "s"
+      ],
+      "isLoopStart": false
     }
   ],
-  "type": "drill",
+  "type": "warmup",
   "lang": "en",
   "desc": "Rèn sự linh hoạt của ngón áp út",
-  "lessonId": "lesson1"
+  "lessonId": "lesson1",
+  "isExam": false,
+  "targetWpm": 15,
+  "minAccuracy": 95
 }

@@ -1,0 +1,74 @@
+{
+  "id": "29.P4",
+  "title": "29.P4 - Tâm an vạn sự an",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Tâm",
+        "an",
+        "thì",
+        "vạn",
+        "sự",
+        "an,",
+        "tâm",
+        "bình",
+        "thì",
+        "thế",
+        "giới",
+        "bình."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Khi",
+        "đối",
+        "diện",
+        "với",
+        "bão",
+        "táp,",
+        "người",
+        "có",
+        "trí",
+        "tuệ",
+        "học",
+        "cách",
+        "giữ",
+        "sự",
+        "bình",
+        "thản."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Hạnh",
+        "phúc",
+        "thực",
+        "sự",
+        "nằm",
+        "ở",
+        "sự",
+        "tĩnh",
+        "lặng",
+        "và",
+        "lòng",
+        "biết",
+        "ơn",
+        "bên",
+        "trong",
+        "tâm",
+        "hồn."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Làm chủ nội tâm",
+  "lessonId": "lesson29",
+  "isExam": false,
+  "targetWpm": 41,
+  "minAccuracy": 96
+}

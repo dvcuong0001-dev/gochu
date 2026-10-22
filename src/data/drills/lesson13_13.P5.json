@@ -1,0 +1,95 @@
+{
+  "id": "13.P5",
+  "title": "13.P5 - Đoạn văn tích lũy số 4, 5, 6, 7",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "On",
+        "July",
+        "5,",
+        "Flight",
+        "456",
+        "arrived",
+        "at",
+        "gate",
+        "7",
+        "with",
+        "165",
+        "visitors."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Our",
+        "tour",
+        "bus",
+        "45",
+        "drove",
+        "through",
+        "route",
+        "57",
+        "to",
+        "street",
+        "67."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "hotel",
+        "room",
+        "456",
+        "on",
+        "floor",
+        "7",
+        "was",
+        "booked",
+        "for",
+        "75",
+        "dollars."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Everyone",
+        "agreed",
+        "that",
+        "all",
+        "54",
+        "seats",
+        "were",
+        "comfortable",
+        "and",
+        "clean."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "We",
+        "finished",
+        "our",
+        "76",
+        "mile",
+        "trip",
+        "around",
+        "5:45",
+        "in",
+        "the",
+        "afternoon."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền hàng phím số",
+  "lessonId": "lesson13",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

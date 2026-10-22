@@ -1,0 +1,97 @@
+{
+  "id": "30.P5",
+  "title": "30.P5 - Khúc ca cuộc sống (250 từ)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Hãy",
+        "sống",
+        "trọn",
+        "vẹn,",
+        "yêu",
+        "thương",
+        "chân",
+        "thành",
+        "và",
+        "không",
+        "bao",
+        "giờ",
+        "ngừng",
+        "ước",
+        "mơ,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "bởi",
+        "cuộc",
+        "sống",
+        "đẹp",
+        "đẽ",
+        "nhất",
+        "là",
+        "khi",
+        "ta",
+        "sống",
+        "với",
+        "tất",
+        "cả",
+        "niềm",
+        "tin",
+        "và",
+        "nhiệt",
+        "huyết."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Không",
+        "có",
+        "con",
+        "đường",
+        "nào",
+        "bằng",
+        "phẳng",
+        "hoàn",
+        "toàn,",
+        "nhưng",
+        "chính",
+        "những",
+        "dốc",
+        "ghềnh"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sẽ",
+        "rèn",
+        "luyện",
+        "cho",
+        "đôi",
+        "chân",
+        "thêm",
+        "cứng",
+        "cáp",
+        "và",
+        "cho",
+        "tâm",
+        "hồn",
+        "thêm",
+        "rộng",
+        "mở."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Rèn luyện đỉnh cao tốc ký",
+  "lessonId": "lesson30",
+  "isExam": false,
+  "targetWpm": 44,
+  "minAccuracy": 96
+}

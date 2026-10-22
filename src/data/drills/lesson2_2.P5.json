@@ -1,0 +1,111 @@
+{
+  "id": "2.P5",
+  "title": "2.P5 - Đoạn văn tích lũy (Cơ sở + E, I)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "all",
+        "kids",
+        "like",
+        "to",
+        "seek",
+        "a",
+        "safe",
+        "and",
+        "glad",
+        "life",
+        "in",
+        "a",
+        "field",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dad",
+        "feeds",
+        "a",
+        "sick",
+        "kid",
+        "a",
+        "plate",
+        "of",
+        "fresh",
+        "salad",
+        "and",
+        "silk",
+        "milk",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "a",
+        "little",
+        "kid",
+        "falls",
+        "dad",
+        "said",
+        "he",
+        "will",
+        "still",
+        "like",
+        "and",
+        "aid",
+        "him",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lisa",
+        "likes",
+        "to",
+        "fill",
+        "all",
+        "idle",
+        "files",
+        "and",
+        "keep",
+        "all",
+        "desks",
+        "safe",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "she",
+        "feels",
+        "that",
+        "life",
+        "is",
+        "like",
+        "a",
+        "sail",
+        "on",
+        "a",
+        "calm",
+        "lake",
+        "as",
+        "dusk",
+        "falls",
+        "."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn sức bền tích lũy toàn diện",
+  "lessonId": "lesson2",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

@@ -1,0 +1,100 @@
+{
+  "id": "29.EXAM",
+  "title": "29.EXAM - KIỂM TRA VƯỢT ẢI BÀI 29 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Tâm",
+        "an",
+        "thì",
+        "vạn",
+        "sự",
+        "an,",
+        "tâm",
+        "bình",
+        "thì",
+        "thế",
+        "giới",
+        "bình."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Khi",
+        "đối",
+        "diện",
+        "với",
+        "bão",
+        "táp,",
+        "người",
+        "có",
+        "trí",
+        "tuệ",
+        "không",
+        "tìm",
+        "cách",
+        "trốn",
+        "chạy",
+        "mà",
+        "học",
+        "cách",
+        "bình",
+        "thản."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Hạnh",
+        "phúc",
+        "thực",
+        "sự",
+        "không",
+        "nằm",
+        "ở",
+        "những",
+        "gì",
+        "ta",
+        "có",
+        "được",
+        "từ",
+        "bên",
+        "ngoài,",
+        "mà",
+        "nằm",
+        "ở"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sự",
+        "tĩnh",
+        "lặng,",
+        "lòng",
+        "biết",
+        "ơn",
+        "và",
+        "sự",
+        "làm",
+        "chủ",
+        "cảm",
+        "xúc",
+        "bên",
+        "trong",
+        "tâm",
+        "hồn."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "vi",
+  "desc": "Sát hạch triết lý sống (Cần Acc ≥ 96%, WPM ≥ 42)",
+  "lessonId": "lesson29",
+  "isExam": true,
+  "targetWpm": 42,
+  "minAccuracy": 96
+}

@@ -1,0 +1,67 @@
+{
+  "id": "13.EXAM",
+  "title": "13.EXAM - KIỂM TRA VƯỢT ẢI BÀI 13 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Take",
+        "bus",
+        "45",
+        "to",
+        "street",
+        "67.",
+        "The",
+        "total",
+        "cost",
+        "is",
+        "54",
+        "dollars,",
+        "not",
+        "76",
+        "dollars."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "On",
+        "July",
+        "7,",
+        "Flight",
+        "456",
+        "delivered",
+        "754",
+        "boxes",
+        "to",
+        "gate",
+        "5."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Our",
+        "team",
+        "completed",
+        "65",
+        "tasks",
+        "out",
+        "of",
+        "74",
+        "in",
+        "exactly",
+        "45",
+        "days."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch phím số ngón trỏ (Cần Acc ≥ 95%, WPM ≥ 25)",
+  "lessonId": "lesson13",
+  "isExam": true,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

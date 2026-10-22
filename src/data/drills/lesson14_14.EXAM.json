@@ -1,0 +1,63 @@
+{
+  "id": "14.EXAM",
+  "title": "14.EXAM - KIỂM TRA VƯỢT ẢI BÀI 14 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "She",
+        "bought",
+        "38",
+        "apples",
+        "and",
+        "83",
+        "peaches",
+        "on",
+        "July",
+        "8",
+        "for",
+        "348",
+        "dollars."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Account",
+        "3845",
+        "transferred",
+        "830",
+        "dollars",
+        "on",
+        "August",
+        "3",
+        "at",
+        "8:30."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "distance",
+        "between",
+        "city",
+        "38",
+        "and",
+        "city",
+        "83",
+        "is",
+        "384",
+        "kilometers."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch số 3 và 8 (Cần Acc ≥ 95%, WPM ≥ 25)",
+  "lessonId": "lesson14",
+  "isExam": true,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

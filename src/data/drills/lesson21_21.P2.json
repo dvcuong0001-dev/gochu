@@ -1,0 +1,47 @@
+{
+  "id": "21.P2",
+  "title": "21.P2 - Toán tử OR (|) và Đường dẫn (\\)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "type",
+        "Status",
+        "=",
+        "\"active\"",
+        "|",
+        "\"inactive\"",
+        "|",
+        "\"pending\";"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "filePath",
+        "=",
+        "\"C:\\\\Users\\\\Admin\\\\AppData\\\\Local\";"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "result",
+        "=",
+        "val_a",
+        "|",
+        "val_b",
+        "|",
+        "val_c;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện thanh sổ và gạch chéo ngược",
+  "lessonId": "lesson21",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

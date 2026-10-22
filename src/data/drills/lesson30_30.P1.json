@@ -1,0 +1,74 @@
+{
+  "id": "30.P1",
+  "title": "30.P1 - Tôi thấy hoa vàng trên cỏ xanh",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Ngồi",
+        "trên",
+        "đồi",
+        "cát",
+        "nhìn",
+        "xuống",
+        "thung",
+        "lũng,",
+        "tôi",
+        "thấy",
+        "những",
+        "mái",
+        "nhà",
+        "tranh"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lấp",
+        "ló",
+        "sau",
+        "rặng",
+        "tre",
+        "già.",
+        "Tiếng",
+        "ve",
+        "ngân",
+        "rộn",
+        "rã",
+        "đón",
+        "mùa",
+        "hè",
+        "sang,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "gợi",
+        "nhớ",
+        "những",
+        "ngày",
+        "ấu",
+        "thơ",
+        "cùng",
+        "chúng",
+        "bạn",
+        "thả",
+        "diều",
+        "bắt",
+        "bướm",
+        "dưới",
+        "trời",
+        "xanh."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Trích đoạn văn học thiếu nhi",
+  "lessonId": "lesson30",
+  "isExam": false,
+  "targetWpm": 40,
+  "minAccuracy": 95
+}

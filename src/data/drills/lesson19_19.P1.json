@@ -1,0 +1,50 @@
+{
+  "id": "19.P1",
+  "title": "19.P1 - Biểu thức mảng & Hàm",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "array[0]",
+        "=",
+        "(x",
+        "+",
+        "y);",
+        "list[index]",
+        "=",
+        "items(key);"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "print(data[1]);",
+        "total",
+        "=",
+        "(price",
+        "*",
+        "count)",
+        "-",
+        "discount;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "matrix[row][col]",
+        "=",
+        "(base",
+        "*",
+        "scale[0]);"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Cú pháp mảng và gọi hàm",
+  "lessonId": "lesson19",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

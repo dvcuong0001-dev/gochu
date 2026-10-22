@@ -1,0 +1,61 @@
+{
+  "id": "25.04",
+  "title": "25.04 - Khởi động Nguyên âm đôi & Đ",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "aa",
+        "ee",
+        "oo",
+        "aw",
+        "ow",
+        "uw",
+        "dd"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cây",
+        "cơm",
+        "nước",
+        "đường",
+        "đêm",
+        "đông",
+        "đất",
+        "đai",
+        "mơ",
+        "ước",
+        "bền",
+        "bỉ"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "đường",
+        "đời",
+        "gập",
+        "ghềnh",
+        "cần",
+        "lòng",
+        "kiên",
+        "nhẫn",
+        "và",
+        "ước",
+        "mơ",
+        "tươi",
+        "sáng"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "vi",
+  "desc": "Phím AA, EE, OO, AW, OW, UW, DD",
+  "lessonId": "lesson25",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

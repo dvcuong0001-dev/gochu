@@ -1,0 +1,47 @@
+{
+  "id": "6.P2",
+  "title": "6.P2 - Từ trung bình",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "circle,",
+        "cosmic,",
+        "credit,",
+        "factor,",
+        "ticket,",
+        "socket,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "custom,",
+        "access,",
+        "circus,",
+        "direct,",
+        "doctor,",
+        "active,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "clinic,",
+        "cactus,",
+        "classic,",
+        "client,",
+        "coffee,",
+        "carpet,"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Từ chứa âm C",
+  "lessonId": "lesson6",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

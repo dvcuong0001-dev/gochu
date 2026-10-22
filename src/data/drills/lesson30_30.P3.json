@@ -1,0 +1,76 @@
+{
+  "id": "30.P3",
+  "title": "30.P3 - Nhà giả kim (Hành trình ước mơ)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Khi",
+        "bạn",
+        "thực",
+        "sự",
+        "khao",
+        "khát",
+        "một",
+        "điều",
+        "gì",
+        "đó,",
+        "toàn",
+        "bộ",
+        "vũ",
+        "trụ",
+        "sẽ",
+        "chung",
+        "sức"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "giúp",
+        "bạn",
+        "đạt",
+        "được",
+        "điều",
+        "đó.",
+        "Đừng",
+        "bao",
+        "giờ",
+        "từ",
+        "bỏ",
+        "ước",
+        "mơ",
+        "của",
+        "mình,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "bởi",
+        "vì",
+        "mỗi",
+        "thử",
+        "thách",
+        "trên",
+        "đường",
+        "đi",
+        "đều",
+        "là",
+        "một",
+        "bài",
+        "học",
+        "vô",
+        "giá."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Niềm tin và định mệnh",
+  "lessonId": "lesson30",
+  "isExam": false,
+  "targetWpm": 42,
+  "minAccuracy": 96
+}

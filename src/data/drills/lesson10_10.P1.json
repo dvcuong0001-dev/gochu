@@ -1,0 +1,50 @@
+{
+  "id": "10.P1",
+  "title": "10.P1 - Từ ngắn Q và P",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "quick",
+        "quiet",
+        "queen",
+        "quote",
+        "equal",
+        "liquid",
+        "square"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "paper",
+        "plant",
+        "point",
+        "power",
+        "piece",
+        "polish",
+        "planet"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "park",
+        "pride",
+        "apple",
+        "purple",
+        "speak",
+        "happy",
+        "place"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện ngón út hàng trên",
+  "lessonId": "lesson10",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

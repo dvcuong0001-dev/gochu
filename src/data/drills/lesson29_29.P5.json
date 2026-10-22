@@ -1,0 +1,78 @@
+{
+  "id": "29.P5",
+  "title": "29.P5 - Nhân quả và tự do nội tại",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Nhân",
+        "duyên",
+        "quả",
+        "nghiệp",
+        "chính",
+        "là",
+        "quy",
+        "luật",
+        "tự",
+        "nhiên",
+        "của",
+        "đời",
+        "sống."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Tạo",
+        "ra",
+        "nhân",
+        "tốt",
+        "thì",
+        "ắt",
+        "gặt",
+        "hái",
+        "quả",
+        "lành,",
+        "gieo",
+        "yêu",
+        "thương",
+        "sẽ",
+        "nhận",
+        "lại",
+        "bình",
+        "yên."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Sống",
+        "chân",
+        "thành,",
+        "làm",
+        "việc",
+        "có",
+        "đạo",
+        "đức",
+        "chính",
+        "là",
+        "cách",
+        "bảo",
+        "vệ",
+        "tốt",
+        "nhất",
+        "cho",
+        "tương",
+        "lai."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Đoạn văn triết học sâu sắc",
+  "lessonId": "lesson29",
+  "isExam": false,
+  "targetWpm": 42,
+  "minAccuracy": 96
+}

@@ -1,0 +1,97 @@
+{
+  "id": "26.P5",
+  "title": "26.P5 - Đoạn văn bồi đắp tâm hồn",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Người",
+        "Việt",
+        "Nam",
+        "từ",
+        "ngàn",
+        "đời",
+        "nay",
+        "luôn",
+        "giữ",
+        "gìn",
+        "truyền",
+        "thống",
+        "hiếu",
+        "học."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Tri",
+        "thức",
+        "chính",
+        "là",
+        "chìa",
+        "khóa",
+        "mở",
+        "ra",
+        "cánh",
+        "cửa",
+        "của",
+        "thế",
+        "giới",
+        "văn",
+        "minh."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Dù",
+        "đi",
+        "đâu",
+        "về",
+        "đâu,",
+        "mỗi",
+        "người",
+        "con",
+        "đất",
+        "Việt",
+        "luôn",
+        "mang",
+        "trong",
+        "tim",
+        "niềm",
+        "tự",
+        "hào,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lòng",
+        "biết",
+        "ơn",
+        "sâu",
+        "sắc",
+        "đối",
+        "với",
+        "tổ",
+        "tiên",
+        "và",
+        "khát",
+        "khao",
+        "cống",
+        "hiến",
+        "cho",
+        "quê",
+        "hương."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Đoạn văn dài rèn luyện phản xạ đỉnh cao",
+  "lessonId": "lesson26",
+  "isExam": false,
+  "targetWpm": 35,
+  "minAccuracy": 95
+}

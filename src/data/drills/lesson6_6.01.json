@@ -1,47 +1,62 @@
 {
   "id": "6.01",
-  "title": "Bài 6.01 - Khởi động co ngón C & ,",
+  "title": "6.01 - Khởi động D-C & K-,",
   "orderIndex": 0,
   "lines": [
     {
       "groups": [
-        "c c",
-        ", ,",
-        "c c",
-        ", ,"
+        "c",
+        "c",
+        ",",
+        ",",
+        "c",
+        "c",
+        ",",
+        ","
       ],
       "isLoopStart": false
     },
     {
       "groups": [
-        "c ,",
-        "c ,",
-        ", c",
-        ", c"
-      ],
-      "isLoopStart": false
-    },
-    {
-      "groups": [
-        "dc",
-        "k,",
-        "cd",
-        ",k"
+        "d",
+        "c",
+        "k",
+        ",",
+        "c",
+        "d",
+        ",",
+        "k"
       ],
       "isLoopStart": false
     },
     {
       "groups": [
         "dck,",
-        "k,dc",
-        "dcdc",
-        "k,k,"
+        "cd,k",
+        "cccc",
+        ",,,,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "c",
+        ",",
+        "c",
+        ",",
+        ",",
+        "c",
+        ",",
+        "c"
       ],
       "isLoopStart": false
     }
   ],
-  "type": "drill",
+  "type": "warmup",
   "lang": "en",
-  "desc": "Tập co ngón giữa xuống hàng phím dưới",
-  "lessonId": "lesson6"
+  "desc": "Tập co ngón giữa xuống hàng dưới",
+  "lessonId": "lesson6",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
 }

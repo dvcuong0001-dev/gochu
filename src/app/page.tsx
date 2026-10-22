@@ -23,6 +23,10 @@ export default function Home() {
   // Navigation tab - Default to "home" as requested by user
   const [currentTab, setCurrentTab] = useState<NavTab>("home");
 
+  // Progression & Unlocked lessons state
+  const [unlockedLessons, setUnlockedLessons] = useState<string[]>(["lesson1"]);
+  const [isFreeMode, setIsFreeMode] = useState(false);
+
   // Lesson & Drill state
   const [currentLessonId, setCurrentLessonId] = useState("lesson1");
   const [currentDrillId, setCurrentDrillId] = useState("1.01");
@@ -30,15 +34,44 @@ export default function Home() {
   const [loadingDrill, setLoadingDrill] = useState(true);
   const [isLessonSelectorOpen, setIsLessonSelectorOpen] = useState(false);
 
-  // Load user from localStorage on mount
+  // Load user & progression from localStorage on mount
   useEffect(() => {
     try {
       const savedUser = localStorage.getItem("tuhoc_user");
       if (savedUser) {
         setUser(JSON.parse(savedUser));
       }
+      const savedUnlocked = localStorage.getItem("unlocked_lessons");
+      if (savedUnlocked) {
+        setUnlockedLessons(JSON.parse(savedUnlocked));
+      }
+      const savedFreeMode = localStorage.getItem("typing_free_mode");
+      if (savedFreeMode) {
+        setIsFreeMode(savedFreeMode === "true");
+      }
     } catch (_) {}
   }, []);
+
+  const handleToggleFreeMode = () => {
+    const nextVal = !isFreeMode;
+    setIsFreeMode(nextVal);
+    localStorage.setItem("typing_free_mode", String(nextVal));
+  };
+
+  const handleUnlockNextLesson = (completedLessonId: string) => {
+    const idx = lessons.findIndex((l) => l.id === completedLessonId);
+    if (idx !== -1 && idx < lessons.length - 1) {
+      const nextLesson = lessons[idx + 1];
+      setUnlockedLessons((prev) => {
+        if (prev.includes(nextLesson.id)) return prev;
+        const updated = [...prev, nextLesson.id];
+        try {
+          localStorage.setItem("unlocked_lessons", JSON.stringify(updated));
+        } catch (_) {}
+        return updated;
+      });
+    }
+  };
 
   // Award XP and handle level up
   const handleAwardXp = (gainedXp: number) => {
@@ -93,10 +126,13 @@ export default function Home() {
       ? currentLesson.drillsMeta
       : [];
 
-    const currentIndex = metas.findIndex((m) => m.drill_id === currentDrillId);
+    const getMetaId = (m: any) => m?.id || m?.drill_id || m?.drillId;
+
+    const currentIndex = metas.findIndex((m: any) => getMetaId(m) === currentDrillId);
 
     if (currentIndex !== -1 && currentIndex < metas.length - 1) {
-      setCurrentDrillId(metas[currentIndex + 1].drill_id);
+      const nextId = getMetaId(metas[currentIndex + 1]);
+      if (nextId) setCurrentDrillId(nextId);
     } else {
       const lessonIndex = lessons.findIndex((l) => l.id === currentLessonId);
       if (lessonIndex !== -1 && lessonIndex < lessons.length - 1) {
@@ -106,7 +142,8 @@ export default function Home() {
           ? nextLesson.drillsMeta
           : [];
         if (nextMetas.length > 0) {
-          setCurrentDrillId(nextMetas[0].drill_id);
+          const firstId = getMetaId(nextMetas[0]);
+          setCurrentDrillId(firstId || `${nextLesson.code}.1`);
         } else {
           setCurrentDrillId(`${nextLesson.code}.1`);
         }
@@ -202,6 +239,7 @@ export default function Home() {
                 onExit={() => setCurrentTab("home")}
                 user={user}
                 onAwardXp={handleAwardXp}
+                onUnlockNextLesson={handleUnlockNextLesson}
               />
             )}
           </div>
@@ -235,6 +273,9 @@ export default function Home() {
         }}
         isOpen={isLessonSelectorOpen}
         onClose={() => setIsLessonSelectorOpen(false)}
+        unlockedLessons={unlockedLessons}
+        isFreeMode={isFreeMode}
+        onToggleFreeMode={handleToggleFreeMode}
       />
 
       {/* Auth / Profile Modal */}

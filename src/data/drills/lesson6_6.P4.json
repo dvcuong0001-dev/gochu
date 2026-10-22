@@ -1,0 +1,64 @@
+{
+  "id": "6.P4",
+  "title": "6.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Alice",
+        "called",
+        "her",
+        "doctor,",
+        "asked",
+        "for",
+        "advice,",
+        "and",
+        "took",
+        "cold",
+        "water."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "If",
+        "you",
+        "act",
+        "with",
+        "care,",
+        "each",
+        "choice",
+        "will",
+        "bring",
+        "peace",
+        "and",
+        "clear",
+        "luck."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Clean",
+        "food,",
+        "cool",
+        "water,",
+        "and",
+        "calm",
+        "sleep",
+        "keep",
+        "our",
+        "bodies",
+        "active."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu phức có dấu phẩy",
+  "lessonId": "lesson6",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

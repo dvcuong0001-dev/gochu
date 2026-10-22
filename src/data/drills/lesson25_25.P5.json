@@ -1,0 +1,89 @@
+{
+  "id": "25.P5",
+  "title": "25.P5 - Đoạn ca dao tục ngữ",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Ăn",
+        "quả",
+        "nhớ",
+        "kẻ",
+        "trồng",
+        "cây,",
+        "uống",
+        "nước",
+        "nhớ",
+        "nguồn."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Có",
+        "công",
+        "mài",
+        "sắt,",
+        "có",
+        "ngày",
+        "nên",
+        "kim."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Học",
+        "ăn",
+        "học",
+        "nói,",
+        "học",
+        "gói",
+        "học",
+        "mở."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Một",
+        "cây",
+        "làm",
+        "chẳng",
+        "nên",
+        "non,",
+        "ba",
+        "cây",
+        "chụm",
+        "lại",
+        "nên",
+        "hòn",
+        "núi",
+        "cao."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Đoàn",
+        "kết",
+        "là",
+        "sức",
+        "mạnh,",
+        "chia",
+        "rẽ",
+        "là",
+        "yếu",
+        "hèn."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Rèn luyện sức bền gõ tiếng Việt",
+  "lessonId": "lesson25",
+  "isExam": false,
+  "targetWpm": 30,
+  "minAccuracy": 95
+}

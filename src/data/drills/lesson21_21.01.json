@@ -1,0 +1,63 @@
+{
+  "id": "21.01",
+  "title": "21.01 - Khởi động { } và | \\",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "{",
+        "}",
+        "{",
+        "}",
+        "|",
+        "|",
+        "\\",
+        "\\",
+        "{",
+        "|",
+        "}",
+        "\\"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{",
+        "id:",
+        "1",
+        "}",
+        "{",
+        "name:",
+        "\"Tom\"",
+        "}",
+        "a",
+        "|",
+        "b",
+        "path\\to\\file"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "{",
+        "a:",
+        "10,",
+        "b:",
+        "20",
+        "}",
+        "x",
+        "|",
+        "y",
+        "C:\\Users\\Admin"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện ngoặc nhọn và sổ thẳng",
+  "lessonId": "lesson21",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

@@ -1,0 +1,46 @@
+{
+  "id": "9.P3",
+  "title": "9.P3 - Cụm từ nhịp điệu",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "warm",
+        "water",
+        "moves",
+        ";",
+        "small",
+        "dreams",
+        "come",
+        "true",
+        ";",
+        "wise",
+        "words"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "welcome",
+        "winter",
+        "winds",
+        ";",
+        "women",
+        "made",
+        "warm",
+        "meals",
+        ";",
+        "morning",
+        "mist"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Cụm từ chứa W và M",
+  "lessonId": "lesson9",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

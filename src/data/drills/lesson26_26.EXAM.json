@@ -1,0 +1,110 @@
+{
+  "id": "26.EXAM",
+  "title": "26.EXAM - ĐẠI SÁT HẠCH CHẶNG 3 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Tre",
+        "xanh",
+        "xanh",
+        "tự",
+        "bao",
+        "giờ,",
+        "chuyện",
+        "ngày",
+        "xưa",
+        "đã",
+        "có",
+        "bờ",
+        "tre",
+        "xanh."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Thân",
+        "gầy",
+        "guộc,",
+        "lá",
+        "mong",
+        "manh,",
+        "mà",
+        "sao",
+        "nên",
+        "lũy",
+        "nên",
+        "thành",
+        "tre",
+        "ơi."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ở",
+        "đâu",
+        "tre",
+        "cũng",
+        "xanh",
+        "tươi,",
+        "cho",
+        "dù",
+        "đất",
+        "sỏi",
+        "đất",
+        "vôi",
+        "bạc",
+        "màu."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Có",
+        "gì",
+        "đâu,",
+        "có",
+        "gì",
+        "đâu,",
+        "mỡ",
+        "màu",
+        "ít",
+        "chắt",
+        "dồn",
+        "vào",
+        "nuôi",
+        "cây."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Người",
+        "Việt",
+        "Nam",
+        "luôn",
+        "kiên",
+        "cường,",
+        "giàu",
+        "lòng",
+        "nhân",
+        "ái",
+        "và",
+        "khát",
+        "khao",
+        "vươn",
+        "lên."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "vi",
+  "desc": "Sát hạch toàn diện tiếng Việt (Cần Acc ≥ 96%, WPM ≥ 35)",
+  "lessonId": "lesson26",
+  "isExam": true,
+  "targetWpm": 35,
+  "minAccuracy": 96
+}

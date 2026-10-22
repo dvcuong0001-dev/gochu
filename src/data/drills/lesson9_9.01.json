@@ -1,0 +1,49 @@
+{
+  "id": "9.01",
+  "title": "9.01 - Khởi động S-W & J-M",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "w",
+        "w",
+        "m",
+        "m",
+        "w",
+        "w",
+        "m",
+        "m"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s",
+        "w",
+        "j",
+        "m",
+        "w",
+        "s",
+        "m",
+        "j"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "swjm",
+        "mjsw",
+        "wsws",
+        "mjmj"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Vươn ngón áp út W và co ngón trỏ M",
+  "lessonId": "lesson9",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

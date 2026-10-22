@@ -1,0 +1,77 @@
+{
+  "id": "1.P1",
+  "title": "1.P1 - Luyện từ ngắn (2-3 ký tự)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "as",
+        "ad",
+        "af",
+        "aj",
+        "ak",
+        "al",
+        "a;",
+        "da",
+        "fa",
+        "ka",
+        "la",
+        "sa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fa",
+        "da",
+        "la",
+        "sa",
+        "ja",
+        "ka",
+        "ask",
+        "all",
+        "fad",
+        "dad",
+        "lad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fad",
+        "dad",
+        "lad",
+        "sad",
+        "ask",
+        "all",
+        "ala",
+        "alf",
+        "fads",
+        "lads"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "as",
+        "dad",
+        "all",
+        "ask",
+        "sad",
+        "lad",
+        "all",
+        "fad",
+        "ask",
+        "sad"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ nhịp phím cơ sở với các từ ngắn",
+  "lessonId": "lesson1",
+  "isExam": false,
+  "targetWpm": 16,
+  "minAccuracy": 95
+}

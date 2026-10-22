@@ -1,0 +1,84 @@
+{
+  "id": "24.P5",
+  "title": "24.P5 - Đoạn văn tích lũy toàn bộ Chặng 2",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "//",
+        "Configuration",
+        "header:",
+        "#app-v2.0-release"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "const",
+        "app",
+        "=",
+        "{",
+        "port:",
+        "8080,",
+        "apiKey:",
+        "\"key_987#xyz*2026\",",
+        "host:",
+        "\"127.0.0.1\"",
+        "};"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Compute",
+        "metrics:",
+        "memory",
+        "~",
+        "512MB;",
+        "throughput",
+        "=",
+        "requests",
+        "*",
+        "2^4",
+        "=",
+        "16000/s."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Path",
+        "configuration:",
+        "cd",
+        "~/.app",
+        "&&",
+        "source",
+        "./env.sh",
+        "#start",
+        "server"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "All",
+        "10",
+        "digits",
+        "(0-9)",
+        "and",
+        "special",
+        "symbols",
+        "(!@#$%^&*()_+={}\\[\\]:;\"'<>,.?/~)",
+        "mastered!"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền",
+  "lessonId": "lesson24",
+  "isExam": false,
+  "targetWpm": 29,
+  "minAccuracy": 95
+}

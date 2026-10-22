@@ -1,0 +1,96 @@
+{
+  "id": "1.P4",
+  "title": "1.P4 - Câu văn ngắn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "dad",
+        "ask",
+        "a",
+        "glad",
+        "lad",
+        "to",
+        "add",
+        "salad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "sad",
+        "lad",
+        "asks",
+        "dad",
+        "for",
+        "a",
+        "glass",
+        "flask"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "all",
+        "glad",
+        "lads",
+        "fall",
+        "as",
+        "dad",
+        "asks",
+        "all"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dad",
+        "had",
+        "a",
+        "salad",
+        "and",
+        "all",
+        "lads",
+        "had",
+        "salsa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "lad",
+        "asks",
+        "dad",
+        "as",
+        "all",
+        "salads",
+        "fall",
+        "fast"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "glad",
+        "dad",
+        "falls",
+        "as",
+        "a",
+        "lad",
+        "adds",
+        "all",
+        "salsa"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu văn hoàn chỉnh không ngắt quãng",
+  "lessonId": "lesson1",
+  "isExam": false,
+  "targetWpm": 18,
+  "minAccuracy": 95
+}

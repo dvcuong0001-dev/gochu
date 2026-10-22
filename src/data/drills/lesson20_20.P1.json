@@ -1,0 +1,59 @@
+{
+  "id": "20.P1",
+  "title": "20.P1 - Phép tính số học",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "10",
+        "+",
+        "20",
+        "-",
+        "5",
+        "=",
+        "25;",
+        "100",
+        "-",
+        "50",
+        "+",
+        "20",
+        "=",
+        "70;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "total",
+        "=",
+        "subtotal",
+        "+",
+        "tax",
+        "-",
+        "discount;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "balance",
+        "=",
+        "income",
+        "-",
+        "expense",
+        "+",
+        "bonus",
+        "=",
+        "1500;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện phương trình toán học",
+  "lessonId": "lesson20",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

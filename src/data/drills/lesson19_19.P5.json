@@ -1,0 +1,93 @@
+{
+  "id": "19.P5",
+  "title": "19.P5 - Đoạn văn tích lũy ngoặc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Initialize",
+        "vector",
+        "coords",
+        "=",
+        "[(0,",
+        "0),",
+        "(10,",
+        "20),",
+        "(30,",
+        "50)]."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Compute",
+        "distance:",
+        "d",
+        "=",
+        "sqrt((x[1]",
+        "-",
+        "x[0])^2",
+        "+",
+        "(y[1]",
+        "-",
+        "y[0])^2)."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Store",
+        "result",
+        "into",
+        "cache[id]",
+        "and",
+        "log(\"Computed",
+        "successfully\")."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Always",
+        "verify",
+        "that",
+        "indices",
+        "[0]",
+        "to",
+        "[len",
+        "-",
+        "1]",
+        "stay",
+        "within",
+        "bounds",
+        "(index",
+        ">=",
+        "0)."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Clean",
+        "code",
+        "and",
+        "proper",
+        "bracket",
+        "matching",
+        "(parentheses",
+        "and",
+        "brackets)",
+        "ensure",
+        "reliability."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền",
+  "lessonId": "lesson19",
+  "isExam": false,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

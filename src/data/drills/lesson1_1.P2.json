@@ -1,0 +1,77 @@
+{
+  "id": "1.P2",
+  "title": "1.P2 - Luyện từ trung bình (4-5 ký tự)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "fall",
+        "glad",
+        "flask",
+        "salad",
+        "fads",
+        "lads",
+        "salsa",
+        "flak"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "falls",
+        "skalds",
+        "salads",
+        "flasks",
+        "alfalfa",
+        "kafka"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "glad",
+        "dad",
+        "ask",
+        "all",
+        "lads",
+        "for",
+        "salad",
+        "fall"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "salad",
+        "falls",
+        "ask",
+        "glad",
+        "lad",
+        "add",
+        "alfalfa",
+        "salsa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "flasks",
+        "fall",
+        "as",
+        "dad",
+        "asks",
+        "all",
+        "glad",
+        "lads"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Phối hợp chuyển động các ngón tay",
+  "lessonId": "lesson1",
+  "isExam": false,
+  "targetWpm": 17,
+  "minAccuracy": 95
+}

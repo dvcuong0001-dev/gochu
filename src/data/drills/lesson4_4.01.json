@@ -1,0 +1,62 @@
+{
+  "id": "4.01",
+  "title": "4.01 - Khởi động F-T & L-O",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "t",
+        "t",
+        "o",
+        "o",
+        "t",
+        "t",
+        "o",
+        "o"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f",
+        "t",
+        "l",
+        "o",
+        "t",
+        "f",
+        "o",
+        "l"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "ftlo",
+        "loft",
+        "toto",
+        "trot"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "t",
+        "o",
+        "t",
+        "o",
+        "o",
+        "t",
+        "o",
+        "t"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Tập vươn ngón trỏ T và áp út O",
+  "lessonId": "lesson4",
+  "isExam": false,
+  "targetWpm": 18,
+  "minAccuracy": 95
+}

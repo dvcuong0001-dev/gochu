@@ -1,0 +1,79 @@
+{
+  "id": "8.EXAM",
+  "title": "8.EXAM - KIỂM TRA VƯỢT ẢI BÀI 8 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Have",
+        "you",
+        "seen",
+        "the",
+        "evening",
+        "view",
+        "from",
+        "this",
+        "lovely",
+        "mountain?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nine",
+        "brave",
+        "men",
+        "arrived",
+        "on",
+        "time,",
+        "but",
+        "who",
+        "gave",
+        "them",
+        "the",
+        "green",
+        "light?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Never",
+        "doubt",
+        "your",
+        "inner",
+        "voice,",
+        "for",
+        "it",
+        "guides",
+        "you",
+        "through",
+        "every",
+        "storm."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Can",
+        "we",
+        "achieve",
+        "great",
+        "victory",
+        "without",
+        "patience",
+        "and",
+        "honest",
+        "work?"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch V, N và dấu ? (Cần Acc ≥ 95%, WPM ≥ 25)",
+  "lessonId": "lesson8",
+  "isExam": true,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

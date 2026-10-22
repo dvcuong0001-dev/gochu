@@ -1,0 +1,94 @@
+{
+  "id": "2.P4",
+  "title": "2.P4 - Câu văn liên kết",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "a",
+        "sick",
+        "kid",
+        "fell",
+        "like",
+        "a",
+        "silk",
+        "leaf",
+        "in",
+        "a",
+        "field"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dad",
+        "said",
+        "he",
+        "feel",
+        "like",
+        "a",
+        "safe",
+        "deal",
+        "is",
+        "all"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "lisa",
+        "likes",
+        "to",
+        "feed",
+        "all",
+        "kids",
+        "fresh",
+        "sweet",
+        "salad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "a",
+        "kid",
+        "fails",
+        "a",
+        "task",
+        "dad",
+        "said",
+        "he",
+        "will",
+        "still",
+        "feel",
+        "glad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "she",
+        "sailed",
+        "like",
+        "a",
+        "fish",
+        "and",
+        "felt",
+        "free",
+        "in",
+        "her",
+        "daily",
+        "life"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu văn hoàn chỉnh tăng tốc",
+  "lessonId": "lesson2",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

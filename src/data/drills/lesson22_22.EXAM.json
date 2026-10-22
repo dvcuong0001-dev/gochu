@@ -1,0 +1,59 @@
+{
+  "id": "22.EXAM",
+  "title": "22.EXAM - KIỂM TRA VƯỢT ẢI BÀI 22 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Contact",
+        "support@company.org",
+        "to",
+        "claim",
+        "$250",
+        "&",
+        "get",
+        "a",
+        "30%",
+        "voucher."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Total",
+        "invoice:",
+        "$1,200",
+        "&",
+        "discount:",
+        "15%",
+        "for",
+        "VIP@member."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ensure",
+        "100%",
+        "accuracy",
+        "&",
+        "achieve",
+        "45",
+        "WPM",
+        "to",
+        "earn",
+        "the",
+        "Gold",
+        "Cup."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch @ $ & % (Cần Acc ≥ 95%, WPM ≥ 28)",
+  "lessonId": "lesson22",
+  "isExam": true,
+  "targetWpm": 28,
+  "minAccuracy": 95
+}

@@ -1,0 +1,73 @@
+{
+  "id": "3.P3",
+  "title": "3.P3 - Cụm từ nhịp điệu",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "read",
+        "a",
+        "rule",
+        ";",
+        "clear",
+        "a",
+        "fruit",
+        ";",
+        "fear",
+        "no",
+        "risk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "fair",
+        "user",
+        ";",
+        "dark",
+        "red",
+        "fire",
+        ";",
+        "loud",
+        "rural",
+        "river"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cure",
+        "a",
+        "sick",
+        "kid",
+        ";",
+        "rural",
+        "rulers",
+        "raise",
+        "adults"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "rude",
+        "ruler",
+        "refused",
+        "to",
+        "read",
+        "clear",
+        "rules"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện cụm từ có nghĩa",
+  "lessonId": "lesson3",
+  "isExam": false,
+  "targetWpm": 21,
+  "minAccuracy": 95
+}

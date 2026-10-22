@@ -1,0 +1,97 @@
+{
+  "id": "8.P5",
+  "title": "8.P5 - Đoạn văn tích lũy",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Have",
+        "you",
+        "ever",
+        "seen",
+        "the",
+        "evening",
+        "view",
+        "from",
+        "this",
+        "lovely",
+        "mountain?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nine",
+        "brave",
+        "visitors",
+        "arrived",
+        "on",
+        "time,",
+        "but",
+        "who",
+        "gave",
+        "them",
+        "the",
+        "signal?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Never",
+        "doubt",
+        "your",
+        "inner",
+        "voice,",
+        "for",
+        "it",
+        "guides",
+        "you",
+        "through",
+        "every",
+        "storm."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nature",
+        "teaches",
+        "us",
+        "to",
+        "remain",
+        "calm,",
+        "even",
+        "when",
+        "sudden",
+        "storms",
+        "arrive."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "When",
+        "you",
+        "face",
+        "difficulties,",
+        "ask",
+        "yourself:",
+        "have",
+        "I",
+        "given",
+        "my",
+        "very",
+        "best?"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tích lũy Bài 1 đến Bài 8",
+  "lessonId": "lesson8",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

@@ -1,0 +1,43 @@
+{
+  "id": "18.01",
+  "title": "18.01 - Khởi động / và ?",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "/",
+        "/",
+        "?",
+        "?",
+        "/",
+        "?",
+        "?",
+        "/"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yes/no",
+        "true/false",
+        "input/output",
+        "and/or"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "https://tuhoc.cc",
+        "http://localhost:3000"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện phản xạ phím ngón út",
+  "lessonId": "lesson18",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

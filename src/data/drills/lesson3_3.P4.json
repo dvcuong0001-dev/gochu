@@ -1,0 +1,79 @@
+{
+  "id": "3.P4",
+  "title": "3.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "read",
+        "a",
+        "clear",
+        "rule",
+        "for",
+        "each",
+        "real",
+        "user",
+        "in",
+        "this",
+        "area"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fear",
+        "is",
+        "a",
+        "dark",
+        "risk",
+        "for",
+        "a",
+        "rural",
+        "rider",
+        "in",
+        "late",
+        "dusk"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "four",
+        "red",
+        "birds",
+        "flew",
+        "far",
+        "over",
+        "our",
+        "rural",
+        "roof",
+        "and",
+        "lake"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "adults",
+        "refuse",
+        "to",
+        "use",
+        "fake",
+        "rules",
+        "if",
+        "clear",
+        "rules",
+        "are",
+        "said"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu văn liên tục",
+  "lessonId": "lesson3",
+  "isExam": false,
+  "targetWpm": 21,
+  "minAccuracy": 95
+}

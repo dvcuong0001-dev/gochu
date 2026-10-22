@@ -1,0 +1,74 @@
+{
+  "id": "5.EXAM",
+  "title": "5.EXAM - KIỂM TRA VƯỢT ẢI BÀI 5 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Lisa",
+        "likes",
+        "fresh",
+        "fruit.",
+        "Tom",
+        "takes",
+        "care",
+        "of",
+        "his",
+        "cat."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "She",
+        "told",
+        "Rita",
+        "that",
+        "life",
+        "is",
+        "full",
+        "of",
+        "sweet",
+        "joys."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Look",
+        "at",
+        "the",
+        "tall",
+        "tree.",
+        "It",
+        "stands",
+        "firm",
+        "in",
+        "the",
+        "wind."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Trust",
+        "in",
+        "yourself.",
+        "True",
+        "effort",
+        "will",
+        "bring",
+        "great",
+        "success."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch chuẩn ngữ pháp có hoa và chấm (Cần Acc ≥ 95%, WPM ≥ 23)",
+  "lessonId": "lesson5",
+  "isExam": true,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

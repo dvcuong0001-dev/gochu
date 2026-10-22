@@ -1,0 +1,56 @@
+{
+  "id": "13.P1",
+  "title": "13.P1 - Cụm số ngắn",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "45",
+        "67",
+        "54",
+        "76",
+        "46",
+        "57",
+        "456",
+        "765",
+        "654",
+        "475",
+        "674"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "room",
+        "45,",
+        "gate",
+        "67,",
+        "line",
+        "54,",
+        "train",
+        "765"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "code",
+        "456,",
+        "flight",
+        "764,",
+        "route",
+        "57,",
+        "floor",
+        "46"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện nhóm 2-3 chữ số",
+  "lessonId": "lesson13",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

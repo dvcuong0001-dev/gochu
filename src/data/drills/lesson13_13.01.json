@@ -1,0 +1,64 @@
+{
+  "id": "13.01",
+  "title": "13.01 - Khởi động phím số 4, 5, 6, 7",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "4",
+        "4",
+        "5",
+        "5",
+        "6",
+        "6",
+        "7",
+        "7"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f4",
+        "f5",
+        "j6",
+        "j7",
+        "4f",
+        "5f",
+        "6j",
+        "7j"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "45",
+        "67",
+        "47",
+        "56",
+        "7654",
+        "4567"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "7",
+        "6",
+        "5",
+        "4"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện phản xạ ngón trỏ vươn hàng số",
+  "lessonId": "lesson13",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

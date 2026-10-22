@@ -1,0 +1,64 @@
+{
+  "id": "20.P3",
+  "title": "20.P3 - Biểu thức phức tạp",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "result",
+        "=",
+        "(a",
+        "+",
+        "b)",
+        "-",
+        "(c",
+        "-",
+        "d)",
+        "+",
+        "(e",
+        "+",
+        "f)",
+        "=",
+        "120;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "profit",
+        "=",
+        "revenue",
+        "-",
+        "cost",
+        "=",
+        "50000",
+        "-",
+        "32000",
+        "=",
+        "18000;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "finalScore",
+        "=",
+        "points",
+        "+",
+        "bonus",
+        "-",
+        "penalty",
+        "=",
+        "98;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện kết hợp toán tử",
+  "lessonId": "lesson20",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

@@ -1,0 +1,98 @@
+{
+  "id": "15.P5",
+  "title": "15.P5 - Đoạn văn tích lũy toàn diện",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "On",
+        "September",
+        "29,",
+        "Flight",
+        "292",
+        "departed",
+        "from",
+        "terminal",
+        "2",
+        "at",
+        "9:20."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Captain",
+        "Davis",
+        "reported",
+        "289",
+        "passengers",
+        "and",
+        "9",
+        "crew",
+        "members",
+        "on",
+        "board."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "plane",
+        "flew",
+        "at",
+        "29,000",
+        "feet",
+        "with",
+        "a",
+        "cruising",
+        "speed",
+        "of",
+        "920",
+        "km/h."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "After",
+        "2",
+        "hours",
+        "and",
+        "29",
+        "minutes,",
+        "the",
+        "aircraft",
+        "touched",
+        "down",
+        "safely",
+        "at",
+        "gate",
+        "92."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "All",
+        "298",
+        "travelers",
+        "praised",
+        "the",
+        "prompt",
+        "service",
+        "and",
+        "smooth",
+        "landing."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện ngón áp út",
+  "lessonId": "lesson15",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

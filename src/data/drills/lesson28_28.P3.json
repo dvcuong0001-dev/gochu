@@ -1,0 +1,86 @@
+{
+  "id": "28.P3",
+  "title": "28.P3 - Email phản hồi dịch vụ khách hàng",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Kính",
+        "gửi",
+        "Quý",
+        "khách",
+        "hàng,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cảm",
+        "ơn",
+        "Quý",
+        "khách",
+        "đã",
+        "luôn",
+        "tin",
+        "tưởng",
+        "và",
+        "sử",
+        "dụng",
+        "dịch",
+        "vụ",
+        "của",
+        "chúng",
+        "tôi."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Yêu",
+        "cầu",
+        "hỗ",
+        "trợ",
+        "của",
+        "Quý",
+        "khách",
+        "đã",
+        "được",
+        "tiếp",
+        "nhận",
+        "và",
+        "xử",
+        "lý",
+        "thành",
+        "công."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nếu",
+        "cần",
+        "thêm",
+        "thông",
+        "tin,",
+        "xin",
+        "vui",
+        "lòng",
+        "liên",
+        "hệ",
+        "tổng",
+        "đài",
+        "hỗ",
+        "trợ",
+        "24/7."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Chuẩn mực chăm sóc khách hàng",
+  "lessonId": "lesson28",
+  "isExam": false,
+  "targetWpm": 39,
+  "minAccuracy": 95
+}

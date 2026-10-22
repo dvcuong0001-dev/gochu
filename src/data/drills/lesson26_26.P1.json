@@ -1,0 +1,64 @@
+{
+  "id": "26.P1",
+  "title": "26.P1 - Luyện thành ngữ 4 chữ",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Đồng",
+        "cam",
+        "cộng",
+        "khổ.",
+        "Kề",
+        "vai",
+        "sát",
+        "cánh.",
+        "Chung",
+        "lưng",
+        "đấu",
+        "cật."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Lá",
+        "lành",
+        "đùm",
+        "lá",
+        "rách.",
+        "Thương",
+        "người",
+        "như",
+        "thể",
+        "thương",
+        "thân."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Non",
+        "xanh",
+        "nước",
+        "biếc.",
+        "Mưa",
+        "thuận",
+        "gió",
+        "hòa.",
+        "Đất",
+        "lành",
+        "chim",
+        "đậu."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Luyện gõ cụm từ dân gian",
+  "lessonId": "lesson26",
+  "isExam": false,
+  "targetWpm": 30,
+  "minAccuracy": 95
+}

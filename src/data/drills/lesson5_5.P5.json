@@ -1,0 +1,100 @@
+{
+  "id": "5.P5",
+  "title": "5.P5 - Đoạn văn tích lũy toàn diện",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Tom",
+        "and",
+        "Lisa",
+        "walked",
+        "to",
+        "the",
+        "forest",
+        "at",
+        "sunset.",
+        "They",
+        "saw",
+        "a",
+        "tall",
+        "red",
+        "tree."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Rita",
+        "sat",
+        "on",
+        "a",
+        "rock",
+        "and",
+        "read",
+        "a",
+        "useful",
+        "book",
+        "about",
+        "stars."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Dad",
+        "told",
+        "all",
+        "of",
+        "us",
+        "that",
+        "kindness",
+        "is",
+        "the",
+        "greatest",
+        "treasure",
+        "in",
+        "life."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "When",
+        "night",
+        "falls,",
+        "clear",
+        "stars",
+        "shine",
+        "over",
+        "the",
+        "quiet",
+        "lake."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Every",
+        "small",
+        "step",
+        "will",
+        "take",
+        "you",
+        "closer",
+        "to",
+        "your",
+        "bright",
+        "future."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tích lũy từ Bài 1 đến Bài 5",
+  "lessonId": "lesson5",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

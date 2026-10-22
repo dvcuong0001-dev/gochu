@@ -1,0 +1,103 @@
+{
+  "id": "27.P3",
+  "title": "27.P3 - Nhịp sống đô thị (150 từ)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Đường",
+        "phố",
+        "lúc",
+        "ban",
+        "mai",
+        "mang",
+        "một",
+        "vẻ",
+        "đẹp",
+        "tĩnh",
+        "lặng",
+        "hiếm",
+        "có."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Khi",
+        "ánh",
+        "nắng",
+        "đầu",
+        "tiên",
+        "xuyên",
+        "qua",
+        "từng",
+        "vòm",
+        "cây",
+        "cổ",
+        "thụ,",
+        "thành",
+        "phố",
+        "bắt",
+        "đầu",
+        "thức",
+        "giấc."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Những",
+        "chuyến",
+        "xe",
+        "hối",
+        "hả",
+        "ngược",
+        "xuôi",
+        "chở",
+        "theo",
+        "bao",
+        "ước",
+        "mơ",
+        "và",
+        "hy",
+        "vọng",
+        "của",
+        "một",
+        "ngày",
+        "mới."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Mỗi",
+        "người",
+        "một",
+        "công",
+        "việc,",
+        "tất",
+        "cả",
+        "cùng",
+        "tạo",
+        "nên",
+        "một",
+        "nhịp",
+        "sống",
+        "năng",
+        "động",
+        "và",
+        "đầy",
+        "sức",
+        "sống."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Rèn luyện nhịp gõ êm mượt",
+  "lessonId": "lesson27",
+  "isExam": false,
+  "targetWpm": 38,
+  "minAccuracy": 95
+}

@@ -1,0 +1,48 @@
+{
+  "id": "18.EXAM",
+  "title": "18.EXAM - KIỂM TRA VƯỢT ẢI BÀI 18 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Visit",
+        "https://domain.com/user/profile?id=2026&action=view?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Are",
+        "you",
+        "ready",
+        "for",
+        "the",
+        "final",
+        "exam?",
+        "Can",
+        "you",
+        "type",
+        "30",
+        "words/minute?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Check",
+        "the",
+        "configuration",
+        "at",
+        "/etc/nginx/sites-available/default."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch / và ? (Cần Acc ≥ 95%, WPM ≥ 26)",
+  "lessonId": "lesson18",
+  "isExam": true,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

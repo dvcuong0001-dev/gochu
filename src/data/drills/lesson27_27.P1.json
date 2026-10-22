@@ -1,0 +1,75 @@
+{
+  "id": "27.P1",
+  "title": "27.P1 - Tin tức kinh tế ngắn (50 từ)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Sáng",
+        "nay,",
+        "các",
+        "sàn",
+        "giao",
+        "dịch",
+        "chứng",
+        "khoán",
+        "ghi",
+        "nhận",
+        "mức",
+        "tăng",
+        "trưởng",
+        "ấn",
+        "tượng."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nhiều",
+        "doanh",
+        "nghiệp",
+        "công",
+        "nghệ",
+        "tại",
+        "Hà",
+        "Nội",
+        "và",
+        "Thành",
+        "phố",
+        "Hồ",
+        "Chí",
+        "Minh"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "đang",
+        "tích",
+        "cực",
+        "ứng",
+        "dụng",
+        "trí",
+        "tuệ",
+        "nhân",
+        "tạo",
+        "vào",
+        "quy",
+        "trình",
+        "sản",
+        "xuất",
+        "và",
+        "kinh",
+        "doanh."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Luyện văn phong báo chí",
+  "lessonId": "lesson27",
+  "isExam": false,
+  "targetWpm": 35,
+  "minAccuracy": 95
+}

@@ -1,0 +1,78 @@
+{
+  "id": "9.EXAM",
+  "title": "9.EXAM - KIỂM TRA VƯỢT ẢI BÀI 9 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "When",
+        "autumn",
+        "comes,",
+        "warm",
+        "memories",
+        "will",
+        "fill",
+        "our",
+        "quiet",
+        "rooms."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Many",
+        "women",
+        "walked",
+        "towards",
+        "the",
+        "morning",
+        "sun",
+        "with",
+        "sweet",
+        "smiles."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Wise",
+        "minds",
+        "make",
+        "wise",
+        "moves,",
+        "while",
+        "weak",
+        "words",
+        "melt",
+        "like",
+        "warm",
+        "snow."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Watch",
+        "the",
+        "warm",
+        "sunlight",
+        "dance",
+        "upon",
+        "the",
+        "moving",
+        "water",
+        "of",
+        "the",
+        "stream."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch W, M (Cần Acc ≥ 95%, WPM ≥ 25)",
+  "lessonId": "lesson9",
+  "isExam": true,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

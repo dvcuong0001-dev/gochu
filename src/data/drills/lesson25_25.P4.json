@@ -1,0 +1,73 @@
+{
+  "id": "25.P4",
+  "title": "25.P4 - Câu văn tiếng Việt ngắn",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Học",
+        "tập",
+        "là",
+        "hạt",
+        "giống",
+        "của",
+        "tự",
+        "do",
+        "và",
+        "là",
+        "ngọn",
+        "đèn",
+        "soi",
+        "sáng",
+        "tương",
+        "lai."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Gia",
+        "đình",
+        "là",
+        "điểm",
+        "tựa",
+        "bình",
+        "yên",
+        "nhất",
+        "sau",
+        "những",
+        "tháng",
+        "ngày",
+        "bão",
+        "giông."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Đất",
+        "nước",
+        "Việt",
+        "Nam",
+        "mến",
+        "yêu",
+        "luôn",
+        "chào",
+        "đón",
+        "những",
+        "bàn",
+        "tay",
+        "dựng",
+        "xây."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Gõ câu văn đời sống",
+  "lessonId": "lesson25",
+  "isExam": false,
+  "targetWpm": 30,
+  "minAccuracy": 95
+}

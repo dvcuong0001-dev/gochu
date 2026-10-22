@@ -1,0 +1,48 @@
+{
+  "id": "22.01",
+  "title": "22.01 - Khởi động @ $ & %",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "@",
+        "@",
+        "$",
+        "$",
+        "&",
+        "&",
+        "%",
+        "%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "email@domain.com",
+        "price:",
+        "$100",
+        "sale:",
+        "50%",
+        "Q&A"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "admin@tuhoc.cc",
+        "$250",
+        "100%",
+        "accurate",
+        "A&B"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện 4 ký hiệu đặc biệt",
+  "lessonId": "lesson22",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

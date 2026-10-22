@@ -1,0 +1,60 @@
+{
+  "id": "22.P2",
+  "title": "22.P2 - Phần trăm & Logic AND",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Accuracy:",
+        "98%;",
+        "Discount:",
+        "25%;",
+        "Growth:",
+        "150%;",
+        "Tax:",
+        "10%"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Bread",
+        "&",
+        "butter,",
+        "Salt",
+        "&",
+        "pepper,",
+        "Rock",
+        "&",
+        "roll,",
+        "Research",
+        "&",
+        "development"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "If",
+        "(score",
+        ">=",
+        "90%",
+        "&",
+        "speed",
+        ">=",
+        "40)",
+        "{",
+        "grantHonor();",
+        "}"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện % và &",
+  "lessonId": "lesson22",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

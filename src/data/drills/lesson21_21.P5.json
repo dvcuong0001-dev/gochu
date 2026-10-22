@@ -1,0 +1,88 @@
+{
+  "id": "21.P5",
+  "title": "21.P5 - Đoạn văn tích lũy",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Create",
+        "config",
+        "object:",
+        "{",
+        "port:",
+        "3000,",
+        "host:",
+        "\"localhost\",",
+        "ssl:",
+        "false",
+        "}."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "File",
+        "destination:",
+        "\"D:\\\\projects\\\\tuhoc-typing\\\\src\\\\index.ts\"."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Set",
+        "user",
+        "permissions:",
+        "access",
+        "=",
+        "READ",
+        "|",
+        "WRITE",
+        "|",
+        "EXECUTE."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "If",
+        "authorization",
+        "fails:",
+        "{",
+        "throw",
+        "new",
+        "Error(\"Access",
+        "denied",
+        "|",
+        "Invalid",
+        "token\");",
+        "}."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Always",
+        "close",
+        "open",
+        "brackets",
+        "{",
+        "}",
+        "and",
+        "escape",
+        "backslashes",
+        "\\\\",
+        "in",
+        "string",
+        "paths."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền",
+  "lessonId": "lesson21",
+  "isExam": false,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

@@ -1,0 +1,62 @@
+{
+  "id": "15.EXAM",
+  "title": "15.EXAM - KIỂM TRA VƯỢT ẢI BÀI 15 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "On",
+        "September",
+        "29,",
+        "Flight",
+        "292",
+        "departed",
+        "at",
+        "9:20",
+        "with",
+        "289",
+        "guests."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Store",
+        "29",
+        "sold",
+        "92",
+        "computers",
+        "and",
+        "294",
+        "mobile",
+        "phones",
+        "in",
+        "1992."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Customer",
+        "929",
+        "paid",
+        "290",
+        "dollars",
+        "for",
+        "invoice",
+        "298",
+        "on",
+        "September",
+        "2."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch số 2 và 9 (Cần Acc ≥ 95%, WPM ≥ 25)",
+  "lessonId": "lesson15",
+  "isExam": true,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

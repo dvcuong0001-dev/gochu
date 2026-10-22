@@ -1,0 +1,56 @@
+{
+  "id": "19.EXAM",
+  "title": "19.EXAM - KIỂM TRA VƯỢT ẢI BÀI 19 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "const",
+        "val",
+        "=",
+        "matrix[row][col]",
+        "+",
+        "(sum",
+        "*",
+        "offset[0]);"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "((data[0]",
+        "==",
+        "target)",
+        "&&",
+        "(flags[1]",
+        "!=",
+        "false))",
+        "{",
+        "return",
+        "true;",
+        "}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Process",
+        "array[index]",
+        "with",
+        "parameters",
+        "(width,",
+        "height,",
+        "options[0])."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch ngoặc ( ) và [ ] (Cần Acc ≥ 95%, WPM ≥ 27)",
+  "lessonId": "lesson19",
+  "isExam": true,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

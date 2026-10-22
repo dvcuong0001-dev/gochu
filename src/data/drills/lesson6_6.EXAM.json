@@ -1,0 +1,81 @@
+{
+  "id": "6.EXAM",
+  "title": "6.EXAM - KIỂM TRA VƯỢT ẢI BÀI 6 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Alice",
+        "called",
+        "her",
+        "doctor,",
+        "asked",
+        "for",
+        "advice,",
+        "and",
+        "took",
+        "cold",
+        "water."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cats,",
+        "dogs,",
+        "and",
+        "ducks",
+        "are",
+        "cute",
+        "pets,",
+        "but",
+        "they",
+        "need",
+        "clean",
+        "food."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "If",
+        "you",
+        "act",
+        "with",
+        "care,",
+        "each",
+        "choice",
+        "will",
+        "bring",
+        "peace",
+        "and",
+        "clear",
+        "luck."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cook",
+        "cool",
+        "rice,",
+        "fresh",
+        "cake,",
+        "and",
+        "dark",
+        "tea",
+        "for",
+        "our",
+        "guests."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch C và dấu phẩy (Cần Acc ≥ 95%, WPM ≥ 24)",
+  "lessonId": "lesson6",
+  "isExam": true,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

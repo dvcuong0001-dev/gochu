@@ -1,0 +1,102 @@
+{
+  "id": "12.P5",
+  "title": "12.P5 - Đoạn văn tích lũy toàn diện 26 chữ cái",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "The",
+        "quick",
+        "brown",
+        "fox",
+        "jumps",
+        "over",
+        "a",
+        "lazy",
+        "sleeping",
+        "dog",
+        "in",
+        "the",
+        "quiet",
+        "park."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Zero",
+        "excuses",
+        "can",
+        "justify",
+        "an",
+        "exit",
+        "when",
+        "you",
+        "have",
+        "the",
+        "capacity",
+        "to",
+        "excel."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Crazy",
+        "breezes",
+        "blew",
+        "six",
+        "dozen",
+        "extra",
+        "boxes",
+        "from",
+        "the",
+        "next",
+        "yellow",
+        "taxi."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Explore",
+        "the",
+        "horizon",
+        "with",
+        "extreme",
+        "courage",
+        "and",
+        "realize",
+        "your",
+        "noble",
+        "goals."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Practice",
+        "every",
+        "day",
+        "with",
+        "exact",
+        "zeal,",
+        "and",
+        "your",
+        "fingers",
+        "will",
+        "fly",
+        "with",
+        "joy."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tích lũy toàn bộ Chặng 1",
+  "lessonId": "lesson12",
+  "isExam": false,
+  "targetWpm": 28,
+  "minAccuracy": 95
+}

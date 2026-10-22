@@ -1,0 +1,41 @@
+{
+  "id": "7.P1",
+  "title": "7.P1 - Từ viết tắt có dấu nháy",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "it's",
+        "that's",
+        "don't",
+        "let's",
+        "he's",
+        "she's",
+        "can't",
+        "we're",
+        "they're"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "who's",
+        "what's",
+        "there's",
+        "here's",
+        "won't",
+        "isn't",
+        "aren't",
+        "didn't"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện dấu nháy đơn '",
+  "lessonId": "lesson7",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

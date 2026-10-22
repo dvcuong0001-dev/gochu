@@ -1,0 +1,54 @@
+{
+  "id": "16.P3",
+  "title": "16.P3 - Hóa đơn & Báo giá",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Order",
+        "1001:",
+        "10",
+        "books",
+        "at",
+        "$10",
+        "each",
+        "=",
+        "$100."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Order",
+        "1002:",
+        "100",
+        "pens",
+        "at",
+        "$1.50",
+        "each",
+        "=",
+        "$150."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Total",
+        "invoice",
+        "amount:",
+        "$1,250",
+        "with",
+        "10%",
+        "discount."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Bảng giá thực tế",
+  "lessonId": "lesson16",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

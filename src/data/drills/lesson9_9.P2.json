@@ -1,0 +1,35 @@
+{
+  "id": "9.P2",
+  "title": "9.P2 - Từ trung bình",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "welcome",
+        "swimmer",
+        "wisdom",
+        "kingdom",
+        "hammer",
+        "movement"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "framework",
+        "homework",
+        "artwork",
+        "wisdom",
+        "monument"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Từ phối hợp W và M",
+  "lessonId": "lesson9",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

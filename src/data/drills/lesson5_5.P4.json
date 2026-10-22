@@ -1,0 +1,76 @@
+{
+  "id": "5.P4",
+  "title": "5.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Lisa",
+        "likes",
+        "fresh",
+        "fruit.",
+        "Tom",
+        "takes",
+        "care",
+        "of",
+        "his",
+        "cat."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "She",
+        "told",
+        "Rita",
+        "that",
+        "life",
+        "is",
+        "full",
+        "of",
+        "sweet",
+        "joys."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Look",
+        "at",
+        "the",
+        "tall",
+        "tree.",
+        "It",
+        "stands",
+        "firm",
+        "in",
+        "the",
+        "wind."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Real",
+        "effort",
+        "leads",
+        "to",
+        "true",
+        "pride.",
+        "Never",
+        "give",
+        "up",
+        "your",
+        "dream."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ đoạn văn bản chuẩn ngữ pháp",
+  "lessonId": "lesson5",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

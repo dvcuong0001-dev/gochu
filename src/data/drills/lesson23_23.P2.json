@@ -1,0 +1,55 @@
+{
+  "id": "23.P2",
+  "title": "23.P2 - Phép so sánh & Khác (!=)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "if",
+        "(x",
+        "<",
+        "10)",
+        "{",
+        "alert(\"Too",
+        "low!\");",
+        "}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "(y",
+        ">",
+        "100)",
+        "{",
+        "alert(\"Too",
+        "high!\");",
+        "}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "(status",
+        "!=",
+        "\"ready\")",
+        "{",
+        "throw",
+        "new",
+        "Error(\"Not",
+        "ready!\");",
+        "}"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện toán tử logic",
+  "lessonId": "lesson23",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

@@ -1,0 +1,99 @@
+{
+  "id": "11.P5",
+  "title": "11.P5 - Đoạn văn tích lũy",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Young",
+        "boys",
+        "enjoy",
+        "playing",
+        "by",
+        "the",
+        "sunny",
+        "bay",
+        "every",
+        "Saturday",
+        "morning."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Beauty",
+        "is",
+        "not",
+        "only",
+        "in",
+        "the",
+        "body,",
+        "but",
+        "also",
+        "in",
+        "your",
+        "noble",
+        "thoughts."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Buy",
+        "your",
+        "books",
+        "early,",
+        "study",
+        "daily,",
+        "and",
+        "steady",
+        "victory",
+        "will",
+        "be",
+        "yours."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Beyond",
+        "the",
+        "dark",
+        "horizon",
+        "lies",
+        "a",
+        "bright",
+        "world",
+        "waiting",
+        "for",
+        "your",
+        "discovery."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Never",
+        "let",
+        "doubt",
+        "betray",
+        "your",
+        "beliefs,",
+        "for",
+        "loyalty",
+        "and",
+        "bravery",
+        "conquer",
+        "all."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tích lũy Bài 1 đến Bài 11",
+  "lessonId": "lesson11",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

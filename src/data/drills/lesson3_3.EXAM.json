@@ -1,0 +1,75 @@
+{
+  "id": "3.EXAM",
+  "title": "3.EXAM - KIỂM TRA VƯỢT ẢI BÀI 3 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "sure",
+        "rulers",
+        "read",
+        "clear",
+        "rules",
+        "for",
+        "our",
+        "daily",
+        "order"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "free",
+        "users",
+        "run",
+        "fast",
+        "and",
+        "fear",
+        "no",
+        "dark",
+        "risk",
+        "or",
+        "dark",
+        "fire"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fair",
+        "fruit",
+        "sellers",
+        "feed",
+        "all",
+        "rural",
+        "birds",
+        "around",
+        "us"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "read",
+        "useful",
+        "rules",
+        "and",
+        "refuse",
+        "rude",
+        "words",
+        "in",
+        "your",
+        "daily",
+        "life"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch R, U + Toàn bộ bài trước (Cần Acc ≥ 95%, WPM ≥ 22)",
+  "lessonId": "lesson3",
+  "isExam": true,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

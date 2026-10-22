@@ -1,0 +1,54 @@
+{
+  "id": "13.P2",
+  "title": "13.P2 - Số đi liền danh từ",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "take",
+        "bus",
+        "45",
+        "to",
+        "street",
+        "67",
+        "at",
+        "5:45"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sell",
+        "46",
+        "apples",
+        "and",
+        "57",
+        "oranges",
+        "for",
+        "76",
+        "dollars"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "room",
+        "456",
+        "on",
+        "floor",
+        "7",
+        "had",
+        "54",
+        "guests"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện gõ phối hợp chữ và số",
+  "lessonId": "lesson13",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

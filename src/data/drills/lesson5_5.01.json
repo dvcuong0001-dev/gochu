@@ -1,0 +1,57 @@
+{
+  "id": "5.01",
+  "title": "5.01 - Khởi động phím Shift & Dấu chấm",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "A",
+        "a",
+        "S",
+        "s",
+        "D",
+        "d",
+        "F",
+        "f",
+        "J",
+        "j",
+        "K",
+        "k",
+        "L",
+        "l"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "l.",
+        "l.",
+        "k.",
+        "k.",
+        "d.",
+        "d.",
+        "s.",
+        "s."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "All.",
+        "Dad.",
+        "Kate.",
+        "Lisa.",
+        "Tom.",
+        "Rita."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện Shift đối diện bàn tay và phím chấm",
+  "lessonId": "lesson5",
+  "isExam": false,
+  "targetWpm": 18,
+  "minAccuracy": 95
+}

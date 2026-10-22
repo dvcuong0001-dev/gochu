@@ -1,0 +1,73 @@
+{
+  "id": "20.EXAM",
+  "title": "20.EXAM - KIỂM TRA VƯỢT ẢI BÀI 20 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "let",
+        "result",
+        "=",
+        "(a",
+        "+",
+        "b)",
+        "-",
+        "(c",
+        "+",
+        "d)",
+        "=",
+        "150",
+        "-",
+        "50",
+        "=",
+        "100;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Total",
+        "=",
+        "subtotal",
+        "+",
+        "shipping",
+        "-",
+        "discount",
+        "=",
+        "$250",
+        "+",
+        "$15",
+        "-",
+        "$25",
+        "=",
+        "$240."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Check",
+        "condition:",
+        "x",
+        "+",
+        "y",
+        "==",
+        "100",
+        "&&",
+        "balance",
+        "-",
+        "cost",
+        ">=",
+        "0."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch + - = (Cần Acc ≥ 95%, WPM ≥ 27)",
+  "lessonId": "lesson20",
+  "isExam": true,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

@@ -1,0 +1,59 @@
+{
+  "id": "25.P2",
+  "title": "25.P2 - Luyện từ ghép 2 âm tiết",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "học",
+        "tập",
+        "rèn",
+        "luyện",
+        "tương",
+        "lai",
+        "gia",
+        "đình",
+        "đất",
+        "nước"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "chăm",
+        "chỉ",
+        "cần",
+        "cù",
+        "cần",
+        "mẫn",
+        "trung",
+        "thực",
+        "dũng",
+        "cảm"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "thương",
+        "yêu",
+        "đùm",
+        "bọc",
+        "chia",
+        "sẻ",
+        "giúp",
+        "đỡ",
+        "phấn",
+        "đấu"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Các từ ghép thông dụng",
+  "lessonId": "lesson25",
+  "isExam": false,
+  "targetWpm": 28,
+  "minAccuracy": 95
+}

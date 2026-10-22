@@ -1,0 +1,60 @@
+{
+  "id": "21.P3",
+  "title": "21.P3 - Khối lệnh lồng nhau",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "if",
+        "(user)",
+        "{",
+        "if",
+        "(role",
+        "==",
+        "\"admin\"",
+        "|",
+        "role",
+        "==",
+        "\"root\")",
+        "{",
+        "allow();",
+        "}",
+        "}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "const",
+        "config",
+        "=",
+        "{",
+        "app:",
+        "{",
+        "port:",
+        "8080,",
+        "host:",
+        "\"127.0.0.1\"",
+        "}",
+        "};"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "execute(\"cmd.exe",
+        "/c",
+        "dir",
+        "C:\\\\temp\");"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Cú pháp code lồng",
+  "lessonId": "lesson21",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

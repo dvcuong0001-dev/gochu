@@ -1,0 +1,64 @@
+{
+  "id": "7.P3",
+  "title": "7.P3 - Cụm từ nhịp điệu",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "don't",
+        "give",
+        "up",
+        ";",
+        "it's",
+        "high",
+        "time",
+        ";",
+        "fight",
+        "for",
+        "your",
+        "goal"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "he's",
+        "a",
+        "brave",
+        "knight",
+        ";",
+        "that's",
+        "a",
+        "great",
+        "light",
+        ";",
+        "let's",
+        "go",
+        "home"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "she's",
+        "got",
+        "a",
+        "kind",
+        "heart",
+        ";",
+        "it's",
+        "their",
+        "highest",
+        "flight"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Cụm từ phối hợp G, H và nháy đơn",
+  "lessonId": "lesson7",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

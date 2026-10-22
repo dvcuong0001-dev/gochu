@@ -1,0 +1,53 @@
+{
+  "id": "19.01",
+  "title": "19.01 - Khởi động ( ) và [ ]",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "(",
+        ")",
+        "(",
+        ")",
+        "[",
+        "]",
+        "[",
+        "]",
+        "(",
+        "[",
+        ")",
+        "]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "(10)",
+        "[20]",
+        "(text)",
+        "[index]",
+        "(a",
+        "+",
+        "b)",
+        "[0]"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "item[0]",
+        "list[index]",
+        "array[i]",
+        "func()"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện phản xạ mở/đóng ngoặc",
+  "lessonId": "lesson19",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

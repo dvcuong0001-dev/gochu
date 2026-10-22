@@ -1,0 +1,47 @@
+{
+  "id": "8.P2",
+  "title": "8.P2 - Từ trung bình",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "valley",
+        "vanish",
+        "velvet",
+        "visitor",
+        "victory",
+        "venture"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nation",
+        "natural",
+        "navigate",
+        "noodle",
+        "notice",
+        "number"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "envision",
+        "revenue",
+        "invent",
+        "canyon",
+        "govern",
+        "lantern"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Từ 5-8 ký tự chứa V, N",
+  "lessonId": "lesson8",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

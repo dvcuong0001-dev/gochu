@@ -1,0 +1,60 @@
+{
+  "id": "21.EXAM",
+  "title": "21.EXAM - KIỂM TRA VƯỢT ẢI BÀI 21 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "{",
+        "\"user_id\":",
+        "1024,",
+        "\"status\":",
+        "\"active\"",
+        "|",
+        "\"guest\",",
+        "\"path\":",
+        "\"C:\\\\app\"",
+        "}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "const",
+        "server",
+        "=",
+        "{",
+        "port:",
+        "8080,",
+        "handler:",
+        "()",
+        "=>",
+        "{",
+        "return",
+        "ok",
+        "|",
+        "null;",
+        "}",
+        "};"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Check",
+        "directory",
+        "\"C:\\\\Windows\\\\System32\"",
+        "before",
+        "continuing."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch { } và | \\ (Cần Acc ≥ 95%, WPM ≥ 27)",
+  "lessonId": "lesson21",
+  "isExam": true,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

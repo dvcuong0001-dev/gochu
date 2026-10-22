@@ -1,0 +1,59 @@
+{
+  "id": "15.P2",
+  "title": "15.P2 - Năm tháng & Giờ giấc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "In",
+        "1992,",
+        "our",
+        "club",
+        "had",
+        "29",
+        "members",
+        "and",
+        "92",
+        "volunteers."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "meeting",
+        "starts",
+        "at",
+        "9:20",
+        "and",
+        "ends",
+        "at",
+        "9:50",
+        "in",
+        "room",
+        "29."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Flight",
+        "929",
+        "leaves",
+        "at",
+        "2:20",
+        "from",
+        "gate",
+        "29."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện gõ năm và giờ",
+  "lessonId": "lesson15",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

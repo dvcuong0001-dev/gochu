@@ -1,32 +1,31 @@
 {
   "id": "3.01",
-  "title": "Bài 3.01 - Khởi động vươn ngón R & U",
+  "title": "3.01 - Khởi động F-R & J-U",
   "orderIndex": 0,
   "lines": [
     {
       "groups": [
-        "r r",
-        "u u",
-        "r r",
-        "u u"
+        "r",
+        "r",
+        "u",
+        "u",
+        "r",
+        "r",
+        "u",
+        "u"
       ],
       "isLoopStart": false
     },
     {
       "groups": [
-        "r u",
-        "r u",
-        "u r",
-        "u r"
-      ],
-      "isLoopStart": false
-    },
-    {
-      "groups": [
-        "fr",
-        "ju",
-        "rf",
-        "uj"
+        "f",
+        "r",
+        "j",
+        "u",
+        "r",
+        "f",
+        "u",
+        "j"
       ],
       "isLoopStart": false
     },
@@ -38,10 +37,26 @@
         "juju"
       ],
       "isLoopStart": false
+    },
+    {
+      "groups": [
+        "r",
+        "u",
+        "r",
+        "u",
+        "u",
+        "r",
+        "u",
+        "r"
+      ],
+      "isLoopStart": false
     }
   ],
-  "type": "drill",
+  "type": "warmup",
   "lang": "en",
   "desc": "Tập vươn ngón trỏ hai tay lên hàng phím trên",
-  "lessonId": "lesson3"
+  "lessonId": "lesson3",
+  "isExam": false,
+  "targetWpm": 18,
+  "minAccuracy": 95
 }

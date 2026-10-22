@@ -1,0 +1,71 @@
+{
+  "id": "26.P3",
+  "title": "26.P3 - Trích đoạn Tre Việt Nam",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Tre",
+        "xanh",
+        "xanh",
+        "tự",
+        "bao",
+        "giờ,",
+        "chuyện",
+        "ngày",
+        "xưa",
+        "đã",
+        "có",
+        "bờ",
+        "tre",
+        "xanh."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Thân",
+        "gầy",
+        "guộc,",
+        "lá",
+        "mong",
+        "manh,",
+        "mà",
+        "sao",
+        "nên",
+        "lũy",
+        "nên",
+        "thành",
+        "tre",
+        "ơi."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ở",
+        "đâu",
+        "tre",
+        "cũng",
+        "xanh",
+        "tươi,",
+        "cho",
+        "dù",
+        "đất",
+        "sỏi",
+        "đất",
+        "vôi",
+        "bạc",
+        "màu."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Luyện câu văn nhịp điệu giàu cảm xúc",
+  "lessonId": "lesson26",
+  "isExam": false,
+  "targetWpm": 33,
+  "minAccuracy": 95
+}

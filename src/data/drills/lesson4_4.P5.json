@@ -1,0 +1,108 @@
+{
+  "id": "4.P5",
+  "title": "4.P5 - Đoạn văn tích lũy toàn diện",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "the",
+        "old",
+        "tailor",
+        "took",
+        "our",
+        "coats",
+        "to",
+        "the",
+        "little",
+        "store",
+        "down",
+        "the",
+        "street",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fast",
+        "tourists",
+        "lost",
+        "their",
+        "trail",
+        "outside",
+        "the",
+        "dark",
+        "forest",
+        "at",
+        "late",
+        "dusk",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "trust",
+        "that",
+        "true",
+        "effort",
+        "will",
+        "lead",
+        "to",
+        "our",
+        "great",
+        "goal",
+        "in",
+        "the",
+        "future",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "little",
+        "artist",
+        "sat",
+        "on",
+        "the",
+        "floor",
+        "to",
+        "draw",
+        "a",
+        "tall",
+        "red",
+        "tree",
+        "and",
+        "stars",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "polite",
+        "leaders",
+        "told",
+        "us",
+        "that",
+        "soft",
+        "words",
+        "can",
+        "defeat",
+        "hard",
+        "hatred",
+        "."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tích lũy Cơ sở + E, I, R, U, T, O",
+  "lessonId": "lesson4",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

@@ -1,0 +1,100 @@
+{
+  "id": "27.P4",
+  "title": "27.P4 - Chuyển đổi số hiện đại (200 từ)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Chuyển",
+        "đổi",
+        "số",
+        "không",
+        "còn",
+        "là",
+        "khẩu",
+        "hiệu",
+        "mà",
+        "đã",
+        "trở",
+        "thành",
+        "hành",
+        "động",
+        "thực",
+        "tế."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Từ",
+        "người",
+        "nông",
+        "dân",
+        "bán",
+        "nông",
+        "sản",
+        "qua",
+        "mạng,",
+        "đến",
+        "các",
+        "doanh",
+        "nghiệp",
+        "xuất",
+        "khẩu"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "đều",
+        "đang",
+        "nỗ",
+        "lực",
+        "đổi",
+        "mới",
+        "sáng",
+        "tạo",
+        "từng",
+        "ngày",
+        "để",
+        "nâng",
+        "cao",
+        "giá",
+        "trị",
+        "sản",
+        "phẩm."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Tinh",
+        "thần",
+        "dám",
+        "nghĩ",
+        "dám",
+        "làm",
+        "chính",
+        "là",
+        "động",
+        "lực",
+        "mạnh",
+        "mẽ",
+        "nhất",
+        "giúp",
+        "xã",
+        "hội",
+        "phát",
+        "triển."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Thuật ngữ hiện đại kết hợp",
+  "lessonId": "lesson27",
+  "isExam": false,
+  "targetWpm": 38,
+  "minAccuracy": 95
+}

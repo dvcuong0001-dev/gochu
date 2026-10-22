@@ -1,0 +1,76 @@
+{
+  "id": "28.P2",
+  "title": "28.P2 - Thông báo nội bộ công ty",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Thông",
+        "báo",
+        "lịch",
+        "họp",
+        "tuần:",
+        "Thứ",
+        "Hai,",
+        "lúc",
+        "09:00",
+        "tại",
+        "phòng",
+        "họp",
+        "số",
+        "2."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nội",
+        "dung",
+        "chính:",
+        "Đánh",
+        "giá",
+        "tiến",
+        "độ",
+        "triển",
+        "khai",
+        "hệ",
+        "thống",
+        "mới",
+        "và",
+        "phân",
+        "công",
+        "nhiệm",
+        "vụ."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Đề",
+        "nghị",
+        "các",
+        "bộ",
+        "phận",
+        "chuẩn",
+        "bị",
+        "đầy",
+        "đủ",
+        "báo",
+        "cáo",
+        "số",
+        "liệu",
+        "trước",
+        "buổi",
+        "họp."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Văn phong súc tích rõ ràng",
+  "lessonId": "lesson28",
+  "isExam": false,
+  "targetWpm": 38,
+  "minAccuracy": 95
+}

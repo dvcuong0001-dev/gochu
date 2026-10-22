@@ -1,0 +1,62 @@
+{
+  "id": "15.01",
+  "title": "15.01 - Khởi động S-2 & L-9",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "2",
+        "2",
+        "9",
+        "9",
+        "2",
+        "9",
+        "9",
+        "2"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "s2",
+        "2s",
+        "l9",
+        "9l",
+        "s2l9",
+        "9ls2"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "29",
+        "92",
+        "229",
+        "992",
+        "2929",
+        "9292"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "2",
+        "9",
+        "2",
+        "9",
+        "9",
+        "2",
+        "9",
+        "2"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện phản xạ ngón áp út",
+  "lessonId": "lesson15",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

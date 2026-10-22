@@ -1,0 +1,89 @@
+{
+  "id": "1.EXAM",
+  "title": "1.EXAM - KIỂM TRA VƯỢT ẢI BÀI 1 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "all",
+        "ask",
+        "dad",
+        "fall",
+        "glad",
+        "flask",
+        "salad",
+        "lads",
+        "fads",
+        "fall"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "sad",
+        "lad",
+        "ask",
+        "a",
+        "dad",
+        "for",
+        "a",
+        "salad",
+        "flask"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "glad",
+        "lad",
+        "ask",
+        "dad",
+        "to",
+        "fall",
+        "all",
+        "salad"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dad",
+        "had",
+        "a",
+        "flask",
+        "of",
+        "salad",
+        "and",
+        "all",
+        "lads",
+        "had",
+        "salsa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "sad",
+        "lad",
+        "ask",
+        "all",
+        "glad",
+        "dads",
+        "to",
+        "add",
+        "salad",
+        "fast"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch toàn diện hàng cơ sở (Cần Acc ≥ 95%, WPM ≥ 18)",
+  "lessonId": "lesson1",
+  "isExam": true,
+  "targetWpm": 18,
+  "minAccuracy": 95
+}

@@ -1,0 +1,77 @@
+{
+  "id": "20.P4",
+  "title": "20.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "If",
+        "x",
+        "=",
+        "15",
+        "and",
+        "y",
+        "=",
+        "25,",
+        "then",
+        "x",
+        "+",
+        "y",
+        "=",
+        "40",
+        "and",
+        "y",
+        "-",
+        "x",
+        "=",
+        "10."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "formula",
+        "is:",
+        "net",
+        "=",
+        "gross",
+        "-",
+        "tax",
+        "+",
+        "refund",
+        "=",
+        "4500",
+        "-",
+        "900",
+        "+",
+        "200",
+        "=",
+        "3800."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Always",
+        "ensure",
+        "that",
+        "assets",
+        "=",
+        "liabilities",
+        "+",
+        "equity",
+        "in",
+        "accounting."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu toán học",
+  "lessonId": "lesson20",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

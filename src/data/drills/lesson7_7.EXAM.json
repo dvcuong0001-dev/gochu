@@ -1,0 +1,77 @@
+{
+  "id": "7.EXAM",
+  "title": "7.EXAM - KIỂM TRA VƯỢT ẢI BÀI 7 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "It's",
+        "not",
+        "easy",
+        "to",
+        "find",
+        "true",
+        "courage",
+        "when",
+        "the",
+        "night",
+        "is",
+        "dark."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Let's",
+        "fight",
+        "together,",
+        "for",
+        "there's",
+        "great",
+        "light",
+        "after",
+        "the",
+        "storm."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "He's",
+        "honest,",
+        "he's",
+        "kind,",
+        "and",
+        "he",
+        "doesn't",
+        "fear",
+        "high",
+        "hurdles."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Don't",
+        "forget",
+        "that",
+        "a",
+        "cheerful",
+        "heart",
+        "can",
+        "heal",
+        "a",
+        "heavy",
+        "soul."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch G, H và nháy đơn (Cần Acc ≥ 95%, WPM ≥ 24)",
+  "lessonId": "lesson7",
+  "isExam": true,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

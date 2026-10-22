@@ -1,0 +1,96 @@
+{
+  "id": "27.P2",
+  "title": "27.P2 - Tin tức xã hội (100 từ)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Lễ",
+        "hội",
+        "văn",
+        "hóa",
+        "truyền",
+        "thống",
+        "thu",
+        "hút",
+        "đông",
+        "đảo",
+        "du",
+        "khách",
+        "trong",
+        "và",
+        "ngoài",
+        "nước."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Những",
+        "tà",
+        "áo",
+        "dài",
+        "duyên",
+        "dáng",
+        "cùng",
+        "các",
+        "món",
+        "ăn",
+        "đặc",
+        "sản",
+        "ba",
+        "miền"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "đã",
+        "để",
+        "lại",
+        "ấn",
+        "tượng",
+        "sâu",
+        "đậm",
+        "trong",
+        "lòng",
+        "bạn",
+        "bè",
+        "quốc",
+        "tế."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Đây",
+        "là",
+        "cơ",
+        "hội",
+        "tuyệt",
+        "vời",
+        "để",
+        "quảng",
+        "bá",
+        "hình",
+        "ảnh",
+        "đất",
+        "nước",
+        "con",
+        "người",
+        "Việt",
+        "Nam",
+        "thân",
+        "thiện."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Luyện câu văn dài liền mạch",
+  "lessonId": "lesson27",
+  "isExam": false,
+  "targetWpm": 36,
+  "minAccuracy": 95
+}

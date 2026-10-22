@@ -1,0 +1,57 @@
+{
+  "id": "25.P3",
+  "title": "25.P3 - Luyện từ láy và âm đệm",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "long",
+        "lanh",
+        "thoang",
+        "thoảng",
+        "rộn",
+        "ràng",
+        "bâng",
+        "khuâng"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "bền",
+        "bỉ",
+        "vững",
+        "vàng",
+        "thênh",
+        "thang",
+        "mênh",
+        "mông",
+        "nhẹ",
+        "nhàng"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "xôn",
+        "xao",
+        "róc",
+        "rách",
+        "rực",
+        "rỡ",
+        "bát",
+        "ngát",
+        "xanh",
+        "tươi"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Rèn độ mượt gõ dấu liên tiếp",
+  "lessonId": "lesson25",
+  "isExam": false,
+  "targetWpm": 28,
+  "minAccuracy": 95
+}

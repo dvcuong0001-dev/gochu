@@ -1,0 +1,60 @@
+{
+  "id": "23.P4",
+  "title": "23.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "If",
+        "count",
+        "<",
+        "5",
+        "||",
+        "count",
+        ">",
+        "100,",
+        "display",
+        "message:",
+        "\"Invalid",
+        "range!\"."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Render",
+        "component:",
+        "<Card",
+        "title=\"Alert!\">",
+        "<Badge>New!</Badge>",
+        "</Card>."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Never",
+        "give",
+        "up!",
+        "Work",
+        "harder",
+        "and",
+        "your",
+        "speed",
+        "will",
+        "be",
+        ">",
+        "50",
+        "WPM!"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu chứa < > !",
+  "lessonId": "lesson23",
+  "isExam": false,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

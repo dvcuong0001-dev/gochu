@@ -1,0 +1,100 @@
+{
+  "id": "7.P5",
+  "title": "7.P5 - Đoạn văn tích lũy",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "It's",
+        "high",
+        "time",
+        "that",
+        "we",
+        "gather",
+        "our",
+        "courage",
+        "and",
+        "head",
+        "for",
+        "the",
+        "hills."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "He's",
+        "taught",
+        "us",
+        "that",
+        "health",
+        "and",
+        "honest",
+        "work",
+        "are",
+        "greater",
+        "than",
+        "wealth."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Don't",
+        "let",
+        "small",
+        "failures",
+        "darken",
+        "the",
+        "bright",
+        "light",
+        "inside",
+        "your",
+        "heart."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Let's",
+        "keep",
+        "our",
+        "heads",
+        "high,",
+        "help",
+        "each",
+        "other,",
+        "and",
+        "march",
+        "forward",
+        "with",
+        "pride."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Great",
+        "heights",
+        "are",
+        "reached",
+        "not",
+        "by",
+        "sudden",
+        "flight,",
+        "but",
+        "by",
+        "steady",
+        "steps."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tích lũy Bài 1 đến Bài 7",
+  "lessonId": "lesson7",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

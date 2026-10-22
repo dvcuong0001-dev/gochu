@@ -1,0 +1,61 @@
+{
+  "id": "22.P3",
+  "title": "22.P3 - Hóa đơn thương mại",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "User",
+        "@john",
+        "received",
+        "a",
+        "20%",
+        "discount",
+        "on",
+        "his",
+        "$150",
+        "order."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Total",
+        "cost:",
+        "$1,200",
+        "&",
+        "tax:",
+        "8%",
+        "=",
+        "$1,296",
+        "paid",
+        "via",
+        "PayPal@account."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Company",
+        "profit",
+        "grew",
+        "by",
+        "35%",
+        "in",
+        "Q1",
+        "&",
+        "revenue",
+        "exceeded",
+        "$500,000."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Kết hợp @ $ & %",
+  "lessonId": "lesson22",
+  "isExam": false,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

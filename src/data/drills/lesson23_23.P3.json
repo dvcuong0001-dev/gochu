@@ -1,0 +1,54 @@
+{
+  "id": "23.P3",
+  "title": "23.P3 - Cảm thán & Cảnh báo",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Watch",
+        "out!",
+        "Don't",
+        "touch",
+        "that!",
+        "Incredible",
+        "job!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Danger!",
+        "Warning:",
+        "temperature",
+        ">",
+        "100",
+        "degrees!",
+        "Shut",
+        "down",
+        "immediately!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Congratulations!",
+        "You",
+        "have",
+        "passed",
+        "the",
+        "test",
+        "with",
+        "flying",
+        "colors!"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Dấu !",
+  "lessonId": "lesson23",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

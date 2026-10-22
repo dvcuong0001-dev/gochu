@@ -1,0 +1,63 @@
+{
+  "id": "14.P4",
+  "title": "14.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "She",
+        "bought",
+        "38",
+        "apples",
+        "and",
+        "83",
+        "peaches",
+        "on",
+        "July",
+        "8",
+        "for",
+        "348",
+        "dollars."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Our",
+        "laboratory",
+        "tested",
+        "838",
+        "samples",
+        "across",
+        "34",
+        "different",
+        "clinics."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "museum",
+        "received",
+        "384",
+        "visitors",
+        "on",
+        "March",
+        "8",
+        "between",
+        "3:00",
+        "and",
+        "8:00."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu chứa số 3 và 8",
+  "lessonId": "lesson14",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

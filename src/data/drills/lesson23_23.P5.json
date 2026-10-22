@@ -1,0 +1,84 @@
+{
+  "id": "23.P5",
+  "title": "23.P5 - Đoạn văn tích lũy < > !",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "<!DOCTYPE",
+        "html>",
+        "<html",
+        "lang=\"en\">",
+        "<head>",
+        "<title>Welcome!</title>",
+        "</head>"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "<body>",
+        "<main>",
+        "<h1>Congratulations!</h1>",
+        "<p>Speed",
+        ">",
+        "40",
+        "WPM!</p>",
+        "</main>",
+        "</body>"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Check",
+        "conditions:",
+        "if",
+        "(attempts",
+        "<",
+        "3",
+        "&&",
+        "!isLocked)",
+        "{",
+        "retry();",
+        "}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Warning!",
+        "Security",
+        "breach",
+        "detected:",
+        "unauthorized",
+        "access",
+        ">",
+        "threshold!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Victory",
+        "is",
+        "yours!",
+        "Keep",
+        "pushing",
+        "forward",
+        "and",
+        "fear",
+        "no",
+        "hurdle!"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền",
+  "lessonId": "lesson23",
+  "isExam": false,
+  "targetWpm": 28,
+  "minAccuracy": 95
+}

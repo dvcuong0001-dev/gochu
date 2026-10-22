@@ -1,0 +1,61 @@
+{
+  "id": "5.P3",
+  "title": "5.P3 - Cụm câu giao tiếp",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Look",
+        "at",
+        "the",
+        "star.",
+        "It",
+        "is",
+        "very",
+        "far.",
+        "Take",
+        "care",
+        "of",
+        "kids."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Lisa",
+        "is",
+        "here.",
+        "She",
+        "took",
+        "a",
+        "red",
+        "coat.",
+        "Tom",
+        "is",
+        "glad."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Trust",
+        "your",
+        "skill.",
+        "Work",
+        "with",
+        "care.",
+        "Success",
+        "will",
+        "come."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện phản xạ ngắt câu bằng dấu chấm",
+  "lessonId": "lesson5",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

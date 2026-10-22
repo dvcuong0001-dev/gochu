@@ -1,0 +1,46 @@
+{
+  "id": "10.P2",
+  "title": "10.P2 - Từ trung bình",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "quality",
+        "require",
+        "acquire",
+        "conquer",
+        "quarter",
+        "question"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "popular",
+        "problem",
+        "practice",
+        "proposal",
+        "prepare",
+        "purpose"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "passport",
+        "package",
+        "patience",
+        "principle",
+        "pleasant"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Từ chứa cụm QU và P",
+  "lessonId": "lesson10",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

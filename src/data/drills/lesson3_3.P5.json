@@ -1,0 +1,104 @@
+{
+  "id": "3.P5",
+  "title": "3.P5 - Đoạn văn tích lũy toàn diện",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "clear",
+        "rules",
+        "are",
+        "useful",
+        "for",
+        "all",
+        "adults",
+        "and",
+        "rural",
+        "users",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "a",
+        "ruler",
+        "refuses",
+        "to",
+        "lead",
+        "with",
+        "care",
+        "the",
+        "future",
+        "is",
+        "dark",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "our",
+        "leader",
+        "said",
+        "that",
+        "fear",
+        "is",
+        "a",
+        "real",
+        "risk",
+        "for",
+        "idle",
+        "souls",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fair",
+        "kids",
+        "read",
+        "books",
+        "and",
+        "raise",
+        "their",
+        "desire",
+        "to",
+        "see",
+        "the",
+        "world",
+        "."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "she",
+        "shared",
+        "fresh",
+        "fruits",
+        "and",
+        "milk",
+        "as",
+        "four",
+        "red",
+        "birds",
+        "flew",
+        "over",
+        "her",
+        "roof",
+        "."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Tích lũy Cơ sở + E, I + R, U",
+  "lessonId": "lesson3",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

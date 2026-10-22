@@ -1,0 +1,62 @@
+{
+  "id": "9.P4",
+  "title": "9.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Warm",
+        "winds",
+        "move",
+        "with",
+        "the",
+        "ocean",
+        "wave.",
+        "Small",
+        "dreams",
+        "come",
+        "true."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Wise",
+        "men",
+        "know",
+        "how",
+        "to",
+        "maintain",
+        "calm",
+        "minds",
+        "in",
+        "warm",
+        "summer",
+        "days."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Many",
+        "women",
+        "walked",
+        "towards",
+        "the",
+        "morning",
+        "sun",
+        "with",
+        "sweet",
+        "smiles."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu tăng tốc",
+  "lessonId": "lesson9",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

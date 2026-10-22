@@ -1,0 +1,64 @@
+{
+  "id": "13.P4",
+  "title": "13.P4 - Câu văn tăng tốc có số",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Take",
+        "flight",
+        "456",
+        "at",
+        "gate",
+        "7",
+        "to",
+        "reach",
+        "room",
+        "54",
+        "on",
+        "street",
+        "67."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "store",
+        "sold",
+        "75",
+        "coats,",
+        "64",
+        "hats,",
+        "and",
+        "45",
+        "boots",
+        "in",
+        "7",
+        "days."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ensure",
+        "that",
+        "all",
+        "456",
+        "packages",
+        "arrive",
+        "safely",
+        "before",
+        "5:00."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu văn liên hoàn",
+  "lessonId": "lesson13",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

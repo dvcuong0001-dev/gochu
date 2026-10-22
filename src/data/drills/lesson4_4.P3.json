@@ -1,0 +1,75 @@
+{
+  "id": "4.P3",
+  "title": "4.P3 - Cụm từ phối hợp",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "too",
+        "fast",
+        "to",
+        "loose",
+        ";",
+        "look",
+        "at",
+        "the",
+        "star",
+        ";",
+        "old",
+        "tailor"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "took",
+        "little",
+        "tools",
+        ";",
+        "float",
+        "on",
+        "the",
+        "river",
+        ";",
+        "forest",
+        "trail"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "polite",
+        "tourists",
+        "took",
+        "food",
+        ";",
+        "soft",
+        "tailor",
+        "outfits"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "look",
+        "out",
+        "for",
+        "little",
+        "lost",
+        "birds",
+        "on",
+        "the",
+        "forest",
+        "roof"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Nhịp gõ chuyển đổi ngón trỏ và áp út",
+  "lessonId": "lesson4",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

@@ -1,0 +1,75 @@
+{
+  "id": "4.EXAM",
+  "title": "4.EXAM - KIỂM TRA VƯỢT ẢI BÀI 4 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "the",
+        "old",
+        "tailor",
+        "took",
+        "our",
+        "coats",
+        "to",
+        "the",
+        "little",
+        "store"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fast",
+        "tourists",
+        "lost",
+        "their",
+        "trail",
+        "outside",
+        "the",
+        "dark",
+        "forest"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "trust",
+        "that",
+        "true",
+        "effort",
+        "will",
+        "lead",
+        "to",
+        "our",
+        "great",
+        "goal"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "little",
+        "artist",
+        "sat",
+        "on",
+        "the",
+        "floor",
+        "to",
+        "draw",
+        "stars",
+        "and",
+        "trees"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch T, O + Toàn bộ bài trước (Cần Acc ≥ 95%, WPM ≥ 22)",
+  "lessonId": "lesson4",
+  "isExam": true,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

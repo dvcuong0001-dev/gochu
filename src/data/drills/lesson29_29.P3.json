@@ -1,0 +1,77 @@
+{
+  "id": "29.P3",
+  "title": "29.P3 - Bản lĩnh qua nghịch cảnh",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Nghịch",
+        "cảnh",
+        "không",
+        "sinh",
+        "ra",
+        "để",
+        "đánh",
+        "gục",
+        "bạn,",
+        "mà",
+        "là",
+        "cơ",
+        "hội",
+        "nhìn",
+        "rõ",
+        "nội",
+        "lực."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Người",
+        "có",
+        "nghị",
+        "lực",
+        "xem",
+        "khó",
+        "khăn",
+        "là",
+        "trường",
+        "học,",
+        "xem",
+        "thử",
+        "thách",
+        "là",
+        "bài",
+        "thi."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Càng",
+        "trải",
+        "qua",
+        "gian",
+        "nan,",
+        "con",
+        "người",
+        "càng",
+        "trở",
+        "nên",
+        "vững",
+        "vàng",
+        "và",
+        "sâu",
+        "sắc."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Nội lực vượt qua thử thách",
+  "lessonId": "lesson29",
+  "isExam": false,
+  "targetWpm": 40,
+  "minAccuracy": 95
+}

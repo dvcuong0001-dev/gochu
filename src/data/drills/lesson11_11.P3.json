@@ -1,0 +1,47 @@
+{
+  "id": "11.P3",
+  "title": "11.P3 - Cụm từ nhịp điệu",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "brave",
+        "boys",
+        "buy",
+        "yellow",
+        "bikes",
+        ";",
+        "your",
+        "body",
+        "needs",
+        "beauty"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "sunny",
+        "sky",
+        "brings",
+        "joy",
+        ";",
+        "beyond",
+        "the",
+        "blue",
+        "bay",
+        ";",
+        "obey",
+        "the",
+        "law"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Cụm từ phối hợp B và Y",
+  "lessonId": "lesson11",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

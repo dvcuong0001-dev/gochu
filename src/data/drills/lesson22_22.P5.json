@@ -1,0 +1,86 @@
+{
+  "id": "22.P5",
+  "title": "22.P5 - Đoạn văn tích lũy @ $ & %",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Dear",
+        "client",
+        "@alice,",
+        "your",
+        "subscription",
+        "renewal",
+        "is",
+        "confirmed."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Plan",
+        "details:",
+        "Pro",
+        "Member",
+        "&",
+        "$99/year",
+        "with",
+        "15%",
+        "discount",
+        "applied."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Total",
+        "charged:",
+        "$84.15",
+        "&",
+        "payment",
+        "processed",
+        "by",
+        "billing@service.net."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "You",
+        "now",
+        "enjoy",
+        "100%",
+        "access",
+        "to",
+        "all",
+        "lessons",
+        "&",
+        "priority",
+        "support",
+        "24/7."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "For",
+        "inquiries,",
+        "please",
+        "contact",
+        "feedback@tuhoc.cc",
+        "&",
+        "quote",
+        "invoice",
+        "#84920."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền",
+  "lessonId": "lesson22",
+  "isExam": false,
+  "targetWpm": 28,
+  "minAccuracy": 95
+}

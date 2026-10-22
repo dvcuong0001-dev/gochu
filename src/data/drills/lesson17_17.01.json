@@ -1,0 +1,49 @@
+{
+  "id": "17.01",
+  "title": "17.01 - Khởi động ; và :",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        ";",
+        ";",
+        ":",
+        ":",
+        ";",
+        ":",
+        ":",
+        ";"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "time:",
+        "10:30;",
+        "score:",
+        "95;",
+        "status:",
+        "ok;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "key:",
+        "value;",
+        "port:",
+        "8080;",
+        "mode:",
+        "live;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện phản xạ phím chấm phẩy và hai chấm",
+  "lessonId": "lesson17",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

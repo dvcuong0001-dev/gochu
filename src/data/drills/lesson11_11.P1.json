@@ -1,0 +1,50 @@
+{
+  "id": "11.P1",
+  "title": "11.P1 - Từ ngắn B và Y",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "baby",
+        "boy",
+        "buy",
+        "byte",
+        "beauty",
+        "yellow",
+        "brave",
+        "body"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "yesterday",
+        "bypass",
+        "hobby",
+        "hybrid",
+        "bubble",
+        "symbol"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "busy",
+        "bicycle",
+        "obey",
+        "beyond",
+        "beauty",
+        "loyalty",
+        "library"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện từ đơn",
+  "lessonId": "lesson11",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

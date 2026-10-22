@@ -1,0 +1,97 @@
+{
+  "id": "16.P5",
+  "title": "16.P5 - Đoạn văn tích lũy toàn bộ hàng số 0-9",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "In",
+        "the",
+        "year",
+        "2026,",
+        "company",
+        "101",
+        "celebrated",
+        "10",
+        "years",
+        "of",
+        "steady",
+        "growth."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "team",
+        "grew",
+        "from",
+        "10",
+        "founders",
+        "in",
+        "2016",
+        "to",
+        "over",
+        "1,500",
+        "employees",
+        "today."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Total",
+        "revenue",
+        "increased",
+        "by",
+        "250%",
+        "to",
+        "reach",
+        "98,760,000",
+        "dollars."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "More",
+        "than",
+        "100,000",
+        "customers",
+        "in",
+        "45",
+        "countries",
+        "trust",
+        "our",
+        "daily",
+        "services."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "We",
+        "plan",
+        "to",
+        "open",
+        "10",
+        "new",
+        "branches",
+        "before",
+        "the",
+        "4th",
+        "quarter",
+        "of",
+        "2027."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền hàng số",
+  "lessonId": "lesson16",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

@@ -1,0 +1,62 @@
+{
+  "id": "26.P2",
+  "title": "26.P2 - Luyện thơ lục bát",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Công",
+        "cha",
+        "như",
+        "núi",
+        "Thái",
+        "Sơn,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nghĩa",
+        "mẹ",
+        "như",
+        "nước",
+        "trong",
+        "nguồn",
+        "chảy",
+        "ra."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Một",
+        "lòng",
+        "thờ",
+        "mẹ",
+        "kính",
+        "cha,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cho",
+        "tròn",
+        "chữ",
+        "hiếu",
+        "mới",
+        "là",
+        "đạo",
+        "con."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Luyện gõ ngắt dòng theo thể thơ",
+  "lessonId": "lesson26",
+  "isExam": false,
+  "targetWpm": 32,
+  "minAccuracy": 95
+}

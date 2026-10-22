@@ -1,0 +1,38 @@
+{
+  "id": "18.P1",
+  "title": "18.P1 - Đường dẫn web & Tùy chọn",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "home/user/docs",
+        "path/to/file",
+        "src/data/drills"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "and/or,",
+        "win/loss,",
+        "pass/fail,",
+        "on/off,",
+        "buy/sell"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "https://domain.com/api/v1/user?id=10"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện gõ URL và phân cách /",
+  "lessonId": "lesson18",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

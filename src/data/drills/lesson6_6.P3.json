@@ -1,0 +1,60 @@
+{
+  "id": "6.P3",
+  "title": "6.P3 - Cụm từ ngắt dấu phẩy",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Rice,",
+        "tea,",
+        "and",
+        "ice.",
+        "Cook",
+        "fast,",
+        "call",
+        "dad,",
+        "take",
+        "care."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "If",
+        "you",
+        "come,",
+        "bring",
+        "cups,",
+        "cold",
+        "cake,",
+        "and",
+        "dark",
+        "chocolate."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cats,",
+        "dogs,",
+        "and",
+        "ducks",
+        "are",
+        "cute",
+        "pets,",
+        "but",
+        "need",
+        "clean",
+        "food."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện nhịp ngắt phẩy",
+  "lessonId": "lesson6",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

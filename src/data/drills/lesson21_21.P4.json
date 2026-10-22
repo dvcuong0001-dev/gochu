@@ -1,0 +1,66 @@
+{
+  "id": "21.P4",
+  "title": "21.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "The",
+        "object",
+        "{",
+        "key:",
+        "\"value\",",
+        "active:",
+        "true",
+        "}",
+        "was",
+        "saved",
+        "to",
+        "C:\\\\data\\\\cache."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Define",
+        "union",
+        "type:",
+        "type",
+        "Color",
+        "=",
+        "\"red\"",
+        "|",
+        "\"green\"",
+        "|",
+        "\"blue\";"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Wrap",
+        "the",
+        "code",
+        "inside",
+        "curly",
+        "braces:",
+        "{",
+        "let",
+        "x",
+        "=",
+        "1;",
+        "return",
+        "x;",
+        "}."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu chứa { } và | \\",
+  "lessonId": "lesson21",
+  "isExam": false,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

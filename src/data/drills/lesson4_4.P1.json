@@ -1,0 +1,70 @@
+{
+  "id": "4.P1",
+  "title": "4.P1 - Từ ngắn kết hợp",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "to",
+        "out",
+        "top",
+        "lot",
+        "rot",
+        "toe",
+        "tie",
+        "tea",
+        "oat",
+        "ear"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "too",
+        "toot",
+        "root",
+        "foot",
+        "took",
+        "look",
+        "tool",
+        "star",
+        "fort"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "tail",
+        "told",
+        "toll",
+        "roof",
+        "door",
+        "soft",
+        "tour",
+        "star",
+        "list"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "load",
+        "toad",
+        "road",
+        "boat",
+        "coat",
+        "goat",
+        "float",
+        "toast"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện từ có T, O và các phím đã học",
+  "lessonId": "lesson4",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

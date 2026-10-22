@@ -1,0 +1,67 @@
+{
+  "id": "2.P1",
+  "title": "2.P1 - Từ ngắn (Mới E, I + Hàng cơ sở)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "led",
+        "lid",
+        "fed",
+        "kid",
+        "die",
+        "lie",
+        "see",
+        "ill",
+        "elf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aid",
+        "silk",
+        "sail",
+        "feel",
+        "dill",
+        "kill",
+        "life",
+        "safe"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "file",
+        "like",
+        "leaf",
+        "lake",
+        "idle",
+        "desk",
+        "seek",
+        "side"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "idle",
+        "kill",
+        "ill",
+        "feel",
+        "feed",
+        "seed",
+        "deed",
+        "peel"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện từ đơn kết hợp phím mới và cũ",
+  "lessonId": "lesson2",
+  "isExam": false,
+  "targetWpm": 18,
+  "minAccuracy": 95
+}

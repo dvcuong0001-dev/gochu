@@ -1,0 +1,65 @@
+{
+  "id": "25.02",
+  "title": "25.02 - Khởi động Dấu Hỏi (R) & Ngã (X)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "ar",
+        "er",
+        "ir",
+        "or",
+        "ur",
+        "ax",
+        "ex",
+        "ix",
+        "ox",
+        "ux"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "cả",
+        "mở",
+        "hỏi",
+        "nhỏ",
+        "vỏ",
+        "bão",
+        "đã",
+        "nghĩ",
+        "sẽ",
+        "mãi",
+        "vỗ",
+        "về",
+        "mở",
+        "cửa"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "bão",
+        "đã",
+        "qua",
+        "trời",
+        "mở",
+        "cửa",
+        "đón",
+        "ánh",
+        "nắng",
+        "mai",
+        "dịu",
+        "êm"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "vi",
+  "desc": "Phản xạ bỏ dấu hỏi và dấu ngã",
+  "lessonId": "lesson25",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

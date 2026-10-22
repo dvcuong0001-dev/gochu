@@ -1,0 +1,59 @@
+{
+  "id": "14.P2",
+  "title": "14.P2 - Số đo & Lịch hẹn",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "March",
+        "8",
+        "is",
+        "a",
+        "special",
+        "day",
+        "for",
+        "all",
+        "38",
+        "women."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "mountain",
+        "is",
+        "3845",
+        "meters",
+        "high",
+        "and",
+        "83",
+        "miles",
+        "wide."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "He",
+        "paid",
+        "38",
+        "dollars",
+        "for",
+        "8",
+        "books",
+        "and",
+        "3",
+        "pens."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện gõ ngày tháng và số đo",
+  "lessonId": "lesson14",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}

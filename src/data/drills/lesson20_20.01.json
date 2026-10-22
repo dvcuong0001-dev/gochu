@@ -1,0 +1,68 @@
+{
+  "id": "20.01",
+  "title": "20.01 - Khởi động + - =",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "+",
+        "+",
+        "-",
+        "-",
+        "=",
+        "=",
+        "+",
+        "-",
+        "="
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "+",
+        "b",
+        "=",
+        "c;",
+        "x",
+        "-",
+        "y",
+        "=",
+        "10;",
+        "count",
+        "+=",
+        "1;"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "10",
+        "+",
+        "20",
+        "=",
+        "30;",
+        "50",
+        "-",
+        "20",
+        "=",
+        "30;",
+        "sum",
+        "=",
+        "a",
+        "+",
+        "b",
+        "-",
+        "c;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện dấu toán tử cơ bản",
+  "lessonId": "lesson20",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

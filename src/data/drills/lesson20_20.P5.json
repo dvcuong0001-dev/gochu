@@ -1,0 +1,106 @@
+{
+  "id": "20.P5",
+  "title": "20.P5 - Đoạn văn tích lũy toán tử",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Calculate",
+        "the",
+        "final",
+        "balance:",
+        "initial",
+        "=",
+        "1000;",
+        "deposit",
+        "=",
+        "500;",
+        "fee",
+        "=",
+        "25."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "New",
+        "balance",
+        "=",
+        "1000",
+        "+",
+        "500",
+        "-",
+        "25",
+        "=",
+        "1475."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Next",
+        "transaction:",
+        "bonus",
+        "=",
+        "+150;",
+        "deduction",
+        "=",
+        "-50;",
+        "total",
+        "=",
+        "1475",
+        "+",
+        "150",
+        "-",
+        "50",
+        "=",
+        "1575."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ensure",
+        "that",
+        "debit",
+        "=",
+        "credit",
+        "and",
+        "all",
+        "entries",
+        "balance",
+        "to",
+        "zero:",
+        "sum",
+        "=",
+        "0."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Mathematics",
+        "is",
+        "the",
+        "universal",
+        "language:",
+        "1",
+        "+",
+        "1",
+        "=",
+        "2",
+        "stands",
+        "true",
+        "forever."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền",
+  "lessonId": "lesson20",
+  "isExam": false,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

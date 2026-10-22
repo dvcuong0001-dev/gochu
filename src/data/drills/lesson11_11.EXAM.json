@@ -1,0 +1,82 @@
+{
+  "id": "11.EXAM",
+  "title": "11.EXAM - KIỂM TRA VƯỢT ẢI BÀI 11 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Young",
+        "boys",
+        "enjoy",
+        "playing",
+        "by",
+        "the",
+        "sunny",
+        "bay",
+        "every",
+        "Saturday."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Beauty",
+        "is",
+        "not",
+        "only",
+        "in",
+        "the",
+        "body,",
+        "but",
+        "also",
+        "in",
+        "your",
+        "noble",
+        "thoughts."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Buy",
+        "your",
+        "books",
+        "early,",
+        "study",
+        "daily,",
+        "and",
+        "steady",
+        "victory",
+        "will",
+        "be",
+        "yours."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Brave",
+        "actions",
+        "and",
+        "honest",
+        "words",
+        "will",
+        "build",
+        "a",
+        "life",
+        "full",
+        "of",
+        "great",
+        "joy."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch B, Y (Cần Acc ≥ 95%, WPM ≥ 26)",
+  "lessonId": "lesson11",
+  "isExam": true,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

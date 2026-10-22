@@ -1,0 +1,62 @@
+{
+  "id": "4.P2",
+  "title": "4.P2 - Từ trung bình",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "artist",
+        "tailor",
+        "little",
+        "forest",
+        "detail",
+        "potato",
+        "outfit"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "doctor",
+        "factor",
+        "target",
+        "forgot",
+        "defeat",
+        "street",
+        "polite"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "throat",
+        "afloat",
+        "foster",
+        "sorted",
+        "offset",
+        "rotate",
+        "latest"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "outlet",
+        "ticket",
+        "socket",
+        "rocket",
+        "sunset",
+        "filter",
+        "forest"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Từ 5-7 ký tự chứa T và O",
+  "lessonId": "lesson4",
+  "isExam": false,
+  "targetWpm": 21,
+  "minAccuracy": 95
+}

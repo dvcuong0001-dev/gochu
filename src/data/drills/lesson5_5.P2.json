@@ -1,0 +1,61 @@
+{
+  "id": "5.P2",
+  "title": "5.P2 - Câu ngắn 3-4 từ",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "It",
+        "is",
+        "real.",
+        "Dad",
+        "is",
+        "out.",
+        "She",
+        "is",
+        "safe.",
+        "Look",
+        "at",
+        "it."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Take",
+        "care.",
+        "Time",
+        "is",
+        "gold.",
+        "Love",
+        "is",
+        "pure.",
+        "Fear",
+        "is",
+        "dead."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Life",
+        "is",
+        "fair.",
+        "Rita",
+        "feels",
+        "free.",
+        "Tom",
+        "rides",
+        "fast."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Câu đơn giản có hoa và chấm",
+  "lessonId": "lesson5",
+  "isExam": false,
+  "targetWpm": 21,
+  "minAccuracy": 95
+}

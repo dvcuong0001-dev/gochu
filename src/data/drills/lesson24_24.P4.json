@@ -1,0 +1,62 @@
+{
+  "id": "24.P4",
+  "title": "24.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "In",
+        "C++,",
+        "we",
+        "write:",
+        "#include",
+        "<iostream>",
+        "and",
+        "use",
+        "pointers",
+        "like",
+        "int",
+        "*p",
+        "=",
+        "&x."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "algorithm",
+        "complexity",
+        "is",
+        "O(2^n",
+        "*",
+        "n^2)",
+        "which",
+        "is",
+        "~",
+        "1000",
+        "operations."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Follow",
+        "#tuhoc_typing",
+        "and",
+        "star",
+        "our",
+        "repo:",
+        "github.com/user/typing*star*."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu chứa # ^ * ~",
+  "lessonId": "lesson24",
+  "isExam": false,
+  "targetWpm": 28,
+  "minAccuracy": 95
+}

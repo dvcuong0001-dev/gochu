@@ -1,0 +1,103 @@
+{
+  "id": "28.EXAM",
+  "title": "28.EXAM - KIỂM TRA VƯỢT ẢI BÀI 28 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Kính",
+        "gửi",
+        "Quý",
+        "khách",
+        "hàng,"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Cảm",
+        "ơn",
+        "Quý",
+        "khách",
+        "đã",
+        "luôn",
+        "tin",
+        "tưởng",
+        "và",
+        "đồng",
+        "hành",
+        "cùng",
+        "dịch",
+        "vụ",
+        "của",
+        "chúng",
+        "tôi."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nhằm",
+        "nâng",
+        "cao",
+        "chất",
+        "lượng",
+        "trải",
+        "nghiệm,",
+        "chúng",
+        "tôi",
+        "xin",
+        "thông",
+        "báo",
+        "chương",
+        "trình"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "nâng",
+        "cấp",
+        "hệ",
+        "thống",
+        "định",
+        "kỳ.",
+        "Mọi",
+        "thắc",
+        "mắc",
+        "xin",
+        "vui",
+        "lòng",
+        "gửi",
+        "về",
+        "support@tuhoc.cc."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Trân",
+        "trọng",
+        "cảm",
+        "ơn",
+        "sự",
+        "thấu",
+        "hiểu",
+        "và",
+        "hợp",
+        "tác",
+        "của",
+        "Quý",
+        "khách!"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "vi",
+  "desc": "Sát hạch văn bản thư tín công sở (Cần Acc ≥ 96%, WPM ≥ 40)",
+  "lessonId": "lesson28",
+  "isExam": true,
+  "targetWpm": 40,
+  "minAccuracy": 96
+}

@@ -1,0 +1,55 @@
+{
+  "id": "19.P4",
+  "title": "19.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "The",
+        "value",
+        "of",
+        "matrix[i][j]",
+        "equals",
+        "(width[i]",
+        "*",
+        "height[j])."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Call",
+        "the",
+        "function",
+        "render(item[0])",
+        "and",
+        "return",
+        "(status",
+        "==",
+        "true)."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Every",
+        "element",
+        "in",
+        "list[0..10]",
+        "must",
+        "satisfy",
+        "(element",
+        ">",
+        "0)."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu chứa ngoặc",
+  "lessonId": "lesson19",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

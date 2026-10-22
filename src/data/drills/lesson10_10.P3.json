@@ -1,0 +1,42 @@
+{
+  "id": "10.P3",
+  "title": "10.P3 - Cụm từ nhịp điệu",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "quick",
+        "answer",
+        ";",
+        "quiet",
+        "place",
+        ";",
+        "please",
+        "step",
+        "forward"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "equal",
+        "power",
+        ";",
+        "proud",
+        "people",
+        ";",
+        "plenty",
+        "of",
+        "peace"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Cụm từ ngón út",
+  "lessonId": "lesson10",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

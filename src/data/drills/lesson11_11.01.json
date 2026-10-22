@@ -1,0 +1,49 @@
+{
+  "id": "11.01",
+  "title": "11.01 - Khởi động F-B & J-Y",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "b",
+        "b",
+        "y",
+        "y",
+        "b",
+        "b",
+        "y",
+        "y"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "f",
+        "b",
+        "j",
+        "y",
+        "b",
+        "f",
+        "y",
+        "j"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "fbyj",
+        "yjfb",
+        "fbfb",
+        "jyjy"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Tập vươn ngón trỏ chéo xa",
+  "lessonId": "lesson11",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

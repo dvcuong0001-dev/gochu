@@ -1,0 +1,49 @@
+{
+  "id": "10.01",
+  "title": "10.01 - Khởi động A-Q & ;-P",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "q",
+        "q",
+        "p",
+        "p",
+        "q",
+        "q",
+        "p",
+        "p"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "q",
+        ";",
+        "p",
+        "q",
+        "a",
+        "p",
+        ";"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "aq;p",
+        "p;qa",
+        "qpqp",
+        "pqa;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Vươn hai ngón út lên hàng trên",
+  "lessonId": "lesson10",
+  "isExam": false,
+  "targetWpm": 20,
+  "minAccuracy": 95
+}

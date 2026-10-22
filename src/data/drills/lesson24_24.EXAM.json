@@ -1,0 +1,91 @@
+{
+  "id": "24.EXAM",
+  "title": "24.EXAM - ĐẠI SÁT HẠCH CHẶNG 2 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "//",
+        "Config:",
+        "#app-v2.0"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "const",
+        "config",
+        "=",
+        "{",
+        "port:",
+        "8080,",
+        "host:",
+        "\"127.0.0.1\",",
+        "apiKey:",
+        "\"key_987#xyz*2026\"",
+        "};"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "if",
+        "(config.port",
+        "!=",
+        "80",
+        "&&",
+        "config.host",
+        "==",
+        "\"127.0.0.1\")",
+        "{"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "console.log(\"Ready!",
+        "Cost:",
+        "$1,200",
+        "&",
+        "Discount:",
+        "15%",
+        "~",
+        "Status:",
+        "100%",
+        "OK\");"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Calculate",
+        "formula:",
+        "result",
+        "=",
+        "(x",
+        "*",
+        "2^3)",
+        "+",
+        "[offset[0]",
+        "-",
+        "10]",
+        "/",
+        "2.0;"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch toàn diện Số & Ký hiệu (Cần Acc ≥ 96%, WPM ≥ 30)",
+  "lessonId": "lesson24",
+  "isExam": true,
+  "targetWpm": 30,
+  "minAccuracy": 96
+}

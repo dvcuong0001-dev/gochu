@@ -1,0 +1,97 @@
+{
+  "id": "14.P5",
+  "title": "14.P5 - Đoạn văn tích lũy số 3, 4, 5, 6, 7, 8",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "On",
+        "August",
+        "8,",
+        "exactly",
+        "384",
+        "runners",
+        "joined",
+        "the",
+        "38",
+        "kilometer",
+        "marathon."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Runner",
+        "83",
+        "finished",
+        "first",
+        "in",
+        "3",
+        "hours,",
+        "45",
+        "minutes,",
+        "and",
+        "38",
+        "seconds."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "committee",
+        "awarded",
+        "850",
+        "dollars",
+        "to",
+        "each",
+        "of",
+        "the",
+        "top",
+        "3",
+        "athletes."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Spectators",
+        "cheered",
+        "along",
+        "route",
+        "73",
+        "as",
+        "83",
+        "cars",
+        "escorted",
+        "the",
+        "runners."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "It",
+        "was",
+        "a",
+        "memorable",
+        "day",
+        "with",
+        "38",
+        "teams",
+        "from",
+        "8",
+        "different",
+        "countries."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Rèn luyện sức bền",
+  "lessonId": "lesson14",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

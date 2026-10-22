@@ -1,0 +1,61 @@
+{
+  "id": "22.P4",
+  "title": "22.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Contact",
+        "support@company.org",
+        "to",
+        "claim",
+        "your",
+        "$250",
+        "voucher",
+        "&",
+        "get",
+        "30%",
+        "off."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "The",
+        "stock",
+        "price",
+        "rose",
+        "by",
+        "12%",
+        "&",
+        "closed",
+        "at",
+        "$145.50",
+        "on",
+        "NASDAQ@exchange."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Verify",
+        "your",
+        "identity",
+        "via",
+        "email@service.com",
+        "&",
+        "receive",
+        "100%",
+        "protection."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu thương mại",
+  "lessonId": "lesson22",
+  "isExam": false,
+  "targetWpm": 27,
+  "minAccuracy": 95
+}

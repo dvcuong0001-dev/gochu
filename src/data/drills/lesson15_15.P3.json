@@ -1,0 +1,58 @@
+{
+  "id": "15.P3",
+  "title": "15.P3 - Dữ liệu bán hàng",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Sold",
+        "29",
+        "laptops",
+        "at",
+        "$920",
+        "each",
+        "for",
+        "a",
+        "total",
+        "of",
+        "$26,680."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Customer",
+        "294",
+        "ordered",
+        "92",
+        "units",
+        "on",
+        "September",
+        "29."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Discount",
+        "rate",
+        "of",
+        "20%",
+        "applies",
+        "to",
+        "all",
+        "29",
+        "selected",
+        "items."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện số lượng và giá cả",
+  "lessonId": "lesson15",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

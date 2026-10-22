@@ -1,0 +1,56 @@
+{
+  "id": "23.01",
+  "title": "23.01 - Khởi động < > !",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "<",
+        "<",
+        ">",
+        ">",
+        "!",
+        "!",
+        "<",
+        ">",
+        "!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "a",
+        "<",
+        "b;",
+        "x",
+        ">",
+        "y;",
+        "flag",
+        "!=",
+        "true;",
+        "<!DOCTYPE",
+        "html>"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "<div>",
+        "<p>",
+        "<span>",
+        "<h1>",
+        "</h1>",
+        "</p>",
+        "</div>"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "warmup",
+  "lang": "en",
+  "desc": "Luyện thẻ và so sánh",
+  "lessonId": "lesson23",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

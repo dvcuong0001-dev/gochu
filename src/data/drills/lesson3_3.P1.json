@@ -1,0 +1,68 @@
+{
+  "id": "3.P1",
+  "title": "3.P1 - Từ ngắn (Mới R, U + Cũ)",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "fur",
+        "red",
+        "run",
+        "sue",
+        "rue",
+        "sir",
+        "air",
+        "ear",
+        "far",
+        "jar"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "user",
+        "rule",
+        "rail",
+        "rush",
+        "risk",
+        "fair",
+        "loud",
+        "leaf"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "dark",
+        "pure",
+        "cure",
+        "fire",
+        "rare",
+        "rude",
+        "sure",
+        "true"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "rare",
+        "rule",
+        "rude",
+        "fire",
+        "dark",
+        "risk",
+        "fair",
+        "rail"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện từ đơn kết hợp R, U với hàng cơ sở và E, I",
+  "lessonId": "lesson3",
+  "isExam": false,
+  "targetWpm": 19,
+  "minAccuracy": 95
+}

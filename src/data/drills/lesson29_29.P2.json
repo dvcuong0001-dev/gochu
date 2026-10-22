@@ -1,0 +1,79 @@
+{
+  "id": "29.P2",
+  "title": "29.P2 - Hệ công cụ và vận hành",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Sau",
+        "khi",
+        "có",
+        "tư",
+        "duy,",
+        "tức",
+        "là",
+        "có",
+        "con",
+        "đường,",
+        "thì",
+        "phải",
+        "có",
+        "công",
+        "cụ",
+        "thực",
+        "hiện."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Có",
+        "công",
+        "cụ",
+        "rồi",
+        "thì",
+        "phải",
+        "nỗ",
+        "lực",
+        "vận",
+        "hành,",
+        "tinh",
+        "tấn",
+        "làm",
+        "việc",
+        "không",
+        "ngừng."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Làm",
+        "xong",
+        "phải",
+        "biết",
+        "kiểm",
+        "soát",
+        "kết",
+        "quả,",
+        "và",
+        "nếu",
+        "chưa",
+        "tốt",
+        "thì",
+        "phải",
+        "biết",
+        "sửa",
+        "chữa."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Tư duy phát triển cá nhân",
+  "lessonId": "lesson29",
+  "isExam": false,
+  "targetWpm": 39,
+  "minAccuracy": 95
+}

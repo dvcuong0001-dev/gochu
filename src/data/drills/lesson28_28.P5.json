@@ -1,0 +1,79 @@
+{
+  "id": "28.P5",
+  "title": "28.P5 - Thư mời hội nghị & ký kết",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Trân",
+        "trọng",
+        "kính",
+        "mời",
+        "Quý",
+        "đại",
+        "biểu",
+        "tham",
+        "dự",
+        "Hội",
+        "nghị",
+        "Khoa",
+        "học",
+        "và",
+        "Công",
+        "nghệ."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Sự",
+        "hiện",
+        "diện",
+        "của",
+        "Quý",
+        "vị",
+        "là",
+        "niềm",
+        "vinh",
+        "hạnh",
+        "to",
+        "lớn",
+        "cho",
+        "Ban",
+        "tổ",
+        "chức",
+        "chúng",
+        "tôi."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Hội",
+        "nghị",
+        "sẽ",
+        "mở",
+        "ra",
+        "nhiều",
+        "cơ",
+        "hội",
+        "hợp",
+        "tác",
+        "chiến",
+        "lược",
+        "trong",
+        "kỷ",
+        "nguyên",
+        "mới."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Văn bản trang trọng hoàn chỉnh",
+  "lessonId": "lesson28",
+  "isExam": false,
+  "targetWpm": 40,
+  "minAccuracy": 96
+}

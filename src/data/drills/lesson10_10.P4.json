@@ -1,0 +1,61 @@
+{
+  "id": "10.P4",
+  "title": "10.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Keep",
+        "quiet",
+        "and",
+        "drop",
+        "the",
+        "map.",
+        "Quick",
+        "power",
+        "brings",
+        "deep",
+        "peace."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "A",
+        "quiet",
+        "queen",
+        "spoke",
+        "pleasant",
+        "quotes",
+        "to",
+        "people",
+        "in",
+        "the",
+        "public",
+        "park."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Please",
+        "prepare",
+        "proper",
+        "answers",
+        "for",
+        "this",
+        "important",
+        "quality",
+        "quiz."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu tăng tốc",
+  "lessonId": "lesson10",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

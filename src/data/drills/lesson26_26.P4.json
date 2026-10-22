@@ -1,0 +1,86 @@
+{
+  "id": "26.P4",
+  "title": "26.P4 - Đoạn văn mô tả thiên nhiên",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Buổi",
+        "sáng",
+        "trên",
+        "quê",
+        "hương",
+        "tôi",
+        "thật",
+        "êm",
+        "ả",
+        "và",
+        "thanh",
+        "bình."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Ánh",
+        "bình",
+        "minh",
+        "nhuộm",
+        "vàng",
+        "trên",
+        "những",
+        "cánh",
+        "đồng",
+        "lúa",
+        "chín",
+        "bao",
+        "la."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Tiếng",
+        "chim",
+        "hót",
+        "líu",
+        "lo",
+        "đầu",
+        "cành",
+        "hòa",
+        "cùng",
+        "làn",
+        "gió",
+        "sớm",
+        "mát",
+        "rượi."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Những",
+        "giọt",
+        "sương",
+        "mai",
+        "đọng",
+        "trên",
+        "ngọn",
+        "cỏ",
+        "lấp",
+        "lánh",
+        "như",
+        "ngọc",
+        "biếc."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "vi",
+  "desc": "Luyện văn miêu tả nhiều thanh điệu",
+  "lessonId": "lesson26",
+  "isExam": false,
+  "targetWpm": 34,
+  "minAccuracy": 95
+}

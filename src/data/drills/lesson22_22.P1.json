@@ -1,0 +1,46 @@
+{
+  "id": "22.P1",
+  "title": "22.P1 - Email & Tiền tệ",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "support@tuhoc.cc;",
+        "contact@company.org;",
+        "user@gmail.com"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "$10,",
+        "$50,",
+        "$100,",
+        "$500,",
+        "$1,250,",
+        "$10,000"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Special",
+        "offer:",
+        "get",
+        "$50",
+        "cashback",
+        "&",
+        "free",
+        "delivery."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện gõ email và giá cả",
+  "lessonId": "lesson22",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

@@ -1,0 +1,61 @@
+{
+  "id": "11.P4",
+  "title": "11.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Brave",
+        "boys",
+        "buy",
+        "yellow",
+        "bikes.",
+        "Your",
+        "body",
+        "needs",
+        "beauty",
+        "and",
+        "joy."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Nobody",
+        "knows",
+        "why",
+        "the",
+        "sunny",
+        "sky",
+        "brings",
+        "pure",
+        "harmony",
+        "to",
+        "everyone."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Young",
+        "boys",
+        "enjoy",
+        "playing",
+        "by",
+        "the",
+        "sunny",
+        "bay",
+        "every",
+        "Saturday."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu tăng tốc",
+  "lessonId": "lesson11",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

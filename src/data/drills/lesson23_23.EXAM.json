@@ -1,0 +1,65 @@
+{
+  "id": "23.EXAM",
+  "title": "23.EXAM - KIỂM TRA VƯỢT ẢI BÀI 23 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "if",
+        "(x",
+        ">",
+        "10",
+        "&&",
+        "y",
+        "<",
+        "20",
+        "&&",
+        "!done)",
+        "{",
+        "return",
+        "<h1>Success!</h1>;",
+        "}"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Warning!",
+        "System",
+        "temperature",
+        ">",
+        "95",
+        "degrees!",
+        "Please",
+        "check",
+        "cooling",
+        "fan!"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Compare:",
+        "min",
+        "<",
+        "value",
+        "&&",
+        "value",
+        "<",
+        "max",
+        "||",
+        "status",
+        "!=",
+        "\"error\"."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "en",
+  "desc": "Sát hạch < > ! (Cần Acc ≥ 95%, WPM ≥ 28)",
+  "lessonId": "lesson23",
+  "isExam": true,
+  "targetWpm": 28,
+  "minAccuracy": 95
+}

@@ -1,0 +1,78 @@
+{
+  "id": "4.P4",
+  "title": "4.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "look",
+        "at",
+        "that",
+        "tall",
+        "star",
+        "over",
+        "our",
+        "quiet",
+        "forest",
+        "tonight"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "too",
+        "fast",
+        "to",
+        "lose",
+        "a",
+        "real",
+        "trail",
+        "of",
+        "truth",
+        "in",
+        "this",
+        "wild",
+        "site"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "old",
+        "tailors",
+        "took",
+        "little",
+        "steel",
+        "tools",
+        "to",
+        "fix",
+        "soft",
+        "coats"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "polite",
+        "tourists",
+        "told",
+        "us",
+        "that",
+        "the",
+        "forest",
+        "lake",
+        "is",
+        "so",
+        "still"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu hoàn chỉnh",
+  "lessonId": "lesson4",
+  "isExam": false,
+  "targetWpm": 22,
+  "minAccuracy": 95
+}

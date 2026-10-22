@@ -1,0 +1,34 @@
+{
+  "id": "11.P2",
+  "title": "11.P2 - Từ trung bình",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "boyhood",
+        "butterfly",
+        "backbone",
+        "boundary",
+        "symbolic"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "biology",
+        "biography",
+        "blackberry",
+        "bypass",
+        "boyhood"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Từ chứa B và Y",
+  "lessonId": "lesson11",
+  "isExam": false,
+  "targetWpm": 24,
+  "minAccuracy": 95
+}

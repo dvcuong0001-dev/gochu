@@ -1,0 +1,93 @@
+{
+  "id": "25.EXAM",
+  "title": "25.EXAM - KIỂM TRA VƯỢT ẢI BÀI 25 👑",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Học",
+        "tập",
+        "là",
+        "hạt",
+        "giống",
+        "của",
+        "tự",
+        "do",
+        "và",
+        "là",
+        "ngọn",
+        "đèn",
+        "soi",
+        "sáng",
+        "tương",
+        "lai."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Gia",
+        "đình",
+        "là",
+        "điểm",
+        "tựa",
+        "bình",
+        "yên",
+        "nhất",
+        "sau",
+        "những",
+        "tháng",
+        "ngày",
+        "bão",
+        "giông."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Đất",
+        "nước",
+        "Việt",
+        "Nam",
+        "mến",
+        "yêu",
+        "luôn",
+        "chào",
+        "đón",
+        "những",
+        "bàn",
+        "tay",
+        "dựng",
+        "xây."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Chăm",
+        "chỉ",
+        "luyện",
+        "tập",
+        "mỗi",
+        "ngày",
+        "sẽ",
+        "mang",
+        "lại",
+        "sự",
+        "thành",
+        "thạo",
+        "và",
+        "tự",
+        "tin."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "exam",
+  "lang": "vi",
+  "desc": "Sát hạch quy tắc gõ dấu tiếng Việt (Cần Acc ≥ 95%, WPM ≥ 30)",
+  "lessonId": "lesson25",
+  "isExam": true,
+  "targetWpm": 30,
+  "minAccuracy": 95
+}

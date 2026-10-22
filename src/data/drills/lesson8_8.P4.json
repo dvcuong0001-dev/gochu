@@ -1,0 +1,65 @@
+{
+  "id": "8.P4",
+  "title": "8.P4 - Câu văn tăng tốc",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "Never",
+        "leave",
+        "a",
+        "good",
+        "voice",
+        "in",
+        "vain.",
+        "Can",
+        "you",
+        "run",
+        "nine",
+        "miles",
+        "now?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Seven",
+        "visitors",
+        "arrived",
+        "in",
+        "town,",
+        "but",
+        "did",
+        "they",
+        "have",
+        "any",
+        "news?"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "An",
+        "honest",
+        "nature",
+        "and",
+        "a",
+        "quiet",
+        "mind",
+        "will",
+        "lead",
+        "you",
+        "to",
+        "victory."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Gõ câu tăng tốc",
+  "lessonId": "lesson8",
+  "isExam": false,
+  "targetWpm": 25,
+  "minAccuracy": 95
+}

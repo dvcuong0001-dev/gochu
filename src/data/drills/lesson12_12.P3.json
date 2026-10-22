@@ -1,0 +1,53 @@
+{
+  "id": "12.P3",
+  "title": "12.P3 - Câu Pangram kinh điển",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "The",
+        "quick",
+        "brown",
+        "fox",
+        "jumps",
+        "over",
+        "the",
+        "lazy",
+        "dog."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Pack",
+        "my",
+        "box",
+        "with",
+        "five",
+        "dozen",
+        "liquor",
+        "jugs."
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Sphinx",
+        "of",
+        "black",
+        "quartz,",
+        "judge",
+        "my",
+        "vow."
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Luyện gõ câu chứa đủ 26 chữ cái",
+  "lessonId": "lesson12",
+  "isExam": false,
+  "targetWpm": 26,
+  "minAccuracy": 95
+}

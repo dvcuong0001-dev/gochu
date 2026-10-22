@@ -1,0 +1,53 @@
+{
+  "id": "15.P1",
+  "title": "15.P1 - Nhóm số có 2 và 9",
+  "orderIndex": 0,
+  "lines": [
+    {
+      "groups": [
+        "29",
+        "92",
+        "239",
+        "982",
+        "2459",
+        "9762",
+        "289",
+        "923"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Level",
+        "29,",
+        "Room",
+        "92,",
+        "292",
+        "miles,",
+        "year",
+        "1992"
+      ],
+      "isLoopStart": false
+    },
+    {
+      "groups": [
+        "Order",
+        "928,",
+        "Item",
+        "294,",
+        "Box",
+        "925,",
+        "code",
+        "289"
+      ],
+      "isLoopStart": false
+    }
+  ],
+  "type": "practice",
+  "lang": "en",
+  "desc": "Cộng dồn số 2, 9, 3, 8, 4, 5, 6, 7",
+  "lessonId": "lesson15",
+  "isExam": false,
+  "targetWpm": 23,
+  "minAccuracy": 95
+}
