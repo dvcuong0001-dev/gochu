@@ -23,6 +23,7 @@ interface LessonSelectorProps {
   isOpen: boolean;
   onClose: () => void;
   unlockedLessons?: string[];
+  completedDrillIds?: string[];
   isFreeMode?: boolean;
   onToggleFreeMode?: () => void;
 }
@@ -35,6 +36,7 @@ export const LessonSelector: React.FC<LessonSelectorProps> = ({
   isOpen,
   onClose,
   unlockedLessons = ["lesson1"],
+  completedDrillIds = [],
   isFreeMode = false,
   onToggleFreeMode,
 }) => {
@@ -255,6 +257,9 @@ export const LessonSelector: React.FC<LessonSelectorProps> = ({
                         lesson.id === currentLessonId && dId === currentDrillId;
                       const isExam = m.isExam || m.type === "exam" || dId.includes("EXAM");
                       const isWarmup = m.type === "warmup" || dId.includes(".0");
+                      const isCompleted =
+                        completedDrillIds.includes(dId) ||
+                        completedDrillIds.includes(`${lesson.id}_${dId}`);
 
                       return (
                         <button
@@ -267,15 +272,19 @@ export const LessonSelector: React.FC<LessonSelectorProps> = ({
                             }
                           }}
                           className={`relative flex items-center justify-center transition-all duration-150 rounded-full font-mono text-[10px] ${
-                            isExam
+                            !isUnlocked
+                              ? "h-5 px-2 bg-gray-800/40 border border-gray-700/40 text-gray-500 cursor-not-allowed"
+                              : isDrillActive
+                              ? "h-6 px-3 ring-2 ring-amber-300 scale-105 font-bold !border-amber-300 !bg-amber-400 !text-black shadow-lg shadow-amber-400/60"
+                              : isCompleted
+                              ? isExam
+                                ? "h-6 px-3 bg-gradient-to-r from-emerald-500/30 via-yellow-400/30 to-amber-500/30 border border-emerald-400 text-emerald-200 shadow-sm shadow-emerald-500/20"
+                                : "h-5 px-2 bg-emerald-500/25 border border-emerald-400/80 text-emerald-300 shadow-sm shadow-emerald-500/20"
+                              : isExam
                               ? "h-6 px-3 bg-gradient-to-r from-amber-500/30 to-yellow-400/30 border border-amber-400 text-amber-300 hover:scale-105 shadow-md shadow-amber-400/20"
                               : isWarmup
                               ? "h-5 px-2 bg-emerald-950/40 border border-emerald-500/40 text-emerald-300 hover:bg-emerald-500/30"
                               : "h-5 px-2 bg-[#152342] border border-blue-500/20 text-gray-300 hover:bg-blue-600/40"
-                          } ${
-                            isDrillActive
-                              ? "ring-2 ring-amber-300 scale-110 !border-amber-300 font-bold !bg-amber-400 !text-black shadow-lg shadow-amber-400/60"
-                              : ""
                           }`}
                           title={
                             isExam
@@ -285,11 +294,11 @@ export const LessonSelector: React.FC<LessonSelectorProps> = ({
                         >
                           {isExam ? (
                             <span className="flex items-center gap-1 font-bold">
-                              <Crown size={12} className={isDrillActive ? "text-black" : "text-amber-400"} />
-                              <span>Vượt Ải</span>
+                              <Crown size={12} className={isDrillActive ? "text-black" : isCompleted ? "text-emerald-300" : "text-amber-400"} />
+                              <span>{isCompleted ? "Vượt Ải ✓" : "Vượt Ải"}</span>
                             </span>
                           ) : (
-                            <span>{dId.split(".")[1] || dId}</span>
+                            <span>{isCompleted ? `✓ ${dId.split(".")[1] || dId}` : dId.split(".")[1] || dId}</span>
                           )}
                         </button>
                       );

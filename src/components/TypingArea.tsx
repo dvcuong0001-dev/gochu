@@ -28,6 +28,8 @@ interface TypingAreaProps {
   onNextDrill?: () => void;
   onOpenLeaderboard?: () => void;
   onExit?: () => void;
+  onBackToCatalog?: () => void;
+  onCompleteDrill?: (drillId: string) => void;
   user?: UserProfile | null;
   onAwardXp?: (xp: number) => void;
   onUnlockNextLesson?: (lessonId: string) => void;
@@ -48,6 +50,8 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
   onNextDrill,
   onOpenLeaderboard,
   onExit,
+  onBackToCatalog,
+  onCompleteDrill,
   user,
   onAwardXp,
   onUnlockNextLesson,
@@ -421,6 +425,10 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
             onAwardXp(earnedXp);
           }
 
+          if (onCompleteDrill && drill.id) {
+            onCompleteDrill(drill.id);
+          }
+
           // Automatically submit score to leaderboard
           autoSubmitScore(finalWpm, finalAcc, finalSeconds, earnedXp);
         }
@@ -439,6 +447,8 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
       currentLineIndex,
       totalLines,
       onAwardXp,
+      onCompleteDrill,
+      drill.id,
       totalDrillChars,
       isExam,
       targetWpm,
@@ -578,12 +588,24 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
 
       {/* 1. TOP PROGRESS BAR */}
       <div className="w-full mb-4">
-        <div className="flex items-center justify-between text-xs font-mono font-bold text-gray-400 mb-1.5">
-          <span className="text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
-            <span>DÒNG {currentLineIndex + 1}/{totalLines}</span>
-            <span className="text-gray-500">·</span>
-            <span className="text-gray-300">{drill.title}</span>
-          </span>
+        <div className="flex items-center justify-between text-xs font-mono font-bold text-gray-400 mb-2">
+          <div className="flex items-center gap-2.5">
+            {onBackToCatalog && (
+              <button
+                type="button"
+                onClick={onBackToCatalog}
+                className="px-2.5 py-1 rounded-xl bg-white/5 hover:bg-white/15 border border-white/10 hover:border-cyan-500/40 text-cyan-300 text-xs font-semibold flex items-center gap-1.5 transition-all shadow-sm"
+                title="Quay lại danh sách các bài học"
+              >
+                <span>← Danh Sách Bài</span>
+              </button>
+            )}
+            <span className="text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+              <span>DÒNG {currentLineIndex + 1}/{totalLines}</span>
+              <span className="text-gray-500">·</span>
+              <span className="text-gray-300 truncate max-w-[240px] sm:max-w-md">{drill.title}</span>
+            </span>
+          </div>
           <span>{progressPercent}% HOÀN THÀNH</span>
         </div>
         <div className="w-full h-1.5 bg-gray-800 rounded-full overflow-hidden">
@@ -806,14 +828,24 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
             )}
 
             {/* Actions */}
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-2.5">
               <button
                 onClick={resetDrill}
-                className="flex-1 py-2.5 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-200 font-medium text-sm transition-colors flex items-center justify-center gap-1.5"
+                className="flex-1 min-w-[100px] py-2.5 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-200 font-medium text-xs sm:text-sm transition-colors flex items-center justify-center gap-1.5"
               >
-                <RotateCcw size={16} />
-                <span>{isExam && !isExamPassed ? "Thi lại ngay" : "Làm Lại"}</span>
+                <RotateCcw size={15} />
+                <span>{isExam && !isExamPassed ? "Thi lại" : "Làm Lại"}</span>
               </button>
+
+              {onBackToCatalog && (
+                <button
+                  onClick={onBackToCatalog}
+                  className="flex-1 min-w-[120px] py-2.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 text-gray-200 font-semibold text-xs sm:text-sm transition-colors flex items-center justify-center gap-1.5"
+                >
+                  <BookOpen size={15} className="text-cyan-400" />
+                  <span>Danh Sách Bài</span>
+                </button>
+              )}
 
               {onNextDrill && (!isExam || isExamPassed) && (
                 <button
@@ -821,10 +853,10 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
                     setIsCompleted(false);
                     onNextDrill();
                   }}
-                  className="flex-1 py-2.5 rounded-xl bg-gradient-to-r from-amber-400 to-yellow-300 hover:from-amber-300 hover:to-yellow-200 text-black font-bold text-sm transition-all flex items-center justify-center gap-1.5 shadow-lg shadow-amber-400/30"
+                  className="flex-1 min-w-[110px] py-2.5 rounded-xl bg-gradient-to-r from-amber-400 to-yellow-300 hover:from-amber-300 hover:to-yellow-200 text-black font-bold text-xs sm:text-sm transition-all flex items-center justify-center gap-1.5 shadow-lg shadow-amber-400/30"
                 >
                   <span>Bài Tiếp</span>
-                  <ArrowRight size={16} />
+                  <ArrowRight size={15} />
                 </button>
               )}
             </div>

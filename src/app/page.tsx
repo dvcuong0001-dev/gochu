@@ -7,11 +7,12 @@ import { Navbar, NavTab } from "@/components/Navbar";
 import { HomeView } from "@/components/HomeView";
 import { TypingArea } from "@/components/TypingArea";
 import { LessonSelector } from "@/components/LessonSelector";
+import { LessonsCatalogView } from "@/components/LessonsCatalogView";
 import { ArcadeView } from "@/components/ArcadeView";
 import { LeaderboardView } from "@/components/LeaderboardView";
 import { SheetsGuideView } from "@/components/SheetsGuideView";
 import { AuthModal, UserProfile } from "@/components/AuthModal";
-import { BookOpen, Trophy, Gamepad2 } from "lucide-react";
+import { BookOpen, Trophy, Gamepad2, ArrowLeft } from "lucide-react";
 
 export default function Home() {
   const lessons = lessonsData as unknown as Lesson[];
@@ -23,8 +24,12 @@ export default function Home() {
   // Navigation tab - Default to "home" as requested by user
   const [currentTab, setCurrentTab] = useState<NavTab>("home");
 
+  // Practice sub-view: "catalog" (danh sách bài học) vs "typing" (màn hình gõ bài)
+  const [practiceViewMode, setPracticeViewMode] = useState<"catalog" | "typing">("catalog");
+
   // Progression & Unlocked lessons state
   const [unlockedLessons, setUnlockedLessons] = useState<string[]>(["lesson1"]);
+  const [completedDrillIds, setCompletedDrillIds] = useState<string[]>([]);
   const [isFreeMode, setIsFreeMode] = useState(false);
 
   // Lesson & Drill state
@@ -44,6 +49,10 @@ export default function Home() {
       const savedUnlocked = localStorage.getItem("unlocked_lessons");
       if (savedUnlocked) {
         setUnlockedLessons(JSON.parse(savedUnlocked));
+      }
+      const savedCompleted = localStorage.getItem("completed_drills");
+      if (savedCompleted) {
+        setCompletedDrillIds(JSON.parse(savedCompleted));
       }
       const savedFreeMode = localStorage.getItem("typing_free_mode");
       if (savedFreeMode) {
@@ -121,12 +130,25 @@ export default function Home() {
     } catch (_) {}
   };
 
+  const handleCompleteDrill = (dId: string) => {
+    setCompletedDrillIds((prev) => {
+      if (prev.includes(dId)) return prev;
+      const updated = [...prev, dId];
+      try {
+        localStorage.setItem("completed_drills", JSON.stringify(updated));
+      } catch (_) {}
+      return updated;
+    });
+  };
+
   const handleLogout = () => {
     setUser(null);
     setUnlockedLessons(["lesson1"]);
+    setCompletedDrillIds([]);
     try {
       localStorage.removeItem("tuhoc_user");
       localStorage.removeItem("unlocked_lessons");
+      localStorage.removeItem("completed_drills");
     } catch (_) {}
   };
 
@@ -191,7 +213,12 @@ export default function Home() {
       {/* Top Navbar */}
       <Navbar
         currentTab={currentTab}
-        onTabChange={setCurrentTab}
+        onTabChange={(tab) => {
+          setCurrentTab(tab);
+          if (tab === "practice") {
+            setPracticeViewMode("catalog");
+          }
+        }}
         currentLessonTitle={currentLesson?.title}
         currentDrillId={currentDrillId}
         onOpenLessonSelector={() => setIsLessonSelectorOpen(true)}
@@ -205,7 +232,10 @@ export default function Home() {
         {/* Tab 1: Trang Chủ (Home) */}
         {currentTab === "home" && (
           <HomeView
-            onStartPractice={() => setCurrentTab("practice")}
+            onStartPractice={() => {
+              setCurrentTab("practice");
+              setPracticeViewMode("catalog");
+            }}
             onOpenArcade={() => setCurrentTab("arcade")}
             onOpenLeaderboard={() => setCurrentTab("leaderboard")}
             onOpenAuth={() => setIsAuthOpen(true)}
@@ -216,66 +246,96 @@ export default function Home() {
         {/* Tab 2: Luyện Gõ (Practice) */}
         {currentTab === "practice" && (
           <div className="w-full flex flex-col items-center">
-            {/* Top Lesson Header Pill */}
-            <div className="w-full max-w-5xl mx-auto px-4 mb-3 flex flex-wrap items-center justify-between gap-3">
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={() => setIsLessonSelectorOpen(true)}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-[#11192d] hover:bg-[#16213c] border border-white/10 text-xs text-gray-300 hover:text-white transition-all shadow-sm"
-                >
-                  <BookOpen size={14} className="text-cyan-400" />
-                  <span className="font-semibold text-white">
-                    {currentLesson?.title}
-                  </span>
-                  <span className="text-gray-500">·</span>
-                  <span className="font-mono text-cyan-300">
-                    Bài {currentDrillId}
-                  </span>
-                  <span className="text-[10px] text-gray-400">▾</span>
-                </button>
+            {practiceViewMode === "catalog" ? (
+              <LessonsCatalogView
+                lessons={lessons}
+                currentLessonId={currentLessonId}
+                currentDrillId={currentDrillId}
+                onSelectDrill={(lid, did) => {
+                  setCurrentLessonId(lid);
+                  setCurrentDrillId(did);
+                  setPracticeViewMode("typing");
+                }}
+                unlockedLessons={unlockedLessons}
+                completedDrillIds={completedDrillIds}
+                isFreeMode={isFreeMode}
+                onToggleFreeMode={handleToggleFreeMode}
+              />
+            ) : (
+              <div className="w-full flex flex-col items-center">
+                {/* Top Lesson Header Pill */}
+                <div className="w-full max-w-5xl mx-auto px-4 mb-3 flex flex-wrap items-center justify-between gap-3">
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => setPracticeViewMode("catalog")}
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-cyan-500/15 hover:bg-cyan-500/25 border border-cyan-500/30 text-xs font-semibold text-cyan-300 transition-all shadow-sm"
+                      title="Quay lại danh sách bài học"
+                    >
+                      <ArrowLeft size={14} />
+                      <span>Danh Sách Bài</span>
+                    </button>
 
-                {currentLesson?.subtitle && (
-                  <span className="text-xs text-gray-400 hidden sm:inline">
-                    ({currentLesson.subtitle})
-                  </span>
+                    <button
+                      onClick={() => setIsLessonSelectorOpen(true)}
+                      className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-[#11192d] hover:bg-[#16213c] border border-white/10 text-xs text-gray-300 hover:text-white transition-all shadow-sm"
+                    >
+                      <BookOpen size={14} className="text-cyan-400" />
+                      <span className="font-semibold text-white">
+                        {currentLesson?.title}
+                      </span>
+                      <span className="text-gray-500">·</span>
+                      <span className="font-mono text-cyan-300">
+                        Bài {currentDrillId}
+                      </span>
+                      <span className="text-[10px] text-gray-400">▾</span>
+                    </button>
+
+                    {currentLesson?.subtitle && (
+                      <span className="text-xs text-gray-400 hidden sm:inline">
+                        ({currentLesson.subtitle})
+                      </span>
+                    )}
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => setCurrentTab("arcade")}
+                      className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-red-500/20 to-orange-500/10 border border-red-500/30 text-red-300 hover:text-red-200 text-xs font-medium flex items-center gap-1.5 transition-all"
+                    >
+                      <Gamepad2 size={14} />
+                      <span>Chơi Game 3D</span>
+                    </button>
+
+                    <button
+                      onClick={() => setCurrentTab("leaderboard")}
+                      className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-amber-500/20 to-yellow-500/10 border border-amber-500/30 text-amber-300 hover:text-amber-200 text-xs font-medium flex items-center gap-1.5 transition-all"
+                    >
+                      <Trophy size={14} />
+                      <span>Xếp Hạng</span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Typing Canvas */}
+                {loadingDrill || !currentDrill ? (
+                  <div className="w-full max-w-5xl mx-auto p-16 text-center text-gray-400">
+                    <div className="inline-block animate-spin w-8 h-8 border-2 border-cyan-400 border-t-transparent rounded-full mb-3" />
+                    <p className="text-sm">Đang tải bài tập {currentDrillId}...</p>
+                  </div>
+                ) : (
+                  <TypingArea
+                    drill={currentDrill}
+                    onNextDrill={handleNextDrill}
+                    onOpenLeaderboard={() => setCurrentTab("leaderboard")}
+                    onExit={() => setPracticeViewMode("catalog")}
+                    onBackToCatalog={() => setPracticeViewMode("catalog")}
+                    onCompleteDrill={handleCompleteDrill}
+                    user={user}
+                    onAwardXp={handleAwardXp}
+                    onUnlockNextLesson={handleUnlockNextLesson}
+                  />
                 )}
               </div>
-
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={() => setCurrentTab("arcade")}
-                  className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-red-500/20 to-orange-500/10 border border-red-500/30 text-red-300 hover:text-red-200 text-xs font-medium flex items-center gap-1.5 transition-all"
-                >
-                  <Gamepad2 size={14} />
-                  <span>Chơi Game 3D</span>
-                </button>
-
-                <button
-                  onClick={() => setCurrentTab("leaderboard")}
-                  className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-amber-500/20 to-yellow-500/10 border border-amber-500/30 text-amber-300 hover:text-amber-200 text-xs font-medium flex items-center gap-1.5 transition-all"
-                >
-                  <Trophy size={14} />
-                  <span>Xếp Hạng</span>
-                </button>
-              </div>
-            </div>
-
-            {/* Typing Canvas */}
-            {loadingDrill || !currentDrill ? (
-              <div className="w-full max-w-5xl mx-auto p-16 text-center text-gray-400">
-                <div className="inline-block animate-spin w-8 h-8 border-2 border-cyan-400 border-t-transparent rounded-full mb-3" />
-                <p className="text-sm">Đang tải bài tập {currentDrillId}...</p>
-              </div>
-            ) : (
-              <TypingArea
-                drill={currentDrill}
-                onNextDrill={handleNextDrill}
-                onOpenLeaderboard={() => setCurrentTab("leaderboard")}
-                onExit={() => setCurrentTab("home")}
-                user={user}
-                onAwardXp={handleAwardXp}
-                onUnlockNextLesson={handleUnlockNextLesson}
-              />
             )}
           </div>
         )}
@@ -305,10 +365,12 @@ export default function Home() {
           setCurrentLessonId(lid);
           setCurrentDrillId(did);
           setCurrentTab("practice");
+          setPracticeViewMode("typing");
         }}
         isOpen={isLessonSelectorOpen}
         onClose={() => setIsLessonSelectorOpen(false)}
         unlockedLessons={unlockedLessons}
+        completedDrillIds={completedDrillIds}
         isFreeMode={isFreeMode}
         onToggleFreeMode={handleToggleFreeMode}
       />

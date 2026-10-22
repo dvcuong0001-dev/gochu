@@ -83,5 +83,20 @@
       "lesson3"
     ],
     "lastActive": "2026-10-22T10:00:54.812Z"
+  },
+  {
+    "username": "test1",
+    "pin": "123456",
+    "avatar": "🐱",
+    "level": 1,
+    "xp": 0,
+    "bestWpm": 0,
+    "avgAccuracy": 100,
+    "totalTimeSeconds": 0,
+    "completedDrills": 0,
+    "unlockedLessons": [
+      "lesson1"
+    ],
+    "lastActive": "2026-10-22T10:26:11.044Z"
   }
 ]
