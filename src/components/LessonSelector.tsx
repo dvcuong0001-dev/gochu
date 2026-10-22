@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import { Lesson } from "@/types";
-import { Search, BookOpen, ChevronRight, Sparkles, Filter } from "lucide-react";
+import { Keyboard, Check, Sparkles, X, ChevronDown, CheckCircle2 } from "lucide-react";
 
 interface LessonSelectorProps {
   lessons: Lesson[];
@@ -21,188 +21,160 @@ export const LessonSelector: React.FC<LessonSelectorProps> = ({
   isOpen,
   onClose,
 }) => {
-  const [search, setSearch] = useState("");
-  const [filterDifficulty, setFilterDifficulty] = useState<number | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
 
+  // Calculate total drills across all lessons
+  const totalDrillsCount = useMemo(() => {
+    return lessons.reduce((acc, l) => {
+      const metas = Array.isArray(l.drillsMeta) ? l.drillsMeta : [];
+      return acc + (metas.length > 0 ? metas.length : 1);
+    }, 0);
+  }, [lessons]);
+
+  // Filter lessons by category
   const filteredLessons = useMemo(() => {
-    return lessons.filter((l) => {
-      const matchSearch =
-        l.title.toLowerCase().includes(search.toLowerCase()) ||
-        l.subtitle.toLowerCase().includes(search.toLowerCase()) ||
-        l.code.toLowerCase().includes(search.toLowerCase());
+    if (selectedCategory === "basic") {
+      return lessons.filter((_, idx) => idx < 15);
+    }
+    if (selectedCategory === "intermediate") {
+      return lessons.filter((_, idx) => idx >= 15 && idx < 45);
+    }
+    if (selectedCategory === "advanced") {
+      return lessons.filter((_, idx) => idx >= 45);
+    }
+    return lessons;
+  }, [lessons, selectedCategory]);
 
-      const matchDiff =
-        filterDifficulty === null || l.difficulty === filterDifficulty;
+  const currentCategoryTitle = useMemo(() => {
+    if (selectedCategory === "basic") return "Cơ bản";
+    if (selectedCategory === "intermediate") return "Trung cấp & Phím số";
+    if (selectedCategory === "advanced") return "Nâng cao & Tiếng Việt";
+    return "Cơ bản";
+  }, [selectedCategory]);
 
-      return matchSearch && matchDiff;
-    });
-  }, [lessons, search, filterDifficulty]);
+  const currentCategoryDrillsCount = useMemo(() => {
+    return filteredLessons.reduce((acc, l) => {
+      const metas = Array.isArray(l.drillsMeta) ? l.drillsMeta : [];
+      return acc + (metas.length > 0 ? metas.length : 1);
+    }, 0);
+  }, [filteredLessons]);
 
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-150">
-      <div className="w-full max-w-3xl max-h-[85vh] bg-[#0c1220] border border-white/10 rounded-3xl flex flex-col shadow-2xl overflow-hidden">
-        {/* Header */}
-        <div className="p-5 border-b border-white/10 flex items-center justify-between">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/85 backdrop-blur-md animate-in fade-in duration-150">
+      <div className="w-full max-w-4xl max-h-[90vh] bg-[#070d1e] border border-white/10 rounded-3xl flex flex-col shadow-2xl overflow-hidden">
+        {/* Top Filter Bar (Image 3 Header) */}
+        <div className="p-5 border-b border-white/10 flex items-center justify-between bg-[#0a1126]">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
-              <BookOpen size={20} />
-            </div>
-            <div>
-              <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                <span>Chọn Bài Học Luyện Tập</span>
-                <span className="text-xs px-2 py-0.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-300 font-normal">
-                  81 Bài học · 414 Bài tập
-                </span>
-              </h3>
-              <p className="text-xs text-gray-400">
-                Lộ trình chuẩn từ phím cơ sở đến gõ văn bản nâng cao
-              </p>
+            <span className="text-xs font-mono font-bold text-gray-400 uppercase tracking-wider">
+              DANH MỤC
+            </span>
+            <div className="relative">
+              <select
+                value={selectedCategory}
+                onChange={(e) => setSelectedCategory(e.target.value)}
+                className="appearance-none bg-[#111c38] border border-white/15 focus:border-amber-400 text-white text-xs font-semibold rounded-xl pl-3.5 pr-8 py-2 outline-none cursor-pointer"
+              >
+                <option value="all">Tất cả — {totalDrillsCount} bài</option>
+                <option value="basic">Cơ bản (Home row & Phím chính) — 64 bài</option>
+                <option value="intermediate">Trung cấp & Phím số</option>
+                <option value="advanced">Nâng cao & Văn bản thực chiến</option>
+              </select>
+              <ChevronDown
+                size={14}
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"
+              />
             </div>
           </div>
 
           <button
             onClick={onClose}
-            className="w-8 h-8 rounded-full bg-gray-800 hover:bg-gray-700 text-gray-400 hover:text-white flex items-center justify-center transition-colors text-sm"
+            className="w-8 h-8 rounded-full bg-gray-800/80 hover:bg-gray-700 text-gray-400 hover:text-white flex items-center justify-center transition-colors text-sm"
           >
-            ✕
+            <X size={16} />
           </button>
         </div>
 
-        {/* Search & Filter Bar */}
-        <div className="p-4 bg-black/20 border-b border-white/5 flex flex-wrap items-center gap-3">
-          <div className="flex-1 min-w-[240px] relative">
-            <Search
-              size={16}
-              className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
-            />
-            <input
-              type="text"
-              placeholder="Tìm bài học (ví dụ: home row, shift, dấu, số)..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="w-full bg-[#121929] border border-white/10 focus:border-cyan-400 rounded-xl pl-9 pr-4 py-2 text-sm text-gray-100 placeholder-gray-500 outline-none transition-all"
-            />
+        {/* Category Header Card (Image 3 Banner) */}
+        <div className="p-5 border-b border-white/5 bg-[#080f24] flex items-center gap-4">
+          <div className="w-12 h-12 rounded-2xl bg-amber-400/10 border border-amber-400/30 flex items-center justify-center text-amber-400 shadow-md">
+            <Keyboard size={24} />
           </div>
-
-          <div className="flex items-center gap-1.5 text-xs">
-            <button
-              onClick={() => setFilterDifficulty(null)}
-              className={`px-3 py-1.5 rounded-lg border transition-all ${
-                filterDifficulty === null
-                  ? "bg-cyan-500/20 border-cyan-500/40 text-cyan-300 font-medium"
-                  : "bg-gray-800/50 border-white/5 text-gray-400 hover:text-gray-200"
-              }`}
-            >
-              Tất cả
-            </button>
-            <button
-              onClick={() => setFilterDifficulty(1)}
-              className={`px-3 py-1.5 rounded-lg border transition-all ${
-                filterDifficulty === 1
-                  ? "bg-emerald-500/20 border-emerald-500/40 text-emerald-300 font-medium"
-                  : "bg-gray-800/50 border-white/5 text-gray-400 hover:text-gray-200"
-              }`}
-            >
-              Cơ bản
-            </button>
-            <button
-              onClick={() => setFilterDifficulty(2)}
-              className={`px-3 py-1.5 rounded-lg border transition-all ${
-                filterDifficulty === 2
-                  ? "bg-blue-500/20 border-blue-500/40 text-blue-300 font-medium"
-                  : "bg-gray-800/50 border-white/5 text-gray-400 hover:text-gray-200"
-              }`}
-            >
-              Nâng cao
-            </button>
+          <div>
+            <h3 className="text-lg font-bold text-white flex items-center gap-2">
+              <span>{currentCategoryTitle}</span>
+            </h3>
+            <p className="text-xs text-gray-400 font-mono">
+              {currentCategoryDrillsCount} bài tập · 0 đã hoàn thành
+            </p>
           </div>
         </div>
 
-        {/* Lessons List */}
-        <div className="flex-1 overflow-y-auto p-4 space-y-3">
-          {filteredLessons.map((lesson) => {
-            const isSelected = lesson.id === currentLessonId;
-            const metas = Array.isArray(lesson.drillsMeta)
-              ? lesson.drillsMeta
-              : [];
+        {/* Timeline Lessons List (Image 3 Exact Layout) */}
+        <div className="flex-1 overflow-y-auto p-6 sm:p-8 space-y-6">
+          <div className="relative pl-6 sm:pl-8 border-l-2 border-blue-900/60 space-y-7">
+            {filteredLessons.map((lesson) => {
+              const isCurrentLesson = lesson.id === currentLessonId;
+              const metas = Array.isArray(lesson.drillsMeta)
+                ? lesson.drillsMeta
+                : [];
+              const drillItems = metas.length > 0 ? metas : [{ drill_id: `${lesson.code}.1` }];
 
-            return (
-              <div
-                key={lesson.id}
-                className={`p-4 rounded-2xl border transition-all ${
-                  isSelected
-                    ? "bg-[#111c33] border-cyan-500/50 shadow-lg shadow-cyan-950/40"
-                    : "bg-[#0f1627]/70 border-white/5 hover:border-white/15"
-                }`}
-              >
-                <div className="flex items-start justify-between mb-3">
-                  <div className="flex items-center gap-2.5">
-                    <span className="w-7 h-7 rounded-lg bg-gray-800/80 border border-white/10 flex items-center justify-center font-mono text-xs font-bold text-cyan-400">
-                      {lesson.code}
+              return (
+                <div key={lesson.id} className="relative group">
+                  {/* Timeline node dot */}
+                  <div
+                    className={`absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full border-2 transition-all ${
+                      isCurrentLesson
+                        ? "bg-amber-400 border-amber-300 shadow-md shadow-amber-400/60 scale-125"
+                        : "bg-[#0b142c] border-blue-800 group-hover:border-blue-500"
+                    }`}
+                  />
+
+                  {/* Lesson Title & Code */}
+                  <div className="flex flex-wrap items-baseline gap-2.5 mb-2.5">
+                    <span className="text-[11px] font-mono font-bold text-gray-400 uppercase tracking-wider">
+                      BÀI {lesson.code}
                     </span>
-                    <div>
-                      <h4 className="text-sm font-semibold text-white">
-                        {lesson.title}
-                      </h4>
-                      {lesson.subtitle && (
-                        <p className="text-xs text-gray-400">{lesson.subtitle}</p>
-                      )}
-                    </div>
+                    <span className="text-sm sm:text-base font-bold text-white">
+                      {lesson.title}
+                    </span>
+                    {lesson.subtitle && (
+                      <span className="px-2 py-0.5 rounded-md bg-black/60 border border-amber-400/30 text-amber-300 font-mono text-xs">
+                        {lesson.subtitle}
+                      </span>
+                    )}
                   </div>
 
-                  <span
-                    className={`text-[10px] uppercase font-semibold px-2 py-0.5 rounded-md ${
-                      lesson.difficulty === 1
-                        ? "bg-emerald-500/10 text-emerald-400"
-                        : "bg-blue-500/10 text-blue-400"
-                    }`}
-                  >
-                    Độ khó: {lesson.difficulty}
-                  </span>
-                </div>
-
-                {/* Drill Badges */}
-                <div className="flex flex-wrap gap-1.5 pt-2 border-t border-white/5">
-                  {metas.length > 0 ? (
-                    metas.map((m) => {
+                  {/* Horizontal Drill Capsules (Image 3 Dashes) */}
+                  <div className="flex flex-wrap items-center gap-1.5 pt-1">
+                    {drillItems.map((m, dIdx) => {
                       const isDrillActive =
                         lesson.id === currentLessonId &&
                         m.drill_id === currentDrillId;
 
                       return (
                         <button
-                          key={m.drill_id}
+                          key={dIdx}
                           onClick={() => {
                             onSelectDrill(lesson.id, m.drill_id);
                             onClose();
                           }}
-                          className={`px-3 py-1 rounded-lg text-xs font-mono transition-all border ${
+                          className={`h-2.5 sm:h-3 w-7 sm:w-10 rounded-full transition-all duration-150 ${
                             isDrillActive
-                              ? "bg-cyan-500 text-black font-bold border-cyan-300 shadow-md shadow-cyan-500/30"
-                              : "bg-black/30 border-white/10 text-gray-300 hover:border-cyan-500/40 hover:text-white"
+                              ? "bg-amber-400 ring-2 ring-amber-300 shadow-md shadow-amber-400/70 scale-110"
+                              : "bg-[#152342] hover:bg-cyan-500/50 border border-white/5"
                           }`}
-                        >
-                          Bài {m.drill_id}
-                        </button>
+                          title={`Bài tập ${m.drill_id}`}
+                        />
                       );
-                    })
-                  ) : (
-                    <button
-                      onClick={() => {
-                        onSelectDrill(lesson.id, `${lesson.code}.1`);
-                        onClose();
-                      }}
-                      className="px-3 py-1 rounded-lg text-xs font-mono bg-black/30 border border-white/10 text-gray-300 hover:border-cyan-500/40 hover:text-white"
-                    >
-                      Bắt đầu bài tập
-                    </button>
-                  )}
+                    })}
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

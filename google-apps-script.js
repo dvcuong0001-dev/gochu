@@ -1,31 +1,18 @@
 /**
  * =========================================================================
- * GOOGLE APPS SCRIPT CHO BẢNG XẾP HẠNG TUHOC TYPING
+ * GOOGLE APPS SCRIPT CHO BẢNG XẾP HẠNG TỔNG TOÀN NỀN TẢNG (TUHOC TYPING)
  * =========================================================================
  * 
- * HƯỚNG DẪN CÀI ĐẶT (MẤT 1 PHÚT):
- * 1. Mở https://sheets.google.com và tạo 1 Google Sheet mới.
- * 2. Đặt tên Sheet (ví dụ: "TuhocTyping_Leaderboard").
- * 3. Hàng 1 (Tiêu đề cột):
- *    Cột A: Timestamp
- *    Cột B: Username
- *    Cột C: LessonId
- *    Cột D: DrillId
- *    Cột E: WPM
- *    Cột F: Accuracy
- *    Cột G: TimeSpent
- * 
- * 4. Trên menu của Google Sheets: Chọn "Tiện ích mở rộng" (Extensions) > "Apps Script".
- * 5. Xóa hết code mặc định, copy toàn bộ nội dung file này dán vào.
- * 6. Bấm "Triển khai" (Deploy) > "Triển khai mới" (New deployment).
- *    - Chọn loại: "Ứng dụng web" (Web app).
- *    - Mô tả: "Leaderboard API".
- *    - Thực thi dưới dạng (Execute as): "Tôi" (Me).
- *    - Ai có quyền truy cập (Who has access): "Bất kỳ ai" (Anyone).
- * 7. Bấm "Triển khai" (Deploy), cấp quyền truy cập tài khoản Google khi được hỏi.
- * 8. Copy đường link "URL ứng dụng web" (dạng: https://script.google.com/macros/s/.../exec).
- * 9. Dán URL này vào file `.env.local` của Web App:
- *    GOOGLE_SHEET_WEBAPP_URL="https://script.google.com/macros/s/.../exec"
+ * TIÊU ĐỀ CỘT TRÊN GOOGLE SHEETS (DÒNG 1):
+ * Cột A: Username
+ * Cột B: Avatar
+ * Cột C: Level
+ * Cột D: XP
+ * Cột E: BestWPM
+ * Cột F: AvgAccuracy
+ * Cột G: TotalTimeSeconds
+ * Cột H: CompletedDrills
+ * Cột I: LastUpdated
  * 
  * =========================================================================
  */
@@ -38,26 +25,69 @@ function doPost(e) {
     var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
     var data = JSON.parse(e.postData.contents);
 
-    var timestamp = new Date();
-    var username = data.username || "Ẩn danh";
-    var lessonId = data.lessonId || "";
-    var drillId = data.drillId || "";
+    var username = (data.username || "Ẩn danh").trim();
+    var avatar = data.avatar || "🐱";
     var wpm = Number(data.wpm) || 0;
-    var accuracy = Number(data.accuracy) || 0;
+    var accuracy = Number(data.accuracy) || 100;
     var timeSpent = Number(data.timeSpent) || 0;
+    var earnedXp = Number(data.earnedXp) || Math.max(10, Math.round(wpm * 0.8));
 
-    sheet.appendRow([
-      timestamp.toISOString(),
-      username,
-      lessonId,
-      drillId,
-      wpm,
-      accuracy,
-      timeSpent
-    ]);
+    var rows = sheet.getDataRange().getValues();
+    var userRowIndex = -1;
+
+    // Tìm xem user đã tồn tại trong Sheet chưa
+    for (var i = 1; i < rows.length; i++) {
+      if (rows[i][0] && rows[i][0].toString().toLowerCase() === username.toLowerCase()) {
+        userRowIndex = i + 1; // 1-based index cho Sheet
+        break;
+      }
+    }
+
+    var now = new Date().toISOString();
+
+    if (userRowIndex > 0) {
+      // Cập nhật người chơi đã có
+      var currentXp = Number(rows[userRowIndex - 1][3]) || 0;
+      var currentBestWpm = Number(rows[userRowIndex - 1][4]) || 0;
+      var currentAcc = Number(rows[userRowIndex - 1][5]) || 100;
+      var currentTime = Number(rows[userRowIndex - 1][6]) || 0;
+      var currentCompleted = Number(rows[userRowIndex - 1][7]) || 0;
+
+      var newXp = currentXp + earnedXp;
+      var newLevel = 1 + Math.floor(newXp / 100);
+      var newBestWpm = Math.max(currentBestWpm, wpm);
+      var newAcc = Math.round(((currentAcc + accuracy) / 2) * 10) / 10;
+      var newTotalTime = currentTime + timeSpent;
+      var newCompleted = currentCompleted + 1;
+
+      sheet.getRange(userRowIndex, 2).setValue(avatar);
+      sheet.getRange(userRowIndex, 3).setValue(newLevel);
+      sheet.getRange(userRowIndex, 4).setValue(newXp);
+      sheet.getRange(userRowIndex, 5).setValue(newBestWpm);
+      sheet.getRange(userRowIndex, 6).setValue(newAcc);
+      sheet.getRange(userRowIndex, 7).setValue(newTotalTime);
+      sheet.getRange(userRowIndex, 8).setValue(newCompleted);
+      sheet.getRange(userRowIndex, 9).setValue(now);
+    } else {
+      // Thêm người chơi mới
+      var initXp = earnedXp;
+      var initLevel = 1 + Math.floor(initXp / 100);
+
+      sheet.appendRow([
+        username,
+        avatar,
+        initLevel,
+        initXp,
+        wpm,
+        accuracy,
+        timeSpent,
+        1,
+        now
+      ]);
+    }
 
     return ContentService
-      .createTextOutput(JSON.stringify({ status: "success", message: "Đã lưu kết quả thành công" }))
+      .createTextOutput(JSON.stringify({ status: "success", message: "Đã cập nhật bảng xếp hạng tổng" }))
       .setMimeType(ContentService.MimeType.JSON);
 
   } catch (err) {
@@ -73,46 +103,44 @@ function doGet(e) {
   try {
     var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
     var rows = sheet.getDataRange().getValues();
-    
+
     if (rows.length <= 1) {
       return ContentService
-        .createTextOutput(JSON.stringify([]))
+        .createTextOutput("[]")
         .setMimeType(ContentService.MimeType.JSON);
     }
 
-    var drillFilter = e && e.parameter && e.parameter.drillId ? e.parameter.drillId : null;
+    var sortBy = e && e.parameter && e.parameter.sort ? e.parameter.sort : "xp";
     var results = [];
 
-    // Bỏ qua hàng 0 (Header)
     for (var i = 1; i < rows.length; i++) {
       var r = rows[i];
-      if (!r[1]) continue; // Không có username
-
-      if (drillFilter && r[3] != drillFilter) {
-        continue;
-      }
+      if (!r[0]) continue;
 
       results.push({
-        createdAt: r[0],
-        username: r[1],
-        lessonId: r[2],
-        drillId: r[3],
-        wpm: Number(r[4]) || 0,
-        accuracy: Number(r[5]) || 0,
-        timeSpent: Number(r[6]) || 0
+        username: r[0],
+        avatar: r[1] || "🐱",
+        level: Number(r[2]) || 1,
+        xp: Number(r[3]) || 0,
+        bestWpm: Number(r[4]) || 0,
+        avgAccuracy: Number(r[5]) || 100,
+        totalTimeSeconds: Number(r[6]) || 0,
+        completedDrills: Number(r[7]) || 1,
+        lastActive: r[8] || ""
       });
     }
 
-    // Sắp xếp theo WPM giảm dần
-    results.sort(function(a, b) {
-      return b.wpm - a.wpm;
-    });
-
-    // Giới hạn top 50
-    results = results.slice(0, 50);
+    // Sắp xếp
+    if (sortBy === "wpm") {
+      results.sort(function(a, b) { return b.bestWpm - a.bestWpm; });
+    } else if (sortBy === "time") {
+      results.sort(function(a, b) { return b.totalTimeSeconds - a.totalTimeSeconds; });
+    } else {
+      results.sort(function(a, b) { return b.xp - a.xp; });
+    }
 
     return ContentService
-      .createTextOutput(JSON.stringify(results))
+      .createTextOutput(JSON.stringify(results.slice(0, 50)))
       .setMimeType(ContentService.MimeType.JSON);
 
   } catch (err) {

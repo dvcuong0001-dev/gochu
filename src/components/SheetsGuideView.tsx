@@ -12,22 +12,42 @@ export const SheetsGuideView: React.FC<{ onBack: () => void }> = ({ onBack }) =>
   try {
     var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
     var data = JSON.parse(e.postData.contents);
-    sheet.appendRow([
-      new Date().toISOString(),
-      data.username || "Ẩn danh",
-      data.lessonId || "",
-      data.drillId || "",
-      Number(data.wpm) || 0,
-      Number(data.accuracy) || 0,
-      Number(data.timeSpent) || 0
-    ]);
-    return ContentService
-      .createTextOutput(JSON.stringify({ status: "success" }))
-      .setMimeType(ContentService.MimeType.JSON);
+    var username = (data.username || "Ẩn danh").trim();
+    var avatar = data.avatar || "🐱";
+    var wpm = Number(data.wpm) || 0;
+    var accuracy = Number(data.accuracy) || 100;
+    var timeSpent = Number(data.timeSpent) || 0;
+    var earnedXp = Number(data.earnedXp) || Math.max(10, Math.round(wpm * 0.8));
+    var rows = sheet.getDataRange().getValues();
+    var userRowIndex = -1;
+    for (var i = 1; i < rows.length; i++) {
+      if (rows[i][0] && rows[i][0].toString().toLowerCase() === username.toLowerCase()) {
+        userRowIndex = i + 1;
+        break;
+      }
+    }
+    var now = new Date().toISOString();
+    if (userRowIndex > 0) {
+      var currentXp = Number(rows[userRowIndex - 1][3]) || 0;
+      var currentBestWpm = Number(rows[userRowIndex - 1][4]) || 0;
+      var currentAcc = Number(rows[userRowIndex - 1][5]) || 100;
+      var currentTime = Number(rows[userRowIndex - 1][6]) || 0;
+      var currentCompleted = Number(rows[userRowIndex - 1][7]) || 0;
+      var newXp = currentXp + earnedXp;
+      sheet.getRange(userRowIndex, 2).setValue(avatar);
+      sheet.getRange(userRowIndex, 3).setValue(1 + Math.floor(newXp / 100));
+      sheet.getRange(userRowIndex, 4).setValue(newXp);
+      sheet.getRange(userRowIndex, 5).setValue(Math.max(currentBestWpm, wpm));
+      sheet.getRange(userRowIndex, 6).setValue(Math.round(((currentAcc + accuracy) / 2) * 10) / 10);
+      sheet.getRange(userRowIndex, 7).setValue(currentTime + timeSpent);
+      sheet.getRange(userRowIndex, 8).setValue(currentCompleted + 1);
+      sheet.getRange(userRowIndex, 9).setValue(now);
+    } else {
+      sheet.appendRow([username, avatar, 1 + Math.floor(earnedXp / 100), earnedXp, wpm, accuracy, timeSpent, 1, now]);
+    }
+    return ContentService.createTextOutput(JSON.stringify({ status: "success" })).setMimeType(ContentService.MimeType.JSON);
   } catch (err) {
-    return ContentService
-      .createTextOutput(JSON.stringify({ status: "error", message: err.toString() }))
-      .setMimeType(ContentService.MimeType.JSON);
+    return ContentService.createTextOutput(JSON.stringify({ status: "error", message: err.toString() })).setMimeType(ContentService.MimeType.JSON);
   } finally {
     lock.releaseLock();
   }
@@ -37,18 +57,20 @@ function doGet(e) {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var rows = sheet.getDataRange().getValues();
   if (rows.length <= 1) return ContentService.createTextOutput("[]").setMimeType(ContentService.MimeType.JSON);
-  var drillFilter = e && e.parameter && e.parameter.drillId ? e.parameter.drillId : null;
+  var sortBy = e && e.parameter && e.parameter.sort ? e.parameter.sort : "xp";
   var results = [];
   for (var i = 1; i < rows.length; i++) {
     var r = rows[i];
-    if (!r[1]) continue;
-    if (drillFilter && r[3] != drillFilter) continue;
+    if (!r[0]) continue;
     results.push({
-      createdAt: r[0], username: r[1], lessonId: r[2], drillId: r[3],
-      wpm: Number(r[4]) || 0, accuracy: Number(r[5]) || 0, timeSpent: Number(r[6]) || 0
+      username: r[0], avatar: r[1] || "🐱", level: Number(r[2]) || 1, xp: Number(r[3]) || 0,
+      bestWpm: Number(r[4]) || 0, avgAccuracy: Number(r[5]) || 100, totalTimeSeconds: Number(r[6]) || 0,
+      completedDrills: Number(r[7]) || 1, lastActive: r[8] || ""
     });
   }
-  results.sort(function(a, b) { return b.wpm - a.wpm; });
+  if (sortBy === "wpm") results.sort(function(a, b) { return b.bestWpm - a.bestWpm; });
+  else if (sortBy === "time") results.sort(function(a, b) { return b.totalTimeSeconds - a.totalTimeSeconds; });
+  else results.sort(function(a, b) { return b.xp - a.xp; });
   return ContentService.createTextOutput(JSON.stringify(results.slice(0, 50))).setMimeType(ContentService.MimeType.JSON);
 }`;
 
@@ -68,16 +90,16 @@ function doGet(e) {
             className="p-2.5 rounded-xl bg-gray-800/80 hover:bg-gray-700 border border-white/10 text-gray-300 hover:text-white transition-all flex items-center gap-1.5 text-xs font-medium"
           >
             <ArrowLeft size={16} />
-            <span>Quay lại luyện gõ</span>
+            <span>Quay lại</span>
           </button>
 
           <div>
             <h2 className="text-2xl font-bold text-white flex items-center gap-2.5">
               <FileSpreadsheet className="text-emerald-400" />
-              <span>Hướng Dẫn Kết Nối Google Sheets</span>
+              <span>Kết Nối Bảng Xếp Hạng Với Google Sheets</span>
             </h2>
             <p className="text-xs text-gray-400">
-              Lưu bảng xếp hạng miễn phí vào bảng tính Google trong 3 bước
+              Lưu bảng xếp hạng tổng toàn nền tảng (Level, XP, WPM, Thời gian) vào Google Sheets
             </p>
           </div>
         </div>
@@ -101,19 +123,21 @@ function doGet(e) {
             <span className="w-7 h-7 rounded-xl bg-emerald-500/20 text-emerald-400 font-bold flex items-center justify-center text-xs">
               1
             </span>
-            <h3 className="text-base font-bold text-white">Tạo Google Sheet & Tiêu đề cột</h3>
+            <h3 className="text-base font-bold text-white">Tạo Google Sheet Mới & Đặt Tên Tiêu Đề Cột</h3>
           </div>
           <p className="text-xs text-gray-300 mb-3">
             Truy cập <a href="https://sheets.new" target="_blank" className="text-cyan-400 underline">sheets.new</a> để tạo 1 file trang tính mới. Điền dòng 1 làm tiêu đề:
           </p>
-          <div className="grid grid-cols-7 gap-1 p-2.5 bg-black/50 border border-white/10 rounded-xl font-mono text-[11px] text-center text-gray-300">
-            <div className="bg-white/5 py-1 rounded">A: Timestamp</div>
-            <div className="bg-white/5 py-1 rounded">B: Username</div>
-            <div className="bg-white/5 py-1 rounded">C: LessonId</div>
-            <div className="bg-white/5 py-1 rounded">D: DrillId</div>
-            <div className="bg-white/5 py-1 rounded">E: WPM</div>
-            <div className="bg-white/5 py-1 rounded">F: Accuracy</div>
-            <div className="bg-white/5 py-1 rounded">G: TimeSpent</div>
+          <div className="grid grid-cols-4 sm:grid-cols-9 gap-1 p-2.5 bg-black/50 border border-white/10 rounded-xl font-mono text-[10px] text-center text-gray-300">
+            <div className="bg-white/5 py-1 rounded">A: Username</div>
+            <div className="bg-white/5 py-1 rounded">B: Avatar</div>
+            <div className="bg-white/5 py-1 rounded">C: Level</div>
+            <div className="bg-white/5 py-1 rounded">D: XP</div>
+            <div className="bg-white/5 py-1 rounded">E: BestWPM</div>
+            <div className="bg-white/5 py-1 rounded">F: AvgAccuracy</div>
+            <div className="bg-white/5 py-1 rounded">G: TotalTimeSeconds</div>
+            <div className="bg-white/5 py-1 rounded">H: CompletedDrills</div>
+            <div className="bg-white/5 py-1 rounded">I: LastUpdated</div>
           </div>
         </div>
 
@@ -135,7 +159,7 @@ function doGet(e) {
             </button>
           </div>
           <p className="text-xs text-gray-300 mb-3">
-            Trên thanh menu Google Sheet: Vào <strong>Tiện ích mở rộng (Extensions) → Apps Script</strong>. Xóa hết nội dung cũ và dán đoạn mã dưới đây vào:
+            Trên thanh menu Google Sheet: Vào <strong>Tiện ích mở rộng (Extensions) → Apps Script</strong>. Xóa hết code cũ và dán đoạn mã này vào:
           </p>
 
           <pre className="p-4 bg-black/60 border border-white/10 rounded-xl font-mono text-[11px] text-gray-300 overflow-x-auto max-h-56 leading-relaxed">
@@ -157,7 +181,7 @@ function doGet(e) {
             <li>Thực thi dưới dạng: <strong>Tôi (Me)</strong>.</li>
             <li>Ai có quyền truy cập: <strong>Bất kỳ ai (Anyone)</strong>.</li>
             <li>Nhấn <strong>Triển khai</strong> và copy đường link URL (kết thúc bằng <code className="text-cyan-300 bg-white/5 px-1 py-0.5 rounded">/exec</code>).</li>
-            <li>Dán vào file <code className="text-cyan-300 bg-white/5 px-1 py-0.5 rounded">.env.local</code> hoặc trên Vercel Environment Variables:
+            <li>Dán vào file <code className="text-cyan-300 bg-white/5 px-1 py-0.5 rounded">.env.local</code> hoặc trên Vercel:
               <pre className="mt-2 p-2.5 bg-black/50 border border-white/10 rounded-lg text-cyan-300 font-mono text-[11px]">
                 GOOGLE_SHEET_WEBAPP_URL=&quot;https://script.google.com/macros/s/AKfycby.../exec&quot;
               </pre>

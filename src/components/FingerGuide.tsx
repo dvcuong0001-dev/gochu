@@ -14,49 +14,56 @@ interface FingerGuideProps {
 
 const CHAR_TO_FINGER: Record<string, number> = {
   // Left Hand
-  "`": 0, "1": 0, "q": 0, "a": 0, "z": 0,
-  "2": 1, "w": 1, "s": 1, "x": 1,
-  "3": 2, "e": 2, "d": 2, "c": 2,
-  "4": 3, "5": 3, "r": 3, "t": 3, "f": 3, "g": 3, "v": 3, "b": 3,
+  "`": 0, "~": 0, "1": 0, "!": 0, "q": 0, "a": 0, "z": 0,
+  "2": 1, "@": 1, "w": 1, "s": 1, "x": 1,
+  "3": 2, "#": 2, "e": 2, "d": 2, "c": 2,
+  "4": 3, "$": 3, "5": 3, "%": 3, "r": 3, "t": 3, "f": 3, "g": 3, "v": 3, "b": 3,
   // Thumbs
   " ": 4,
   // Right Hand
-  "6": 6, "7": 6, "y": 6, "u": 6, "h": 6, "j": 6, "n": 6, "m": 6,
-  "8": 7, "i": 7, "k": 7, ",": 7,
-  "9": 8, "o": 8, "l": 8, ".": 8,
-  "0": 9, "-": 9, "=": 9, "p": 9, "[": 9, "]": 9, "\\": 9, ";": 9, "'": 9, "/": 9,
+  "6": 6, "^": 6, "7": 6, "&": 6, "y": 6, "u": 6, "h": 6, "j": 6, "n": 6, "m": 6,
+  "8": 7, "*": 7, "i": 7, "k": 7, ",": 7, "<": 7,
+  "9": 8, "(": 8, "o": 8, "l": 8, ".": 8, ">": 8,
+  "0": 9, ")": 9, "-": 9, "_": 9, "=": 9, "+": 9,
+  "p": 9, "[": 9, "{": 9, "]": 9, "}": 9, "\\": 9, "|": 9,
+  ";": 9, ":": 9, "'": 9, '"': 9, "/": 9, "?": 9,
 };
 
 export const FingerGuide: React.FC<FingerGuideProps> = ({
   activeChar = "",
   targetWpm = 40,
-  difficultyText = "Dễ",
+  difficultyText = "Bài tập cơ bản",
 }) => {
   const norm = activeChar.toLowerCase();
   const activeFingerIndex = CHAR_TO_FINGER[norm] ?? (norm === " " ? 4 : -1);
 
-  // Finger definitions for Left Hand
+  // Left Hand Fingers (explicit pixel heights so Tailwind doesn't drop custom sizes)
   const leftFingers = [
-    { id: 0, name: "Út", height: "h-10", keys: "A Q Z" },
-    { id: 1, name: "Áp út", height: "h-14", keys: "S W X" },
-    { id: 2, name: "Giữa", height: "h-16", keys: "D E C" },
-    { id: 3, name: "Trỏ", height: "h-13", keys: "F R V" },
-    { id: 4, name: "Cái", height: "h-8 w-4 -rotate-12 mt-4", keys: "␣" },
+    { id: 0, name: "Út", height: "h-[40px]", width: "w-3.5", keys: "A Q Z" },
+    { id: 1, name: "Áp út", height: "h-[54px]", width: "w-3.5", keys: "S W X" },
+    { id: 2, name: "Giữa", height: "h-[62px]", width: "w-3.5", keys: "D E C" },
+    { id: 3, name: "Trỏ", height: "h-[50px]", width: "w-3.5", keys: "F R V" },
+    { id: 4, name: "Cái", height: "h-[32px]", width: "w-4 -rotate-12 mt-4", keys: "␣" },
   ];
 
-  // Finger definitions for Right Hand
+  // Right Hand Fingers
   const rightFingers = [
-    { id: 5, name: "Cái", height: "h-8 w-4 rotate-12 mt-4", keys: "␣" },
-    { id: 6, name: "Trỏ", height: "h-13", keys: "J U M" },
-    { id: 7, name: "Giữa", height: "h-16", keys: "K I ," },
-    { id: 8, name: "Áp út", height: "h-14", keys: "L O ." },
-    { id: 9, name: "Út", height: "h-10", keys: "; P /" },
+    { id: 5, name: "Cái", height: "h-[32px]", width: "w-4 rotate-12 mt-4", keys: "␣" },
+    { id: 6, name: "Trỏ", height: "h-[50px]", width: "w-3.5", keys: "J U M" },
+    { id: 7, name: "Giữa", height: "h-[62px]", width: "w-3.5", keys: "K I ," },
+    { id: 8, name: "Áp út", height: "h-[54px]", width: "w-3.5", keys: "L O ." },
+    { id: 9, name: "Út", height: "h-[40px]", width: "w-3.5", keys: "; P /" },
   ];
 
-  const displayChar = activeChar === " " ? "Space" : activeChar === "\n" ? "Enter" : activeChar.toUpperCase();
+  const displayChar =
+    activeChar === " "
+      ? "Space"
+      : activeChar === "\n"
+      ? "Enter"
+      : activeChar.toUpperCase();
 
   return (
-    <div className="w-full max-w-lg mx-auto bg-[#0a101f]/90 border border-white/10 rounded-2xl p-4 shadow-xl">
+    <div className="w-full max-w-lg mx-auto bg-[#0a101f]/95 border border-white/10 rounded-2xl p-4 shadow-xl">
       {/* Top Header */}
       <div className="flex items-center justify-between mb-4 pb-2 border-b border-white/5">
         <span className="text-xs font-mono font-bold tracking-wider text-gray-400 uppercase">
@@ -64,7 +71,7 @@ export const FingerGuide: React.FC<FingerGuideProps> = ({
         </span>
         <div className="flex items-center gap-1.5 text-xs font-mono">
           <span className="text-gray-400">Phím:</span>
-          <span className="px-2 py-0.5 rounded-md bg-amber-400 text-black font-extrabold text-xs shadow-md shadow-amber-400/30">
+          <span className="px-2.5 py-0.5 rounded-md bg-amber-400 text-black font-extrabold text-xs shadow-md shadow-amber-400/40">
             {displayChar || "—"}
           </span>
         </div>
@@ -75,15 +82,15 @@ export const FingerGuide: React.FC<FingerGuideProps> = ({
         {/* Left Hand */}
         <div className="flex flex-col items-center">
           <span className="text-[10px] text-gray-500 font-medium mb-2">Tay trái</span>
-          <div className="flex items-end gap-2">
+          <div className="flex items-end gap-2 h-[68px]">
             {leftFingers.map((f) => {
               const isActive = activeFingerIndex === f.id;
               return (
-                <div key={f.id} className="flex flex-col items-center gap-1">
+                <div key={f.id} className="flex flex-col items-center justify-end h-full">
                   <div
-                    className={`w-3.5 ${f.height} rounded-full transition-all duration-150 ${
+                    className={`${f.width} ${f.height} rounded-full transition-all duration-150 ${
                       isActive
-                        ? "bg-amber-400 shadow-lg shadow-amber-400/70 scale-105"
+                        ? "bg-amber-400 shadow-lg shadow-amber-400/80 scale-105 border border-amber-300 ring-2 ring-amber-400/30"
                         : "bg-[#18233c] border border-white/5"
                     }`}
                   />
@@ -102,15 +109,15 @@ export const FingerGuide: React.FC<FingerGuideProps> = ({
         {/* Right Hand */}
         <div className="flex flex-col items-center">
           <span className="text-[10px] text-gray-500 font-medium mb-2">Tay phải</span>
-          <div className="flex items-end gap-2">
+          <div className="flex items-end gap-2 h-[68px]">
             {rightFingers.map((f) => {
               const isActive = activeFingerIndex === f.id;
               return (
-                <div key={f.id} className="flex flex-col items-center gap-1">
+                <div key={f.id} className="flex flex-col items-center justify-end h-full">
                   <div
-                    className={`w-3.5 ${f.height} rounded-full transition-all duration-150 ${
+                    className={`${f.width} ${f.height} rounded-full transition-all duration-150 ${
                       isActive
-                        ? "bg-amber-400 shadow-lg shadow-amber-400/70 scale-105"
+                        ? "bg-amber-400 shadow-lg shadow-amber-400/80 scale-105 border border-amber-300 ring-2 ring-amber-400/30"
                         : "bg-[#18233c] border border-white/5"
                     }`}
                   />

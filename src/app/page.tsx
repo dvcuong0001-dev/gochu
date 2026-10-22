@@ -214,10 +214,7 @@ export default function Home() {
 
         {/* Tab 4: Bảng Xếp Hạng */}
         {currentTab === "leaderboard" && (
-          <LeaderboardView
-            onBack={() => setCurrentTab("home")}
-            currentDrillId={currentDrillId}
-          />
+          <LeaderboardView onBack={() => setCurrentTab("home")} />
         )}
 
         {/* Tab 5: Hướng Dẫn Google Sheets */}

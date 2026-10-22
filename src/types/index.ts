@@ -32,15 +32,17 @@ export interface Drill {
   lines: DrillLine[];
 }
 
-export interface LeaderboardRecord {
+export interface LeaderboardUserRecord {
   id?: string;
   username: string;
-  lessonId: string;
-  drillId: string;
-  wpm: number;
-  accuracy: number;
-  timeSpent: number;
-  createdAt: string;
+  avatar?: string;
+  level: number;
+  xp: number;
+  bestWpm: number;
+  avgAccuracy: number;
+  totalTimeSeconds: number;
+  completedDrills: number;
+  lastActive?: string;
 }
 
 export interface TypingStats {

@@ -1,30 +1,32 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { LeaderboardRecord } from "@/types";
-import { Trophy, Medal, RefreshCw, FileSpreadsheet, ArrowLeft, CheckCircle, Clock } from "lucide-react";
+import { LeaderboardUserRecord } from "@/types";
+import {
+  Trophy,
+  Zap,
+  Clock,
+  RefreshCw,
+  FileSpreadsheet,
+  ArrowLeft,
+  CheckCircle,
+  Flame,
+  Award,
+} from "lucide-react";
 
 interface LeaderboardViewProps {
   onBack: () => void;
-  currentDrillId?: string;
 }
 
-export const LeaderboardView: React.FC<LeaderboardViewProps> = ({
-  onBack,
-  currentDrillId,
-}) => {
-  const [records, setRecords] = useState<LeaderboardRecord[]>([]);
+export const LeaderboardView: React.FC<LeaderboardViewProps> = ({ onBack }) => {
+  const [records, setRecords] = useState<LeaderboardUserRecord[]>([]);
   const [loading, setLoading] = useState(true);
-  const [filterDrill, setFilterDrill] = useState(false);
+  const [sortBy, setSortBy] = useState<"xp" | "wpm" | "time">("xp");
 
-  const fetchRecords = async () => {
+  const fetchRecords = async (sort: "xp" | "wpm" | "time") => {
     setLoading(true);
     try {
-      const url = filterDrill && currentDrillId
-        ? `/api/leaderboard?drillId=${encodeURIComponent(currentDrillId)}`
-        : `/api/leaderboard`;
-
-      const res = await fetch(url);
+      const res = await fetch(`/api/leaderboard?sort=${sort}`);
       const data = await res.json();
       if (data.success && Array.isArray(data.data)) {
         setRecords(data.data);
@@ -37,98 +39,122 @@ export const LeaderboardView: React.FC<LeaderboardViewProps> = ({
   };
 
   useEffect(() => {
-    fetchRecords();
-  }, [filterDrill, currentDrillId]);
+    fetchRecords(sortBy);
+  }, [sortBy]);
+
+  const formatSeconds = (secs: number) => {
+    const hours = Math.floor(secs / 3600);
+    const mins = Math.floor((secs % 3600) / 60);
+    const remainingSecs = secs % 60;
+
+    if (hours > 0) {
+      return `${hours}h ${mins}m`;
+    }
+    if (mins > 0) {
+      return `${mins}m ${remainingSecs}s`;
+    }
+    return `${remainingSecs}s`;
+  };
 
   return (
-    <div className="w-full max-w-4xl mx-auto px-4 py-6">
+    <div className="w-full max-w-5xl mx-auto px-4 py-6">
       {/* Header */}
-      <div className="flex items-center justify-between mb-8">
+      <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
         <div className="flex items-center gap-4">
           <button
             onClick={onBack}
             className="p-2.5 rounded-xl bg-gray-800/80 hover:bg-gray-700 border border-white/10 text-gray-300 hover:text-white transition-all flex items-center gap-1.5 text-xs font-medium"
           >
             <ArrowLeft size={16} />
-            <span>Quay lại luyện gõ</span>
+            <span>Quay lại</span>
           </button>
 
           <div>
             <h2 className="text-2xl font-bold text-white flex items-center gap-2.5">
               <Trophy className="text-amber-400" />
-              <span>Bảng Xếp Hạng Cao Thủ</span>
+              <span>Bảng Xếp Hạng Tổng Toàn Nền Tảng</span>
             </h2>
             <p className="text-xs text-gray-400">
-              Đồng bộ dữ liệu thời gian thực qua Google Sheets
+              Vinh danh các cao thủ theo Cấp độ (LV), Điểm kinh nghiệm (XP), Tốc độ (WPM) và Thời gian luyện tập
             </p>
           </div>
         </div>
 
-        <div className="flex items-center gap-2">
-          {currentDrillId && (
-            <button
-              onClick={() => setFilterDrill(!filterDrill)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-medium border transition-all ${
-                filterDrill
-                  ? "bg-cyan-500/20 border-cyan-500/40 text-cyan-300"
-                  : "bg-gray-800/60 border-white/10 text-gray-400 hover:text-gray-200"
-              }`}
-            >
-              Chỉ bài {currentDrillId}
-            </button>
-          )}
-
-          <button
-            onClick={fetchRecords}
-            disabled={loading}
-            className="p-2.5 rounded-xl bg-gray-800/80 hover:bg-gray-700 border border-white/10 text-gray-300 hover:text-white transition-all disabled:opacity-50"
-            title="Làm mới"
-          >
-            <RefreshCw size={16} className={loading ? "animate-spin" : ""} />
-          </button>
-        </div>
+        <button
+          onClick={() => fetchRecords(sortBy)}
+          disabled={loading}
+          className="p-2.5 rounded-xl bg-gray-800/80 hover:bg-gray-700 border border-white/10 text-gray-300 hover:text-white transition-all disabled:opacity-50"
+          title="Làm mới"
+        >
+          <RefreshCw size={16} className={loading ? "animate-spin" : ""} />
+        </button>
       </div>
 
-      {/* Google Sheets Status Banner */}
-      <div className="p-4 rounded-2xl bg-gradient-to-r from-emerald-950/40 to-teal-950/30 border border-emerald-500/30 mb-6 flex flex-wrap items-center justify-between gap-3 text-xs">
-        <div className="flex items-center gap-2.5 text-emerald-300">
-          <FileSpreadsheet size={20} className="text-emerald-400" />
-          <span>
-            Kết nối sẵn sàng với Google Sheets. Bạn chỉ cần điền link Web App trong file <code className="bg-emerald-950 px-1.5 py-0.5 rounded text-emerald-200 border border-emerald-800">.env.local</code>.
-          </span>
-        </div>
-        <div className="flex items-center gap-1.5 text-[11px] text-gray-400 font-mono">
-          <CheckCircle size={14} className="text-emerald-400" />
-          <span>Tự động xếp hạng theo WPM</span>
-        </div>
+      {/* 3 Sorting Criteria Tabs */}
+      <div className="flex flex-wrap items-center gap-2 mb-6">
+        <button
+          onClick={() => setSortBy("xp")}
+          className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-2 border ${
+            sortBy === "xp"
+              ? "bg-amber-500/20 text-amber-300 border-amber-500/40 shadow-lg shadow-amber-500/20"
+              : "bg-[#0e1628] text-gray-400 border-white/10 hover:text-gray-200"
+          }`}
+        >
+          <Award size={16} className="text-amber-400" />
+          <span>Xếp Hạng Cấp Độ & XP</span>
+        </button>
+
+        <button
+          onClick={() => setSortBy("wpm")}
+          className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-2 border ${
+            sortBy === "wpm"
+              ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 shadow-lg shadow-cyan-500/20"
+              : "bg-[#0e1628] text-gray-400 border-white/10 hover:text-gray-200"
+          }`}
+        >
+          <Zap size={16} className="text-cyan-400" />
+          <span>Xếp Hạng Tốc Độ (WPM)</span>
+        </button>
+
+        <button
+          onClick={() => setSortBy("time")}
+          className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-2 border ${
+            sortBy === "time"
+              ? "bg-emerald-500/20 text-emerald-300 border-emerald-500/40 shadow-lg shadow-emerald-500/20"
+              : "bg-[#0e1628] text-gray-400 border-white/10 hover:text-gray-200"
+          }`}
+        >
+          <Clock size={16} className="text-emerald-400" />
+          <span>Xếp Hạng Thời Gian Luyện</span>
+        </button>
       </div>
 
-      {/* Leaderboard Table */}
-      <div className="w-full bg-[#0d1322] border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
-        <div className="grid grid-cols-12 gap-2 p-4 border-b border-white/10 text-xs font-semibold text-gray-400 uppercase tracking-wider bg-black/30">
+      {/* Leaderboard Table Card */}
+      <div className="w-full bg-[#0a101f] border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
+        <div className="grid grid-cols-12 gap-2 p-4 border-b border-white/10 text-xs font-semibold text-gray-400 uppercase tracking-wider bg-black/40">
           <div className="col-span-1 text-center">Hạng</div>
-          <div className="col-span-4">Người chơi</div>
-          <div className="col-span-2 text-center">Bài tập</div>
+          <div className="col-span-3">Người chơi</div>
+          <div className="col-span-2 text-center">Cấp độ (LV)</div>
+          <div className="col-span-2 text-right">Kinh nghiệm (XP)</div>
           <div className="col-span-2 text-right">Tốc độ (WPM)</div>
-          <div className="col-span-1 text-right">Độ chính xác</div>
-          <div className="col-span-2 text-right pr-2">Thời gian</div>
+          <div className="col-span-2 text-right pr-2">Thời gian luyện</div>
         </div>
 
-        <div className="divide-y divide-white/5">
+        <div className="divide-y divide-white/5 font-mono text-xs">
           {loading ? (
             <div className="p-12 text-center text-sm text-gray-400">
               <RefreshCw className="animate-spin inline-block mr-2" size={18} />
-              Đang tải bảng xếp hạng...
+              Đang tải bảng xếp hạng tổng thể...
             </div>
           ) : records.length === 0 ? (
             <div className="p-12 text-center text-sm text-gray-400">
-              Chưa có ai ghi danh bài này. Hãy là người đầu tiên hoàn thành và lưu điểm!
+              Chưa có dữ liệu người chơi.
             </div>
           ) : (
             records.map((rec, index) => {
               const rank = index + 1;
               let rankBadge = (
-                <span className="font-mono text-gray-400 font-bold">{rank}</span>
+                <span className="font-bold text-gray-400">{rank}</span>
               );
 
               if (rank === 1) {
@@ -154,31 +180,39 @@ export const LeaderboardView: React.FC<LeaderboardViewProps> = ({
               return (
                 <div
                   key={index}
-                  className="grid grid-cols-12 gap-2 p-3.5 items-center text-xs hover:bg-white/[0.02] transition-colors"
+                  className="grid grid-cols-12 gap-2 p-4 items-center hover:bg-white/[0.03] transition-colors"
                 >
                   <div className="col-span-1 flex justify-center">{rankBadge}</div>
 
-                  <div className="col-span-4 flex items-center gap-2">
-                    <span className="font-semibold text-white truncate">
-                      {rec.username}
+                  <div className="col-span-3 flex items-center gap-2.5 font-sans">
+                    <span className="text-xl">{rec.avatar || "🐱"}</span>
+                    <div>
+                      <span className="font-bold text-white block truncate">
+                        {rec.username}
+                      </span>
+                      <span className="text-[10px] text-gray-500 font-mono">
+                        {rec.completedDrills} bài hoàn thành
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-span-2 text-center">
+                    <span className="px-2.5 py-1 rounded-lg bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 font-bold text-xs">
+                      Cấp {rec.level}
                     </span>
                   </div>
 
-                  <div className="col-span-2 text-center font-mono text-gray-400">
-                    {rec.drillId ? `Bài ${rec.drillId}` : "Tự do"}
+                  <div className="col-span-2 text-right font-bold text-amber-400">
+                    {rec.xp.toLocaleString()} <span className="text-[10px] text-gray-500">XP</span>
                   </div>
 
-                  <div className="col-span-2 text-right font-mono font-bold text-cyan-400 text-sm">
-                    {rec.wpm} <span className="text-[10px] text-gray-500">WPM</span>
+                  <div className="col-span-2 text-right font-bold text-cyan-300 text-sm">
+                    {rec.bestWpm} <span className="text-[10px] text-gray-500 font-normal">WPM</span>
                   </div>
 
-                  <div className="col-span-1 text-right font-mono text-emerald-400 font-semibold">
-                    {rec.accuracy}%
-                  </div>
-
-                  <div className="col-span-2 text-right pr-2 text-gray-400 font-mono flex items-center justify-end gap-1">
-                    <Clock size={12} className="text-gray-500" />
-                    <span>{rec.timeSpent}s</span>
+                  <div className="col-span-2 text-right pr-2 text-gray-300 flex items-center justify-end gap-1.5">
+                    <Clock size={13} className="text-gray-500" />
+                    <span>{formatSeconds(rec.totalTimeSeconds)}</span>
                   </div>
                 </div>
               );
