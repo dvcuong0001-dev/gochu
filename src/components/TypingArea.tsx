@@ -327,22 +327,33 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           username: finalName,
-          lessonId: drill.lessonId,
-          drillId: drill.id,
-          wpm,
-          accuracy,
-          timeSpent: elapsed,
+          avatar: user?.avatar || "🐱",
+          lessonId: drill.lessonId || "lesson1",
+          drillId: drill.id || "1.01",
+          wpm: Math.max(0, Math.round(Number(wpm) || 0)),
+          accuracy: Math.max(0, Math.min(100, parseFloat(Number(accuracy || 100).toFixed(1)))),
+          timeSpent: Math.max(0, Math.round(Number(elapsed) || 0)),
+          earnedXp: Math.max(10, Math.round((Number(wpm) || 0) * 0.8)),
         }),
       });
 
       if (res.ok) {
         setIsSubmitted(true);
         if (onOpenLeaderboard) {
-          setTimeout(onOpenLeaderboard, 1200);
+          setTimeout(() => {
+            try {
+              onOpenLeaderboard();
+            } catch (navErr) {
+              console.error("Navigation error:", navErr);
+            }
+          }, 1000);
         }
+      } else {
+        const errJson = await res.json().catch(() => ({}));
+        console.error("Lỗi API lưu điểm:", errJson);
       }
     } catch (err) {
-      console.error(err);
+      console.error("Submit error:", err);
     } finally {
       setIsSubmitting(false);
     }

@@ -9,7 +9,7 @@ let mockGlobalLeaderboard: LeaderboardUserRecord[] = [
     xp: 1840,
     bestWpm: 98,
     avgAccuracy: 99.4,
-    totalTimeSeconds: 5240, // ~1h 27m
+    totalTimeSeconds: 5240,
     completedDrills: 45,
     lastActive: new Date().toISOString(),
   },
@@ -81,7 +81,9 @@ let mockGlobalLeaderboard: LeaderboardUserRecord[] = [
   },
 ];
 
-export async function fetchGlobalLeaderboard(sortBy: "xp" | "wpm" | "time" = "xp"): Promise<LeaderboardUserRecord[]> {
+export async function fetchGlobalLeaderboard(
+  sortBy: "xp" | "wpm" | "time" = "xp"
+): Promise<LeaderboardUserRecord[]> {
   const sheetUrl = process.env.GOOGLE_SHEET_WEBAPP_URL;
 
   let records: LeaderboardUserRecord[] = [...mockGlobalLeaderboard];
@@ -104,17 +106,29 @@ export async function fetchGlobalLeaderboard(sortBy: "xp" | "wpm" | "time" = "xp
     }
   }
 
+  // Normalize all records to ensure no undefined / NaN fields
+  const safeRecords: LeaderboardUserRecord[] = records.map((r: any) => ({
+    username: r?.username || "Ẩn danh",
+    avatar: r?.avatar || "🐱",
+    level: Number(r?.level) || 1,
+    xp: Number(r?.xp) || 0,
+    bestWpm: Number(r?.bestWpm ?? r?.wpm ?? 0),
+    avgAccuracy: Number(r?.avgAccuracy ?? r?.accuracy ?? 100),
+    totalTimeSeconds: Number(r?.totalTimeSeconds ?? r?.timeSpent ?? 0),
+    completedDrills: Number(r?.completedDrills ?? 1),
+    lastActive: r?.lastActive || r?.createdAt || new Date().toISOString(),
+  }));
+
   // Sort based on chosen criteria
   if (sortBy === "wpm") {
-    records.sort((a, b) => b.bestWpm - a.bestWpm);
+    safeRecords.sort((a, b) => b.bestWpm - a.bestWpm);
   } else if (sortBy === "time") {
-    records.sort((a, b) => b.totalTimeSeconds - a.totalTimeSeconds);
+    safeRecords.sort((a, b) => b.totalTimeSeconds - a.totalTimeSeconds);
   } else {
-    // default: by level & xp
-    records.sort((a, b) => b.xp - a.xp);
+    safeRecords.sort((a, b) => b.xp - a.xp);
   }
 
-  return records;
+  return safeRecords;
 }
 
 export async function updateLeaderboardUser(data: {
@@ -127,34 +141,37 @@ export async function updateLeaderboardUser(data: {
 }): Promise<boolean> {
   const sheetUrl = process.env.GOOGLE_SHEET_WEBAPP_URL;
 
+  const validName = (data.username || "Ẩn danh").trim();
+  const validWpm = Math.max(0, Math.round(Number(data.wpm) || 0));
+  const validAcc = Math.max(0, Math.min(100, Number(data.accuracy) || 100));
+  const validTime = Math.max(0, Math.round(Number(data.timeSpent) || 0));
+  const xpGained = Math.max(10, Math.round(Number(data.earnedXp) || validWpm * 0.8));
+
   // Update in-memory / fallback
   const existing = mockGlobalLeaderboard.find(
-    (u) => u.username.toLowerCase() === data.username.toLowerCase()
+    (u) => u.username && u.username.toLowerCase() === validName.toLowerCase()
   );
 
-  const xpGained = data.earnedXp || Math.max(10, Math.round(data.wpm * 0.8));
-
   if (existing) {
-    existing.xp += xpGained;
+    existing.xp = (Number(existing.xp) || 0) + xpGained;
     existing.level = 1 + Math.floor(existing.xp / 100);
-    existing.bestWpm = Math.max(existing.bestWpm, Math.round(data.wpm));
-    existing.totalTimeSeconds += Math.round(data.timeSpent);
-    existing.completedDrills += 1;
+    existing.bestWpm = Math.max(Number(existing.bestWpm) || 0, validWpm);
+    existing.totalTimeSeconds = (Number(existing.totalTimeSeconds) || 0) + validTime;
+    existing.completedDrills = (Number(existing.completedDrills) || 0) + 1;
     existing.avgAccuracy = parseFloat(
-      ((existing.avgAccuracy + data.accuracy) / 2).toFixed(1)
+      (((Number(existing.avgAccuracy) || 100) + validAcc) / 2).toFixed(1)
     );
     if (data.avatar) existing.avatar = data.avatar;
     existing.lastActive = new Date().toISOString();
   } else {
-    const newXp = xpGained;
     mockGlobalLeaderboard.push({
-      username: data.username,
+      username: validName,
       avatar: data.avatar || "🐱",
-      level: 1 + Math.floor(newXp / 100),
-      xp: newXp,
-      bestWpm: Math.round(data.wpm),
-      avgAccuracy: parseFloat(data.accuracy.toFixed(1)),
-      totalTimeSeconds: Math.round(data.timeSpent),
+      level: 1 + Math.floor(xpGained / 100),
+      xp: xpGained,
+      bestWpm: validWpm,
+      avgAccuracy: parseFloat(validAcc.toFixed(1)),
+      totalTimeSeconds: validTime,
       completedDrills: 1,
       lastActive: new Date().toISOString(),
     });
@@ -166,7 +183,14 @@ export async function updateLeaderboardUser(data: {
     const res = await fetch(sheetUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
+      body: JSON.stringify({
+        ...data,
+        username: validName,
+        wpm: validWpm,
+        accuracy: validAcc,
+        timeSpent: validTime,
+        earnedXp: xpGained,
+      }),
     });
     return res.ok;
   } catch (err) {

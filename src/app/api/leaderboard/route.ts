@@ -9,6 +9,7 @@ export async function GET(req: NextRequest) {
     const records = await fetchGlobalLeaderboard(sortBy);
     return NextResponse.json({ success: true, data: records });
   } catch (error: any) {
+    console.error("GET Leaderboard Error:", error);
     return NextResponse.json(
       { success: false, error: error.message || "Failed to load leaderboard" },
       { status: 500 }
@@ -18,26 +19,27 @@ export async function GET(req: NextRequest) {
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json();
+    const body = await req.json().catch(() => ({}));
 
-    if (!body.username || typeof body.wpm !== "number") {
-      return NextResponse.json(
-        { success: false, error: "Missing required fields" },
-        { status: 400 }
-      );
-    }
+    const username = (body.username || "Ẩn danh").toString().trim().slice(0, 25);
+    const wpm = Math.max(0, Math.round(Number(body.wpm) || 0));
+    const accuracy = Math.max(0, Math.min(100, Number(body.accuracy) || 100));
+    const timeSpent = Math.max(0, Math.round(Number(body.timeSpent) || 0));
+    const earnedXp = Math.max(10, Math.round(Number(body.earnedXp) || wpm * 0.8));
+    const avatar = body.avatar || "🐱";
 
     const saved = await updateLeaderboardUser({
-      username: body.username.trim().slice(0, 25),
-      avatar: body.avatar,
-      wpm: Math.round(body.wpm),
-      accuracy: parseFloat(Number(body.accuracy || 100).toFixed(1)),
-      timeSpent: Math.round(body.timeSpent || 0),
-      earnedXp: body.earnedXp,
+      username,
+      avatar,
+      wpm,
+      accuracy,
+      timeSpent,
+      earnedXp,
     });
 
     return NextResponse.json({ success: true, saved });
   } catch (error: any) {
+    console.error("POST Leaderboard Error:", error);
     return NextResponse.json(
       { success: false, error: error.message || "Failed to submit score" },
       { status: 500 }

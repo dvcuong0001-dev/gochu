@@ -7,10 +7,7 @@ import {
   Zap,
   Clock,
   RefreshCw,
-  FileSpreadsheet,
   ArrowLeft,
-  CheckCircle,
-  Flame,
   Award,
 } from "lucide-react";
 
@@ -30,9 +27,12 @@ export const LeaderboardView: React.FC<LeaderboardViewProps> = ({ onBack }) => {
       const data = await res.json();
       if (data.success && Array.isArray(data.data)) {
         setRecords(data.data);
+      } else {
+        setRecords([]);
       }
     } catch (err) {
       console.error("Failed to load records:", err);
+      setRecords([]);
     } finally {
       setLoading(false);
     }
@@ -42,7 +42,8 @@ export const LeaderboardView: React.FC<LeaderboardViewProps> = ({ onBack }) => {
     fetchRecords(sortBy);
   }, [sortBy]);
 
-  const formatSeconds = (secs: number) => {
+  const formatSeconds = (rawSecs: any) => {
+    const secs = Math.max(0, Math.round(Number(rawSecs) || 0));
     const hours = Math.floor(secs / 3600);
     const mins = Math.floor((secs % 3600) / 60);
     const remainingSecs = secs % 60;
@@ -177,6 +178,12 @@ export const LeaderboardView: React.FC<LeaderboardViewProps> = ({ onBack }) => {
                 );
               }
 
+              const xpVal = Number(rec?.xp) || 0;
+              const lvlVal = Number(rec?.level) || 1;
+              const wpmVal = Number(rec?.bestWpm ?? (rec as any)?.wpm) || 0;
+              const timeVal = Number(rec?.totalTimeSeconds ?? (rec as any)?.timeSpent) || 0;
+              const completedVal = Number(rec?.completedDrills) || 1;
+
               return (
                 <div
                   key={index}
@@ -185,34 +192,34 @@ export const LeaderboardView: React.FC<LeaderboardViewProps> = ({ onBack }) => {
                   <div className="col-span-1 flex justify-center">{rankBadge}</div>
 
                   <div className="col-span-3 flex items-center gap-2.5 font-sans">
-                    <span className="text-xl">{rec.avatar || "🐱"}</span>
+                    <span className="text-xl">{rec?.avatar || "🐱"}</span>
                     <div>
                       <span className="font-bold text-white block truncate">
-                        {rec.username}
+                        {rec?.username || "Ẩn danh"}
                       </span>
                       <span className="text-[10px] text-gray-500 font-mono">
-                        {rec.completedDrills} bài hoàn thành
+                        {completedVal} bài hoàn thành
                       </span>
                     </div>
                   </div>
 
                   <div className="col-span-2 text-center">
                     <span className="px-2.5 py-1 rounded-lg bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 font-bold text-xs">
-                      Cấp {rec.level}
+                      Cấp {lvlVal}
                     </span>
                   </div>
 
                   <div className="col-span-2 text-right font-bold text-amber-400">
-                    {rec.xp.toLocaleString()} <span className="text-[10px] text-gray-500">XP</span>
+                    {xpVal.toLocaleString()} <span className="text-[10px] text-gray-500">XP</span>
                   </div>
 
                   <div className="col-span-2 text-right font-bold text-cyan-300 text-sm">
-                    {rec.bestWpm} <span className="text-[10px] text-gray-500 font-normal">WPM</span>
+                    {wpmVal} <span className="text-[10px] text-gray-500 font-normal">WPM</span>
                   </div>
 
                   <div className="col-span-2 text-right pr-2 text-gray-300 flex items-center justify-end gap-1.5">
                     <Clock size={13} className="text-gray-500" />
-                    <span>{formatSeconds(rec.totalTimeSeconds)}</span>
+                    <span>{formatSeconds(timeVal)}</span>
                   </div>
                 </div>
               );
