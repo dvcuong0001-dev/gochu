@@ -21,6 +21,7 @@ import {
   XCircle,
   Sparkles,
   Loader2,
+  BookOpen,
 } from "lucide-react";
 
 interface TypingAreaProps {
@@ -407,13 +408,20 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
           setIsCompleted(true);
 
           if (passed) {
-            confetti({
-              particleCount: 160,
-              spread: 90,
-              origin: { y: 0.6 },
-            });
+            try {
+              confetti({
+                particleCount: 160,
+                spread: 90,
+                origin: { y: 0.6 },
+              });
+            } catch (_) {}
+
             if (isExam && onUnlockNextLesson && drill.lessonId) {
-              onUnlockNextLesson(drill.lessonId);
+              try {
+                onUnlockNextLesson(drill.lessonId);
+              } catch (e) {
+                console.error("onUnlockNextLesson error:", e);
+              }
             }
           }
 
@@ -422,15 +430,27 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
           const earnedXp = baseEarned + bonus;
 
           if (onAwardXp) {
-            onAwardXp(earnedXp);
+            try {
+              onAwardXp(earnedXp);
+            } catch (e) {
+              console.error("onAwardXp error:", e);
+            }
           }
 
           if (onCompleteDrill && drill.id) {
-            onCompleteDrill(drill.id);
+            try {
+              onCompleteDrill(drill.id);
+            } catch (e) {
+              console.error("onCompleteDrill error:", e);
+            }
           }
 
           // Automatically submit score to leaderboard
-          autoSubmitScore(finalWpm, finalAcc, finalSeconds, earnedXp);
+          try {
+            autoSubmitScore(finalWpm, finalAcc, finalSeconds, earnedXp);
+          } catch (e) {
+            console.error("autoSubmitScore error:", e);
+          }
         }
       } else {
         setCharIndexInCurrentLine(nextCharIndex);

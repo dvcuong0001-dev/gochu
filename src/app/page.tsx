@@ -132,8 +132,9 @@ export default function Home() {
 
   const handleCompleteDrill = (dId: string) => {
     setCompletedDrillIds((prev) => {
-      if (prev.includes(dId)) return prev;
-      const updated = [...prev, dId];
+      const currentList = Array.isArray(prev) ? prev : [];
+      if (currentList.includes(dId)) return currentList;
+      const updated = [...currentList, dId];
       try {
         localStorage.setItem("completed_drills", JSON.stringify(updated));
       } catch (_) {}
